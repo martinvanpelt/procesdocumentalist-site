@@ -22,11 +22,11 @@ jobs:
       - name: Build Hugo site
         run: hugo --minify
 
-      - name: Deploy via SSH (SFTP)
+      - name: Deploy via SSH (SCP)
         uses: appleboy/scp-action@v0.1.7
         with:
           host: 5020239417.ssh.w2.strato.hosting
-          username: ${{ secrets.FTP_USERNAME }}
+          username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           source: "public/*"
