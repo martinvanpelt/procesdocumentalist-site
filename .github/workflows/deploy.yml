@@ -22,10 +22,12 @@ jobs:
       - name: Build Hugo site
         run: hugo --minify
 
-      - name: Deploy to STRATO via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Deploy via SSH (SFTP)
+        uses: appleboy/scp-action@v0.1.7
         with:
-          server: ftp.strato.com
+          host: 5020239417.ssh.w2.strato.hosting
           username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public/
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          source: "public/*"
+          target: "/htdocs/"
