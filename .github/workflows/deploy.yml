@@ -26,12 +26,11 @@ jobs:
 
       # 4. Deploy via SFTP (STRATO)
       - name: Deploy via SFTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        uses: appleboy/scp-action@v0.1.7
         with:
-          server: 5020239417.ssh.w2.strato.hosting
+          host: 5020239417.ssh.w2.strato.hosting
           username: ${{ secrets.SFTP_USERNAME }}
           password: ${{ secrets.SFTP_PASSWORD }}
           port: 22
-          protocol: sftp
-          local-dir: ./public/
-          server-dir: /htdocs/
+          source: "public/*"
+          target: "/htdocs/"
