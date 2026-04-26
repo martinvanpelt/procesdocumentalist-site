@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Een RACI-matrix voor het valideren van een procesdocument binnen het PDM. Deze matrix definieert de rollen en verantwoordelijkheden tijdens elke stap van het validatieproces.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="RACI-Matrix voor het Validatieproces :: Proces Documentalist">
+    <meta name="twitter:description" content="Een RACI-matrix voor het valideren van een procesdocument binnen het PDM. Deze matrix definieert de rollen en verantwoordelijkheden tijdens elke stap van het validatieproces.">
+    <meta property="og:url" content="http://localhost:1313/05-procesdocument/05.02-raci-matrix-validatie-procesdocument/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="RACI-Matrix voor het Validatieproces :: Proces Documentalist">
+    <meta property="og:description" content="Een RACI-matrix voor het valideren van een procesdocument binnen het PDM. Deze matrix definieert de rollen en verantwoordelijkheden tijdens elke stap van het validatieproces.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Procesdocument">
+    <meta itemprop="name" content="RACI-Matrix voor het Validatieproces :: Proces Documentalist">
+    <meta itemprop="description" content="Een RACI-matrix voor het valideren van een procesdocument binnen het PDM. Deze matrix definieert de rollen en verantwoordelijkheden tijdens elke stap van het validatieproces.">
+    <meta itemprop="wordCount" content="1142">
+    <title>RACI-Matrix voor het Validatieproces :: Proces Documentalist</title>
+    <link href="/images/favicon.svg?1777193876" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1777193876" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1777193876" defer></script>
+    <script src="/js/search-lunr.js?1777193876" defer></script>
+    <script src="/js/search.js?1777193876" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1777193876";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1777193876" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1777193876" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1777193876" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1777193876" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1777193876" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1777193876" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1777193876" rel="stylesheet">
+    <link href="/css/theme.css?1777193876" rel="stylesheet">
+    <link href="/css/format-html.css?1777193876" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/05-procesdocument\/05.02-raci-matrix-validatie-procesdocument\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-light', 'relearn-dark', 'auto' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1777193876" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/05-procesdocument/05.02-raci-matrix-validatie-procesdocument/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/05-procesdocument/index.html"><span itemprop="name">Procesdocument</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">RACI-Matrix voor het Validatieproces</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/05-procesdocument/index.html" title="Procesdocument (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/06-procesdocumentatieplatform/index.html" title="Procesdocumentatieplatform (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 05-procesdocument" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="raci-matrix-voor-het-validatieproces">RACI-Matrix voor het Validatieproces</h1>
+
+<p>Een RACI-matrix is een tool om rollen en verantwoordelijkheden binnen een proces duidelijk te maken. De afkorting RACI staat voor:</p>
+<ul>
+<li>R (Responsible): Verantwoordelijk voor de uitvoering van de taak.</li>
+<li>A (Accountable): Eindverantwoordelijk voor de taak (vaak de proceseigenaar of manager).</li>
+<li>C (Consulted): Wordt geconsulteerd voor input of feedback.</li>
+<li>I (Informed): Wordt geïnformeerd over de uitkomst of status.</li>
+</ul>
+<h4 id="raci-matrix-validatieproces-van-een-procesdocument">RACI-Matrix: Validatieproces van een Procesdocument<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Hieronder vindt u de RACI-matrix voor het validatieproces, opgebouwd per stap.</p>
+<h5 id="overzichtstabel">Overzichtstabel<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Stap</th>
+          <th>Actie</th>
+          <th>Auteur</th>
+          <th>Collega-Documentalist</th>
+          <th>Proceseigenaar</th>
+          <th>Uitvoerende Medewerkers</th>
+          <th>Stakeholders (IT, Financiën, etc.)</th>
+          <th>Management</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0: Voorbereiding</td>
+          <td>Document voltooien en controleren</td>
+          <td>R</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+      </tr>
+      <tr>
+          <td>1: Interne Review</td>
+          <td>Interne consistentie en vollledigheid controleren</td>
+          <td>R</td>
+          <td>A</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+      </tr>
+      <tr>
+          <td>2: Review door Proceseigenaar</td>
+          <td>Nauwkeurigheid en werkelijke uitvoering valideren</td>
+          <td>C</td>
+          <td>I</td>
+          <td>A</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+      </tr>
+      <tr>
+          <td>3: Review door Uitvoerende Medewerkers</td>
+          <td>Praktische bruikbaarheid valideren</td>
+          <td>C</td>
+          <td>I</td>
+          <td>C</td>
+          <td>R</td>
+          <td>I</td>
+          <td>I</td>
+      </tr>
+      <tr>
+          <td>4: Review door Stakeholders</td>
+          <td>Consistentie met andere processen valideren</td>
+          <td>C</td>
+          <td>I</td>
+          <td>C</td>
+          <td>I</td>
+          <td>R</td>
+          <td>I</td>
+      </tr>
+      <tr>
+          <td>5: Finale Goedkeuring</td>
+          <td>Officiële goedkeuring verlenen</td>
+          <td>I</td>
+          <td>I</td>
+          <td>C</td>
+          <td>I</td>
+          <td>C</td>
+          <td>A</td>
+      </tr>
+      <tr>
+          <td>6: Publicatie &amp; Communicatie</td>
+          <td>Document publiceren en communiceren</td>
+          <td>R</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+      </tr>
+      <tr>
+          <td>7: Feedback &amp; Continue Verbetering</td>
+          <td>Feedback verzamelen en document actualiseren</td>
+          <td>R</td>
+          <td>C</td>
+          <td>R</td>
+          <td>C</td>
+          <td>C</td>
+          <td>I</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="toelichting-per-stap-en-rol">Toelichting per Stap en Rol<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="stap-0-voorbereiding">Stap 0: Voorbereiding<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Actie: Document voltooien en controleren.</p>
+<ul>
+<li>Auteur (R): Zorgt ervoor dat het document volledig ingevuld is en alle templates zijn gebruikt.</li>
+<li>Collega-Documentalist (C): Wordt geconsulteerd voor een tweede mening over de structuur en inhoud.</li>
+<li>Proceseigenaar, Uitvoerende Medewerkers, Stakeholders, Management (I): Wordt geïnformeerd dat het document klaar is voor validatie.</li>
+</ul>
+<h5 id="stap-1-interne-review">Stap 1: Interne Review<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Actie: Interne consistentie en vollledigheid controleren.</p>
+<ul>
+<li>Auteur (R): Voert de eerste review uit en controleert op consistentie.</li>
+<li>Collega-Documentalist (A): Is eindverantwoordelijk voor de interne review en zorgt ervoor dat het document voldoet aan de PDM-standaarden.</li>
+<li>Proceseigenaar (C): Wordt geconsulteerd voor eventuele vragen over het proces.</li>
+<li>Uitvoerende Medewerkers, Stakeholders, Management (I): Wordt geïnformeerd over de status.</li>
+</ul>
+<h5 id="stap-2-review-door-proceseigenaar">Stap 2: Review door Proceseigenaar<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Actie: Nauwkeurigheid en werkelijke uitvoering valideren.</p>
+<ul>
+<li>Proceseigenaar (A): Is eindverantwoordelijk voor de validatie en zorgt ervoor dat het document de werkelijke uitvoering weerspiegelt.</li>
+<li>Auteur (C): Wordt geconsulteerd voor eventuele aanpassingen.</li>
+<li>Uitvoerende Medewerkers (C): Wordt geconsulteerd voor input over de praktische uitvoering.</li>
+<li>Collega-Documentalist, Stakeholders, Management (I): Wordt geïnformeerd over de voortgang.</li>
+</ul>
+<h5 id="stap-3-review-door-uitvoerende-medewerkers">Stap 3: Review door Uitvoerende Medewerkers<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Actie: Praktische bruikbaarheid valideren.</p>
+<ul>
+<li>Uitvoerende Medewerkers (R): Zijn verantwoordelijk voor het geven van feedback over de praktische bruikbaarheid van het document.</li>
+<li>Auteur (C): Wordt geconsulteerd voor eventuele aanpassingen.</li>
+<li>Proceseigenaar (C): Wordt geconsulteerd voor input over de uitvoering.</li>
+<li>Collega-Documentalist, Stakeholders, Management (I): Wordt geïnformeerd over de feedback.</li>
+</ul>
+<h5 id="stap-4-review-door-stakeholders">Stap 4: Review door Stakeholders<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Actie: Consistentie met andere processen valideren.</p>
+<ul>
+<li>Stakeholders (R): Zijn verantwoordelijk voor het controleren of het document consistent is met andere processen en organisatiebrede eisen.</li>
+<li>Auteur (C): Wordt geconsulteerd voor eventuele aanpassingen.</li>
+<li>Proceseigenaar (C): Wordt geconsulteerd voor input over het proces.</li>
+<li>Collega-Documentalist, Uitvoerende Medewerkers, Management (I): Wordt geïnformeerd over de feedback.</li>
+</ul>
+<h5 id="stap-5-finale-goedkeuring">Stap 5: Finale Goedkeuring<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Actie: Officiële goedkeuring verlenen.</p>
+<ul>
+<li>Management (A): Is eindverantwoordelijk voor de officiële goedkeuring van het document.</li>
+<li>Proceseigenaar (C): Wordt geconsulteerd voor een laatste check.</li>
+<li>Stakeholders (C): Wordt geconsulteerd voor input over eventuele risico’s of compliance.</li>
+<li>Auteur, Collega-Documentalist, Uitvoerende Medewerkers (I): Wordt geïnformeerd over de goedkeuring.</li>
+</ul>
+<h5 id="stap-6-publicatie--communicatie">Stap 6: Publicatie &amp; Communicatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Actie: Document publiceren en communiceren.</p>
+<ul>
+<li>Auteur (R): Is verantwoordelijk voor het publiceren van het document op een centrale locatie.</li>
+<li>Collega-Documentalist (C): Wordt geconsulteerd voor input over de publicatie.</li>
+<li>Proceseigenaar, Uitvoerende Medewerkers, Stakeholders, Management (I): Wordt geïnformeerd over de publicatie.</li>
+</ul>
+<h5 id="stap-7-feedback--continue-verbetering">Stap 7: Feedback &amp; Continue Verbetering<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Actie: Feedback verzamelen en document actualiseren.</p>
+<ul>
+<li>Auteur (R): Is verantwoordelijk voor het verzamelen van feedback en het actualiseren van het document.</li>
+<li>Proceseigenaar (R): Is medeverantwoordelijk voor het actualiseren van het document op basis van feedback.</li>
+<li>Collega-Documentalist (C): Wordt geconsulteerd voor input over verbeterpunten.</li>
+<li>Uitvoerende Medewerkers, Stakeholders (C): Wordt geconsulteerd voor feedback.</li>
+<li>Management (I): Wordt geïnformeerd over wijzigingen.</li>
+</ul>
+<h4 id="raci-matrix-in-beeld">RACI-Matrix in Beeld<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Hieronder vindt u een visuele weergave van de RACI-matrix. Dit diagram helpt om de verantwoordelijkheden per stap duidelijk in beeld te brengen.</p>
+<pre class="mermaid actionbar-wrapper align-center ">%% RACI-Matrix voor Validatieproces
+gantt
+    title RACI-Matrix: Validatieproces van een Procesdocument
+    dateFormat  X
+    axisFormat %s
+
+    section Stappen
+    Voorbereiding          :a1, 0, 1
+    Interne Review        :a2, 1, 1
+    Review Proceseigenaar  :a3, 2, 1
+    Review Uitvoerend      :a4, 3, 1
+    Review Stakeholders    :a5, 4, 1
+    Finale Goedkeuring     :a6, 5, 1
+    Publicatie             :a7, 6, 1
+    Feedback               :a8, 7, 1
+
+    section Rollen
+    Auteur                 :r1, 0, 8
+    Collega-Documentalist  :r2, 0, 8
+    Proceseigenaar          :r3, 0, 8
+    Uitvoerende Medewerkers:r4, 0, 8
+    Stakeholders            :r5, 0, 8
+    Management              :r6, 0, 8
+
+    section Legenda
+    R (Responsible)  :crit, 9, 1
+    A (Accountable)  :crit, 10, 1
+    C (Consulted)    :crit, 11, 1
+    I (Informed)     :crit, 12, 1</pre>
+<h4 id="tips-voor-het-gebruik-van-de-raci-matrix">Tips voor het gebruik van de RACI-Matrix<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ol>
+<li>Duidelijkheid boven alles: Zorg ervoor dat één persoon per stap Accountable (A) is. Dit voorkomt verantwoordelijkheidsvacuüms.</li>
+<li>Minimaliseer het aantal &ldquo;R&rdquo; per taak: Probeer één persoon verantwoordelijk (R) te maken per taak. Te veel &ldquo;R&rdquo;-rollen kunnen leiden tot verwarring.</li>
+<li>Betrek de juiste mensen bij &ldquo;C&rdquo; (Consulted): Consulteer alleen diegenen die relevante input kunnen leveren. Te veel &ldquo;C&rdquo;-rollen vertragen het proces.</li>
+<li>Houd &ldquo;I&rdquo; (Informed) beknopt: Informeer alleen diegenen die daadwerkelijk nodig zijn om op de hoogte te zijn. Te veel &ldquo;I&rdquo;-rollen leiden tot informatie-overload.</li>
+<li>Gebruik de RACI-matrix als communicatietool: Deel de matrix met alle betrokkenen, zodat iedereen weet wat zijn/haar rol is.</li>
+<li>Pas de matrix aan aan je organisatie: De bovenstaande matrix is een algemene voorbeeld. Pas de rollen en verantwoordelijkheden aan aan de specifieke structuur van je organisatie.</li>
+</ol>
+<h4 id="voorbeeld-raci-matrix-als-downloadbaar-template">Voorbeeld: RACI-Matrix als downloadbaar template<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Hieronder vindt u een eenvoudig template dat je kunt gebruiken om uw eigen RACI-matrix te maken. U kunt dit kopiëren naar Excel, Google Sheets of een projectmanagementtool zoals Jira.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Stap / Actie</th>
+          <th>Auteur</th>
+          <th>Collega-Documentalist</th>
+          <th>Proceseigenaar</th>
+          <th>Uitvoerende Medewerkers</th>
+          <th>Stakeholders</th>
+          <th>Management</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Voorbereiding</td>
+          <td>R</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+      </tr>
+      <tr>
+          <td>Interne Review</td>
+          <td>R</td>
+          <td>A</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+      </tr>
+      <tr>
+          <td>Review Proceseigenaar</td>
+          <td>C</td>
+          <td>I</td>
+          <td>A</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+      </tr>
+      <tr>
+          <td>Review Uitvoerend</td>
+          <td>C</td>
+          <td>I</td>
+          <td>C</td>
+          <td>R</td>
+          <td>I</td>
+          <td>I</td>
+      </tr>
+      <tr>
+          <td>Review Stakeholders</td>
+          <td>C</td>
+          <td>I</td>
+          <td>C</td>
+          <td>I</td>
+          <td>R</td>
+          <td>I</td>
+      </tr>
+      <tr>
+          <td>Finale Goedkeuring</td>
+          <td>I</td>
+          <td>I</td>
+          <td>C</td>
+          <td>I</td>
+          <td>C</td>
+          <td>A</td>
+      </tr>
+      <tr>
+          <td>Publicatie</td>
+          <td>R</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+      </tr>
+      <tr>
+          <td>Feedback</td>
+          <td>R</td>
+          <td>C</td>
+          <td>R</td>
+          <td>C</td>
+          <td>C</td>
+          <td>I</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="samenvatting-belangrijkste-punten">Samenvatting: Belangrijkste Punten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ul>
+<li>Een RACI-matrix helpt om rollen en verantwoordelijkheden duidelijk te definieren tijdens het validatieproces.</li>
+<li>Één persoon per stap moet Accountable (A) zijn om verantwoordelijkheidsvacuüms te voorkomen.</li>
+<li>Consulteer alleen relevante partijen om het proces efficiënt te houden.</li>
+<li>Informeer alleen diegenen die het nodig hebben om informatie-overload te voorkomen.</li>
+<li>Pas de matrix aan aan de specifieke behoeften en structuur van je organisatie.</li>
+</ul>
+<h4 id="aan-de-slag-raci-matrix-toepassen">Aan de Slag: RACI-Matrix Toepassen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Volg deze stappen om de RACI-matrix direct toe te passen in uw  organisatie:</p>
+<ol>
+<li>Bepaal de stappen van je validatieproces (gebruik het eerdere stappenplan als basis).</li>
+<li>Identificeer de rollen die betrokken zijn bij elke stap (bijv. auteur, proceseigenaar, management).</li>
+<li>Vul de RACI-matrix in voor elke stap en rol.</li>
+<li>Deel de matrix met alle betrokkenen en bespreek de rollen.</li>
+<li>Pas de matrix aan op basis van feedback en ervaringen.</li>
+</ol>
+<h4 id="gerelateerde-artikelen">Gerelateerde Artikelen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ul>
+<li><a href="/05-procesdocument/05.02-raci-matrix-validatie-procesdocument/index.html">Stappenplan: Valideren van een Procesdocument</a></li>
+<li><a href="/01-aanpak/02-procesdocumentatiemodel/index.html">Procesdocumentatiemodel (PDM)</a></li>
+<li><a href="/01-aanpak/03-templates/index.html">PDM Templates</a></li>
+<li><a href="/01-aanpak/02-procesdocumentatiemodel/02.01-procesdocumentatiebeheer/02.01.03-reviewproces/index.html">Reviewproces</a></li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark relearn-light">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/01-aanpak/index.html"><a class="padding" href="/01-aanpak/index.html">Aanpak</a></li>
+            <li class="parent " data-nav-id="/05-procesdocument/index.html"><a class="padding default-animation" href="/05-procesdocument/index.html">Procesdocument</a><ul id="R-subsections-5c49dcae193485065049068268687701" class="collapsible-menu">
+            <li class="active hidden " data-nav-id="/05-procesdocument/05.02-raci-matrix-validatie-procesdocument/index.html"><a class="padding" href="/05-procesdocument/05.02-raci-matrix-validatie-procesdocument/index.html">RACI-Matrix voor het Validatieproces</a></li></ul></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over</a></li>
+            <li class="" data-nav-id="/10-artikelen/index.html"><a class="padding" href="/10-artikelen/index.html">Artikelen</a></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-light" value="relearn-light" selected>Relearn Light</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="R-select-variant-auto" value="auto">Auto</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1777193876" defer></script>
+    <script src="/js/d3/d3-color.min.js?1777193876" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1777193876" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1777193876" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1777193876" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1777193876" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1777193876" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1777193876" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1777193876" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1777193876" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1777193876" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1777193876" defer></script>
+    <script src="/js/theme.js?1777193876" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

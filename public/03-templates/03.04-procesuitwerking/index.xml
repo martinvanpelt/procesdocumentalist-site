@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesuitwerking :: Proces Documentalist</title>
+    <link>http://localhost:1313/03-templates/03.04-procesuitwerking/index.html</link>
+    <description>Templates voor het inhoudelijk beschrijven van processen.&#xA;03.04.01 Procesbeschrijving 03.04.02 Werkinstructie 03.04.03 RACI-Matrix 03.04.04 Procesrollen Deze templates zorgen ervoor dat processen niet alleen visueel, maar ook inhoudelijk duidelijk zijn.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/03-templates/03.04-procesuitwerking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesbeschrijving Template</title>
+      <link>http://localhost:1313/03-templates/03.04-procesuitwerking/03.04.01-procesbeschrijving/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-templates/03.04-procesuitwerking/03.04.01-procesbeschrijving/index.html</guid>
+      <description>Template voor het beschrijven van processen.</description>
+    </item>
+    <item>
+      <title>Werkinstructie Template</title>
+      <link>http://localhost:1313/03-templates/03.04-procesuitwerking/03.04.02-werkinstructie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-templates/03.04-procesuitwerking/03.04.02-werkinstructie/index.html</guid>
+      <description>Template voor werkinstructies.</description>
+    </item>
+    <item>
+      <title>RACI Matrix Template</title>
+      <link>http://localhost:1313/03-templates/03.04-procesuitwerking/03.04.03-raci-matrix/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-templates/03.04-procesuitwerking/03.04.03-raci-matrix/index.html</guid>
+      <description>Template voor rollen en verantwoordelijkheden.</description>
+    </item>
+    <item>
+      <title>Procesrollen Template</title>
+      <link>http://localhost:1313/03-templates/03.04-procesuitwerking/03.04.04-procesrollen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-templates/03.04-procesuitwerking/03.04.04-procesrollen/index.html</guid>
+      <description>Template voor procesrollen.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesuitwerking :: Tag :: Proces Documentalist</title>
+    <link>http://localhost:1313/tags/procesuitwerking/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/tags/procesuitwerking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesbeschrijving</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.07-procesuitwerking/02.07.01-procesbeschrijving/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.07-procesuitwerking/02.07.01-procesbeschrijving/index.html</guid>
+      <description>De procesbeschrijving is een tekstuele, gedetailleerde uitwerking van het proces zoals het in de praktijk wordt uitgevoerd.&#xA;Doel&#xD;De procesbeschrijving heeft als doel om:&#xA;het proces volledig te beschrijven zonder visuele afhankelijkheid de logica van het proces expliciet te maken uitvoeringskennis te documenteren onboarding en kennisoverdracht te ondersteunen Inhoud van een procesbeschrijving&#xD;Een volledige procesbeschrijving bevat:</description>
+    </item>
+    <item>
+      <title>Rollen en verantwoordelijkheden</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.07-procesuitwerking/02.07.02-rollen-en-verantwoordelijkheden/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.07-procesuitwerking/02.07.02-rollen-en-verantwoordelijkheden/index.html</guid>
+      <description>Rollen en verantwoordelijkheden&#xD;Deze sectie beschrijft de operationele rollen binnen het proces en hun verantwoordelijkheden tijdens de uitvoering.&#xA;Doel&#xD;Het doel is om:&#xA;duidelijkheid te geven over wie wat doet verantwoordelijkheden expliciet te maken overdrachtsmomenten te structureren fouten door onduidelijke eigenaarschap te voorkomen Rollen in procesuitvoering&#xD;Procesuitvoerder&#xD;Voert de daadwerkelijke processtappen uit.</description>
+    </item>
+    <item>
+      <title>Werkinstructies</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.07-procesuitwerking/02.07.03-werkinstructies/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.07-procesuitwerking/02.07.03-werkinstructies/index.html</guid>
+      <description>Werkinstructies&#xD;Werkinstructies beschrijven hoe specifieke processtappen concreet moeten worden uitgevoerd.&#xA;Doel&#xD;Werkinstructies zorgen voor:&#xA;uniforme uitvoering van taken vermindering van fouten duidelijke handvatten voor medewerkers ondersteuning van training en onboarding Kenmerken van goede werkinstructies&#xD;concreet en uitvoerbaar stap-voor-stap beschreven onafhankelijk van interpretatie gekoppeld aan een specifieke processtap Structuur van werkinstructies&#xD;Een werkinstructie bevat:</description>
+    </item>
+    <item>
+      <title>Procesrollen - Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.6-procesrollen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.6-procesrollen/index.html</guid>
+      <description>Compleet overzicht van rollen, verantwoordelijkheden, competenties, systemen en KPI&#39;s voor het Orderverwerkingsproces bij TelecomPro B.V.</description>
+    </item>
+    <item>
+      <title>Procesuitwerking</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.07-procesuitwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.07-procesuitwerking/index.html</guid>
+      <description>Procesuitwerking beschrijft het proces in detail: activiteiten, rollen, verantwoordelijkheden en werkinstructies binnen het Procesdocumentatiemodel (PDM).</description>
+    </item>
+  </channel>
+</rss>

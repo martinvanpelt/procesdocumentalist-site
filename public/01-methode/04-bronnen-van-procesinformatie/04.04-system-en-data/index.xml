@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://localhost:1313/01-methode/04-bronnen-van-procesinformatie/04.04-system-en-data/index.html</link>
+    <description>title: Systemen en Data&#xA;weight: 4&#xA;hidden: true&#xD;Inleiding&#xD;Systemen en data vormen een krachtige bron voor het objectief analyseren van processen. In tegenstelling tot subjectieve informatie uit interviews of workshops, bieden systemen feitengebaseerde inzichten in:&#xA;✅ Hoe processen daadwerkelijk verlopen (niet hoe ze zouden moeten verlopen).&#xA;✅ Volgorde van processtappen en doorlooptijden.&#xA;✅ Betrokken rollen, systemen, en afhankelijkheden.&#xA;✅ Procesvarianten, uitzonderingen, en knelpunten.&#xA;✅ KPI’s en prestatiemeting (bijv. doorlooptijd, foutpercentage).</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/01-methode/04-bronnen-van-procesinformatie/04.04-system-en-data/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

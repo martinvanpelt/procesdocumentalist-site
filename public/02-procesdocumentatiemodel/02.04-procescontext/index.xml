@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procescontext :: Proces Documentalist</title>
+    <link>http://localhost:1313/02-procesdocumentatiemodel/02.04-procescontext/index.html</link>
+    <description>De procescontext beschrijft de omgeving, randvoorwaarden en input/output van een proces binnen het Procesdocumentatiemodel (PDM).</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/02-procesdocumentatiemodel/02.04-procescontext/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scope en afbakening</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.04-procescontext/02.04.01-scope-en-afbakening/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.04-procescontext/02.04.01-scope-en-afbakening/index.html</guid>
+      <description>De scope en afbakening bepalen waar het proces begint, waar het eindigt en welke activiteiten wel of niet tot het proces behoren.&#xA;Doel&#xD;Het doel van de scope-definitie is om het proces duidelijk af te bakenen, zodat:&#xA;verantwoordelijkheden helder zijn overlap met andere processen wordt voorkomen het proces consistent kan worden gemodelleerd Scope beschrijving&#xD;Bij het bepalen van de scope worden de volgende vragen beantwoord:</description>
+    </item>
+    <item>
+      <title>Processtart, triggers en input</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.04-procescontext/02.04.02-processtart-triggers-en-input/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.04-procescontext/02.04.02-processtart-triggers-en-input/index.html</guid>
+      <description>Deze sectie beschrijft hoe een proces wordt gestart, welke gebeurtenissen dit veroorzaken en welke input nodig is om het proces uit te voeren.&#xA;Processtart&#xD;De processtart is het moment waarop een proces officieel begint. Dit kan:&#xA;automatisch gebeuren (systeemtrigger) handmatig gebeuren (menselijke actie) extern worden geïnitieerd (klant of partner) Triggers&#xD;Triggers zijn gebeurtenissen die het proces activeren.</description>
+    </item>
+    <item>
+      <title>Output en resultaten</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.04-procescontext/02.04.03-output-en-resultaten/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.04-procescontext/02.04.03-output-en-resultaten/index.html</guid>
+      <description>De output van een proces beschrijft wat het proces oplevert na uitvoering.&#xA;Doel&#xD;Het expliciet definiëren van output zorgt voor:&#xA;meetbare procesresultaten duidelijke verwachtingen van stakeholders betere processturing eenduidige evaluatie van procesprestaties Procesoutput&#xD;Output kan bestaan uit:&#xA;producten diensten beslissingen gegevens vrijgegeven transacties Voorbeelden (Orderverwerking)&#xD;bevestigde klantorder geplande levering verzendopdracht naar warehouse gereedstaande facturatie-informatie Kwaliteitsaspecten van output&#xD;Goede procesoutput is:</description>
+    </item>
+    <item>
+      <title>Regels en randvoorwaarden</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.04-procescontext/02.04.04-regels-en-randvoorwaarden/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.04-procescontext/02.04.04-regels-en-randvoorwaarden/index.html</guid>
+      <description>Regels en randvoorwaarden beschrijven de beperkingen en afspraken waarbinnen een proces moet worden uitgevoerd.&#xA;Doel&#xD;Deze sectie zorgt ervoor dat processen:&#xA;compliant zijn met wet- en regelgeving consistent worden uitgevoerd binnen organisatorische kaders blijven voorspelbaar en controleerbaar zijn Soorten regels&#xD;Business rules&#xD;Interne afspraken over hoe het proces wordt uitgevoerd.</description>
+    </item>
+    <item>
+      <title>Systemen en integraties</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.04-procescontext/02.04.05-systemen-en-integraties/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.04-procescontext/02.04.05-systemen-en-integraties/index.html</guid>
+      <description>Systemen en integraties&#xD;Deze sectie beschrijft welke systemen betrokken zijn bij het proces en hoe deze met elkaar verbonden zijn.&#xA;Doel&#xD;Het doel is om inzicht te geven in:&#xA;welke systemen het proces ondersteunen hoe data tussen systemen stroomt waar afhankelijkheden zitten waar risico’s op fouten of vertraging ontstaan Betrokken systemen&#xD;Typische systemen binnen een orderverwerkingsproces:</description>
+    </item>
+  </channel>
+</rss>

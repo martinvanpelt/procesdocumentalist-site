@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PDM Templates :: Procesdocumentalist</title>
+    <link>http://localhost:1313/01-methode/03-templates/index.html</link>
+    <description>Praktische templates voor het documenteren, analyseren, modelleren, sturen en verbeteren van bedrijfsprocessen, gebaseerd op het Procesdocumentatiemodel (PDM). Deze templates vormen een samenhangend systeem voor end-to-end procesbeheer.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/01-methode/03-templates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beheer van procesdocumentatie</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.01-procesdocumentatiebeheer/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.01-procesdocumentatiebeheer/index.html</guid>
+      <description>Templates&#xD;Beheer van procesdocumentatie Wijzigingslog procesdocumentatie Wijzigingsverzoek</description>
+    </item>
+    <item>
+      <title>Procescontext</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.04-procescontext/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.04-procescontext/index.html</guid>
+      <description>Template&#xA;Procescontext</description>
+    </item>
+    <item>
+      <title>Procesdoel</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.03-procesdoel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.03-procesdoel/index.html</guid>
+      <description>Template&#xA;Procesdoel</description>
+    </item>
+    <item>
+      <title>Procesarchitectuur</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/index.html</guid>
+      <description>Templates voor het structureren van het proceslandschap van een organisatie.&#xA;Procesarchitectuur Proceslandkaart Proceshiërarchie Procesinventarisatie Deze templates helpen bij het beantwoorden van vragen zoals:&#xA;Welke processen heeft de organisatie? Hoe hangen processen met elkaar samen? Welke processen zijn primair, ondersteunend of sturend?</description>
+    </item>
+    <item>
+      <title>Proceseigenschappen</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.05-proceseigenschappen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.05-proceseigenschappen/index.html</guid>
+      <description>Template&#xA;Proceseigenschappen</description>
+    </item>
+    <item>
+      <title>Procesmodellering</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.06-procesmodellering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.06-procesmodellering/index.html</guid>
+      <description>Templates voor het visueel modelleren van processen.&#xA;Procesmodellering BPMN Flowchart Swimlane Procesmodellen maken het verloop van processen inzichtelijk en helpen om complexiteit te reduceren.</description>
+    </item>
+    <item>
+      <title>Procesuitwerking</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.07-procesuitwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.07-procesuitwerking/index.html</guid>
+      <description>Templates voor het inhoudelijk beschrijven van processen.&#xA;Procesuitwerking Procesbeschrijving Werkinstructie RACI-Matrix Procesrollen Deze templates zorgen ervoor dat processen niet alleen visueel, maar ook inhoudelijk duidelijk zijn.</description>
+    </item>
+    <item>
+      <title>Processturing</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.08-processturing/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.08-processturing/index.html</guid>
+      <description>Templates voor het meten en sturen van procesprestaties.&#xA;Processturing KPI’s Procesdashboard Procesreview Hiermee kan worden bewaakt of processen daadwerkelijk de gewenste resultaten opleveren.</description>
+    </item>
+    <item>
+      <title>Procesverbetering</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.09-procesverbetering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.09-procesverbetering/index.html</guid>
+      <description>Templates voor het analyseren en verbeteren van processen.&#xA;Procesverbetering Root Cause Analysis Procesverbeterplan Deze templates helpen organisaties om structureel te leren van problemen en processen continu te verbeteren.</description>
+    </item>
+  </channel>
+</rss>

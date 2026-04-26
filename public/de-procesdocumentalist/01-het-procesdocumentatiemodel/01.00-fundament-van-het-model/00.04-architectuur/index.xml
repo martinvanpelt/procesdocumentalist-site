@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architectuur :: Proces Documentalist</title>
+    <link>http://localhost:1313/de-procesdocumentalist/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.04-architectuur/index.html</link>
+    <description>De architectuur beschrijft de structurele opbouw, lagen en relaties van het Procesdocumentatiemodel (PDM) als geheel.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/de-procesdocumentalist/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.04-architectuur/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

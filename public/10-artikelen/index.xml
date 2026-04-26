@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artikelen :: Proces Documentalist</title>
+    <link>http://localhost:1313/10-artikelen/index.html</link>
+    <description>Op deze pagina vindt u een verzameling artikelen over procesdocumentatie, procesarchitectuur en procesbeheer.&#xA;De artikelen zijn bedoeld voor iedereen die betrokken is bij het ontwerpen, documenteren, beheren of verbeteren van processen. Ze bieden praktische uitleg, achtergrondinformatie en concrete handvatten voor het opzetten en onderhouden van effectieve procesdocumentatie.&#xA;De onderwerpen variëren van basisconcepten tot praktische werkwijzen en organisatorische vraagstukken rondom procesbeheer.&#xA;Basisbegrippen&#xD;Wat is procesdocumentatie?&#xD;Een introductie in het concept procesdocumentatie. Dit artikel legt uit wat procesdocumentatie is, waarom organisaties het nodig hebben en welke rol het speelt bij het beheersen en verbeteren van bedrijfsprocessen.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/10-artikelen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Het Procesdocumentatiemodel uitgelegd</title>
+      <link>http://localhost:1313/10-artikelen/08.07-het-procesdocumentatiemodel-uitgelegd/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/10-artikelen/08.07-het-procesdocumentatiemodel-uitgelegd/index.html</guid>
+      <description>Een uitgebreide uitleg van het Procesdocumentatiemodel (PDM) en hoe het organisaties helpt om procesdocumentatie structureel, beheersbaar en bruikbaar te maken.</description>
+    </item>
+    <item>
+      <title>Hoe onderhoud je procesdocumentatie</title>
+      <link>http://localhost:1313/10-artikelen/08.08-hoe-onderhoud-je-procesdocumentatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/10-artikelen/08.08-hoe-onderhoud-je-procesdocumentatie/index.html</guid>
+      <description>Hoe organisaties procesdocumentatie actueel, betrouwbaar en bruikbaar houden via een gestructureerde beheer- en reviewcyclus.</description>
+    </item>
+    <item>
+      <title>De rol van de Procesdocumentalist uitgelegd</title>
+      <link>http://localhost:1313/10-artikelen/08.09-de-rol-van-de-procesdocumentalist-uitgelegd/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/10-artikelen/08.09-de-rol-van-de-procesdocumentalist-uitgelegd/index.html</guid>
+      <description>Wat doet een Procesdocumentalist en waarom deze rol essentieel is voor betrouwbare en bruikbare procesdocumentatie.</description>
+    </item>
+    <item>
+      <title>Wat is procesdocumentatie?</title>
+      <link>http://localhost:1313/10-artikelen/08.04-wat-is-procesdocumentatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/10-artikelen/08.04-wat-is-procesdocumentatie/index.html</guid>
+      <description>Details&#xD;Een diepgaande uitleg volgens het Procesdocumentatiemodel (PDM)&#xA;Inleiding&#xD;Procesdocumentatie is meer dan alleen het opschrijven van stappen. Het is een systeem dat organisaties helpt om kennis te borgen, efficiëntie te verhogen en consistentie te waarborgen. Toch wordt procesdocumentatie vaak ondergewaardeerd of verkeerd begrepen. In dit artikel leggen we uit wat procesdocumentatie echt is, waarom het belangrijk is, en hoe het Procesdocumentatiemodel (PDM) een structuur en visie biedt die verder gaat dan losse documenten.</description>
+    </item>
+    <item>
+      <title>Wat is een procesarchitectuur?</title>
+      <link>http://localhost:1313/10-artikelen/08.05-wat-is-een-procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/10-artikelen/08.05-wat-is-een-procesarchitectuur/index.html</guid>
+      <description>Details&#xD;Een strategische benadering volgens het Procesdocumentatiemodel (PDM)&#xA;Inleiding&#xD;Veel organisaties hebben processen, maar weinigen hebben een duidelijke procesarchitectuur. Het resultaat? Versnipperde informatie, inefficiënties, en een gebrek aan overzicht over hoe processen met elkaar samenhangen. Een procesarchitectuur biedt hierop de oplossing: het is het raamwerk dat zorgt voor samenhang, efficiëntie en strategische alignement tussen alle processen in een organisatie.</description>
+    </item>
+    <item>
+      <title>Hoe organiseer je procesdocumentatie governance</title>
+      <link>http://localhost:1313/10-artikelen/08.06-hoe-organiseer-je-procesdocumentatie-governance/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/10-artikelen/08.06-hoe-organiseer-je-procesdocumentatie-governance/index.html</guid>
+      <description>Details&#xD;Een praktische handleiding volgens het Procesdocumentatiemodel (PDM)&#xA;Inleiding&#xD;Procesdocumentatie is meer dan alleen het opschrijven van processen. Zonder goede governance verwordt het al snel tot een chaotische verzameling verouderde documenten die niemand gebruikt. Governance zorgt ervoor dat procesdocumentatie betrouwbaar, actueel en bruikbaar blijft.&#xA;In dit artikel leggen we uit hoe je procesdocumentatie governance organiseert volgens het Procesdocumentatiemodel (PDM). We behandelen:</description>
+    </item>
+    <item>
+      <title>BPMN vs. tekstuele procesbeschrijvingen – Welke methode past bij jouw organisatie?</title>
+      <link>http://localhost:1313/10-artikelen/08.11-bpmn-vs.-tekstuele-procesbeschrijvingen--welke-methode-past-bij-jouw-organisatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/10-artikelen/08.11-bpmn-vs.-tekstuele-procesbeschrijvingen--welke-methode-past-bij-jouw-organisatie/index.html</guid>
+      <description>Een vergelijking tussen BPMN en tekstuele procesbeschrijvingen, met praktische richtlijnen voor toepassing binnen het Procesdocumentatiemodel (PDM).</description>
+    </item>
+    <item>
+      <title>Hoe documenteer je een proces stap voor stap?</title>
+      <link>http://localhost:1313/10-artikelen/08.03-hoe-documenteer-je-een-proces-stap-voor-stap/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/10-artikelen/08.03-hoe-documenteer-je-een-proces-stap-voor-stap/index.html</guid>
+      <description>Details&#xD;Een praktische handleiding volgens het Procesdocumentatiemodel (PDM)&#xA;Inleiding&#xD;Veel organisaties willen hun processen documenteren, maar lopen al snel tegen dezelfde problemen aan:&#xA;documentatie raakt verouderd processen worden inconsistent beschreven modellen en beschrijvingen sluiten niet op elkaar aan medewerkers herkennen het proces niet in de documentatie De oorzaak is meestal niet gebrek aan inspanning, maar gebrek aan structuur en methodiek.</description>
+    </item>
+    <item>
+      <title>Hoe rubriceer en nummer je bedrijfsprocessen?</title>
+      <link>http://localhost:1313/10-artikelen/08.12-hoe-rubriceer-en-nummer-je-bedrijfsprocessen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/10-artikelen/08.12-hoe-rubriceer-en-nummer-je-bedrijfsprocessen/index.html</guid>
+      <description>Details&#xD;Hoe je bedrijfsprocessen logisch rubriceert en nummeren toepast voor maximale duidelijkh, efficiëntie en schaalbaarheid. Met voorbeelden, best practices en tips voor implementatie in tools zoals Confluence, SharePoint en BPMN.&#xA;Een praktische gids voor structuur, overzicht en schaalbaarheid&#xA;Inleiding&#xD;Bedrijfsprocessen zijn de ruggengraat van elke organisatie. Of het nu gaat om klantcontact, productie, logistiek of interne workflows: zonder duidelijke structuur ontstaat chaos. Een van de grootste uitdagingen in procesdocumentatie is het creëren van een logische, schaalbare en begrijpelijke indeling. Hoe zorg je ervoor dat medewerkers, managers en externe partijen snel de juiste informatie vinden? Hoe voorkom je dubbel werk, inconsistenties of verouderde documentatie?</description>
+    </item>
+    <item>
+      <title>Hoe weet je of je procesdocumentatie op orde is?</title>
+      <link>http://localhost:1313/10-artikelen/08.02-hoe-weet-je-of-je-procesdocumentatie-op-orde-is/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/10-artikelen/08.02-hoe-weet-je-of-je-procesdocumentatie-op-orde-is/index.html</guid>
+      <description>Details&#xD;Een praktische gids voor organisaties om de kwaliteit en bruikbaarheid van hun procesdocumentatie te toetsen&#xA;Inleiding&#xD;Veel organisaties hebben procesdocumentatie, maar weten niet of deze daadwerkelijk werkt. Is de documentatie actueel? Wordt deze gebruikt? Draagt deze bij aan efficiëntie en compliance? Of is het vooral een dure, onbruikbare last?&#xA;In dit artikel bieden we een stapsgewijze methodiek om te bepalen of uw procesdocumentatie op orde is. We kijken naar kwaliteitscriteria, praktische toetsen en valkuilen, en geven handvatten om verbeterpunten te identificeren. Deze aanpak sluit aan bij het Procesdocumentatiemodel (PDM) en de werkwijze van de Procesdocumentalist.</description>
+    </item>
+    <item>
+      <title>Waarom procesdocumentatie vaak misgaat – en hoe de Procesdocumentalist het oplost</title>
+      <link>http://localhost:1313/10-artikelen/08.01-waarom-procesdocumentatie-vaak-misgaat--en-hoe-de-procesdocumentalist-het-oplost/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/10-artikelen/08.01-waarom-procesdocumentatie-vaak-misgaat--en-hoe-de-procesdocumentalist-het-oplost/index.html</guid>
+      <description>Details&#xD;Een analyse van structurele valkuilen en een praktische gids voor bruikbare, levende procesdocumentatie&#xA;Inleiding&#xD;Procesdocumentatie is bedoeld als de ruggengraat van efficiëntie, consistentie en kennisbehoud in organisaties. Toch is de realiteit vaak teleurstellend: documenten zijn verouderd, verspreid over meerdere systemen, of worden simpelweg genegeerd door medewerkers. Het gevolg? Tijd en geld gaan verloren aan documentatie die geen sturing biedt.</description>
+    </item>
+    <item>
+      <title>Wat is procescontext?</title>
+      <link>http://localhost:1313/10-artikelen/08.10-wat-is-procescontext/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/10-artikelen/08.10-wat-is-procescontext/index.html</guid>
+      <description>Details&#xD;Procescontext beschrijft de omgeving, randvoorwaarden en input/output van een proces binnen het Procesdocumentatiemodel (PDM). Een essentiële laag om processen correct te begrijpen, modelleren en verbeteren.&#xA;Procesdocumentatie die niet werkt, heeft vaak één ding gemeen: het ontbreekt aan context. Zonder inzicht in de omgeving waarin een proces functioneert, de randvoorwaarden waaraan het moet voldoen, en de input en output die het verbindt met de rest van de organisatie, blijft elke procesbeschrijving een losstaand document – niet een bruikbaar en betrouwbaar onderdeel van een groter systeem.</description>
+    </item>
+  </channel>
+</rss>

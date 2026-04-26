@@ -1,0 +1,8 @@
+{{ $src := .Destination | safeURL }}
+
+{{ if strings.HasPrefix $src "[[" }}
+  {{ $clean := replace (replace $src "[[" "") "]]" "" }}
+  <img src="/images/{{ $clean }}" alt="{{ .Text }}">
+{{ else }}
+  <img src="{{ $src }}" alt="{{ .Text }}">
+{{ end }}

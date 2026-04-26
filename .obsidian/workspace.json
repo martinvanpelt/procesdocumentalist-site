@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "c3ec7d5882bfe1ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "616f9e383089c3d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "769cdbf4f953aa89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/01 Aanpak/01.05 Hulpmiddelen/11.04.03 Procescontext.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "11.04.03 Procescontext"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "09ee77237df05904",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f1842ccccc2671b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1588a3031fa967f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Verkenner"
+            }
+          },
+          {
+            "id": "e245a3cddefe3566",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Zoeken"
+            }
+          },
+          {
+            "id": "140c0c348feb4391",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bladwijzers"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 403.5
+  },
+  "right": {
+    "id": "db66a61ae1099bb1",
+    "type": "split",
+    "children": [
+      {
+        "id": "d89709d31917ac12",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11801d39680d0e57",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/07 Voorbeeldproces/07.00 Introducing TelecomPro.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Terugverwijzingen voor 07.00 Introducing TelecomPro"
+            }
+          },
+          {
+            "id": "0a0d6b3b5c6b9559",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/07 Voorbeeldproces/07.00 Introducing TelecomPro.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Uitgaande verwijzingen van 07.00 Introducing TelecomPro"
+            }
+          },
+          {
+            "id": "0098c9ad42f58784",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Labels"
+            }
+          },
+          {
+            "id": "7a285b4b1d2fe849",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Alle eigenschappen"
+            }
+          },
+          {
+            "id": "e404ec12e9919be5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/07 Voorbeeldproces/07.00 Introducing TelecomPro.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Overzicht van 07.00 Introducing TelecomPro"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open snel wisselen": false,
+      "graph:Open grafiek weergave": false,
+      "canvas:Nieuw doek aanmaken": false,
+      "daily-notes:Open de notitie van vandaag": false,
+      "templates:Sjabloon invoegen": false,
+      "command-palette:Open opdrachtenpaneel": false,
+      "bases:Nieuwe basis maken": false
+    }
+  },
+  "active": "769cdbf4f953aa89",
+  "lastOpenFiles": [
+    "content/01 Aanpak/01.05 Hulpmiddelen/11.04.02 Procesafbakening (SIPOC).md",
+    "content/01 Aanpak/01.05 Hulpmiddelen/11.04.01 Procesinventarisatie.md",
+    "content/01 Aanpak/01.05 Hulpmiddelen/11.04.08 Procespublicatie.md",
+    "content/01 Aanpak/01.05 Hulpmiddelen/11.04.09 Procesimplementatie.md",
+    "content/01 Aanpak/01.05 Hulpmiddelen/11.04.10 Processturing.md",
+    "content/01 Aanpak/01.05 Hulpmiddelen/11.04.11 Procesreview.md",
+    "content/01 Aanpak/01.05 Hulpmiddelen/11.04.12 Procesverbetering.md",
+    "content/01 Aanpak/01.05 Hulpmiddelen/11.04.13 Procesbeheer.md",
+    "content/01 Aanpak/01.05 Hulpmiddelen/11.04.07 Procesvalidatie.md",
+    "content/01 Aanpak/01.05 Hulpmiddelen/11.04.06 Procesbeschrijving.md",
+    "content/01 Aanpak/01.05 Hulpmiddelen/11.04.05 Procesmodellering.md",
+    "content/01 Aanpak/01.05 Hulpmiddelen/11.04.04 Procesinterview.md",
+    "content/01 Aanpak/01.05 Hulpmiddelen/11.04.03 Procescontext.md",
+    "content/01 Aanpak/01.05 Hulpmiddelen/_index.md",
+    "content/06 Procesdocumentatieplatform/_index.md",
+    "content/06 Procesdocumentatieplatform/06.04 Relatie met procesarchitectuur.md",
+    "content/06 Procesdocumentatieplatform/06.03 Toegang en informatievoorziening.md",
+    "content/06 Procesdocumentatieplatform/06.02 Versiebeheer en publicatie.md",
+    "content/06 Procesdocumentatieplatform/06.01 Structuur van het procesdocumentatieplatform.md",
+    "content/05 Procesdocument/_index.md",
+    "content/01 Aanpak/_index.md",
+    "content/_index.md",
+    "content/07 Voorbeeldproces/07.00 Introducing TelecomPro.md",
+    "public/images/markup/telecompro.png",
+    "public/images/markup/telecompro.jpeg",
+    "static/images/markup/telecompro.png",
+    "static/images/markup/telecompro.jpeg",
+    "public/images/markup",
+    "static/images/markup",
+    "public/images/Naamloze map",
+    "static/images/Naamloze map",
+    "static/images/telecompro.png",
+    "static/images/telecompro.jpeg",
+    "static/images",
+    "layouts/_default/render-image.html",
+    "public/img/telecompro.png",
+    "public/img/telecompro.jpeg",
+    "public/img",
+    "static/img/telecompro.png",
+    "static/img/telecompro.jpeg",
+    "static/img",
+    "static/Naamloze map"
+  ]
+}

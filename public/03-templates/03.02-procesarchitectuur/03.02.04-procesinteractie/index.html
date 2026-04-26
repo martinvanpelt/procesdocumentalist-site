@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.159.1">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="title: Procesinteractie
+hidden: true
+tags:
+procesarchitectuur afhankelijkheden template ketenanalyse risicobeheer
+description: Template voor het in kaart brengen van interacties, afhankelijkheden en risico’s tussen processen binnen een organisatie. InleidingDit Procesinteractie-template beschrijft de koppeling, afhankelijkheden en overdracht tussen twee of meer processen binnen {{organisatienaam}}. Het doel is om:
+✅ Inzicht te bieden in hoe processen met elkaar samenhangen.
+✅ Afhankelijkheden en interfaces tussen processen duidelijk in kaart te brengen.
+✅ Risico’s in de procesketen te identificeren en mitigeren.
+✅ Efficiëntie te verbeteren door knelpunten in de interactie op te lossen.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="title: Procesinteractie
+hidden: true
+tags:
+procesarchitectuur afhankelijkheden template ketenanalyse risicobeheer
+description: Template voor het in kaart brengen van interacties, afhankelijkheden en risico’s tussen processen binnen een organisatie. InleidingDit Procesinteractie-template beschrijft de koppeling, afhankelijkheden en overdracht tussen twee of meer processen binnen {{organisatienaam}}. Het doel is om:
+✅ Inzicht te bieden in hoe processen met elkaar samenhangen.
+✅ Afhankelijkheden en interfaces tussen processen duidelijk in kaart te brengen.
+✅ Risico’s in de procesketen te identificeren en mitigeren.
+✅ Efficiëntie te verbeteren door knelpunten in de interactie op te lossen.">
+    <meta property="og:url" content="http://localhost:1313/03-templates/03.02-procesarchitectuur/03.02.04-procesinteractie/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:description" content="title: Procesinteractie
+hidden: true
+tags:
+procesarchitectuur afhankelijkheden template ketenanalyse risicobeheer
+description: Template voor het in kaart brengen van interacties, afhankelijkheden en risico’s tussen processen binnen een organisatie. InleidingDit Procesinteractie-template beschrijft de koppeling, afhankelijkheden en overdracht tussen twee of meer processen binnen {{organisatienaam}}. Het doel is om:
+✅ Inzicht te bieden in hoe processen met elkaar samenhangen.
+✅ Afhankelijkheden en interfaces tussen processen duidelijk in kaart te brengen.
+✅ Risico’s in de procesketen te identificeren en mitigeren.
+✅ Efficiëntie te verbeteren door knelpunten in de interactie op te lossen.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="PDM Templates">
+    <meta itemprop="description" content="title: Procesinteractie
+hidden: true
+tags:
+procesarchitectuur afhankelijkheden template ketenanalyse risicobeheer
+description: Template voor het in kaart brengen van interacties, afhankelijkheden en risico’s tussen processen binnen een organisatie. InleidingDit Procesinteractie-template beschrijft de koppeling, afhankelijkheden en overdracht tussen twee of meer processen binnen {{organisatienaam}}. Het doel is om:
+✅ Inzicht te bieden in hoe processen met elkaar samenhangen.
+✅ Afhankelijkheden en interfaces tussen processen duidelijk in kaart te brengen.
+✅ Risico’s in de procesketen te identificeren en mitigeren.
+✅ Efficiëntie te verbeteren door knelpunten in de interactie op te lossen.">
+    <meta itemprop="wordCount" content="1222">
+    <title></title>
+    <link href="/images/favicon.svg?1776512677" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1776512677" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776512677" defer></script>
+    <script src="/js/search-lunr.js?1776512677" defer></script>
+    <script src="/js/search.js?1776512677" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1776512677";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1776512677" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776512677" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776512677" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1776512677" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1776512677" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776512677" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776512677" rel="stylesheet">
+    <link href="/css/theme.css?1776512677" rel="stylesheet">
+    <link href="/css/format-html.css?1776512677" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/03-templates\/03.02-procesarchitectuur\/03.02.04-procesinteractie\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto', 'relearn-dark' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1776512677" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/03-templates/03.02-procesarchitectuur/03.02.04-procesinteractie/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#inleiding"><strong>Inleiding</strong></a></li>
+        <li><a href="#eigenschappen"><strong>Eigenschappen</strong></a></li>
+        <li><a href="#1-algemeen-overzicht"><strong>1. Algemeen Overzicht</strong></a></li>
+        <li><a href="#2-doel-van-deze-interactie"><strong>2. Doel van deze Interactie</strong></a></li>
+        <li><a href="#3-upstream-processen"><strong>3. Upstream Processen</strong></a></li>
+        <li><a href="#4-downstream-processen"><strong>4. Downstream Processen</strong></a></li>
+        <li><a href="#5-interfaces"><strong>5. Interfaces</strong></a></li>
+        <li><a href="#6-risicos-in-de-keten"><strong>6. Risico’s in de Keten</strong></a></li>
+        <li><a href="#7-visuele-weergave-optioneel"><strong>7. Visuele Weergave (Optioneel)</strong></a></li>
+        <li><a href="#8-stakeholders-en-verantwoordelijkheden"><strong>8. Stakeholders en Verantwoordelijkheden</strong></a></li>
+        <li><a href="#9-tips-voor-effectieve-procesinteractie"><strong>9. Tips voor Effectieve Procesinteractie</strong></a></li>
+        <li><a href="#10-gerelateerde-documenten"><strong>10. Gerelateerde Documenten</strong></a></li>
+        <li><a href="#11-versiehistorie"><strong>11. Versiehistorie</strong></a></li>
+        <li><a href="#12-instructies-voor-gebruik"><strong>12. Instructies voor Gebruik</strong></a></li>
+        <li><a href="#13-voorbeeld-ingevulde-procesinteractie-orderverwerking--productie"><strong>13. Voorbeeld: Ingevulde Procesinteractie (Orderverwerking ↔ Productie)</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/03-templates/index.html"><span itemprop="name">PDM Templates</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/03-templates/03.02-procesarchitectuur/index.html"><span itemprop="name">Procesarchitectuur</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/03-templates/03.02-procesarchitectuur/03.02.00-procesarchitectuur/index.html" title="Procesarchitectuur (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/04-bronnen-van-procesinformatie/index.html" title="Bronnen van procesinformatie (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 03-templates" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id=""></h1>
+
+<p>title: Procesinteractie<br>
+hidden: true<br>
+tags:</p>
+<ul>
+<li>procesarchitectuur</li>
+<li>afhankelijkheden</li>
+<li>template</li>
+<li>ketenanalyse</li>
+<li>risicobeheer<br>
+description: Template voor het in kaart brengen van interacties, afhankelijkheden en risico&rsquo;s tussen processen binnen een organisatie.</li>
+</ul>
+<hr>
+<h3 id="inleiding"><strong>Inleiding</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Dit <strong>Procesinteractie-template</strong> beschrijft de <strong>koppeling, afhankelijkheden en overdracht</strong> tussen twee of meer processen binnen {{organisatienaam}}. Het doel is om:<br>
+✅ <strong>Inzicht</strong> te bieden in <strong>hoe processen met elkaar samenhangen</strong>.<br>
+✅ <strong>Afhankelijkheden</strong> en <strong>interfaces</strong> tussen processen duidelijk in kaart te brengen.<br>
+✅ <strong>Risico’s</strong> in de procesketen te <strong>identificeren en mitigeren</strong>.<br>
+✅ <strong>Efficiëntie</strong> te verbeteren door <strong>knelpunten</strong> in de interactie op te lossen.</p>
+<hr>
+<hr>
+<h3 id="eigenschappen"><strong>Eigenschappen</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+          <th>Toelichting</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>PMD-nummer</strong></td>
+          <td>03.04.04</td>
+          <td>Uniek identificatienummer voor deze procesinteractie in het Proces Management Document (PMD).</td>
+      </tr>
+      <tr>
+          <td><strong>Versie</strong></td>
+          <td>1</td>
+          <td>Huidige versie van dit document. Wordt geüpdaterd bij elke wijziging.</td>
+      </tr>
+      <tr>
+          <td><strong>Status</strong></td>
+          <td>concept</td>
+          <td>Mogelijke statussen: <em>concept</em>, <em>in review</em>, <em>goedgekeurd</em>, <em>gepubliceerd</em>, <em>verouderd</em>.</td>
+      </tr>
+      <tr>
+          <td><strong>Auteur</strong></td>
+          <td>[Naam]</td>
+          <td>De persoon of afdeling die dit document heeft opgesteld (meestal de procesanalist).</td>
+      </tr>
+      <tr>
+          <td><strong>Eigenaar</strong></td>
+          <td>[Naam proceseigenaar]</td>
+          <td>Verantwoordelijk voor de inhoud en actualiteit van de procesinteractie.</td>
+      </tr>
+      <tr>
+          <td><strong>Datum</strong></td>
+          <td>17/04/2026</td>
+          <td>Datum van de laatste update.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<hr>
+<h3 id="1-algemeen-overzicht"><strong>1. Algemeen Overzicht</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Geef hier een <strong>kort overzicht</strong> van de processen die met elkaar interageren.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Veld</strong></th>
+          <th><strong>Waarde</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Hoofdproces</strong></td>
+          <td>[Naam van het hoofdproces, bijv. &ldquo;Orderverwerking&rdquo;]</td>
+      </tr>
+      <tr>
+          <td><strong>Gerelateerde processen</strong></td>
+          <td>[Lijst van processen die interageren, bijv. &ldquo;Inkoop, Productie, Facturatie&rdquo;]</td>
+      </tr>
+      <tr>
+          <td><strong>Scope</strong></td>
+          <td>[Beschrijf de reikwijdte, bijv. &ldquo;Interactie tussen Orderverwerking en Productie&rdquo;]</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<hr>
+<h3 id="2-doel-van-deze-interactie"><strong>2. Doel van deze Interactie</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Beschrijf hier <strong>waarom deze koppeling tussen processen bestaat</strong>. Geef aan:</p>
+<ul>
+<li><strong>Waarde voor de organisatie</strong>: Wat levert deze interactie op? (Bijv. &ldquo;Zorgt voor tijdige levering van producten aan klanten&rdquo;).</li>
+<li><strong>Waarde voor de klant</strong>: Hoe draagt deze interactie bij aan klanttevredenheid? (Bijv. &ldquo;Verkort de levertijd&rdquo;).</li>
+<li><strong>Wettelijke/Compliance-eisen</strong>: Zijn er <strong>verplichtingen</strong> (bijv. GDPR, ISO-normen) die deze interactie noodzakelijk maken?</li>
+</ul>
+<p><strong>Voorbeeld:</strong></p>
+<blockquote>
+<p><em>&ldquo;De interactie tussen Orderverwerking en Productie zorgt ervoor dat klantorders tijdig en accuraat worden omgezet in productieopdrachten. Dit is essentieel voor het nakomen van leverafspraken en het waarborgen van klanttevredenheid. Daarnaast voldoet deze koppeling aan de ISO 9001-eis voor traceerbaarheid van orders.&rdquo;</em></p>
+</blockquote>
+<hr>
+<hr>
+<h3 id="3-upstream-processen"><strong>3. Upstream Processen</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Beschrijf hier <strong>welke processen input leveren</strong> aan het hoofdproces. Gebruik de onderstaande tabel voor overzichtelijkheid.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Procesnaam</strong></th>
+          <th><strong>Type Input</strong></th>
+          <th><strong>Beschrijving Input</strong></th>
+          <th><strong>Frequentie</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+          <th><strong>PMD-nummer</strong></th>
+          <th><strong>Kwaliteitseisen</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Naam]</td>
+          <td>[Bijv. &ldquo;Data&rdquo;, &ldquo;Document&rdquo;, &ldquo;Goedkeuring&rdquo;]</td>
+          <td>[Korte beschrijving, bijv. &ldquo;Klantorder met specificaties&rdquo;]</td>
+          <td>[Bijv. &ldquo;Dagelijks&rdquo;]</td>
+          <td>[Naam/afdeling]</td>
+          <td>[PMD-nummer]</td>
+          <td>[Bijv. &ldquo;Compleet en geverifieerd&rdquo;]</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Toelichting:</strong></p>
+<ul>
+<li><strong>Type Input</strong>: Geef aan of het gaat om <strong>data, documenten, goedkeuringen, of fysieke input</strong> (bijv. materialen).</li>
+<li><strong>Kwaliteitseisen</strong>: Wat zijn de <strong>minimale eisen</strong> waaraan de input moet voldoen? (Bijv. &ldquo;Geverifieerde klantgegevens&rdquo;, &ldquo;Goedgekeurde offerte&rdquo;).</li>
+</ul>
+<hr>
+<hr>
+<h3 id="4-downstream-processen"><strong>4. Downstream Processen</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Beschrijf hier <strong>welke processen de output gebruiken</strong> van het hoofdproces.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Procesnaam</strong></th>
+          <th><strong>Type Output</strong></th>
+          <th><strong>Beschrijving Output</strong></th>
+          <th><strong>Afhankelijkheid</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+          <th><strong>PMD-nummer</strong></th>
+          <th><strong>Kwaliteitseisen</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Naam]</td>
+          <td>[Bijv. &ldquo;Product&rdquo;, &ldquo;Document&rdquo;, &ldquo;Data&rdquo;]</td>
+          <td>[Korte beschrijving, bijv. &ldquo;Bevestigingsmail naar klant&rdquo;]</td>
+          <td>[Bijv. &ldquo;Output moet binnen 24 uur beschikbaar zijn&rdquo;]</td>
+          <td>[Naam/afdeling]</td>
+          <td>[PMD-nummer]</td>
+          <td>[Bijv. &ldquo;Accuraat en tijdig&rdquo;]</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Toelichting:</strong></p>
+<ul>
+<li><strong>Type Output</strong>: Geef aan of het gaat om <strong>fysieke producten, documenten, data, of diensten</strong>.</li>
+<li><strong>Afhankelijkheid</strong>: Wat zijn de <strong>condities</strong> waaraan de output moet voldoen om door het downstream proces gebruikt te kunnen worden?</li>
+</ul>
+<hr>
+<hr>
+<h3 id="5-interfaces"><strong>5. Interfaces</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Beschrijf hier <strong>hoe de overdracht tussen processen plaatsvindt</strong>. Gebruik de onderstaande tabel.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Interface</strong></th>
+          <th><strong>Type</strong></th>
+          <th><strong>Beschrijving</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+          <th><strong>Systeem/Tool</strong></th>
+          <th><strong>Frequentie</strong></th>
+          <th><strong>Automatisering</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Naam]</td>
+          <td>[Bijv. &ldquo;Systeemkoppeling&rdquo;, &ldquo;Handmatige overdracht&rdquo;, &ldquo;API&rdquo;]</td>
+          <td>[Korte beschrijving, bijv. &ldquo;Automatische synchronisatie tussen CRM en ERP&rdquo;]</td>
+          <td>[Naam/afdeling]</td>
+          <td>[Bijv. &ldquo;SAP&rdquo;, &ldquo;Salesforce&rdquo;]</td>
+          <td>[Bijv. &ldquo;Real-time&rdquo;]</td>
+          <td>[Ja/Nee]</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Toelichting types interfaces:</strong></p>
+<ul>
+<li><strong>Systeemkoppeling</strong>: Automatische overdracht via <strong>geïntegreerde systemen</strong> (bijv. ERP, CRM).</li>
+<li><strong>Handmatige overdracht</strong>: Overdracht via <strong>e-mail, Excel, of papier</strong>.</li>
+<li><strong>API / Workflow</strong>: Overdracht via <strong>automatische workflows</strong> (bijv. Zapier, Power Automate).</li>
+<li><strong>Fysieke overdracht</strong>: Overdracht van <strong>fysieke goederen of documenten</strong> (bijv. transport, post).</li>
+</ul>
+<hr>
+<hr>
+<h3 id="6-risicos-in-de-keten"><strong>6. Risico’s in de Keten</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Identificeer hier <strong>potentiële risico’s</strong> in de interactie tussen processen. Gebruik de onderstaande tabel om risico’s, oorzaken, impact, en mitigerende maatregelen te beschrijven.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Risico</strong></th>
+          <th><strong>Oorzaak</strong></th>
+          <th><strong>Impact</strong></th>
+          <th><strong>Kans</strong></th>
+          <th><strong>Mitigerende Maatregel</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+          <th><strong>Status</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Vertraging&rdquo;]</td>
+          <td>[Bijv. &ldquo;Handmatige overdracht duurt te lang&rdquo;]</td>
+          <td>[Bijv. &ldquo;Levertijd overschrijdt afspraak&rdquo;]</td>
+          <td>[Hoog/Middel/Laag]</td>
+          <td>[Bijv. &ldquo;Automatiseren van overdracht&rdquo;]</td>
+          <td>[Naam/afdeling]</td>
+          <td>[Open/In uitvoering/Opgelost]</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Dataverlies&rdquo;]</td>
+          <td>[Bijv. &ldquo;Fout in systeemkoppeling&rdquo;]</td>
+          <td>[Bijv. &ldquo;Onjuiste ordergegevens&rdquo;]</td>
+          <td>[Hoog/Middel/Laag]</td>
+          <td>[Bijv. &ldquo;Back-up procedure implementeren&rdquo;]</td>
+          <td>[Naam/afdeling]</td>
+          <td>[Open/In uitvoering/Opgelost]</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Misinterpretatie&rdquo;]</td>
+          <td>[Bijv. &ldquo;Onduidelijke werkinstructies&rdquo;]</td>
+          <td>[Bijv. &ldquo;Fouten in productie&rdquo;]</td>
+          <td>[Hoog/Middel/Laag]</td>
+          <td>[Bijv. &ldquo;Training medewerkers&rdquo;]</td>
+          <td>[Naam/afdeling]</td>
+          <td>[Open/In uitvoering/Opgelost]</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Toelichting:</strong></p>
+<ul>
+<li><strong>Kans</strong>: Schat in hoe groot de kans is dat het risico zich voordoet (Hoog/Middel/Laag).</li>
+<li><strong>Impact</strong>: Wat is de <strong>gevolg</strong> als het risico zich voordoet? (Bijv. financieel verlies, klantontevredenheid, compliance-risico).</li>
+<li><strong>Mitigerende Maatregel</strong>: Wat kan worden gedaan om het risico te <strong>verminderen of voorkomen</strong>?</li>
+</ul>
+<hr>
+<hr>
+<h3 id="7-visuele-weergave-optioneel"><strong>7. Visuele Weergave (Optioneel)</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Gebruik een <strong>visueel diagram</strong> (bijv. in Mermaid) om de <strong>interactie tussen processen</strong> weer te geven. Dit maakt de <strong>stroom van input naar output</strong> direct inzichtelijk.</p>
+<p><strong>Voorbeeld:</strong></p>
+<pre class="mermaid actionbar-wrapper align-center ">%% Procesinteractie voorbeeld - vervang door eigen diagram
+graph LR
+    A[Orderverwerking] --&gt;|Klantorder| B[Inkoop]
+    A --&gt;|Orderbevestiging| C[Klant]
+    B --&gt;|Inkooporder| D[Productie]
+    D --&gt;|Afgewerkt product| E[Levering]
+    E --&gt;|Leverbevestiging| C</pre>
+<hr>
+<hr>
+<h3 id="8-stakeholders-en-verantwoordelijkheden"><strong>8. Stakeholders en Verantwoordelijkheden</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Geef hier een overzicht van <strong>wie betrokken is</strong> bij de procesinteractie.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Rol</strong></th>
+          <th><strong>Verantwoordelijkheid</strong></th>
+          <th><strong>Betrokkenheid</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Proceseigenaar (Upstream)</strong></td>
+          <td>Zorgt voor <strong>tijdige en correcte input</strong>.</td>
+          <td>Continu</td>
+      </tr>
+      <tr>
+          <td><strong>Proceseigenaar (Downstream)</strong></td>
+          <td>Zorgt voor <strong>correcte verwerking van output</strong>.</td>
+          <td>Continu</td>
+      </tr>
+      <tr>
+          <td><strong>Procesanalist</strong></td>
+          <td><strong>Documenteert en analyseert</strong> de interactie.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td><strong>IT-afdeling</strong></td>
+          <td><strong>Ondersteunt</strong> bij systeemkoppelingen en automatisering.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td><strong>Kwaliteitsmanager</strong></td>
+          <td><strong>Monitort</strong> de kwaliteit van input/output.</td>
+          <td>Periodiek</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<hr>
+<h3 id="9-tips-voor-effectieve-procesinteractie"><strong>9. Tips voor Effectieve Procesinteractie</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>🔹 <strong>Minimaliseer handmatige overdracht</strong>: Automatiseer waar mogelijk om <strong>fouten en vertragingen</strong> te voorkomen.<br>
+🔹 <strong>Documenteer interfaces</strong>: Zorg voor <strong>duidelijke beschrijvingen</strong> van hoe overdracht plaatsvindt.<br>
+🔹 <strong>Identificeer kritische afhankelijkheden</strong>: Focus op <strong>hoogriskico-interacties</strong> (bijv. handmatige stappen, complexe systemen).<br>
+🔹 <strong>Gebruik standaardformaten</strong>: Zorg dat <strong>input en output</strong> in <strong>gestandaardiseerde formaten</strong> worden geleverd (bijv. CSV, JSON, XML).<br>
+🔹 <strong>Monitor risico’s</strong>: Houd <strong>risico’s in de keten</strong> regelmatig onder de loep en pas maatregelen aan waar nodig.<br>
+🔹 <strong>Betrek stakeholders</strong>: Zorg dat <strong>alle betrokken partijen</strong> op de hoogte zijn van de interactie en hun rol daarin.</p>
+<hr>
+<hr>
+<h3 id="10-gerelateerde-documenten"><strong>10. Gerelateerde Documenten</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Lijst hier alle <strong>gerelateerde documenten</strong>, zoals:</p>
+<ul>
+<li>[Link naar procesbeschrijvingen]</li>
+<li>[Link naar BPMN-diagrammen]</li>
+<li>[Link naar proceslandkaart]</li>
+<li>[Link naar risicoanalyses]</li>
+</ul>
+<hr>
+<hr>
+<h3 id="11-versiehistorie"><strong>11. Versiehistorie</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Versie</strong></th>
+          <th><strong>Datum</strong></th>
+          <th><strong>Wijziging</strong></th>
+          <th><strong>Auteur</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1.0</td>
+          <td>17/04/2026</td>
+          <td>Initiële versie</td>
+          <td>[Naam]</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<hr>
+<h3 id="12-instructies-voor-gebruik"><strong>12. Instructies voor Gebruik</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<ol>
+<li><strong>Identificeer de processen</strong>:</li>
+</ol>
+<ul>
+<li>Bepaal welke processen <strong>met elkaar interageren</strong>.</li>
+</ul>
+<ol start="2">
+<li><strong>Beschrijf het doel</strong>:</li>
+</ol>
+<ul>
+<li>Leg uit <strong>waarom deze interactie bestaat</strong> en wat de <strong>waarde</strong> is.</li>
+</ul>
+<ol start="3">
+<li><strong>Vul upstream en downstream in</strong>:</li>
+</ol>
+<ul>
+<li>Documenteer <strong>alle input en output</strong> tussen de processen.</li>
+</ul>
+<ol start="4">
+<li><strong>Beschrijf de interfaces</strong>:</li>
+</ol>
+<ul>
+<li>Geef aan <strong>hoe overdracht plaatsvindt</strong> (systeem, handmatig, API).</li>
+</ul>
+<ol start="5">
+<li><strong>Identificeer risico’s</strong>:</li>
+</ol>
+<ul>
+<li>Breng <strong>potentiële problemen</strong> in kaart en bedenk <strong>mitigerende maatregelen</strong>.</li>
+</ul>
+<ol start="6">
+<li><strong>Valideer met stakeholders</strong>:</li>
+</ol>
+<ul>
+<li>Laat de interactie <strong>reviewen</strong> door proceseigenaren en betrokken teams.</li>
+</ul>
+<ol start="7">
+<li><strong>Visualiseer (optioneel)</strong>:</li>
+</ol>
+<ul>
+<li>Maak een <strong>diagram</strong> om de interactie inzichtelijk te maken.</li>
+</ul>
+<hr>
+<hr>
+<h3 id="13-voorbeeld-ingevulde-procesinteractie-orderverwerking--productie"><strong>13. Voorbeeld: Ingevulde Procesinteractie (Orderverwerking ↔ Productie)</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<h4 id="algemeen-overzicht"><strong>Algemeen Overzicht</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Veld</strong></th>
+          <th><strong>Waarde</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Hoofdproces</strong></td>
+          <td>Orderverwerking</td>
+      </tr>
+      <tr>
+          <td><strong>Gerelateerde processen</strong></td>
+          <td>Productie, Inkoop</td>
+      </tr>
+      <tr>
+          <td><strong>Scope</strong></td>
+          <td>Interactie tussen Orderverwerking en Productie voor het omzetten van klantorders in productieopdrachten.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h4 id="doel-van-deze-interactie"><strong>Doel van deze Interactie</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>De koppeling tussen Orderverwerking en Productie zorgt ervoor dat <strong>klantorders tijdig en accuraat worden omgezet in productieopdrachten</strong>. Dit is essentieel voor:</p>
+<ul>
+<li>Het <strong>nakomen van leverafspraken</strong> met klanten.</li>
+<li>Het <strong>verminderen van fouten</strong> in de productie door correcte ordergegevens.</li>
+<li>Het voldoen aan <strong>ISO 9001-eisen</strong> voor traceerbaarheid.</li>
+</ul>
+<hr>
+<h4 id="upstream-processen"><strong>Upstream Processen</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Procesnaam</strong></th>
+          <th><strong>Type Input</strong></th>
+          <th><strong>Beschrijving Input</strong></th>
+          <th><strong>Frequentie</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+          <th><strong>PMD-nummer</strong></th>
+          <th><strong>Kwaliteitseisen</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Orderverwerking</td>
+          <td>Data</td>
+          <td>Klantorder met product-specificaties</td>
+          <td>Dagelijks</td>
+          <td>Sales Team</td>
+          <td>PMD-01.01.00</td>
+          <td>Compleet en geverifieerd</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h4 id="downstream-processen"><strong>Downstream Processen</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Procesnaam</strong></th>
+          <th><strong>Type Output</strong></th>
+          <th><strong>Beschrijving Output</strong></th>
+          <th><strong>Afhankelijkheid</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+          <th><strong>PMD-nummer</strong></th>
+          <th><strong>Kwaliteitseisen</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Productie</td>
+          <td>Productieopdracht</td>
+          <td>Bevestigde opdracht voor productie</td>
+          <td>Output moet binnen 1 uur beschikbaar zijn</td>
+          <td>Productie Team</td>
+          <td>PMD-01.02.00</td>
+          <td>Accuraat en tijdig</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h4 id="interfaces"><strong>Interfaces</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Interface</strong></th>
+          <th><strong>Type</strong></th>
+          <th><strong>Beschrijving</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+          <th><strong>Systeem/Tool</strong></th>
+          <th><strong>Frequentie</strong></th>
+          <th><strong>Automatisering</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Order naar Productie</td>
+          <td>Systeemkoppeling</td>
+          <td>Automatische overdracht van ordergegevens naar ERP</td>
+          <td>IT-afdeling</td>
+          <td>SAP ERP</td>
+          <td>Real-time</td>
+          <td>Ja</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h4 id="risicos-in-de-keten"><strong>Risico’s in de Keten</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Risico</strong></th>
+          <th><strong>Oorzaak</strong></th>
+          <th><strong>Impact</strong></th>
+          <th><strong>Kans</strong></th>
+          <th><strong>Mitigerende Maatregel</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+          <th><strong>Status</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Vertraging</td>
+          <td>Handmatige controle duurt te lang</td>
+          <td>Levering komt te laat</td>
+          <td>Middel</td>
+          <td>Automatische validatie implementeren</td>
+          <td>IT-afdeling</td>
+          <td>In uitvoering</td>
+      </tr>
+      <tr>
+          <td>Dataverlies</td>
+          <td>Fout in systeemkoppeling</td>
+          <td>Onjuiste productieopdracht</td>
+          <td>Laag</td>
+          <td>Dagelijkse back-up en validatie</td>
+          <td>IT-afdeling</td>
+          <td>Opgelost</td>
+      </tr>
+      <tr>
+          <td>Misinterpretatie</td>
+          <td>Onduidelijke order-specificaties</td>
+          <td>Fouten in productie</td>
+          <td>Hoog</td>
+          <td>Training medewerkers in orderinterpretatie</td>
+          <td>Productie Team</td>
+          <td>Open</td>
+      </tr>
+  </tbody>
+</table>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/01-werkwijze/index.html"><a class="padding" href="/01-werkwijze/index.html">Werkwijze</a></li>
+            <li class="" data-nav-id="/02-procesdocumentatiemodel/index.html"><a class="padding" href="/02-procesdocumentatiemodel/index.html">Het procesdocumentatiemodel</a></li>
+            <li class="parent " data-nav-id="/03-templates/index.html"><a class="padding default-animation" href="/03-templates/index.html">PDM Templates</a><ul id="R-subsections-031b19932c520fd501627fb0bd8059aa" class="collapsible-menu">
+            <li class="parent hidden alwaysopen " data-nav-id="/03-templates/03.02-procesarchitectuur/index.html"><a class="padding default-animation" href="/03-templates/03.02-procesarchitectuur/index.html">Procesarchitectuur</a><ul id="R-subsections-1857ad257783a4ef18120129d9e5e8fc" class="collapsible-menu">
+            <li class="" data-nav-id="/03-templates/03.02-procesarchitectuur/03.02.00-procesarchitectuur/index.html"><a class="padding" href="/03-templates/03.02-procesarchitectuur/03.02.00-procesarchitectuur/index.html">Procesarchitectuur</a></li>
+            <li class="active hidden " data-nav-id="/03-templates/03.02-procesarchitectuur/03.02.04-procesinteractie/index.html"><a class="padding" href="/03-templates/03.02-procesarchitectuur/03.02.04-procesinteractie/index.html"></a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/04-bronnen-van-procesinformatie/index.html"><a class="padding" href="/04-bronnen-van-procesinformatie/index.html">Bronnen van procesinformatie</a></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding" href="/05-procesdocument/index.html">Het procesdocument</a></li>
+            <li class="" data-nav-id="/06-voorbeelden/index.html"><a class="padding" href="/06-voorbeelden/index.html">Een voorbeeldproces</a></li>
+            <li class="" data-nav-id="/07-over/index.html"><a class="padding" href="/07-over/index.html">Over de Procesdocumentalist</a></li>
+            <li class="" data-nav-id="/07-contact/index.html"><a class="padding" href="/07-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-artikelen/index.html"><a class="padding" href="/08-artikelen/index.html">Artikelen</a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-color.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1776512677" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1776512677" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776512677" defer></script>
+    <script src="/js/theme.js?1776512677" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

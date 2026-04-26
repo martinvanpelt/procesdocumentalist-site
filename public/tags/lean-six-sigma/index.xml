@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lean Six Sigma :: Tag :: Procesdocumentalist</title>
+    <link>http://localhost:1313/tags/lean-six-sigma/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/tags/lean-six-sigma/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KPI&#39;s</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.08-processturing/03.08.01-kpis/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.08-processturing/03.08.01-kpis/index.html</guid>
+      <description>Template voor het definieren en meten van KPI&#39;s (Key Performance Indicators) voor processen, inclusief doelen, meetmethoden, normen, en verbeteracties.</description>
+    </item>
+    <item>
+      <title>Root Cause Analyse</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.09-procesverbetering/03.09.01-root-cause-analysis/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.09-procesverbetering/03.09.01-root-cause-analysis/index.html</guid>
+      <description>Template voor het uitvoeren van een gestructureerde root cause analyse (RCA) met behulp van de 5 Why&#39;s-methode, Fishbone-diagram, en andere analysetechnieken.</description>
+    </item>
+    <item>
+      <title>Root Cause Analyse - Vertraagde Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.09-procesverbetering/9.3-root-cause-analysis/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.09-procesverbetering/9.3-root-cause-analysis/index.html</guid>
+      <description>Root Cause Analyse (RCA) voor de vertraagde orderverwerking bij TelecomPro B.V., inclusief 5 Why&#39;s, Fishbone-diagram en Pareto-analyse.</description>
+    </item>
+    <item>
+      <title>Procesreview</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.08-processturing/03.08.03-procesreview/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.08-processturing/03.08.03-procesreview/index.html</guid>
+      <description>Template voor het uitvoeren van gestructureerde procesreviews, inclusief KPI-prestaties, bevindingen, verbeteracties en follow-up.</description>
+    </item>
+    <item>
+      <title>Procesverbeterplan</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.09-procesverbetering/03.09.02-procesverbeterplan/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.09-procesverbetering/03.09.02-procesverbeterplan/index.html</guid>
+      <description>Template voor het opstellen van een gedetailleerd procesverbeterplan, inclusief verbeterpunten, acties, verantwoordelijkheden, deadlines, en succescriteria.</description>
+    </item>
+    <item>
+      <title>Procesverbeterplan - Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.09-procesverbetering/9.4-procesverbeterplan/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.09-procesverbetering/9.4-procesverbeterplan/index.html</guid>
+      <description>Gedetailleerd verbeterplan voor het Orderverwerkingsproces bij TelecomPro B.V., inclusief verbeterpunten, acties, verantwoordelijkheden en deadlines.</description>
+    </item>
+    <item>
+      <title>Procesverbetering</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.09-procesverbetering/03.09.00-procesverbetering-master/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.09-procesverbetering/03.09.00-procesverbetering-master/index.html</guid>
+      <description>Template voor het analyseren en verbeteren van processen, inclusief procesanalyse, verbeterinitiatieven, verbeteracties en lessons learned.</description>
+    </item>
+    <item>
+      <title>Procesverbetering</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.09-procesverbetering/9.1-procesverbetering-master/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.09-procesverbetering/9.1-procesverbetering-master/index.html</guid>
+      <description>Template voor het analyseren en verbeteren van het Orderverwerkingsproces bij TelecomPro B.V., inclusief procesanalyse, verbeterinitiatieven, verbeteracties en lessons learned.</description>
+    </item>
+  </channel>
+</rss>

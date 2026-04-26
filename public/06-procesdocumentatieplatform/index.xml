@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesdocumentatieplatform :: Proces Documentalist</title>
+    <link>http://localhost:1313/06-procesdocumentatieplatform/index.html</link>
+    <description>Het procesdocumentatieplatform is de omgeving waarin procesdocumentatie wordt opgeslagen, beheerd en beschikbaar gesteld binnen de organisatie.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/06-procesdocumentatieplatform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structuur van het procesdocumentatieplatform</title>
+      <link>http://localhost:1313/06-procesdocumentatieplatform/06.01-structuur-van-het-procesdocumentatieplatform/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/06-procesdocumentatieplatform/06.01-structuur-van-het-procesdocumentatieplatform/index.html</guid>
+      <description>Het procesdocumentatieplatform is logisch opgebouwd rondom de procesarchitectuur van de organisatie.&#xA;De procesarchitectuur vormt het fundament van de structuur: zij bepaalt hoe processen worden gegroepeerd, hoe informatie wordt gepresenteerd en hoe gebruikers door de documentatie navigeren.&#xA;Door deze architectuur als uitgangspunt te nemen ontstaat een omgeving waarin procesinformatie niet losstaande documenten zijn, maar onderdelen van een samenhangend systeem.&#xA;Het platform fungeert daarmee als een centrale plek waar processen, proceskennis en procesdocumentatie op een consistente manier worden vastgelegd en beheerd.</description>
+    </item>
+    <item>
+      <title>Versiebeheer en publicatie</title>
+      <link>http://localhost:1313/06-procesdocumentatieplatform/06.02-versiebeheer-en-publicatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/06-procesdocumentatieplatform/06.02-versiebeheer-en-publicatie/index.html</guid>
+      <description>Procesdocumentatie is dynamisch en verandert voortdurend. Processen worden aangepast, systemen veranderen en organisaties ontwikkelen zich continu.&#xA;Om te voorkomen dat documentatie veroudert of onbetrouwbaar wordt, is een goed ingericht systeem voor versiebeheer en publicatie essentieel binnen het procesdocumentatieplatform.&#xA;Versiebeheer zorgt ervoor dat wijzigingen gecontroleerd plaatsvinden, terwijl het publicatieproces ervoor zorgt dat alleen gevalideerde en goedgekeurde informatie beschikbaar komt voor gebruikers.&#xA;Samen vormen zij het mechanisme waarmee de kwaliteit en betrouwbaarheid van procesdocumentatie wordt bewaakt.</description>
+    </item>
+    <item>
+      <title>Toegang en informatievoorziening</title>
+      <link>http://localhost:1313/06-procesdocumentatieplatform/06.03-toegang-en-informatievoorziening/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/06-procesdocumentatieplatform/06.03-toegang-en-informatievoorziening/index.html</guid>
+      <description>Het procesdocumentatieplatform moet toegankelijk zijn voor de juiste gebruikers binnen de organisatie.&#xA;Procesdocumentatie heeft immers alleen waarde wanneer medewerkers de informatie eenvoudig kunnen vinden, begrijpen en toepassen in hun dagelijkse werk.&#xA;Tegelijkertijd moet de informatievoorziening beheersbaar blijven. Niet alle gebruikers hebben dezelfde informatiebehoefte, en sommige onderdelen van procesdocumentatie kunnen vertrouwelijk of beheergevoelig zijn.&#xA;Daarom wordt binnen het procesdocumentatieplatform gewerkt met duidelijke principes voor toegang en informatievoorziening.&#xA;Principes&#xD;Juiste informatie voor de juiste rol&#xD;Niet iedere gebruiker heeft dezelfde behoefte aan procesinformatie.&#xA;Het platform ondersteunt daarom verschillende perspectieven op procesdocumentatie.</description>
+    </item>
+    <item>
+      <title>Relatie met procesarchitectuur</title>
+      <link>http://localhost:1313/06-procesdocumentatieplatform/06.04-relatie-met-procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/06-procesdocumentatieplatform/06.04-relatie-met-procesarchitectuur/index.html</guid>
+      <description>Het procesdocumentatieplatform staat niet op zichzelf, maar is direct gekoppeld aan de procesarchitectuur van de organisatie.&#xA;De procesarchitectuur beschrijft de structuur van het totale proceslandschap: welke processen er zijn, hoe zij gegroepeerd zijn en hoe zij met elkaar samenhangen.&#xA;Het procesdocumentatieplatform vertaalt deze architectuur naar een praktische en navigeerbare omgeving waarin procesinformatie wordt vastgelegd en geraadpleegd.&#xA;Hierdoor ontstaat een directe verbinding tussen het ontwerp van processen en de documentatie die nodig is om deze processen uit te voeren, te beheren en te verbeteren.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Werkwijze :: Proces Documentalist</title>
+    <link>http://localhost:1313/01-werkwijze/index.html</link>
+    <description>Werkwijze: Hoe procesdocumentatie écht werkt&#xD;Goede procesdocumentatie ontstaat niet uit losse documenten, maar uit een gestructureerde, herhaalbare werkwijze die zorgt voor consistentie, betrouwbaarheid en bruikbaarheid. De kern van deze werkwijze is het procesdocument – een samenhangende, gestructureerde beschrijving van een bedrijfsproces, opgebouwd volgens het Procesdocumentatiemodel (PDM).&#xA;Wat maakt deze werkwijze uniek?&#xD;Binnen het PDM is een procesdocument:</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/01-werkwijze/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesverkenning</title>
+      <link>http://localhost:1313/01-werkwijze/01.01-procesverkenning/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-werkwijze/01.01-procesverkenning/index.html</guid>
+      <description>Procesverkenning is de eerste fase in de werkwijze van De Procesdocumentalist. In deze fase wordt de praktijk van processen onderzocht en in kaart gebracht om een realistisch, validerend en gedeeld procesbeeld te creëren. Dit vormt de basis voor structurering, modellering en documentatie volgens het Procesdocumentatiemodel (PDM).</description>
+    </item>
+    <item>
+      <title>Structureren en modelleren</title>
+      <link>http://localhost:1313/01-werkwijze/01.02-structureren-en-modelleren/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-werkwijze/01.02-structureren-en-modelleren/index.html</guid>
+      <description>In deze stap wordt de verzamelde procesinformatie omgezet in een samenhangende structuur.&#xA;Daarvoor gebruik ik het Procesdocumentatiemodel als referentiekader.&#xA;Het doel is om losse informatie te transformeren naar een gestructureerd en navigeerbaar procesmodel.&#xA;Doel van deze stap&#xD;Structureren &amp; modelleren zorgt ervoor dat:&#xA;procesinformatie consistent wordt opgebouwd relaties tussen processen zichtbaar worden versnipperde informatie wordt geïntegreerd een uniforme taal ontstaat voor procesbeschrijving Het Procesdocumentatiemodel (PDM)&#xD;Het ordent Procesdocumentatiemodelprocesinformatie in samenhangende dimensies:</description>
+    </item>
+    <item>
+      <title>Vastleggen &amp; standaardisatie</title>
+      <link>http://localhost:1313/01-werkwijze/01.03-vastleggen-en-standaardisatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-werkwijze/01.03-vastleggen-en-standaardisatie/index.html</guid>
+      <description>In deze stap wordt de gestructureerde procesinformatie vastgelegd in gestandaardiseerde templates.&#xA;Deze templates zorgen voor een consistente en onderhoudbare vorm van procesdocumentatie.&#xA;Doel van deze stap&#xD;Het doel is om procesinformatie:&#xA;eenduidig vast te leggen eenvoudig leesbaar te maken consistent te houden over processen heen geschikt te maken voor beheer en hergebruik Stappen&#xD;graph LR A[/Processtructuur/] subgraph B[Vastleggen en standaardisatie] direction LR B1[Vastleggen] B2[Standaardisatie] B1 --&gt; B2 end C[/Templates/] D[/Procesdocument/] C --&gt; B A --&gt; B B --&gt; D&#xD;Waarom templates belangrijk zijn&#xD;Zonder standaardisatie ontstaat vaak:</description>
+    </item>
+    <item>
+      <title>Resultaat</title>
+      <link>http://localhost:1313/01-werkwijze/01.04-resultaat/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-werkwijze/01.04-resultaat/index.html</guid>
+      <description>De werkwijze leidt tot een samenhangend en beheersbaar systeem van procesdocumentatie.&#xA;Het gaat niet om losse procesbeschrijvingen, maar om een geïntegreerde structuur die de organisatie ondersteunt in sturen en verbeteren.&#xA;Wat er ontstaat&#xD;De aanpak resulteert in:&#xA;consistente procesdocumentatie een gedeelde en eenduidige processtructuur inzicht in samenhang tussen processen een onderhoudbaar documentatiesysteem Praktische waarde&#xD;De procesdocumentatie ondersteunt de organisatie bij:</description>
+    </item>
+    <item>
+      <title>De 12 Standaardinstrumenten voor de Procesdocumentalist</title>
+      <link>http://localhost:1313/01-werkwijze/01.05-standaardinstrumenten/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-werkwijze/01.05-standaardinstrumenten/index.html</guid>
+      <description>Procesdocumentatie is meer dan het beschrijven van stappen in een proces. Het is een gestructureerde discipline die organisaties helpt om processen begrijpelijk, reproduceerbaar en bestuurbaar te maken. De Procesdocumentalist gebruikt daarvoor een vaste set instrumenten die ondersteunen bij het analyseren, modelleren, vastleggen en beheren van processen.&#xA;Deze standaardinstrumenten vormen samen de praktische gereedschapskist van de Procesdocumentalist. Ze helpen om procesinformatie systematisch te verzamelen, processen helder te visualiseren en procesdocumentatie duurzaam te beheren. Door deze instrumenten consequent toe te passen ontstaat een consistente en betrouwbare procesbibliotheek.</description>
+    </item>
+  </channel>
+</rss>

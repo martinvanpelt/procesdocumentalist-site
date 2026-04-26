@@ -1,0 +1,8 @@
+{{ $link := .Destination }}
+
+{{ if strings.HasPrefix $link "[[" }}
+  {{ $clean := replace (replace $link "[[" "") "]]" "" }}
+  <img src="/images/{{ $clean }}">
+{{ else }}
+  <a href="{{ $link }}">{{ .Text }}</a>
+{{ end }}

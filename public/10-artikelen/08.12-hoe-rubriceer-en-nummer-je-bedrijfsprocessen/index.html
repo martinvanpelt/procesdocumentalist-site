@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="DetailsHoe je bedrijfsprocessen logisch rubriceert en nummeren toepast voor maximale duidelijkh, efficiëntie en schaalbaarheid. Met voorbeelden, best practices en tips voor implementatie in tools zoals Confluence, SharePoint en BPMN.
+Een praktische gids voor structuur, overzicht en schaalbaarheid
+InleidingBedrijfsprocessen zijn de ruggengraat van elke organisatie. Of het nu gaat om klantcontact, productie, logistiek of interne workflows: zonder duidelijke structuur ontstaat chaos. Een van de grootste uitdagingen in procesdocumentatie is het creëren van een logische, schaalbare en begrijpelijke indeling. Hoe zorg je ervoor dat medewerkers, managers en externe partijen snel de juiste informatie vinden? Hoe voorkom je dubbel werk, inconsistenties of verouderde documentatie?">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Hoe rubriceer en nummer je bedrijfsprocessen? :: Proces Documentalist">
+    <meta name="twitter:description" content="DetailsHoe je bedrijfsprocessen logisch rubriceert en nummeren toepast voor maximale duidelijkh, efficiëntie en schaalbaarheid. Met voorbeelden, best practices en tips voor implementatie in tools zoals Confluence, SharePoint en BPMN.
+Een praktische gids voor structuur, overzicht en schaalbaarheid
+InleidingBedrijfsprocessen zijn de ruggengraat van elke organisatie. Of het nu gaat om klantcontact, productie, logistiek of interne workflows: zonder duidelijke structuur ontstaat chaos. Een van de grootste uitdagingen in procesdocumentatie is het creëren van een logische, schaalbare en begrijpelijke indeling. Hoe zorg je ervoor dat medewerkers, managers en externe partijen snel de juiste informatie vinden? Hoe voorkom je dubbel werk, inconsistenties of verouderde documentatie?">
+    <meta property="og:url" content="http://localhost:1313/10-artikelen/08.12-hoe-rubriceer-en-nummer-je-bedrijfsprocessen/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="Hoe rubriceer en nummer je bedrijfsprocessen? :: Proces Documentalist">
+    <meta property="og:description" content="DetailsHoe je bedrijfsprocessen logisch rubriceert en nummeren toepast voor maximale duidelijkh, efficiëntie en schaalbaarheid. Met voorbeelden, best practices en tips voor implementatie in tools zoals Confluence, SharePoint en BPMN.
+Een praktische gids voor structuur, overzicht en schaalbaarheid
+InleidingBedrijfsprocessen zijn de ruggengraat van elke organisatie. Of het nu gaat om klantcontact, productie, logistiek of interne workflows: zonder duidelijke structuur ontstaat chaos. Een van de grootste uitdagingen in procesdocumentatie is het creëren van een logische, schaalbare en begrijpelijke indeling. Hoe zorg je ervoor dat medewerkers, managers en externe partijen snel de juiste informatie vinden? Hoe voorkom je dubbel werk, inconsistenties of verouderde documentatie?">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Artikelen">
+    <meta itemprop="name" content="Hoe rubriceer en nummer je bedrijfsprocessen? :: Proces Documentalist">
+    <meta itemprop="description" content="DetailsHoe je bedrijfsprocessen logisch rubriceert en nummeren toepast voor maximale duidelijkh, efficiëntie en schaalbaarheid. Met voorbeelden, best practices en tips voor implementatie in tools zoals Confluence, SharePoint en BPMN.
+Een praktische gids voor structuur, overzicht en schaalbaarheid
+InleidingBedrijfsprocessen zijn de ruggengraat van elke organisatie. Of het nu gaat om klantcontact, productie, logistiek of interne workflows: zonder duidelijke structuur ontstaat chaos. Een van de grootste uitdagingen in procesdocumentatie is het creëren van een logische, schaalbare en begrijpelijke indeling. Hoe zorg je ervoor dat medewerkers, managers en externe partijen snel de juiste informatie vinden? Hoe voorkom je dubbel werk, inconsistenties of verouderde documentatie?">
+    <meta itemprop="wordCount" content="1552">
+    <title>Hoe rubriceer en nummer je bedrijfsprocessen? :: Proces Documentalist</title>
+    <link href="/images/favicon.svg?1777193160" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1777193160" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1777193160" defer></script>
+    <script src="/js/search-lunr.js?1777193160" defer></script>
+    <script src="/js/search.js?1777193160" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1777193160";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1777193160" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1777193160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1777193160" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1777193160" rel="stylesheet">
+    <link href="/css/theme.css?1777193160" rel="stylesheet">
+    <link href="/css/format-html.css?1777193160" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/10-artikelen\/08.12-hoe-rubriceer-en-nummer-je-bedrijfsprocessen\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-light', 'relearn-dark', 'auto' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1777193160" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/10-artikelen/08.12-hoe-rubriceer-en-nummer-je-bedrijfsprocessen/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist in één oogopslag</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/10-artikelen/index.html"><span itemprop="name">Artikelen</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Hoe rubriceer en nummer je bedrijfsprocessen?</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/10-artikelen/index.html" title="Artikelen (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/11-gereedschapskist/index.html" title="Hulpmiddelen (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 10-artikelen" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="hoe-rubriceer-en-nummer-je-bedrijfsprocessen">Hoe rubriceer en nummer je bedrijfsprocessen?</h1>
+
+
+<details open class="box cstyle notices primary">
+  <summary class="box-label a11y-only" tabindex="-1">
+    <span class="a11y-only">Details</span>
+  </summary>
+  <div class="box-content">
+<p>Hoe je bedrijfsprocessen logisch rubriceert en nummeren toepast voor maximale duidelijkh, efficiëntie en schaalbaarheid. Met voorbeelden, best practices en tips voor implementatie in tools zoals Confluence, SharePoint en BPMN.</p>
+  </div>
+</details>
+<blockquote>
+<p>Een praktische gids voor structuur, overzicht en schaalbaarheid</p>
+</blockquote>
+<h4 id="inleiding">Inleiding<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Bedrijfsprocessen zijn de ruggengraat van elke organisatie. Of het nu gaat om klantcontact, productie, logistiek of interne workflows: zonder duidelijke structuur ontstaat chaos. Een van de grootste uitdagingen in procesdocumentatie is het creëren van een logische, schaalbare en begrijpelijke indeling. Hoe zorg je ervoor dat medewerkers, managers en externe partijen snel de juiste informatie vinden? Hoe voorkom je dubbel werk, inconsistenties of verouderde documentatie?</p>
+<p>In dit artikel bespreken we:</p>
+<ul>
+<li>Waarom rubriceren en nummeren essentieel zijn voor efficiëntie en compliance.</li>
+<li>Stappenplannen voor het opzetten van een robuust rubriceringssysteem.</li>
+<li>Nummeringsmethoden (hiërarchisch, functioneel, procesgericht) met voor- en nadelen.</li>
+<li>Praktische voorbeelden uit de telecomsector, productie en dienstverlening.</li>
+<li>Tools en templates (BPMN, Confluence, SharePoint) om je systeem te implementeren.</li>
+<li>Valkuilen en tips om veelgemaakte fouten te vermijden.</li>
+</ul>
+<h4 id="waarom-rubriceren-en-nummeren">Waarom rubriceren en nummeren?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>De voordelen van een gestructureerde aanpak</p>
+<h5 id="overzicht-en-vindbaarheid">Overzicht en vindbaarheid<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Snelle toegang: Medewerkers vinden processen terug zonder eindeloos te zoeken.</li>
+<li>Consistentie: Uniforme benaming en nummering voorkomt verwarring (bv. &ldquo;Proces A&rdquo; vs. &ldquo;Workflow 1&rdquo;).</li>
+<li>Schaalbaarheid: Nieuwe processen zijn eenvoudig toe te voegen zonder de structuur te doorbreken.</li>
+</ul>
+<h5 id="efficiëntie-en-compliance">Efficiëntie en compliance<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Auditvriendelijk: Externe partijen (auditors, certificeringsinstanties) kunnen gemakkelijk controleren of processen voldoen aan normen zoals ISO 9001, Lean Six Sigma of PRINCE2.</li>
+<li>Automatisering: Gestructureerde processen zijn makkelijker te koppelen aan RPA (Robotic Process Automation) of workflowtools.</li>
+<li>Kennisbehoud: Bij vertrek van medewerkers blijft de kennis behouden in de documentatie.</li>
+</ul>
+<h5 id="communicatie-en-samenwerking">Communicatie en samenwerking<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Eenduidige taal: Iedereen (van uitvoerend tot strategisch niveau) spreekt dezelfde &ldquo;proces-taal&rdquo;.</li>
+<li>Cross-departmentale afstemming: Processen die meerdere afdelingen raken (bv. order-to-cash) zijn duidelijk gekoppeld.</li>
+</ul>
+<h4 id="stappenplan-hoe-begin-je-met-rubriceren">Stappenplan: Hoe begin je met rubriceren?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="inventariseer-alle-processen">Inventariseer alle processen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Een compleet overzicht creëren van alle processen in de organisatie.</p>
+<p>Methode:</p>
+<ul>
+<li>Workshops: Betrek vertegenwoordigers uit elke afdeling (bv. sales, productie, HR).</li>
+<li>Documentanalyse: Bekijk bestaande handleidingen, SOP’s (Standard Operating Procedures) en IT-systemen.</li>
+<li>Interviews: Vraag medewerkers naar hun dagelijkse taken en knelpunten.</li>
+</ul>
+<p>Output: Een longlist van processen, inclusief:</p>
+<ul>
+<li>Naam van het proces</li>
+<li>Verantwoordelijke afdeling</li>
+<li>Frequentie (dagelijks/wekelijks/maandelijks)</li>
+<li>Kritikaliteit (hoog/middel/laag)</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>Procesnaam</th>
+          <th>Afdeling</th>
+          <th>Frequentie</th>
+          <th>Kritikaliteit</th>
+          <th>Huidige documentatie?</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Orderontvangst</td>
+          <td>Sales</td>
+          <td>Dagelijks</td>
+          <td>Hoog</td>
+          <td>Ja (verouderd)</td>
+      </tr>
+      <tr>
+          <td>Klachtbehandeling</td>
+          <td>Klantenservice</td>
+          <td>Dagelijks</td>
+          <td>Hoog</td>
+          <td>Ja</td>
+      </tr>
+      <tr>
+          <td>Magazijnbeheer</td>
+          <td>Logistiek</td>
+          <td>Dagelijks</td>
+          <td>Middel</td>
+          <td>Nee</td>
+      </tr>
+      <tr>
+          <td>Jaarlijkse audit voorbereiding</td>
+          <td>Financiën</td>
+          <td>Jaarlijks</td>
+          <td>Hoog</td>
+          <td>Nee</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="groepeer-processen-in-categorieën">Groepeer processen in categorieën<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Processen indelen in logische groepen voor betere vindbaarheid.</p>
+<p>Mogelijke indelingscriteria:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Criterium</th>
+          <th>Voorbeeld</th>
+          <th>Wanneer toepassen?</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Functie</td>
+          <td>Sales, Productie, HR, Financiën</td>
+          <td>Traditionele organisatiestructuren</td>
+      </tr>
+      <tr>
+          <td>Processoort</td>
+          <td>Primair (klantgericht), Ondersteunend (HR, IT), Stuur (strategie)</td>
+          <td>Procesgerichte organisaties (bv. BPMN)</td>
+      </tr>
+      <tr>
+          <td>Levenscyclus</td>
+          <td>Ontwikkeling, Productie, Afvoering</td>
+          <td>Productiebedrijven</td>
+      </tr>
+      <tr>
+          <td>Kritikaliteit</td>
+          <td>Hoog (compliance), Middel, Laag</td>
+          <td>Risicogestuurde omgevingen (bv. gezondheidszorg)</td>
+      </tr>
+      <tr>
+          <td>Frequentie</td>
+          <td>Dagelijks, Wekelijks, Maandelijks</td>
+          <td>Onderhoudsprocessen</td>
+      </tr>
+  </tbody>
+</table>
+
+<details open class="box cstyle notices primary">
+  <summary class="box-label" tabindex="-1">
+    Best Practice
+  </summary>
+  <div class="box-content">
+<p>Gebruik maximaal 3 niveaus in je hiërarchie om complexiteit te beperken.<br>
+Voorbeeld:</p>
+<blockquote>
+</blockquote>
+<ol>
+<li>Primair Proces (bv. Orderverwerking)
+1.1 Subproces (bv. Orderontvangst)<br>
+1.1.1 Taak (bv. Klantgegevens valideren)</li>
+</ol>
+  </div>
+</details>
+<h5 id="23-kies-een-nummeringssysteem">2.3 Kies een nummeringssysteem<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Unieke identificatie voor elk proces, zodat ze eenduidig zijn te refereren.</p>
+<p>Opties voor nummering:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Systeem</th>
+          <th>Voorbeeld</th>
+          <th>Voordelen</th>
+          <th>Nadelen</th>
+          <th>Geschikt voor</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Hiërarchisch</td>
+          <td>1.1.2, 1.2.1, 2.3.4</td>
+          <td>Duidelijke structuur, schaalbaar</td>
+          <td>Kan complex worden bij diepe hiërarchie</td>
+          <td>Grote organisaties</td>
+      </tr>
+      <tr>
+          <td>Functioneel</td>
+          <td>SALES-001, HR-002</td>
+          <td>Makkelijk te koppelen aan afdelingen</td>
+          <td>Minder flexibel bij organisatieveranderingen</td>
+          <td>Traditionele structuren</td>
+      </tr>
+      <tr>
+          <td>Procesgericht</td>
+          <td>O2C-001 (Order-to-Cash)</td>
+          <td>Focus op eind-to-end processen</td>
+          <td>Moeilijker voor afdelingsgerichte teams</td>
+          <td>Procesgerichte organisaties</td>
+      </tr>
+      <tr>
+          <td>Alfanumeriek</td>
+          <td>PR-2024-001</td>
+          <td>Uniek en traceerbaar</td>
+          <td>Minder intuïtief</td>
+          <td>Projectgebaseerde processen</td>
+      </tr>
+      <tr>
+          <td>Combinatie</td>
+          <td>1.2-HR-003</td>
+          <td>Flexibel en gedetailleerd</td>
+          <td>Complexer om te onderhouden</td>
+          <td>Complexe organisaties</td>
+      </tr>
+  </tbody>
+</table>
+<p>💡 Tip:<br>
+Gebruik prefixen om het type proces aan te geven, bijvoorbeeld:</p>
+<ul>
+<li>OP- = Operationeel proces</li>
+<li>ST- = Stuurproces</li>
+<li>ON- = Ondersteunend proces</li>
+</ul>
+<h4 id="3-nummeringsmethoden-in-de-praktijk">3. Nummeringsmethoden in de praktijk<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="31-hiërarchische-nummering-meest-gangbaar">3.1 Hiërarchische nummering (meest gangbaar)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Werking:</p>
+<ul>
+<li>Hoofdprocessen krijgen een hoofdnummer (bv. 1, 2, 3).</li>
+<li>Subprocessen krijgen subnummers (bv. 1.1, 1.2).</li>
+<li>Taken krijgen derdeniveau-nummers (bv. 1.1.1, 1.1.2).</li>
+</ul>
+<p>Voorbeeld (Telecomsector):</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>1. Klantacquisitie
+   1.1 Leadgeneratie
+      1.1.1 Online campagne beheer
+      1.1.2 Telefoonverkoop
+   1.2 Offerte opstellen
+      1.2.1 Klantbehoefte analyseren
+      1.2.2 Prijsberekening
+2. Orderverwerking
+   2.1 Orderontvangst
+   2.2 Orderbevestiging</code></pre></div>
+<p>Voordelen:<br>
+✔ Duidelijke hiërarchie<br>
+✔ Makkelijk uit te breiden<br>
+✔ Geschikt voor BPMN-diagrammen</p>
+<p>Nadelen:<br>
+✖ Kan te diep worden (bv. 1.1.1.1.1)<br>
+✖ Moeilijk om processen te hergroeperen</p>
+<h5 id="32-functionele-nummering">3.2 Functionele nummering<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Werking:</p>
+<ul>
+<li>Processen krijgen een code gebaseerd op de afdeling en een volgnummer.</li>
+</ul>
+<p>Voorbeeld:</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>SALES-001: Leadgeneratie
+SALES-002: Offerte opstellen
+HR-001: Sollicitatieprocedure
+FIN-001: Facturatie</code></pre></div>
+<p>Voordelen:<br>
+✔ Makkelijk te koppelen aan afdelingen<br>
+✔ Eenvoudig voor medewerkers om te onthouden</p>
+<p>Nadelen:<br>
+✖ Minder flexibel bij organisatieveranderingen<br>
+✖ Geen inzicht in procesverloop</p>
+<h5 id="33-procesgerichte-nummering-end-to-end">3.3 Procesgerichte nummering (End-to-End)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Werking:</p>
+<ul>
+<li>Processen worden genummerd op basis van waardeketens (bv. Order-to-Cash, Procure-to-Pay).</li>
+</ul>
+<p>Voorbeeld:</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>O2C-001: Order ontvangen
+O2C-002: Kredietcheck
+O2C-003: Order bevestigen
+P2P-001: Inkoopaanvraag
+P2P-002: Leverancier selecteren</code></pre></div>
+<p>Voordelen:<br>
+✔ Focus op klantwaarde<br>
+✔ Geschikt voor Lean Six Sigma en procesoptimalisatie</p>
+<p>Nadelen:<br>
+✖ Moeilijker voor afdelingsgerichte teams<br>
+✖ Vereist diep inzicht in waardeketens</p>
+<h5 id="34-alfanumerieke-nummering">3.4 Alfanumerieke nummering<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Werking:</p>
+<ul>
+<li>Combinatie van letters en cijfers voor unieke identificatie.</li>
+</ul>
+<p>Voorbeeld:</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>PR-2024-001: Project X startfase
+OP-2024-012: Onderhoudsprotocol</code></pre></div>
+<p>Voordelen:<br>
+✔ Uniek en traceerbaar<br>
+✔ Geschikt voor projectgebaseerde processen</p>
+<p>Nadelen:<br>
+✖ Minder intuïtief<br>
+✖ Moeilijker te onthouden</p>
+<h4 id="4-praktische-voorbeelden-uit-verschillende-sectoren">4. Praktische voorbeelden uit verschillende sectoren<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="41-telecomsector-30-jaar-ervaring">4.1 Telecomsector (30+ jaar ervaring)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Uitdaging: Processen lopen over techniek, sales, klantenservice en logistiek heen.<br>
+Oplossing: Hiërarchische nummering met procesgroepen.</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>1. Klantlevenscyclus
+   1.1 Acquisitie
+      1.1.1 Leadgeneratie (Marketing)
+      1.1.2 Offerte opstellen (Sales)
+   1.2 Implementatie
+      1.2.1 Technische installatie
+      1.2.2 Klanttraining
+   1.3 Onderhoud
+      1.3.1 Storingen melden
+      1.3.2 Preventief onderhoud
+2. Netwerkbeheer
+   2.1 Capaciteitsplanning
+   2.2 Storingen oplossen</code></pre></div>
+<p>Tools gebruikt:</p>
+<ul>
+<li>BPMN voor procesmodellering</li>
+<li>Confluence voor documentatie</li>
+<li>Jira voor ticketing (gekoppeld aan procesnummers)</li>
+</ul>
+<h5 id="42-productiebedrijf">4.2 Productiebedrijf<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Uitdaging: Snelle wijzigingen in productielijnen en compliance-eisen (bv. ISO 9001).<br>
+Oplossing: Combinatie van hiërarchisch en functioneel.</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>PROD-1.1: Inkoop grondstoffen
+PROD-1.2: Productieplanning
+PROD-2.1: Kwaliteitscontrole
+PROD-2.2: Verpakking</code></pre></div>
+<p>Voordelen:</p>
+<ul>
+<li>Traceerbaarheid voor audits</li>
+<li>Flexibiliteit bij wijzigingen in productielijnen</li>
+</ul>
+<h5 id="43-ziekenhuis-gezondheidszorg">4.3 Ziekenhuis (Gezondheidszorg)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Uitdaging: Hoge kritikaliteit en compliance (bv. HIPAA, NEN-EN-ISO 13485).<br>
+Oplossing: Procesgerichte nummering met risicoclassificatie.</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>PAT-001: Patiëntintake (Hoog risico)
+PAT-002: Diagnostiek
+MED-001: Medicatiebeheer (Hoog risico)
+LOG-001: Magazijnbeheer</code></pre></div>
+<p>Extra:</p>
+<ul>
+<li>Kleurcodes in documentatie voor risiconiveaus (rood = hoog, oranje = middel, groen = laag).</li>
+</ul>
+<h4 id="5-tools-en-templates-voor-implementatie">5. Tools en templates voor implementatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="51-bpmn-business-process-model-and-notation">5.1 BPMN (Business Process Model and Notation)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Waarom?</p>
+<ul>
+<li>Standaard voor procesmodellering.</li>
+<li>Visuele weergave van processen, inclusief nummering.</li>
+</ul>
+<p>Voorbeeld in BPMN:</p>
+<pre class="mermaid actionbar-wrapper align-center ">graph TD
+    A[1.1.1 Leadgeneratie] --&gt; B[1.1.2 Offerte opstellen]
+    B --&gt; C[1.2 Orderbevestiging]
+    C --&gt; D{Goedgekeurd?}
+    D --&gt;|Ja| E[1.3 Facturatie]
+    D --&gt;|Nee| F[1.1.3 Offerte aanpassen]</pre>
+<p>Tools:</p>
+<ul>
+<li>Lucidchart</li>
+<li>Camunda</li>
+<li>Signavio</li>
+</ul>
+<h5 id="52-confluence-atlassian">5.2 Confluence (Atlassian)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Waarom?</p>
+<ul>
+<li>Centrale opslag voor procesdocumentatie.</li>
+<li>Koppeling met Jira voor ticketing.</li>
+</ul>
+<p>Template voor procespagina:</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span># [Procesnaam] - [Procesnummer]
+</span></span><span style="display:flex;"><span>Verantwoordelijke afdeling: [Afdeling]
+</span></span><span style="display:flex;"><span>Kritikaliteit: [Hoog/Middel/Laag]
+</span></span><span style="display:flex;"><span>Laatste update: [Datum]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#### Doel
+</span></span></span><span style="display:flex;"><span>[Beschrijving van het doel van het proces]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#### Stappen
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> [Stap 1]
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">2.</span> [Stap 2]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#### Gerelateerde processen
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> [Procesnummer]: [Naam]
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> [Procesnummer]: [Naam]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#### Bijlagen
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> [Link naar handleiding]
+</span></span><span style="display:flex;"><span>- [Link naar template]</span></span></code></pre></div>
+<h5 id="53-sharepoint">5.3 SharePoint<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Waarom?</p>
+<ul>
+<li>Integratie met Microsoft 365.</li>
+<li>Versiebeheer en toegangsrechten.</li>
+</ul>
+<p>Structuurvoorstel:</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>/Processen
+   /1_Klantproces
+      /1.1_Acquisitie
+         - 1.1.1_Leadgeneratie.docx
+         - 1.1.2_Offerte_opstellen.docx
+   /2_Productie
+      /2.1_Inkoop
+         - 2.1.1_Grondstoffen_bestellen.docx</code></pre></div>
+<h5 id="54-notion">5.4 Notion<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Waarom?</p>
+<ul>
+<li>Flexibel en visueel aantrekkelijk.</li>
+<li>Databases voor procesoverzichten.</li>
+</ul>
+<p>Voorbeeld Notion-database:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Procesnummer</th>
+          <th>Naam</th>
+          <th>Afdeling</th>
+          <th>Status</th>
+          <th>Laatste update</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1.1.1</td>
+          <td>Leadgeneratie</td>
+          <td>Sales</td>
+          <td>Actief</td>
+          <td>2026-04-20</td>
+      </tr>
+      <tr>
+          <td>1.2.3</td>
+          <td>Orderbevestiging</td>
+          <td>Sales</td>
+          <td>Concept</td>
+          <td>2026-04-15</td>
+      </tr>
+      <tr>
+          <td>2.1.1</td>
+          <td>Grondstoffen bestellen</td>
+          <td>Productie</td>
+          <td>Actief</td>
+          <td>2026-04-10</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="6-valkuilen-en-hoe-ze-te-vermijden">6. Valkuilen en hoe ze te vermijden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Valkuil</th>
+          <th>Oorzaak</th>
+          <th>Oplossing</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Te diepe hiërarchie</td>
+          <td>Te veel subniveaus</td>
+          <td>Maximaal 3-4 niveaus hanteren</td>
+      </tr>
+      <tr>
+          <td>Inconsistente benaming</td>
+          <td>Geen afspraken over terminologie</td>
+          <td>Gebruik een glossary met vaste termen</td>
+      </tr>
+      <tr>
+          <td>Verouderde documentatie</td>
+          <td>Geen versiebeheer</td>
+          <td>Implementeer automatische herinneringen voor reviews</td>
+      </tr>
+      <tr>
+          <td>Te complex voor medewerkers</td>
+          <td>Te theoretisch</td>
+          <td>Betrek eindgebruikers bij het ontwerp</td>
+      </tr>
+      <tr>
+          <td>Geen koppeling met IT-systemen</td>
+          <td>Processen staan los van tools</td>
+          <td>Zorg voor integratie met workflowtools (bv. Zapier, Make)</td>
+      </tr>
+      <tr>
+          <td>Geen eigenaar</td>
+          <td>Niemand is verantwoordelijk</td>
+          <td>Wijs per proces een procesowner aan</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="7-stappenplan-voor-implementatie-in-jouw-organisatie">7. Stappenplan voor implementatie in jouw organisatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="stap-1-stakeholders-betrekken">Stap 1: Stakeholders betrekken<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Workshop organiseren met vertegenwoordigers uit alle afdelingen.</li>
+<li>Doel: Draagvlak creëren en inzicht krijgen in behoeften.</li>
+</ul>
+<h5 id="stap-2-pilot-uitvoeren">Stap 2: Pilot uitvoeren<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Kies 1-2 kritische processen om het systeem op uit te testen.</li>
+<li>Voorbeeld: Orderverwerking of klachtbehandeling.</li>
+</ul>
+<h5 id="stap-3-tools-selecteren">Stap 3: Tools selecteren<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Kies 1-2 tools voor documentatie (bv. Confluence + BPMN).</li>
+<li>Zorg voor training voor medewerkers.</li>
+</ul>
+<h5 id="stap-4-roll-out-en-communicatie">Stap 4: Roll-out en communicatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Lanceer het systeem met een kick-off meeting.</li>
+<li>Communiceer de voordelen (bv. tijdsbesparing, minder fouten).</li>
+</ul>
+<h5 id="stap-5-continu-verbeteren">Stap 5: Continu verbeteren<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Feedback verzamelen via enquêtes of interviews.</li>
+<li>Periodiek reviewen (bv. elke 6 maanden).</li>
+</ul>
+<h4 id="8-conclusie-de-sleutel-tot-succesvolle-procesdocumentatie">8. Conclusie: De sleutel tot succesvolle procesdocumentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Een goed rubricering- en nummeringssysteem is geen eenmalige klus, maar een doorlopend proces. De sleutel tot succes ligt in:</p>
+<ul>
+<li>Eenvoud: Houd de structuur overzichtelijk en praktisch.</li>
+<li>Betrokkenheid: Zorg dat medewerkers het systeem omarmen.</li>
+<li>Flexibiliteit: Pas het systeem aan als de organisatie verandert.</li>
+<li>Tools: Gebruik geschikte software om de documentatie levend te houden.</li>
+</ul>
+<p>📌 Afsluitende gedachte (Martin van Pelt):<br>
+&ldquo;In mijn ervaring als procesdocumentalist zie ik vaak dat organisaties te veel focus leggen op de technische kant van rubriceren, en te weinig op de menselijke kant. Een systeem werkt alleen als medewerkers het willen gebruiken. Daardoor hecht ik veel waarde aan visuele duidelijkheid, praktische toepasbaarheid en doorlopende ondersteuning – precies waar mijn 7x Framework en 7x Process Language op inzetten.&rdquo;</p>
+<h4 id="9-verdere-lezing-en-bronnen">9. Verdere lezing en bronnen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ul>
+<li>Boeken:
+<ul>
+<li>The Process Consultant’s Toolkit – Mark A. L. Smith</li>
+<li>BPMN Quick and Easy Using Method and Style – Tom Debevoise</li>
+</ul>
+</li>
+<li>Tools:
+<ul>
+<li><a href="https://www.lucidchart.com/" rel="external">Lucidchart (BPMN)</a></li>
+<li><a href="https://www.atlassian.com/software/confluence" rel="external">Confluence (Atlassian)</a></li>
+<li><a href="https://www.notion.so/" rel="external">Notion</a></li>
+</ul>
+</li>
+<li>Normen:
+<ul>
+<li><a href="https://www.iso.org/iso-9001-quality-management.html" rel="external">ISO 9001 (Kwaliteitsmanagement)</a></li>
+<li><a href="https://www.asq.org/quality-resources/six-sigma" rel="external">Lean Six Sigma</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="10-over-de-auteur">10. Over de auteur<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Dit artikel is geschreven door Martin van Pelt, freelance procesdocumentalist met 30+ jaar ervaring in de telecomsector. Martin helpt organisaties bij het in kaart brengen, stroomlijnen en documenteren van werkprocessen, met een focus op bruikbare en toegankelijke informatie voor zowel management als uitvoerende teams. Hij ontwikkelt tevens eigen methodieken, zoals het 7x Framework en de 7x Process Language, om organisaties beter grip te geven op hun processen.</p>
+<p><a href="https://www.procesdocumentalist.nl" rel="external">Meer weten? Bezoek de website</a> of neem contact op via <a href="https://www.linkedin.com/in/martinvanpelt/" rel="external">LinkedIn</a>.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark relearn-light">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/01-aanpak/index.html"><a class="padding" href="/01-aanpak/index.html">Aanpak</a></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding" href="/05-procesdocument/index.html">Procesdocument</a></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over</a></li>
+            <li class="parent " data-nav-id="/10-artikelen/index.html"><a class="padding default-animation" href="/10-artikelen/index.html">Artikelen</a><ul id="R-subsections-ad2eb70ad2c7c7324360baad241e1727" class="collapsible-menu">
+            <li class="active hidden " data-nav-id="/10-artikelen/08.12-hoe-rubriceer-en-nummer-je-bedrijfsprocessen/index.html"><a class="padding" href="/10-artikelen/08.12-hoe-rubriceer-en-nummer-je-bedrijfsprocessen/index.html">Hoe rubriceer en nummer je bedrijfsprocessen?</a></li></ul></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-light" value="relearn-light" selected>Relearn Light</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="R-select-variant-auto" value="auto">Auto</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-color.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1777193160" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1777193160" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1777193160" defer></script>
+    <script src="/js/theme.js?1777193160" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

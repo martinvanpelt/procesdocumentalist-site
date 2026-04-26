@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Template voor het creëren van eenvoudige, visuele flowcharts om processen te modelleren.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Flowchart :: Proces Documentalist">
+    <meta name="twitter:description" content="Template voor het creëren van eenvoudige, visuele flowcharts om processen te modelleren.">
+    <meta property="og:url" content="http://localhost:1313/03-pdm-templates/03.06-procesmodellering/03.06.02-flowchart/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="Flowchart :: Proces Documentalist">
+    <meta property="og:description" content="Template voor het creëren van eenvoudige, visuele flowcharts om processen te modelleren.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="PDM Templates">
+    <meta property="article:tag" content="Procesmodellering">
+    <meta property="article:tag" content="Template">
+    <meta property="article:tag" content="Flowchart">
+    <meta property="article:tag" content="Visualisatie">
+    <meta property="article:tag" content="Processtroom">
+    <meta itemprop="name" content="Flowchart :: Proces Documentalist">
+    <meta itemprop="description" content="Template voor het creëren van eenvoudige, visuele flowcharts om processen te modelleren.">
+    <meta itemprop="wordCount" content="1444">
+    <meta itemprop="keywords" content="Procesmodellering,Template,Flowchart,Visualisatie,Processtroom">
+    <title>Flowchart :: Proces Documentalist</title>
+    <link href="/images/favicon.svg?1776863172" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1776863172" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776863172" defer></script>
+    <script src="/js/search-lunr.js?1776863172" defer></script>
+    <script src="/js/search.js?1776863172" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1776863172";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1776863172" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776863172" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776863172" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1776863172" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1776863172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776863172" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776863172" rel="stylesheet">
+    <link href="/css/theme.css?1776863172" rel="stylesheet">
+    <link href="/css/format-html.css?1776863172" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/03-pdm-templates\/03.06-procesmodellering\/03.06.02-flowchart\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto', 'relearn-dark' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1776863172" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/03-pdm-templates/03.06-procesmodellering/03.06.02-flowchart/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/03-pdm-templates/index.html"><span itemprop="name">PDM Templates</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/03-pdm-templates/03.06-procesmodellering/index.html"><span itemprop="name">Procesmodellering</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Flowchart</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/03-pdm-templates/03.06-procesmodellering/03.06.01-bpmn/index.html" title="BPMN (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/03-pdm-templates/03.06-procesmodellering/03.06.03-swimlane/index.html" title="Swimlane Diagram Template (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable template" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+<div class="R-taxonomy taxonomy-tags cstyle tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/tags/flowchart/index.html">Flowchart</a></li>
+    <li><a class="term-link" href="/tags/procesmodellering/index.html">Procesmodellering</a></li>
+    <li><a class="term-link" href="/tags/processtroom/index.html">Processtroom</a></li>
+    <li><a class="term-link" href="/tags/template/index.html">Template</a></li>
+    <li><a class="term-link" href="/tags/visualisatie/index.html">Visualisatie</a></li>
+  </ul>
+</div>
+  </header>
+
+<h1 id="flowchart">Flowchart</h1>
+
+<h4 id="inleiding">Inleiding<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Dit Flowchart-template biedt een gestructureerde aanpak voor het visueel modelleren van processen met behulp van eenvoudige flowcharts. Het doel is om:</p>
+<ul>
+<li>Duidelijkheid te scheppen over de stappen en beslissingen in een proces.</li>
+<li>Complexe processen op een eenvoudige en visuele manier weer te geven.</li>
+<li>Communicatie tussen stakeholders (management, uitvoerende teams, klanten) te verbeteren.</li>
+<li>Basis te leggen voor training, documentatie, en procesoptimalisatie.</li>
+</ul>
+<h4 id="eigenschappen">Eigenschappen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+          <th>Toelichting</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>03.06.02</td>
+          <td>Uniek identificatienummer voor deze flowchart in het Proces Management Document (PMD).</td>
+      </tr>
+      <tr>
+          <td>Versie</td>
+          <td>1</td>
+          <td>Huidige versie van dit document. Wordt geüpdaterd bij elke wijziging.</td>
+      </tr>
+      <tr>
+          <td>Status</td>
+          <td>concept</td>
+          <td>Mogelijke statussen: <em>concept</em>, <em>in review</em>, <em>goedgekeurd</em>, <em>gepubliceerd</em>, <em>verouderd</em>.</td>
+      </tr>
+      <tr>
+          <td>Auteur</td>
+          <td>[Naam]</td>
+          <td>De persoon of afdeling die deze flowchart heeft opgesteld (meestal de procesanalist).</td>
+      </tr>
+      <tr>
+          <td>Eigenaar</td>
+          <td>[Naam proceseigenaar]</td>
+          <td>Verantwoordelijk voor de inhoud en actualiteit van de flowchart.</td>
+      </tr>
+      <tr>
+          <td>Datum</td>
+          <td>17/04/2026</td>
+          <td>Datum van de laatste update.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="1-algemeen-overzicht">1. Algemeen Overzicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Geef hier een kort overzicht van het proces dat met de flowchart wordt gemodelleerd.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesnaam</td>
+          <td>[Naam van het proces, bijv. &ldquo;Orderverwerking&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>Procescategorie</td>
+          <td>[Primair / Ondersteunend / Sturend]</td>
+      </tr>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>[PMD-nummer van het proces]</td>
+      </tr>
+      <tr>
+          <td>Doel van het proces</td>
+          <td>[Korte beschrijving, bijv. &ldquo;Tijdige en accurate verwerking van klantorders&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>Scope</td>
+          <td>[Beschrijving van de reikwijdte, bijv. &ldquo;Van ontvangst klantorder tot bevestiging&rdquo;]</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="2-wanneer-een-flowchart-gebruiken">2. Wanneer een Flowchart Gebruiken?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Flowcharts zijn bijzonder geschikt voor:<br>
+✔ Eenvoudige processen met een lineaire stroom en beperkte beslissingen.<br>
+✔ Snelle visualisatie van processen voor niet-technische stakeholders.<br>
+✔ Training en uitleg van processen aan nieuwe medewerkers.<br>
+✔ Documentatie van korte, overzichtelijke processen.</p>
+<p>Niet geschikt voor:<br>
+✖ Complexe processen met veel parallelle paden of uitzonderingen (gebruik dan BPMN).<br>
+✖ Processen met veel interacties tussen verschillende afdelingen (gebruik dan Swimlane-diagrammen).</p>
+<h4 id="3-standaard-symbolen">3. Standaard Symbolen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Gebruik de volgende standaard symbolen voor je flowchart. Zorg voor consistentie in het gebruik van symbolen binnen je organisatie.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Symbool</th>
+          <th>Naam</th>
+          <th>Betekenis</th>
+          <th>Voorbeeld</th>
+          <th>BPMN-equivalent</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Ovaal</td>
+          <td>Ovaal</td>
+          <td>Start of einde van het proces.</td>
+          <td>&ldquo;Start&rdquo;, &ldquo;Einde&rdquo;</td>
+          <td>Start/End Event</td>
+      </tr>
+      <tr>
+          <td>Rechthoek</td>
+          <td>Rechthoek</td>
+          <td>Een activiteit of taak.</td>
+          <td>&ldquo;Order ontvangen&rdquo;, &ldquo;Validatie klantgegevens&rdquo;</td>
+          <td>Task</td>
+      </tr>
+      <tr>
+          <td>Ruit</td>
+          <td>Ruit</td>
+          <td>Een beslissing of keuzepunt.</td>
+          <td>&ldquo;Is de order compleet?&rdquo;</td>
+          <td>Exclusive Gateway</td>
+      </tr>
+      <tr>
+          <td>Pijl</td>
+          <td>Pijl</td>
+          <td>De richting van de processtroom.</td>
+          <td>→</td>
+          <td>Sequence Flow</td>
+      </tr>
+      <tr>
+          <td>Parallellogram</td>
+          <td>Parallellogram</td>
+          <td>Input of output.</td>
+          <td>&ldquo;Klantorder&rdquo;, &ldquo;Orderbevestiging&rdquo;</td>
+          <td>Data Object</td>
+      </tr>
+      <tr>
+          <td>Cilinder</td>
+          <td>Cilinder</td>
+          <td>Database of opslag.</td>
+          <td>&ldquo;ERP-systeem&rdquo;, &ldquo;Klantendatabase&rdquo;</td>
+          <td>Data Store</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="4-flowchart-template">4. Flowchart Template<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Gebruik de onderstaande structuur voor het opstellen van je flowchart. Je kunt dit tekstueel beschrijven of visueel weergeven met een tool zoals Lucidchart, Visio, of Mermaid.</p>
+<h5 id="tekstuele-weergave">Tekstuele Weergave<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>Start (Ovaal)
+↓
+[Activiteit 1: Ontvangst klantorder] (Rechthoek)
+↓
+{Beslissing: Is de order compleet?} (Ruit)
+├── Ja → [Activiteit 2: Genereren productieopdracht] (Rechthoek)
+└── Nee → [Activiteit 3: Aanvullen klantgegevens] (Rechthoek)
+↓
+[Activiteit 4: Versturen orderbevestiging] (Rechthoek)
+↓
+Einde (Ovaal)</code></pre></div>
+<h5 id="visuele-weergave-mermaid">Visuele Weergave (Mermaid)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<pre class="mermaid actionbar-wrapper align-center ">%% Flowchart voorbeeld - vervang door eigen diagram
+graph TD
+    A[Start] --&gt; B[Ontvangst klantorder]
+    B --&gt; C{Is de order compleet?}
+    C --&gt;|Ja| D[Genereren productieopdracht]
+    C --&gt;|Nee| E[Aanvullen klantgegevens]
+    E --&gt; B
+    D --&gt; F[Versturen orderbevestiging]
+    F --&gt; G[Einde]</pre>
+<h4 id="5-stappen-voor-het-opstellen-van-een-flowchart">5. Stappen voor het Opstellen van een Flowchart<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Volg deze stappen om een effectieve flowchart te maken:</p>
+<ol>
+<li>Definieer het proces:</li>
+</ol>
+<ul>
+<li>Bepaal welk proces je wilt modelleren en wat de scope is.</li>
+</ul>
+<ol>
+<li>Identificeer de start en einde:</li>
+</ol>
+<ul>
+<li>Bepaal waar het proces begint (Start Event) en waar het eindigt (End Event).</li>
+</ul>
+<ol>
+<li>Bepaal de hoofdactiviteiten:</li>
+</ol>
+<ul>
+<li>Lijst alle belangrijkste stappen in het proces op in logische volgorde.</li>
+</ul>
+<ol>
+<li>Voeg beslissingen toe:</li>
+</ol>
+<ul>
+<li>Identificeer keuzepunten in het proces en de opties die daaruit voortvloeien.</li>
+</ul>
+<ol>
+<li>Teken de stroom:</li>
+</ol>
+<ul>
+<li>Verbind de activiteiten en beslissingen met pijlen om de processtroom weer te geven.</li>
+</ul>
+<ol>
+<li>Voeg input/output toe:</li>
+</ol>
+<ul>
+<li>Geef aan wat de input is voor het proces en wat de output is.</li>
+</ul>
+<ol>
+<li>Review en valideer:</li>
+</ol>
+<ul>
+<li>Laat de flowchart reviewen door proceseigenaren en stakeholders.</li>
+</ul>
+<h4 id="6-voorbeeld-flowchart-voor-orderverwerking">6. Voorbeeld: Flowchart voor Orderverwerking<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="algemeen-overzicht">Algemeen Overzicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesnaam</td>
+          <td>Orderverwerking</td>
+      </tr>
+      <tr>
+          <td>Procescategorie</td>
+          <td>Primair</td>
+      </tr>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>PMD-01.01.00</td>
+      </tr>
+      <tr>
+          <td>Doel van het proces</td>
+          <td>Tijdige en accurate verwerking van klantorders.</td>
+      </tr>
+      <tr>
+          <td>Scope</td>
+          <td>Van ontvangst klantorder tot bevestiging aan klant.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="tekstuele-weergave-1">Tekstuele Weergave<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>Start (Ovaal)
+↓
+[Activiteit 1: Ontvangst klantorder via webshop] (Rechthoek)
+↓
+{Beslissing: Is de order compleet?} (Ruit)
+├── Ja → [Activiteit 2: Validatie klantgegevens] (Rechthoek)
+└── Nee → [Activiteit 3: Terugsturen naar klant voor aanvulling] (Rechthoek)
+↓
+[Activiteit 4: Genereren productieopdracht] (Rechthoek)
+↓
+{Beslissing: Is de voorraad voldoende?} (Ruit)
+├── Ja → [Activiteit 5: Versturen orderbevestiging] (Rechthoek)
+└── Nee → [Activiteit 6: Inkoop inschakelen] (Rechthoek)
+↓
+Einde (Ovaal)</code></pre></div>
+<h5 id="visuele-weergave-mermaid-1">Visuele Weergave (Mermaid)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<pre class="mermaid actionbar-wrapper align-center ">%% Flowchart voorbeeld - Orderverwerking
+graph TD
+    A[Start] --&gt; B[Ontvangst klantorder via webshop]
+    B --&gt; C{Is de order compleet?}
+    C --&gt;|Ja| D[Validatie klantgegevens]
+    C --&gt;|Nee| E[Terugsturen naar klant voor aanvulling]
+    E --&gt; B
+    D --&gt; F[Genereren productieopdracht]
+    F --&gt; G{Is de voorraad voldoende?}
+    G --&gt;|Ja| H[Versturen orderbevestiging]
+    G --&gt;|Nee| I[Inkoop inschakelen]
+    I --&gt; F
+    H --&gt; J[Einde]</pre>
+<h4 id="7-tips-voor-effectieve-flowcharts">7. Tips voor Effectieve Flowcharts<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ul>
+<li>Houd het eenvoudig: Beperk het aantal stappen en beslissingen per flowchart (max. 10-15 stappen).</li>
+<li>Gebruik standaard symbolen: Zorg voor consistentie in het gebruik van symbolen.</li>
+<li>Gebruik duidelijke labels: Elk symbool moet een duidelijke, beknopte label hebben.</li>
+<li>Voeg kleur toe (optioneel): Gebruik kleuren om verschillende typen stappen te onderscheiden (bijv. groen voor start, rood voor einde).</li>
+<li>Houd de stroom logisch: Zorg dat de pijlen een duidelijke, logische volgorde weergeven.</li>
+<li>Voeg een legende toe: Als je niet-standaard symbolen gebruikt, voeg dan een legende toe.</li>
+<li>Gebruik tools: Maak gebruik van flowchart-tools (bijv. Lucidchart, Visio, Draw.io, Mermaid) voor professionele diagrammen.</li>
+<li>Valideer met stakeholders: Laat de flowchart reviewen door proceseigenaren en uitvoerende teams.</li>
+</ul>
+<h4 id="8-veelgemaakte-fouten-en-hoe-ze-te-vermijden">8. Veelgemaakte Fouten en Hoe ze te Vermijden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Fout</th>
+          <th>Oorzaak</th>
+          <th>Oplossing</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Te complex</td>
+          <td>Te veel stappen en beslissingen in één flowchart.</td>
+          <td>Splits complexe processen op in meerdere flowcharts.</td>
+      </tr>
+      <tr>
+          <td>Onduidelijke labels</td>
+          <td>Labels zijn te vaag of te lang.</td>
+          <td>Gebruik korte, duidelijke labels (bijv. &ldquo;Valideer order&rdquo; in plaats van &ldquo;Controleer of de order correct is ingevuld&rdquo;).</td>
+      </tr>
+      <tr>
+          <td>Ontbrekende beslissingen</td>
+          <td>Beslissingspunten zijn niet gemodelleerd.</td>
+          <td>Voeg alle keuzemomenten toe als ruit-symbolen.</td>
+      </tr>
+      <tr>
+          <td>Circulaire referenties</td>
+          <td>Oneindige lussen in de flowchart.</td>
+          <td>Zorg voor een duidelijk einde en vermijd oneindige lussen.</td>
+      </tr>
+      <tr>
+          <td>Inconsistente symbolen</td>
+          <td>Verschillende symbolen voor hetzelfde type stap.</td>
+          <td>Gebruik standaard symbolen voor alle flowcharts.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="9-tools-voor-het-maken-van-flowcharts">9. Tools voor het Maken van Flowcharts<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Hier zijn enkele tools die je kunt gebruiken voor het maken van flowcharts:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Tool</th>
+          <th>Type</th>
+          <th>Voordelen</th>
+          <th>Nadelen</th>
+          <th>Link</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Lucidchart</td>
+          <td>Online</td>
+          <td>Gebruiksvriendelijk, samenwerking, integratie met andere tools.</td>
+          <td>Betaalde versie nodig voor gevorderde functies.</td>
+          <td><a href="https://www.lucidchart.com" rel="external">lucidchart.com</a></td>
+      </tr>
+      <tr>
+          <td>Microsoft Visio</td>
+          <td>Desktop</td>
+          <td>Professionele diagrammen, veel templates.</td>
+          <td>Duur, alleen voor Windows.</td>
+          <td><a href="https://www.microsoft.com/visio" rel="external">Microsoft Visio</a></td>
+      </tr>
+      <tr>
+          <td>Draw.io (nu Diagrams.net)</td>
+          <td>Online/Desktop</td>
+          <td>Gratis, eenvoudig, geen installatie nodig.</td>
+          <td>Minder geavanceerde functies.</td>
+          <td><a href="https://app.diagrams.net/" rel="external">diagrams.net</a></td>
+      </tr>
+      <tr>
+          <td>Mermaid</td>
+          <td>Code-based</td>
+          <td>Integreert met Markdown, geschikt voor ontwikkelaars.</td>
+          <td>Beperkte visuele aanpassingsmogelijkheden.</td>
+          <td><a href="https://mermaid.live/" rel="external">Mermaid Live Editor</a></td>
+      </tr>
+      <tr>
+          <td>Gliffy</td>
+          <td>Online</td>
+          <td>Makkelijk te gebruiken, integratie met Confluence/Jira.</td>
+          <td>Beperkte gratis versie.</td>
+          <td><a href="https://www.gliffy.com" rel="external">gliffy.com</a></td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="10-stakeholders-en-verantwoordelijkheden">10. Stakeholders en Verantwoordelijkheden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Geef hier een overzicht van wie betrokken is bij het opstellen en gebruik van de flowchart.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Rol</th>
+          <th>Verantwoordelijkheid</th>
+          <th>Betrokkenheid</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Proceseigenaar</td>
+          <td>Verantwoordelijk voor de inhoud en actualiteit van de flowchart.</td>
+          <td>Continu</td>
+      </tr>
+      <tr>
+          <td>Procesanalist</td>
+          <td>Stelt de flowchart op en zorgt voor consistentie.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>Uitvoerend team</td>
+          <td>Gebruikt de flowchart voor uitvoering van het proces.</td>
+          <td>Dagelijks</td>
+      </tr>
+      <tr>
+          <td>Management</td>
+          <td>Valideert de flowchart op strategische alignement.</td>
+          <td>Periodiek</td>
+      </tr>
+      <tr>
+          <td>Training &amp; Communicatie</td>
+          <td>Zorgt voor verspreiding en training op basis van de flowchart.</td>
+          <td>Periodiek</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="11-gerelateerde-documenten">11. Gerelateerde Documenten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Lijst hier alle gerelateerde documenten, zoals:</p>
+<ul>
+<li>[Link naar procesbeschrijving]</li>
+<li>[Link naar BPMN-diagram (indien van toepassing)]</li>
+<li>[Link naar werkinstructies]</li>
+<li>[Link naar proceslandkaart]</li>
+</ul>
+<h4 id="12-versiehistorie">12. Versiehistorie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Versie</th>
+          <th>Datum</th>
+          <th>Wijziging</th>
+          <th>Auteur</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1.0</td>
+          <td>17/04/2026</td>
+          <td>Initiële versie</td>
+          <td>[Naam]</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="13-instructies-voor-gebruik">13. Instructies voor Gebruik<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ol>
+<li>Kies het proces:</li>
+</ol>
+<ul>
+<li>Bepaal welk proces je wilt modelleren met een flowchart.</li>
+</ul>
+<ol>
+<li>Definieer de scope:</li>
+</ol>
+<ul>
+<li>Bepaal wat wel en niet in de flowchart moet worden opgenomen.</li>
+</ul>
+<ol>
+<li>Gebruik standaard symbolen:</li>
+</ol>
+<ul>
+<li>Kies de juiste symbolen voor start, activiteiten, beslissingen, en einde.</li>
+</ul>
+<ol>
+<li>Teken de hoofdstroom:</li>
+</ol>
+<ul>
+<li>Begin met de hoofdstappen van het proces.</li>
+</ul>
+<ol>
+<li>Voeg beslissingen toe:</li>
+</ol>
+<ul>
+<li>Identificeer keuzepunten en voeg deze toe als ruit-symbolen.</li>
+</ul>
+<ol>
+<li>Voeg input/output toe:</li>
+</ol>
+<ul>
+<li>Geef aan wat de input is en wat de output is.</li>
+</ul>
+<ol>
+<li>Maak een visuele weergave:</li>
+</ol>
+<ul>
+<li>Gebruik een tool (bijv. Lucidchart, Mermaid) om de flowchart visueel weer te geven.</li>
+</ul>
+<ol>
+<li>Valideer met stakeholders:</li>
+</ol>
+<ul>
+<li>Laat de flowchart reviewen door proceseigenaren en uitvoerende teams.</li>
+</ul>
+<h4 id="14-voorbeeld-flowchart-voor-klantenservice-proces">14. Voorbeeld: Flowchart voor Klantenservice Proces<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="algemeen-overzicht-1">Algemeen Overzicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesnaam</td>
+          <td>Klantenservice</td>
+      </tr>
+      <tr>
+          <td>Procescategorie</td>
+          <td>Ondersteunend</td>
+      </tr>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>PMD-02.01.00</td>
+      </tr>
+      <tr>
+          <td>Doel van het proces</td>
+          <td>Efficiënt afhandelen van klantvragen en -problemen.</td>
+      </tr>
+      <tr>
+          <td>Scope</td>
+          <td>Van ontvangst klantvraag tot oplossing of doorverwijzing.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="tekstuele-weergave-2">Tekstuele Weergave<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>Start (Ovaal)
+↓
+[Activiteit 1: Ontvangst klantvraag via telefoon/e-mail] (Rechthoek)
+↓
+{Beslissing: Is de vraag eenvoudig op te lossen?} (Ruit)
+├── Ja → [Activiteit 2: Directe oplossing bieden] (Rechthoek)
+└── Nee → [Activiteit 3: Doorverwijzen naar specialist] (Rechthoek)
+↓
+[Activiteit 4: Registreren afhandeling in CRM] (Rechthoek)
+↓
+{Beslissing: Is de klant tevreden?} (Ruit)
+├── Ja → [Activiteit 5: Afsluiten gesprek] (Rechthoek)
+└── Nee → [Activiteit 6: Escaleren naar manager] (Rechthoek)
+↓
+Einde (Ovaal)</code></pre></div>
+<h5 id="visuele-weergave-mermaid-2">Visuele Weergave (Mermaid)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<pre class="mermaid actionbar-wrapper align-center ">%% Flowchart voorbeeld - Klantenservice
+graph TD
+    A[Start] --&gt; B[Ontvangst klantvraag via telefoon/e-mail]
+    B --&gt; C{Is de vraag eenvoudig op te lossen?}
+    C --&gt;|Ja| D[Directe oplossing bieden]
+    C --&gt;|Nee| E[Doorverwijzen naar specialist]
+    D --&gt; F[Registreren afhandeling in CRM]
+    E --&gt; F
+    F --&gt; G{Is de klant tevreden?}
+    G --&gt;|Ja| H[Afsluiten gesprek]
+    G --&gt;|Nee| I[Escaleren naar manager]
+    H --&gt; J[Einde]
+    I --&gt; J</pre>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/01-methode/index.html"><a class="padding default-animation" href="/01-methode/index.html">Methode</a><ul id="R-subsections-73c5657de716354a63503660a5152d83" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/02-procesdocumentatiemodel/index.html"><a class="padding" href="/02-procesdocumentatiemodel/index.html">Het Procesdocumentatiemodel</a></li>
+            <li class="parent " data-nav-id="/03-pdm-templates/index.html"><a class="padding default-animation" href="/03-pdm-templates/index.html">PDM Templates</a><ul id="R-subsections-e099e37a0f2bd26aa2d219cd310eda07" class="collapsible-menu">
+            <li class="parent hidden alwaysopen " data-nav-id="/03-pdm-templates/03.06-procesmodellering/index.html"><a class="padding default-animation" href="/03-pdm-templates/03.06-procesmodellering/index.html">Procesmodellering</a><ul id="R-subsections-229a42caca3806a3f4b9b33816cf95b6" class="collapsible-menu">
+            <li class="" data-nav-id="/03-pdm-templates/03.06-procesmodellering/03.06.01-bpmn/index.html"><a class="padding" href="/03-pdm-templates/03.06-procesmodellering/03.06.01-bpmn/index.html">BPMN</a></li>
+            <li class="active " data-nav-id="/03-pdm-templates/03.06-procesmodellering/03.06.02-flowchart/index.html"><a class="padding" href="/03-pdm-templates/03.06-procesmodellering/03.06.02-flowchart/index.html">Flowchart</a></li>
+            <li class="" data-nav-id="/03-pdm-templates/03.06-procesmodellering/03.06.03-swimlane/index.html"><a class="padding" href="/03-pdm-templates/03.06-procesmodellering/03.06.03-swimlane/index.html">Swimlane Diagram Template</a></li>
+            <li class="" data-nav-id="/03-pdm-templates/03.06-procesmodellering/03.06.00-procesmodellering-master/index.html"><a class="padding" href="/03-pdm-templates/03.06-procesmodellering/03.06.00-procesmodellering-master/index.html">Procesmodellering</a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/04-bronnen-van-procesinformatie/index.html"><a class="padding" href="/04-bronnen-van-procesinformatie/index.html">Bronnen van procesinformatie</a></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding default-animation" href="/05-procesdocument/index.html">Het procesdocument</a><ul id="R-subsections-5c49dcae193485065049068268687701" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over de Procesdocumentalist</a></li>
+            <li class="" data-nav-id="/10-artikelen/index.html"><a class="padding" href="/10-artikelen/index.html">Artikelen</a></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-color.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1776863172" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1776863172" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776863172" defer></script>
+    <script src="/js/theme.js?1776863172" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

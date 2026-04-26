@@ -1,0 +1,165 @@
+---
+title: Begrippenlijst
+weight: 3
+hidden: true
+---
+
+### A
+
+
+---
+
+### B
+
+Bronnen van procesinformatie
+: Bronnen van procesinformatie zijn alle inputbronnen waaruit kennis over een proces wordt gehaald, zoals interviews, documentatie, observaties, systemen en rapportages.
+
+---
+
+### C
+
+Procescontext
+: Procescontext is de omgeving waarin een proces functioneert, inclusief systemen, regels, data, stakeholders en externe invloeden.
+
+---
+
+### D
+
+Procesdocument
+: Een procesdocument is de gestructureerde en gevalideerde beschrijving van een proces, opgebouwd volgens PDM-templates en gebaseerd op bronnen van procesinformatie.
+
+Procesdocumentatie
+: Procesdocumentatie is het geheel van gestructureerde vastlegging van procesinformatie, inclusief context, structuur, uitvoering, sturing en verbetering.
+
+Procesdocumentatieplatform
+: Het procesdocumentatieplatform is de omgeving waarin procesdocumentatie wordt opgeslagen, beheerd, gepubliceerd en beschikbaar gesteld aan de organisatie.
+
+Procesdocumentalist
+: De procesdocumentalist is de professional die verantwoordelijk is voor het verzamelen, structureren, modelleren en onderhouden van procesdocumentatie binnen het PDM.
+
+---
+
+### G
+
+Procesarchitectuur
+: Procesarchitectuur is de gestructureerde ordening van alle processen binnen een organisatie, inclusief hun onderlinge relaties en hiërarchie.
+
+---
+
+### H
+
+Proceshiërarchie
+: Proceshiërarchie is de gelaagde structuur van processen, van procesgroepen tot hoofdprocessen, deelprocessen, activiteiten en taken.
+
+---
+
+### K
+
+KPI (Key Performance Indicator)
+: Een KPI is een meetbare indicator die de prestaties van een proces weergeeft ten opzichte van vooraf vastgestelde doelen.
+
+Kwaliteitsborging
+: Kwaliteitsborging is het geheel van activiteiten dat ervoor zorgt dat processen en procesdocumentatie voldoen aan vastgestelde kwaliteitsnormen.
+
+---
+
+### L
+
+Lessons learned
+: Lessons learned zijn vastgelegde inzichten uit eerdere proceservaringen die worden gebruikt om toekomstige processen te verbeteren.
+ 
+---
+
+### M
+
+Modelleerconventies
+: Modelleerconventies zijn vaste afspraken en regels voor het consistent modelleren van processen, zodat diagrammen uniform en begrijpelijk blijven.
+
+Monitoring
+: Monitoring is het continu volgen van procesprestaties om afwijkingen, trends en knelpunten tijdig te signaleren.
+
+---
+
+### P
+
+Proces
+: Een proces is een geordende reeks activiteiten die input omzet in output om waarde te leveren voor een klant of stakeholder.
+
+Procesdocumentalist
+: Een professional die gespecialiseerd is in het systematisch analyseren, structureren en vastleggen van bedrijfsprocessen in de vorm van consistente en onderhoudbare procesdocumentatie.
+
+Procesdoel
+: Het procesdoel beschrijft de reden van bestaan van een proces en de waarde die het proces levert.
+
+Proceseigenaar
+: De proceseigenaar is eindverantwoordelijk voor het resultaat, de prestaties en de inhoudelijke inrichting van een proces.
+
+Proceseigenschappen
+: Proceseigenschappen vormen de beschrijvende informatie over een proces, zoals eigenaar, status, versie en relaties met andere processen.
+
+Proceslandkaart
+: Een proceslandkaart is een visuele weergave van de belangrijkste processen binnen een organisatie, gegroepeerd in primaire, ondersteunende en sturende processen.
+
+Procesmodellering
+: Procesmodellering is het visueel en gestructureerd beschrijven van een proces in termen van activiteiten, volgorde, beslissingen en verantwoordelijkheden.
+
+Procesanalyse
+: Procesanalyse is het onderzoeken van processen om prestaties, knelpunten en verbeterkansen te identificeren.
+
+Procesbeheer
+: Procesbeheer is het geheel van afspraken, rollen en processen waarmee processen en procesdocumentatie worden bestuurd en onderhouden.
+
+Processturing
+: Processturing omvat het meten, bewaken en beheersen van procesprestaties om doelen te realiseren.
+
+Procesuitwerking
+: Procesuitwerking is de gedetailleerde beschrijving van hoe een proces wordt uitgevoerd, inclusief activiteiten, rollen en werkinstructies.
+
+Procesdocumentatiemodel (PDM)
+: Het Procesdocumentatiemodel is een methodisch raamwerk voor het structureren, vastleggen en beheren van procesdocumentatie.
+
+Publicatieproces
+: Het publicatieproces is het proces waarmee goedgekeurde procesdocumentatie beschikbaar wordt gesteld binnen de organisatie.
+
+---
+
+### R
+
+RACI-model
+: Het RACI-model is een methode om verantwoordelijkheden toe te wijzen aan rollen binnen een proces Responsible, Accountable, Consulted en Informed.
+
+Rapportage
+: Rapportage is het gestructureerd communiceren van procesprestaties en analyses aan belanghebbenden.
+
+Reviewproces
+: Het reviewproces is de evaluatie van procesdocumentatie om actualiteit, volledigheid en juistheid te waarborgen.
+
+---
+
+### T
+
+Templates (PDM Templates)
+: Templates zijn gestandaardiseerde structuren die bepalen hoe procesinformatie wordt vastgelegd binnen het PDM.
+
+---
+
+### V
+
+Verbeterinitiatief
+: Een verbeterinitiatief is een voorstel tot wijziging in een proces gericht op verbetering van kwaliteit, efficiëntie of effectiviteit.
+
+Verbeteractie
+: Een verbeteractie is de concrete uitvoering van een verbeterinitiatief binnen een proces.
+
+Versiebeheer
+: Versiebeheer is het systematisch vastleggen en beheren van wijzigingen in procesdocumentatie over tijd.
+
+---
+
+### W
+
+Werkinstructie
+: Een werkinstructie is een gedetailleerde beschrijving van hoe een specifieke taak binnen een proces wordt uitgevoerd.
+
+Wijzigingsbeheer
+: Wijzigingsbeheer is het gecontroleerde proces voor het doorvoeren van aanpassingen in processen en procesdocumentatie.

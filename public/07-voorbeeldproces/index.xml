@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Voorbeeldproces :: Proces Documentalist</title>
+    <link>http://localhost:1313/07-voorbeeldproces/index.html</link>
+    <description>Hoe ziet goede procesdocumentatie er in de praktijk uit?&#xA;Om dat te laten zien bevat deze website een volledig uitgewerkt voorbeeldproces. In dit voorbeeld wordt stap voor stap zichtbaar hoe een proces wordt vastgelegd met behulp van het Procesdocumentatiemodel (PDM).&#xA;Het voorbeeld laat niet alleen een procesdiagram zien, maar de volledige structuur van procesdocumentatie: van context en doel tot procesmodellering, sturing en verbetering.&#xA;Waarom een voorbeeldproces?&#xD;Procesdocumentatie wordt vaak beperkt tot een procesdiagram of een werkinstructie. Het Procesdocumentatiemodel gaat verder. Het beschrijft processen in hun volledige samenhang, zodat duidelijk wordt:</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/07-voorbeeldproces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesdocumentatiebeheer</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.01-procesdocumentatiebeheer/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.01-procesdocumentatiebeheer/index.html</guid>
+      <description>#07.01.01 Procesdocumentatiebeheer Master #07.01.02 Wijzigingslog #07.01.03 Wijzigingsverzoek</description>
+    </item>
+    <item>
+      <title>Procesarchitectuur</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.02-procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.02-procesarchitectuur/index.html</guid>
+      <description>Processen&#xA;2.1 Procesarchitectuur Master 2.2 Proceslandkaart 2.3 Proceshiërarchie 2.4 Procesinventarisatie 2.5 Procesinteractie</description>
+    </item>
+    <item>
+      <title>Procescontext</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.04-procescontext/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.04-procescontext/index.html</guid>
+      <description>Processen&#xA;4.1 Procescontext Master 4.2 Procesinput-output</description>
+    </item>
+    <item>
+      <title>procesdocument</title>
+      <link>http://localhost:1313/07-voorbeeldproces/procesdocument-telecompro---orderverwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/procesdocument-telecompro---orderverwerking/index.html</guid>
+      <description>1 Procesdocumentatiebeheer&#xD;1.1 Procesdocumentatiebeheer Master&#xD;title: Procesdocumentatiebeheer weight: 1 description: Beheer van alle procesdocumentatie binnen TelecomPro B.V., inclusief versiebeheer, toegang, en onderhoud. type: template tags:&#xA;procesdocumentatiebeheer PDM versiebeheer TelecomPro 1.1.1 Inleiding&#xD;Dit document beschrijft hoe procesdocumentatie binnen TelecomPro B.V. wordt beheerd. Het doel is om:</description>
+    </item>
+    <item>
+      <title>Procesdoel</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.03-procesdoel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.03-procesdoel/index.html</guid>
+      <description>3.1 Procesdoel Master</description>
+    </item>
+    <item>
+      <title>Proceseigenschappen</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.05-proceseigenschappen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.05-proceseigenschappen/index.html</guid>
+      <description>Processen&#xA;07.05.00 Proceseigenschappen Master 07.05.01 Procesbegrippen</description>
+    </item>
+    <item>
+      <title>Procesmodellering</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/index.html</guid>
+      <description>Processen&#xA;07.06.01 Procesmodellering Master 07.06.02 BPM Diagram 07.06.03 Swimlane Diagram 07.06.04 Flowchart Diagram</description>
+    </item>
+    <item>
+      <title>Processturing</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.08-processturing/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.08-processturing/index.html</guid>
+      <description>Procesen&#xA;8.1 Procesbesturing Master 8.1 Procesbesturing Master 8.3 KPI’s 8.4 KPI Definitie 8.5 Procesdashboard 8.6 Procesreview</description>
+    </item>
+    <item>
+      <title>Procesuitwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/index.html</guid>
+      <description>Processen&#xA;7.1 Procesuitwerking Master 7.2 Procesuitwerking Master 7.3 Procesbeschrijving 7.4 Werkinstructie 7.5 RACI-Matrix 7.6 Procesrollen</description>
+    </item>
+    <item>
+      <title>Procesverbetering</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.09-procesverbetering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.09-procesverbetering/index.html</guid>
+      <description>Processen&#xA;9.1 Procesverbetering Master 9.3 Root Cause Analysis 9.4 Procesverbeterplan</description>
+    </item>
+    <item>
+      <title>TelecomPro B.V.</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.00-introducing-telecompro/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.00-introducing-telecompro/index.html</guid>
+      <description>Slogan: Slimme Connectie, Betrouwbare Dienstverlening&#xA;[[/images/markup/telecompro.jpeg]]&#xA;Bedrijfsprofiel&#xD;Categorie Beschrijving Naam TelecomPro B.V. Sector Telecom (B2B) Opgericht 1995 Hoofdvestiging Rotterdam, Nederland Aantal medewerkers 250 Omzet (2025) €85 miljoen Kernactiviteiten Levering van zakelijke telecomdiensten, waaronder: Missie : “Wij leveren betrouwbare, innovatieve telecomoplossingen die bedrijven helpen om efficiënter en flexibeler te werken.” Visie: “De voorkeurspartner zijn voor zakelijke telecom in Nederland door uitstekende service, technologische leiderschap, en klantgerichte oplossingen.” Kernwaarden: Betrouwbaarheid, Innovatie, Klantgerichtheid, Samenwerking, Kwaliteit Doelgroep | MKB-bedrijven (50-500 medewerkers) en grote ondernemingen in Nederland. USP’s | - 24/7 klantenservice met SLA’s van 99,9% beschikbaarheid. Diensten&#xD;Vaste telefonie (VoIP, SIP-trunking)</description>
+    </item>
+  </channel>
+</rss>

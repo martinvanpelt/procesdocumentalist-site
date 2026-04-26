@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://localhost:1313/de-procesdocumentalist/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.01-definitie/index.html</link>
+    <description>Het Procesdocumentatiemodel (PDM) is een gestructureerd raamwerk voor het systematisch vastleggen, beheren en verbeteren van bedrijfsprocessen. Het model beschrijft welke informatie nodig is om een proces volledig te documenteren en hoe deze informatie logisch kan worden georganiseerd.&#xA;Het PDM ordent procesdocumentatie in een samenhangende structuur van lagen, die beginnen bij de context en het doel van een proces, en vervolgens de architectuur, modellering en gedetailleerde uitwerking van het proces beschrijven. Daarnaast omvat het model de sturing, analyse en continue verbetering van processen.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/de-procesdocumentalist/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.01-definitie/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesuitwerking :: Proces Documentalist</title>
+    <link>http://localhost:1313/01-aanpak/03-templates/03.07-procesuitwerking/index.html</link>
+    <description>Templates voor het inhoudelijk beschrijven van processen.&#xA;Procesuitwerking Procesbeschrijving Werkinstructie RACI-Matrix Procesrollen Deze templates zorgen ervoor dat processen niet alleen visueel, maar ook inhoudelijk duidelijk zijn.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/01-aanpak/03-templates/03.07-procesuitwerking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesbeschrijving</title>
+      <link>http://localhost:1313/01-aanpak/03-templates/03.07-procesuitwerking/03.07.01-procesbeschrijving/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/03-templates/03.07-procesuitwerking/03.07.01-procesbeschrijving/index.html</guid>
+      <description>Template voor het gedetailleerd beschrijven van processen, inclusief doel, scope, stappen, systemen, KPI&#39;s en risico&#39;s. Ontworpen voor integratie met BPMN, Swimlane, en andere modelleertechnieken.</description>
+    </item>
+    <item>
+      <title>Werkinstructie</title>
+      <link>http://localhost:1313/01-aanpak/03-templates/03.07-procesuitwerking/03.07.02-werkinstructie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/03-templates/03.07-procesuitwerking/03.07.02-werkinstructie/index.html</guid>
+      <description>Template voor het opstellen van gedetailleerde werkinstructies, inclusief doel, toepassingsgebied, stappen, systemen, en controlepunten.</description>
+    </item>
+    <item>
+      <title>RACI Matrix</title>
+      <link>http://localhost:1313/01-aanpak/03-templates/03.07-procesuitwerking/03.07.03-raci-matrix/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/03-templates/03.07-procesuitwerking/03.07.03-raci-matrix/index.html</guid>
+      <description>Template voor het definieren van rollen en verantwoordelijkheden in processen met behulp van de RACI-methode (Responsible, Accountable, Consulted, Informed).</description>
+    </item>
+    <item>
+      <title>Procesrollen</title>
+      <link>http://localhost:1313/01-aanpak/03-templates/03.07-procesuitwerking/03.07.04-procesrollen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/03-templates/03.07-procesuitwerking/03.07.04-procesrollen/index.html</guid>
+      <description>Template voor het definieren van procesrollen, inclusief verantwoordelijkheden, betrokken processen, competenties, en koppeling met andere documentatie.</description>
+    </item>
+    <item>
+      <title>Procesuitwerking</title>
+      <link>http://localhost:1313/01-aanpak/03-templates/03.07-procesuitwerking/03.07.00-procesuitwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/03-templates/03.07-procesuitwerking/03.07.00-procesuitwerking/index.html</guid>
+      <description>Template voor de gedetailleerde uitwerking van een proces, inclusief beschrijving, rollen, werkinstructies, en output. Ontworpen voor praktische toepassing en integratie met BPMN, Swimlane, en andere modelleertechnieken.</description>
+    </item>
+  </channel>
+</rss>

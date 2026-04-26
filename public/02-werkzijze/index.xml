@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Werkwijze :: Proces Documentalist</title>
+    <link>http://localhost:1313/02-werkzijze/index.html</link>
+    <description>Mijn aanpak om organisaties te helpen hun processen helder, consistent en beheersbaar te documenteren op basis van het Procesdocumentatiemodel (PDM).</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/02-werkzijze/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesverkenning</title>
+      <link>http://localhost:1313/02-werkzijze/02.01-procesverkenning/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-werkzijze/02.01-procesverkenning/index.html</guid>
+      <description>Elke opdracht begint met het begrijpen van de praktijk.&#xA;Ik verzamel informatie uit verschillende bronnen:&#xA;interviews met proceseigenaren en medewerkers workshops waarin processen gezamenlijk worden uitgewerkt en gevalideerd bestaande documentatie (beleid, werkinstructies, procedures) systemen en rapportages observatie van de dagelijkse praktijk (indien nodig) Het doel is om niet alleen het formele proces te begrijpen, maar ook de feitelijke uitvoering in de organisatie.</description>
+    </item>
+    <item>
+      <title>Structureren van procesinformatie</title>
+      <link>http://localhost:1313/02-werkzijze/02.02-structureren-van-procesinformatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-werkzijze/02.02-structureren-van-procesinformatie/index.html</guid>
+      <description>De verzamelde informatie wordt vervolgens geanalyseerd en gestructureerd.&#xA;Hierbij vormt het Procesdocumentatiemodel het inhoudelijke raamwerk.&#xA;Het model zorgt ervoor dat procesinformatie niet versnipperd blijft, maar wordt opgebouwd in samenhangende onderdelen, zoals:&#xA;procescontext procesdoel procesarchitectuur governance sturing analyse en verbetering Zo ontstaat een consistente en navigeerbare structuur van procesinformatie.</description>
+    </item>
+    <item>
+      <title>Vastleggen en standaardiseren</title>
+      <link>http://localhost:1313/02-werkzijze/02.03-vastleggen-en-standaardiseren/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-werkzijze/02.03-vastleggen-en-standaardiseren/index.html</guid>
+      <description>De gestructureerde procesinformatie wordt vervolgens vastgelegd in gestandaardiseerde templates.&#xA;Deze templates zorgen voor:&#xA;consistente opbouw van alle procesdocumentatie herkenbaarheid voor gebruikers onderhoudbaarheid op de lange termijn herbruikbaarheid binnen de organisatie Elke proceslaag krijgt een passende uitwerking, afgestemd op het type proces en het detailniveau.</description>
+    </item>
+    <item>
+      <title>Validatie en afstemming</title>
+      <link>http://localhost:1313/02-werkzijze/02.04-validatie-en-afstemming/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-werkzijze/02.04-validatie-en-afstemming/index.html</guid>
+      <description>Procesdocumentatie wordt altijd gevalideerd met de organisatie.&#xA;Dit gebeurt via:&#xA;review sessies met proceseigenaren validatie van processtappen en verantwoordelijkheden aanscherpen van inconsistenties of onduidelijkheden Zo wordt geborgd dat de documentatie niet alleen klopt op papier, maar ook aansluit op de praktijk.</description>
+    </item>
+  </channel>
+</rss>

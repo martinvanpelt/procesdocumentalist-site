@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hulpmiddelen :: Proces Documentalist</title>
+    <link>http://localhost:1313/11-hulpmiddelen/index.html</link>
+    <description>Gereedschap&#xD;Gereedschap&#xA;Checklists&#xD;Checklists</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/11-hulpmiddelen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Checklists</title>
+      <link>http://localhost:1313/11-hulpmiddelen/11.03-checklists/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/11-hulpmiddelen/11.03-checklists/index.html</guid>
+      <description>Checklists&#xD;Checklist selectie procesbetrokkenen De documentalist kan de checklists gebruiken als een verplichte intake-fase. Door eerst deze vragen te beantwoorden, wordt de kwaliteit van het uiteindelijke procesdocument significant verbeterd en worden vermeden onnodige herzieningen in latere fasen.&#xA;Checklist voor Procesdocumentatie Intake Checklist bepaling context en scope Checklist procesmapping Checklist validatie en governance</description>
+    </item>
+    <item>
+      <title>Gereedschap</title>
+      <link>http://localhost:1313/11-hulpmiddelen/11.01-gereedschap/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/11-hulpmiddelen/11.01-gereedschap/index.html</guid>
+      <description>Gereedschap&#xA;Gereedschap voor de Procesdocumentalist Gereedschap voor processturing via dashboards</description>
+    </item>
+  </channel>
+</rss>

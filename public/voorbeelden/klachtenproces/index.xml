@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Klachtenproces :: Proces Documentalist</title>
+    <link>http://localhost:1313/voorbeelden/klachtenproces/index.html</link>
+    <description>Dit voorbeeld laat zien hoe procesdocumentatie kan worden opgebouwd.&#xA;De documentatie bestaat uit:&#xA;procesarchitectuur procesmodellering procesdocumentatie processturing Disclaimer&#xD;De voorbeelden op deze website zijn fictieve of geanonimiseerde illustraties van procesdocumentatie. Ze zijn bedoeld om de werkwijze en documentatiestructuur te demonstreren en bevatten geen informatie van opdrachtgevers of werkgevers.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/voorbeelden/klachtenproces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesarchitectuur</title>
+      <link>http://localhost:1313/voorbeelden/klachtenproces/procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeelden/klachtenproces/procesarchitectuur/index.html</guid>
+      <description>Doel: Klanttevredenheid behouden door klachten efficiënt af te handelen.&#xA;Scope: Van ontvangst klacht tot terugkoppeling en afsluiting.&#xA;Hoofdproces: Klantenservice&#xA;Subprocessen: Klacht ontvangen, Registreren, Analyseren, Afhandelen, Terugkoppelen&#xA;Rollen: Klantenservice, Productbeheer, Management</description>
+    </item>
+    <item>
+      <title>Procesmodellering</title>
+      <link>http://localhost:1313/voorbeelden/klachtenproces/procesmodellering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeelden/klachtenproces/procesmodellering/index.html</guid>
+      <description>flowchart LR&#xD;A[Klacht ontvangen] --&gt; B[Klacht registreren]&#xD;B --&gt; C[Klacht analyseren]&#xD;C --&gt; D[Actie ondernemen]&#xD;D --&gt; E[Terugkoppeling klant]</description>
+    </item>
+    <item>
+      <title>Procesdocumentatie</title>
+      <link>http://localhost:1313/voorbeelden/klachtenproces/procesdocumentatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeelden/klachtenproces/procesdocumentatie/index.html</guid>
+      <description>Stap Beschrijving Rollen Input Output Klacht ontvangen Klant meldt klacht via telefoon, mail of formulier Klantenservice Klantmelding Klachtregistratie Klacht registreren Registreren in klachtenlog Klantenservice Klachtmelding Geregistreerde klacht Klacht analyseren Oorzaak identificeren, wie/waar/hoe Klantenservice / Productbeheer Geregistreerde klacht Analyse rapport Actie ondernemen Oplossing implementeren Klantenservice / Productbeheer Analyse rapport Opgeloste klacht Terugkoppeling klant Communiceren van oplossing Klantenservice Opgeloste klacht Klant tevreden</description>
+    </item>
+    <item>
+      <title>Processturing</title>
+      <link>http://localhost:1313/voorbeelden/klachtenproces/processturing/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeelden/klachtenproces/processturing/index.html</guid>
+      <description>KPI’s:&#xA;Gemiddelde reactietijd op klacht Afhandelingspercentage binnen SLA Herhaalklachten Klanttevredenheid Analyse: Bottleneck-analyse, trends klachten per product&#xA;Verbeteracties: FAQ uitbreiden, klachtenformulier optimaliseren, training klantcontact</description>
+    </item>
+  </channel>
+</rss>

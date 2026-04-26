@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proceseigenschappen :: Tag :: Procesdocumentalist</title>
+    <link>http://localhost:1313/tags/proceseigenschappen/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/tags/proceseigenschappen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proceseigenschappen Master</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.05-proceseigenschappen/07.05.00-proceseigenschappen-master/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.05-proceseigenschappen/07.05.00-proceseigenschappen-master/index.html</guid>
+      <description>Master template voor het documenteren van algemene eigenschappen van processen binnen TelecomPro B.V.</description>
+    </item>
+    <item>
+      <title>Procesbegrippen</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.05-proceseigenschappen/07.05.01-procesbegrippen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.05-proceseigenschappen/07.05.01-procesbegrippen/index.html</guid>
+      <description>Glossarium van procesgerelateerde begrippen bij TelecomPro B.V.</description>
+    </item>
+    <item>
+      <title>Proceseigenschappen</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.05-proceseigenschappen/03.05.00-proceseigenschappen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.05-proceseigenschappen/03.05.00-proceseigenschappen/index.html</guid>
+      <description>Template voor het vastleggen van metadata van een proces, inclusief identificatie, eigenschappen, relaties en versiebeheer.</description>
+    </item>
+    <item>
+      <title>Procesbegrippen</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.05-proceseigenschappen/03.05.01-procesbegrippen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.05-proceseigenschappen/03.05.01-procesbegrippen/index.html</guid>
+      <description>Template voor het definieren en documenteren van begrippen en terminologie binnen procesdocumentatie, om eenduidigheid en begrip te waarborgen.</description>
+    </item>
+  </channel>
+</rss>

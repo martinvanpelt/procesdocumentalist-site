@@ -1,0 +1,98 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6" pages="3">
+  <diagram name="Mijn Aanpak" id="CO9fPCrxsKEGWXEXRTGd">
+    <mxGraphModel dx="1186" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#202020" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LuTqzTCBnFcyeR8aNahi-5" edge="1" parent="1" source="LuTqzTCBnFcyeR8aNahi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" target="LuTqzTCBnFcyeR8aNahi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LuTqzTCBnFcyeR8aNahi-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#7dc903, #ededed);fontColor=light-dark(#202020,#EDEDED);strokeColor=#FFFFFF;fontFamily=Verdana;" value="&lt;b&gt;Fase 1&lt;/b&gt;&lt;br&gt;Inzicht &amp;amp; Structuur" vertex="1">
+          <mxGeometry height="60" width="170" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuTqzTCBnFcyeR8aNahi-6" edge="1" parent="1" source="LuTqzTCBnFcyeR8aNahi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" target="LuTqzTCBnFcyeR8aNahi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LuTqzTCBnFcyeR8aNahi-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#7dc903, #ededed);fontColor=light-dark(#202020,#EDEDED);strokeColor=#FFFFFF;fontFamily=Verdana;" value="&lt;b&gt;Fase 2&lt;/b&gt;&lt;br&gt;Procesdocumentatie" vertex="1">
+          <mxGeometry height="60" width="170" x="240" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuTqzTCBnFcyeR8aNahi-7" edge="1" parent="1" source="LuTqzTCBnFcyeR8aNahi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" target="LuTqzTCBnFcyeR8aNahi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LuTqzTCBnFcyeR8aNahi-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#7dc903, #ededed);fontColor=light-dark(#202020,#EDEDED);strokeColor=#FFFFFF;fontFamily=Verdana;" value="&lt;b&gt;Fase 3&lt;/b&gt;&lt;br&gt;KPI&#39;s en Kwaliteitsborging" vertex="1">
+          <mxGeometry height="60" width="170" x="440" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LuTqzTCBnFcyeR8aNahi-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#7dc903, #ededed);fontColor=light-dark(#202020,#EDEDED);strokeColor=#FFFFFF;fontFamily=Verdana;" value="&lt;b&gt;Fase 4&lt;/b&gt;&lt;br&gt;Procesverbetering" vertex="1">
+          <mxGeometry height="60" width="170" x="640" y="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="T8Hd_CjVJ5m6sD8piB_q" name="Aanpak">
+    <mxGraphModel dx="970" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#202020, #121212)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s0Y8kduuB934YOIgU_WB-1" edge="1" parent="1" source="s0Y8kduuB934YOIgU_WB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" target="s0Y8kduuB934YOIgU_WB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s0Y8kduuB934YOIgU_WB-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#7dc903, #ededed);fontColor=light-dark(#202020,#EDEDED);strokeColor=#FFFFFF;fontFamily=Verdana;verticalAlign=top;spacingBottom=0;spacingTop=12;" value="&lt;b&gt;Procesarchitectuur&lt;/b&gt;&lt;br&gt;Overzicht van processen &lt;br&gt;en relaties" vertex="1">
+          <mxGeometry height="100" width="170" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s0Y8kduuB934YOIgU_WB-3" edge="1" parent="1" source="s0Y8kduuB934YOIgU_WB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" target="s0Y8kduuB934YOIgU_WB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s0Y8kduuB934YOIgU_WB-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#7dc903, #ededed);fontColor=light-dark(#202020,#EDEDED);strokeColor=#FFFFFF;fontFamily=Verdana;verticalAlign=top;spacingBottom=0;spacingTop=12;" value="&lt;b&gt;Procesmodellering&lt;/b&gt;&lt;br&gt;Visualiseren in &lt;br&gt;diagrammen" vertex="1">
+          <mxGeometry height="100" width="170" x="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s0Y8kduuB934YOIgU_WB-5" edge="1" parent="1" source="s0Y8kduuB934YOIgU_WB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" target="s0Y8kduuB934YOIgU_WB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s0Y8kduuB934YOIgU_WB-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#7dc903, #ededed);fontColor=light-dark(#202020,#EDEDED);strokeColor=#FFFFFF;fontFamily=Verdana;verticalAlign=top;spacingBottom=0;spacingTop=12;" value="&lt;b&gt;Procesuitwerking&lt;/b&gt;&lt;br&gt;Uitwerken van processtappen, rollen en verantwoordelijkheden" vertex="1">
+          <mxGeometry height="100" width="170" x="440" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s0Y8kduuB934YOIgU_WB-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#7dc903, #ededed);fontColor=light-dark(#202020,#EDEDED);strokeColor=#FFFFFF;fontFamily=Verdana;verticalAlign=top;spacingBottom=0;spacingTop=12;" value="&lt;b&gt;Processturing&lt;/b&gt;&lt;br&gt;Meten van KPI&#39;s en&lt;div&gt;continue verbetering&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="640" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9AA6QPucKlhul9uYDxxn" name="Aanpak-Procesmodellering">
+    <mxGraphModel dx="970" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JV-GNmTq5cQ6vitf0MCp-1" edge="1" parent="1" source="JV-GNmTq5cQ6vitf0MCp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" target="JV-GNmTq5cQ6vitf0MCp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-GNmTq5cQ6vitf0MCp-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#7dc903, #ededed);fontColor=light-dark(#202020,#EDEDED);strokeColor=#FFFFFF;fontFamily=Verdana;verticalAlign=top;spacingBottom=0;spacingTop=12;" value="&lt;b&gt;Procesarchitectuur&lt;/b&gt;&lt;br&gt;Overzicht van processen &lt;br&gt;en relaties" vertex="1">
+          <mxGeometry height="100" width="170" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-GNmTq5cQ6vitf0MCp-3" edge="1" parent="1" source="JV-GNmTq5cQ6vitf0MCp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" target="JV-GNmTq5cQ6vitf0MCp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-GNmTq5cQ6vitf0MCp-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#7dc903, #ededed);fontColor=light-dark(#202020,#EDEDED);strokeColor=#FFFFFF;fontFamily=Verdana;verticalAlign=top;spacingBottom=0;spacingTop=12;" value="&lt;b&gt;Procesmodellering&lt;/b&gt;&lt;br&gt;Visualiseren in &lt;br&gt;diagrammen" vertex="1">
+          <mxGeometry height="100" width="170" x="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-GNmTq5cQ6vitf0MCp-5" edge="1" parent="1" source="JV-GNmTq5cQ6vitf0MCp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;" target="JV-GNmTq5cQ6vitf0MCp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-GNmTq5cQ6vitf0MCp-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#7dc903, #ededed);fontColor=light-dark(#202020,#EDEDED);strokeColor=#FFFFFF;fontFamily=Verdana;verticalAlign=top;spacingBottom=0;spacingTop=12;" value="&lt;b&gt;Procesuitwerking&lt;/b&gt;&lt;br&gt;Uitwerken van processtappen, rollen en verantwoordelijkheden" vertex="1">
+          <mxGeometry height="100" width="170" x="440" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-GNmTq5cQ6vitf0MCp-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#7dc903, #ededed);fontColor=light-dark(#202020,#EDEDED);strokeColor=#FFFFFF;fontFamily=Verdana;verticalAlign=top;spacingBottom=0;spacingTop=12;" value="&lt;b&gt;Processturing&lt;/b&gt;&lt;br&gt;Meten van KPI&#39;s en&lt;div&gt;continue verbetering&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="640" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-GNmTq5cQ6vitf0MCp-10" edge="1" parent="1" source="JV-GNmTq5cQ6vitf0MCp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JV-GNmTq5cQ6vitf0MCp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-GNmTq5cQ6vitf0MCp-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Order&lt;br&gt;ontvangen" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-GNmTq5cQ6vitf0MCp-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Order&lt;br&gt;Controleren" vertex="1">
+          <mxGeometry height="100" width="100" x="180" y="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procescontext :: Proces Documentalist</title>
+    <link>http://localhost:1313/procesdocumentatiemodel/procescontext/index.html</link>
+    <description>De procescontext beschrijft de randvoorwaarden waarbinnen een proces bestaat, wordt gestart en uitgevoerd.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/procesdocumentatiemodel/procescontext/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scope en afbakening</title>
+      <link>http://localhost:1313/procesdocumentatiemodel/procescontext/scope-en-afbakening/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/procesdocumentatiemodel/procescontext/scope-en-afbakening/index.html</guid>
+      <description>Definitie van wat wel en niet tot het proces behoort.</description>
+    </item>
+    <item>
+      <title>Triggers en inputs</title>
+      <link>http://localhost:1313/procesdocumentatiemodel/procescontext/triggers-en-inputs/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/procesdocumentatiemodel/procescontext/triggers-en-inputs/index.html</guid>
+      <description>Wat het proces start en welke input het proces voedt.</description>
+    </item>
+    <item>
+      <title>Systemen en integraties</title>
+      <link>http://localhost:1313/procesdocumentatiemodel/procescontext/systemen-en-integraties/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/procesdocumentatiemodel/procescontext/systemen-en-integraties/index.html</guid>
+      <description>Systemen en applicaties die betrokken zijn bij het proces.</description>
+    </item>
+    <item>
+      <title>Regels en constraints</title>
+      <link>http://localhost:1313/procesdocumentatiemodel/procescontext/regels-en-constraints/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/procesdocumentatiemodel/procescontext/regels-en-constraints/index.html</guid>
+      <description>Wetgeving, policies en beperkingen die het proces beïnvloeden.</description>
+    </item>
+  </channel>
+</rss>

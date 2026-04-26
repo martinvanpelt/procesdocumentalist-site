@@ -1,0 +1,26 @@
+PDCA:
+  term: PDCA
+  title: Plan-Do-Check-Act cycle
+  definition: >
+    A four-step iterative management method used for continuous
+    improvement of processes and products.
+
+  description: >
+    The PDCA cycle consists of four stages:
+    Plan (define the improvement),
+    Do (implement the change),
+    Check (measure results),
+    Act (standardize or adjust).
+
+KPI:
+  term: KPI
+  title: Key Performance Indicator
+  definition: >
+    A measurable value used to evaluate how effectively a process
+    achieves its objectives.
+
+BPMN:
+  term: BPMN
+  title: Business Process Model and Notation
+  definition: >
+    A standardized graphical notation used to model business processes.

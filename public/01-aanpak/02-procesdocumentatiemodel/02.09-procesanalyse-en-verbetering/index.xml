@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesanalyse en verbetering :: Proces Documentalist</title>
+    <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.09-procesanalyse-en-verbetering/index.html</link>
+    <description>Procesanalyse en verbetering beschrijft hoe processen worden geëvalueerd en structureel verbeterd binnen het Procesdocumentatiemodel (PDM).</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.09-procesanalyse-en-verbetering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesanalyse</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.09-procesanalyse-en-verbetering/02.09.01-procesanalyse/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.09-procesanalyse-en-verbetering/02.09.01-procesanalyse/index.html</guid>
+      <description>Procesanalyse&#xD;Procesanalyse is het onderzoeken van procesdata en procesgedrag om inzicht te krijgen in prestaties en knelpunten.&#xA;Doel&#xD;oorzaken van afwijkingen identificeren prestaties beoordelen knelpunten ontdekken verbeterpotentieel zichtbaar maken Analysevormen&#xD;trendanalyse oorzaakanalyse bottleneck-analyse vergelijkende analyse Belangrijk principe&#xD;Analyse moet leiden tot begrijpbare inzichten, niet alleen data.</description>
+    </item>
+    <item>
+      <title>Verbeterinitiatieven</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.09-procesanalyse-en-verbetering/02.09.02-verbeterinitiatieven/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.09-procesanalyse-en-verbetering/02.09.02-verbeterinitiatieven/index.html</guid>
+      <description>Verbeterinitiatieven&#xD;Verbeterinitiatieven zijn gestructureerde voorstellen om processen te verbeteren op basis van analyse en feedback.&#xA;Doel&#xD;verbeterkansen identificeren ideeën structureren prioriteit aanbrengen in verbeteringen richting geven aan optimalisatie Kenmerken&#xD;strategisch of operationeel gebaseerd op analyse of feedback nog niet geïmplementeerd Belangrijk principe&#xD;Niet elk probleem is direct een actie — eerst structureren als initiatief.</description>
+    </item>
+    <item>
+      <title>Verbeteracties</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.09-procesanalyse-en-verbetering/02.09.03-verbeteracties/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.09-procesanalyse-en-verbetering/02.09.03-verbeteracties/index.html</guid>
+      <description>Verbeteracties&#xD;Verbeteracties zijn concrete interventies die worden uitgevoerd om procesprestaties te verbeteren.&#xA;Doel&#xD;procesprestaties verbeteren fouten reduceren efficiëntie verhogen kwaliteit borgen Types&#xD;correctief preventief structureel Belangrijk principe&#xD;Elke actie moet meetbare impact hebben op het proces.</description>
+    </item>
+    <item>
+      <title>Lessons learned</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.09-procesanalyse-en-verbetering/02.09.04-lessons-learned/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.09-procesanalyse-en-verbetering/02.09.04-lessons-learned/index.html</guid>
+      <description>Lessons learned&#xD;Lessons learned zijn vastgelegde inzichten uit procesuitvoering, analyse en verbeteringen.&#xA;Doel&#xD;kennis borgen herhaling van fouten voorkomen organisatie leren laten accumuleren toekomstige processen verbeteren Inhoud&#xD;wat ging goed wat ging fout waarom gebeurde dit wat moeten we aanpassen Belangrijk principe&#xD;Zonder borging van leren is er geen structurele verbetering.</description>
+    </item>
+  </channel>
+</rss>

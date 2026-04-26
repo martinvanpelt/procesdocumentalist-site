@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html id="R-html" lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.159.1">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Een gestructureerde methode voor het documenteren van bedrijfsprocessen">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Procesdocumentatiemodel :: Proces Documentalist">
+    <meta name="twitter:description" content="Een gestructureerde methode voor het documenteren van bedrijfsprocessen">
+    <meta property="og:url" content="http://localhost:1313/01-het-procesdocumentatiemodel/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="Procesdocumentatiemodel :: Proces Documentalist">
+    <meta property="og:description" content="Een gestructureerde methode voor het documenteren van bedrijfsprocessen">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Procesdocumentatiemodel :: Proces Documentalist">
+    <meta itemprop="description" content="Een gestructureerde methode voor het documenteren van bedrijfsprocessen">
+    <meta itemprop="wordCount" content="522">
+    <title>Procesdocumentatiemodel :: Proces Documentalist</title>
+    <link href="/01-het-procesdocumentatiemodel/index.xml" rel="alternate" type="application/rss+xml" title="Procesdocumentatiemodel :: Proces Documentalist">
+    <link href="/images/favicon.svg?1776262841" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1776262841" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776262841" defer></script>
+    <script src="/js/search-lunr.js?1776262841" defer></script>
+    <script src="/js/search.js?1776262841" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1776262841";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1776262841" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776262841" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776262841" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1776262841" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1776262841" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776262841" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776262841" rel="stylesheet">
+    <link href="/css/theme.css?1776262841" rel="stylesheet">
+    <link href="/css/format-html.css?1776262841" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/01-het-procesdocumentatiemodel\/index.html';
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto', 'relearn-dark' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1776262841" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/01-het-procesdocumentatiemodel/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Procesdocumentatiemodel</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/01-werkwijze/01.04-resultaat/index.html" title="Resultaat (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/index.html" title="Fundament (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 01-het-procesdocumentatiemodel" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="procesdocumentatiemodel">Procesdocumentatiemodel</h1>
+
+<p>Het Procesdocumentatiemodel (PDM) is een gestructureerde methode voor het vastleggen, begrijpen en beheren van bedrijfsprocessen binnen organisaties.</p>
+<p>Het model beschrijft niet alleen hoe processen verlopen, maar ook hoe procesinformatie logisch wordt opgebouwd, beheerd en verbeterd.</p>
+<p>Het PDM vormt daarmee een samenhangend raamwerk voor procesdocumentatie — van context en doel tot modellering, uitvoering en continue verbetering.</p>
+<h4 id="waarom-het-pdm-bestaat">Waarom het PDM bestaat<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>In veel organisaties is procesinformatie versnipperd:</p>
+<ul>
+<li>procesdiagrammen staan los van werkinstructies</li>
+<li>beschrijvingen zijn inconsistent of verouderd</li>
+<li>eigenaarschap is onduidelijk</li>
+<li>verbeterinformatie is niet gekoppeld aan processen zelf</li>
+</ul>
+<p>Het gevolg is dat processen moeilijk te begrijpen, te beheren en te verbeteren zijn.</p>
+<p>Het Procesdocumentatiemodel is ontwikkeld om dit te structureren.</p>
+<h4 id="wat-het-pdm-oplost">Wat het PDM oplost<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Het PDM brengt samenhang in procesdocumentatie door één consistent model te bieden voor:</p>
+<ul>
+<li>het beschrijven van processen</li>
+<li>het structureren van procesinformatie</li>
+<li>het beheren van procesdocumentatie</li>
+<li>het verbeteren van processen</li>
+</ul>
+<p>Het model zorgt ervoor dat procesinformatie niet langer versnipperd is, maar logisch wordt opgebouwd in samenhangende lagen.</p>
+<h4 id="de-kern-van-het-procesdocumentatiemodel">De kern van het Procesdocumentatiemodel<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Het PDM bestaat uit een aantal samenhangende lagen die samen het volledige procesbeeld vormen</p>
+<pre class="mermaid actionbar-wrapper align-center ">graph TB
+
+subgraph Procescontext
+direction TB
+1[Procesdocumentatie en governance]
+2[Procesdoel]
+3[Procesarchitectuur]
+4[Procesmetadata]
+5[Procesmodellering]
+6[Procesuitwerking]
+7[Processturing]
+8[Procesanalyse en verbetering]
+end
+1 --&gt; 2 --&gt; 3 --&gt; 4 --&gt; 5 --&gt; 6 --&gt; 7 --&gt; 8</pre>
+<table>
+  <thead>
+      <tr>
+          <th>Laag</th>
+          <th>Omschrijving</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="/01-het-procesdocumentatiemodel/01.01-procesdocumentatie-governance/index.html">Procesdocumentatiegovernance</a></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Procescontext</td>
+          <td>De omgeving waarin een proces functioneert, inclusief systemen, regels, input en randvoorwaarden.</td>
+      </tr>
+      <tr>
+          <td>Procesdoel</td>
+          <td>De reden waarom een proces bestaat en de waarde die het levert.</td>
+      </tr>
+      <tr>
+          <td>Procesarchitectuur</td>
+          <td>De plaats van het proces binnen het totale proceslandschap van de organisatie.</td>
+      </tr>
+      <tr>
+          <td>Procesmetadata</td>
+          <td>Beschrijvende informatie zoals eigenaar, status, versie en relaties.</td>
+      </tr>
+      <tr>
+          <td>Procesmodellering</td>
+          <td>De visuele weergave van het proces in stappen, beslissingen en flows.</td>
+      </tr>
+      <tr>
+          <td>Procesuitwerking</td>
+          <td>De gedetailleerde beschrijving van uitvoering, rollen en werkinstructies.</td>
+      </tr>
+      <tr>
+          <td>Processturing</td>
+          <td>Monitoring, KPI’s, kwaliteitsbewaking en rapportage.</td>
+      </tr>
+      <tr>
+          <td>Procesanalyse en verbetering</td>
+          <td>Analyse van prestaties en structurele procesverbetering.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="een-model-dat-werkt-van-strategie-tot-uitvoering">Een model dat werkt van strategie tot uitvoering<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Het PDM verbindt verschillende niveaus van organisatie-informatie:</p>
+<ul>
+<li>strategisch (waarom bestaan processen?)</li>
+<li>structureel (welke processen zijn er?)</li>
+<li>operationeel (hoe werken processen?)</li>
+<li>analytisch (hoe presteren processen?)</li>
+<li>verbetergericht (hoe worden processen beter?)</li>
+</ul>
+<p>Hierdoor ontstaat één geïntegreerde benadering van procesdocumentatie.</p>
+<h4 id="ontwerpprincipes">Ontwerpprincipes<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Het Procesdocumentatiemodel is gebaseerd op vijf kernprincipes:</p>
+<ul>
+<li>Context vóór beschrijving</li>
+<li>Doel vóór uitvoering</li>
+<li>Architectuur vóór detail</li>
+<li>Visualisatie vóór tekst</li>
+<li>Sturing en verbetering als integraal onderdeel</li>
+</ul>
+<p>Deze principes zorgen voor consistentie, begrijpelijkheid en toepasbaarheid.</p>
+<h4 id="voor-wie-het-pdm-bedoeld-is">Voor wie het PDM bedoeld is<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Het Procesdocumentatiemodel is ontwikkeld voor organisaties die hun processen:</p>
+<ul>
+<li>willen structureren</li>
+<li>willen standaardiseren</li>
+<li>beter willen begrijpen</li>
+<li>consistent willen documenteren</li>
+<li>en systematisch willen verbeteren</li>
+</ul>
+<p>Het model is toepasbaar in zowel kleine organisaties als complexe enterprise-omgevingen.</p>
+<h4 id="toepassing-van-het-model">Toepassing van het model<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Het PDM wordt toegepast in combinatie met:</p>
+<ul>
+<li>procesdocumentatie</li>
+<li>procesmodellering (bijv. BPMN)</li>
+<li>werkinstructies</li>
+<li>KPI-structuren</li>
+<li>governance van procesbeheer</li>
+</ul>
+<p>Daarnaast is het model geschikt als basis voor:</p>
+<ul>
+<li>procesarchitectuur</li>
+<li>kwaliteitsmanagement</li>
+<li>procesautomatisering</li>
+<li>kennismanagement</li>
+</ul>
+<h4 id="het-pdm-als-kennisstructuur">Het PDM als kennisstructuur<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Het Procesdocumentatiemodel is niet alleen een documentatiestructuur, maar ook een <strong>kennisstructuur voor processen</strong>.</p>
+<p>Door processen op een consistente manier te beschrijven ontstaat een herbruikbare basis voor:</p>
+<ul>
+<li>analyse</li>
+<li>verbetering</li>
+<li>onboarding</li>
+<li>digitalisering</li>
+<li>en AI-ondersteunde procesanalyse</li>
+</ul>
+<h4 id="aan-de-slag">Aan de slag<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Het PDM bestaat uit:</p>
+<ul>
+<li>de methode (het model zelf)</li>
+<li>de aanpak (hoe je het gebruikt)</li>
+<li>templates (hoe je het toepast in de praktijk)</li>
+<li>voorbeelden (volledige procesuitwerkingen)</li>
+</ul>
+<p>Deze onderdelen vormen samen een complete benadering voor procesdocumentatie.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/01-werkwijze/index.html"><a class="padding default-animation" href="/01-werkwijze/index.html">Werkwijze</a><ul id="R-subsections-cfdffbb5df9a320ee367fc0d7ccf713f" class="collapsible-menu"></ul></li>
+            <li class="active parent " data-nav-id="/01-het-procesdocumentatiemodel/index.html"><a class="padding default-animation" href="/01-het-procesdocumentatiemodel/index.html">Procesdocumentatiemodel</a><ul id="R-subsections-d678ce402dc951a4a7b5df9b9b0e30ce" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/index.html"><a class="padding default-animation" href="/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/index.html">Fundament</a><ul id="R-subsections-980c9e059ff4c4219efaddbf708f289a" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/01-het-procesdocumentatiemodel/01.01-procesdocumentatie-governance/index.html"><a class="padding default-animation" href="/01-het-procesdocumentatiemodel/01.01-procesdocumentatie-governance/index.html">Procesdocumentatie-governance</a><ul id="R-subsections-b036e7c7fd4ec495f0dd93a24371ab13" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/01-het-procesdocumentatiemodel/01.02-procescontext/index.html"><a class="padding default-animation" href="/01-het-procesdocumentatiemodel/01.02-procescontext/index.html">Procescontext</a><ul id="R-subsections-17334d5b0ab5c89ea2d452034dbc248f" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/01-het-procesdocumentatiemodel/01.03-procesdoel/index.html"><a class="padding default-animation" href="/01-het-procesdocumentatiemodel/01.03-procesdoel/index.html">Procesdoel</a><ul id="R-subsections-592a08e4a383a02f5ab5010f753bf0ec" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/01-het-procesdocumentatiemodel/01.04-procesarchitectuur/index.html"><a class="padding default-animation" href="/01-het-procesdocumentatiemodel/01.04-procesarchitectuur/index.html">Procesarchitectuur</a><ul id="R-subsections-ec15e025f31592c8abc566f48033ff7e" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/01-het-procesdocumentatiemodel/01.05-procesmetadata/index.html"><a class="padding default-animation" href="/01-het-procesdocumentatiemodel/01.05-procesmetadata/index.html">Procesmetadata</a><ul id="R-subsections-82c64909db327b8bbd49c0cf39b52046" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/01-het-procesdocumentatiemodel/01.06-procesmodellering/index.html"><a class="padding default-animation" href="/01-het-procesdocumentatiemodel/01.06-procesmodellering/index.html">Procesmodellering</a><ul id="R-subsections-e5c38851562b9ee2b2acfcda21b82d0b" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/01-het-procesdocumentatiemodel/01.07-procesuitwerking/index.html"><a class="padding default-animation" href="/01-het-procesdocumentatiemodel/01.07-procesuitwerking/index.html">Procesuitwerking</a><ul id="R-subsections-2148a5aaa1818e536eeba5e0bbe0d02b" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/01-het-procesdocumentatiemodel/01.08-processturing/index.html"><a class="padding default-animation" href="/01-het-procesdocumentatiemodel/01.08-processturing/index.html">Processturing</a><ul id="R-subsections-d1fab0fe16ccd72291c7ccf31ab87428" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/01-het-procesdocumentatiemodel/01.09-procesanalyse-en-verbetering/index.html"><a class="padding default-animation" href="/01-het-procesdocumentatiemodel/01.09-procesanalyse-en-verbetering/index.html">Procesanalyse en verbetering</a><ul id="R-subsections-29189e88a86bdf131383a395e8972f5f" class="collapsible-menu"></ul></li></ul></li>
+            <li class="" data-nav-id="/03-templates/index.html"><a class="padding default-animation" href="/03-templates/index.html">Templates</a><ul id="R-subsections-031b19932c520fd501627fb0bd8059aa" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/04-voorbeelden/index.html"><a class="padding default-animation" href="/04-voorbeelden/index.html">Voorbeeldproces</a><ul id="R-subsections-8554933b662f29776abdb2b355382583" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/06-over/index.html"><a class="padding" href="/06-over/index.html">Over de Procesdocumentalist</a></li>
+            <li class="" data-nav-id="/05-contact/index.html"><a class="padding" href="/05-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/07-downloads/index.html"><a class="padding" href="/07-downloads/index.html">Downloads</a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1776262841" defer></script>
+    <script src="/js/d3/d3-color.min.js?1776262841" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1776262841" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1776262841" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1776262841" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1776262841" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1776262841" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1776262841" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1776262841" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1776262841" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1776262841" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776262841" defer></script>
+    <script src="/js/theme.js?1776262841" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

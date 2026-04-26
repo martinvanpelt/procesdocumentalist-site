@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orderverwerking – Volledige Procesbundel :: Proces Documentalist</title>
+    <link>http://localhost:1313/voorbeelden/index.html</link>
+    <description>Volledig uitgewerkt voorbeeld van het orderverwerkingsproces inclusief procesdoel, context, architectuur, modellering, uitwerking en sturing.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/voorbeelden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orderverwerking</title>
+      <link>http://localhost:1313/voorbeelden/orderverwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeelden/orderverwerking/index.html</guid>
+      <description>Onderstaand voorbeeld toont een vereenvoudigde procesarchitectuur voor het proces orderverwerking.&#xA;Het doel van deze architectuur is om te laten zien:&#xA;Waar het proces begint Welke kernstappen het bevat Hoe het proces aansluit op andere bedrijfsprocessen Doel&#xD;Het doel van deze architectuurlaag is om het volledige proces van bestelling tot facturatie in één overzicht te tonen.&#xA;Dit maakt het mogelijk om:</description>
+    </item>
+  </channel>
+</rss>

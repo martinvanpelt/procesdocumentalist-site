@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ontwerpprincipes :: Proces Documentalist</title>
+    <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/index.html</link>
+    <description>Het Procesdocumentatiemodel is niet alleen een structuur voor procesdocumentatie, maar ook een methode om processen systematisch te begrijpen, vast te leggen en te verbeteren.&#xA;De opbouw van het model is gebaseerd op vijf ontwerpprincipes:&#xA;00.03.01. Context vóór beschrijving 00.03.02. Doel vóór uitvoering 00.03.03. Architectuur vóór detail 00.03.04. Visualisatie vóór tekst 00.03.05. Sturing en verbetering als integraal onderdeel</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Context vóór beschrijving</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/00.03.01.-context-v%C3%B3%C3%B3r-beschrijving/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/00.03.01.-context-v%C3%B3%C3%B3r-beschrijving/index.html</guid>
+      <description>Processen bestaan nooit op zichzelf.&#xA;Een proces kan alleen goed worden begrepen wanneer duidelijk is:&#xA;in welke organisatorische context het plaatsvindt welke regels en systemen van invloed zijn welke input en triggers het proces starten Daarom begint het PDM met procescontext.&#xA;Door eerst de context te beschrijven ontstaat een beter begrip van:&#xA;afhankelijkheden randvoorwaarden externe invloeden Dit voorkomt dat processen los van hun omgeving worden gedocumenteerd.</description>
+    </item>
+    <item>
+      <title>Doel vóór uitvoering</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/00.03.02.-doel-v%C3%B3%C3%B3r-uitvoering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/00.03.02.-doel-v%C3%B3%C3%B3r-uitvoering/index.html</guid>
+      <description>Een proces bestaat altijd om waarde te creëren.&#xA;Voordat een proces wordt gemodelleerd of beschreven, moet duidelijk zijn:&#xA;waarom het proces bestaat welk resultaat het oplevert voor wie het proces waarde creëert Daarom bevat het PDM een expliciete laag voor procesdoel.&#xA;Door het procesdoel expliciet vast te leggen wordt voorkomen dat:&#xA;inefficiënte activiteiten blijven bestaan processen hun oorspronkelijke doel verliezen optimalisaties alleen op lokale efficiëntie worden gericht.</description>
+    </item>
+    <item>
+      <title>Architectuur vóór detail</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/00.03.03.-architectuur-v%C3%B3%C3%B3r-detail/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/00.03.03.-architectuur-v%C3%B3%C3%B3r-detail/index.html</guid>
+      <description>Processen maken deel uit van een groter geheel.&#xA;Individuele processen moeten daarom altijd worden geplaatst binnen de procesarchitectuur van de organisatie.&#xA;De procesarchitectuur laat zien:&#xA;welke processen bestaan hoe processen met elkaar samenhangen hoe processen hiërarchisch zijn opgebouwd Het PDM gebruikt hiervoor:&#xA;proceslandkaarten proceshiërarchieën Pas nadat de architectuur duidelijk is, worden individuele processen verder uitgewerkt.&#xA;Dit voorkomt dat procesdocumentatie fragmentarisch wordt.</description>
+    </item>
+    <item>
+      <title>Visualisatie vóór tekst</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/00.03.04.-visualisatie-v%C3%B3%C3%B3r-tekst/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/00.03.04.-visualisatie-v%C3%B3%C3%B3r-tekst/index.html</guid>
+      <description>Mensen begrijpen processen beter wanneer ze visueel worden weergegeven.&#xA;Daarom staat in het PDM procesmodellering centraal.&#xA;Procesdiagrammen:&#xA;maken de proceslogica zichtbaar tonen volgorde en beslissingen maken afhankelijkheden duidelijk Visuele modellen vormen daarom de kern van procesdocumentatie.&#xA;Tekstuele beschrijvingen worden gebruikt om:&#xA;uitzonderingen te beschrijven aanvullende toelichting te geven uitvoeringsdetails vast te leggen.</description>
+    </item>
+    <item>
+      <title>Sturing en verbetering als integraal onderdeel</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/00.03.05.-sturing-en-verbetering-als-integraal-onderdeel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/00.03.05.-sturing-en-verbetering-als-integraal-onderdeel/index.html</guid>
+      <description>Procesdocumentatie is geen statisch document.&#xA;Processen veranderen door:&#xA;nieuwe wetgeving organisatorische veranderingen technologische ontwikkelingen verbeterinitiatieven Daarom bevat het PDM een expliciete laag voor processturing en procesverbetering.&#xA;Deze laag beschrijft onder andere:&#xA;KPI’s en prestatie-indicatoren monitoring van procesprestaties analyse van procesproblemen verbeteracties governance van procesdocumentatie. Hierdoor wordt procesdocumentatie een levend instrument voor procesmanagement.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://localhost:1313/de-procesdocumentalist/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/index.html</link>
+    <description>Het Procesdocumentatiemodel is niet alleen een structuur voor procesdocumentatie, maar ook een methode om processen systematisch te begrijpen, vast te leggen en te verbeteren.&#xA;De opbouw van het model is gebaseerd op vijf ontwerpprincipes:&#xA;[[00.03.01. Context vóór beschrijving]] [[00.03.02. Doel vóór uitvoering]] [[00.03.03. Architectuur vóór detail]] [[00.03.04. Visualisatie vóór tekst]] [[00.03.5. Sturing en verbetering als integraal onderdeel]]</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/de-procesdocumentalist/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

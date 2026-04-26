@@ -1,0 +1,19 @@
+/* Pas hyperlink-kleuren aan voor dark mode in Relearn */
+html[class*="dark"] a {
+    color: #7dd3fc !important; /* Lichtblauw voor betere leesbaarheid */
+}
+
+/* Hover-kleur voor hyperlinks in dark mode */
+html[class*="dark"] a:hover {
+    color: #38bdf8 !important;
+}
+
+/* Bezochte links in dark mode */
+html[class*="dark"] a:visited {
+    color: #a78bfa !important;
+}
+
+/* Optioneel: Pas ook de kleur van de navigatielinks aan */
+html[class*="dark"] .nav a {
+    color: #7dd3fc !important;
+}

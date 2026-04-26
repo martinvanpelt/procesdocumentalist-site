@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesuitwerking :: Proces Documentalist</title>
+    <link>http://localhost:1313/procesdocumentatiemodel/procesuitwerking/index.html</link>
+    <description>Procesuitwerking beschrijft hoe werkzaamheden binnen een organisatie worden uitgevoerd. Door processen duidelijk vast te leggen ontstaat inzicht in activiteiten, verantwoordelijkheden en prestaties.&#xA;Goede procesdocumentatie helpt organisaties om:&#xA;processen inzichtelijk te maken kennis vast te leggen nieuwe medewerkers sneller in te werken fouten en inefficiënties te verminderen processen continu te verbeteren Procesdocumentatie bestaat meestal uit meerdere onderdelen die samen een compleet beeld van een proces geven.&#xA;Onderdelen van procesdocumentatie&#xD;flowchart TB&#xD;A[Procesdiagram]&#xD;subgraph E[Procesuitwerking]&#xD;B[Procesbeschrijving]&#xD;C[Rollen en verantwoordelijkheden]&#xD;end&#xD;D[KPI&#39;s en kwaliteitsborging]&#xD;A --&gt; E&#xD;E --&gt; D&#xD;Procesdiagrammen&#xD;Procesdiagrammen laten zien hoe een proces verloopt. Ze maken de volgorde van activiteiten en beslissingen visueel.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/procesdocumentatiemodel/procesuitwerking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesbeschrijvingen</title>
+      <link>http://localhost:1313/procesdocumentatiemodel/procesuitwerking/procesbeschrijvingen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/procesdocumentatiemodel/procesuitwerking/procesbeschrijvingen/index.html</guid>
+      <description>Procesbeschrijvingen leggen uit wat er binnen een proces gebeurt, welke stappen worden uitgevoerd en wie daarvoor verantwoordelijk is.</description>
+    </item>
+    <item>
+      <title>Rollen en verantwoordelijkheden</title>
+      <link>http://localhost:1313/procesdocumentatiemodel/procesuitwerking/rollen-en-verantwoordelijkheden/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/procesdocumentatiemodel/procesuitwerking/rollen-en-verantwoordelijkheden/index.html</guid>
+      <description>Rollen en verantwoordelijkheden maken duidelijk wie betrokken is bij procesactiviteiten en wie waarvoor verantwoordelijk is.</description>
+    </item>
+    <item>
+      <title>Werkinstructies</title>
+      <link>http://localhost:1313/procesdocumentatiemodel/procesuitwerking/werkinstructies/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/procesdocumentatiemodel/procesuitwerking/werkinstructies/index.html</guid>
+      <description>Werkinstructies beschrijven stap voor stap hoe specifieke taken binnen een proces moeten worden uitgevoerd.</description>
+    </item>
+  </channel>
+</rss>

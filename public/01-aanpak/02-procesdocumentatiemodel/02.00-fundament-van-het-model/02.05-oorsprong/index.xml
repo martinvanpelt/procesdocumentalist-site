@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oorsprong :: Proces Documentalist</title>
+    <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.05-oorsprong/index.html</link>
+    <description>De oorsprong en evolutie van het Procesdocumentatiemodel (PDM), ontwikkeld uit 35+ jaar praktijkervaring in procesanalyse, modellering en verbetering. Een antwoord op de beperkingen van bestaande methoden, met focus op praktische toepasbaarheid, toegankelijkheid en samenhang.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.05-oorsprong/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

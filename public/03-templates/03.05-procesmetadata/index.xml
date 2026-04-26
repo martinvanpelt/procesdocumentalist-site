@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesmetadata :: Proces Documentalist</title>
+    <link>http://localhost:1313/03-templates/03.05-procesmetadata/index.html</link>
+    <description>Template&#xA;03.05.00 Procesmetadata</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/03-templates/03.05-procesmetadata/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesmetadata</title>
+      <link>http://localhost:1313/03-templates/03.05-procesmetadata/03.05.00-procesmetadata/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-templates/03.05-procesmetadata/03.05.00-procesmetadata/index.html</guid>
+      <description>Proces-ID: Proceseigenaar: Status: Versie: Organisatie: Product/dienst: Relaties&#xD;… Versiebeheer&#xD;v0.1: v1.0:</description>
+    </item>
+    <item>
+      <title>Procesbegrippen</title>
+      <link>http://localhost:1313/03-templates/03.05-procesmetadata/03.05.01-procesbegrippen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-templates/03.05-procesmetadata/03.05.01-procesbegrippen/index.html</guid>
+      <description>1. Begrip&#xD;Naam van het begrip&#xA;2. Definitie&#xD;Eenduidige beschrijving&#xA;3. Context&#xD;Waar wordt dit begrip gebruikt?&#xA;4. Synoniemen&#xD;Andere gebruikte termen</description>
+    </item>
+  </channel>
+</rss>

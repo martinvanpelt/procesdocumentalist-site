@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesmetadata :: Proces Documentalist</title>
+    <link>http://localhost:1313/02-procesdocumentatiemodel/02.05-proceseigenschappen/index.html</link>
+    <description>Procesmetadata beschrijft de identificatie, status, eigenaarschap en relaties van processen binnen het Procesdocumentatiemodel (PDM).</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/02-procesdocumentatiemodel/02.05-proceseigenschappen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proces-ID</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.05-proceseigenschappen/02.05.01-proces-id/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.05-proceseigenschappen/02.05.01-proces-id/index.html</guid>
+      <description>De Proces-ID is een unieke identificatiecode die aan elk proces binnen het PDM wordt toegekend.&#xA;Doel&#xD;De Proces-ID zorgt voor:&#xA;unieke herkenbaarheid van processen eenduidige verwijzing in documentatie en systemen consistentie in procesregistratie ondersteuning van automatisering en tooling Opbouw van een Proces-ID&#xD;Een Proces-ID kan gestructureerd zijn, bijvoorbeeld:</description>
+    </item>
+    <item>
+      <title>Proceseigenaar</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.05-proceseigenschappen/02.05.02-proceseigenaar/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.05-proceseigenschappen/02.05.02-proceseigenaar/index.html</guid>
+      <description>De proceseigenaar is de eindverantwoordelijke voor een proces binnen de organisatie.&#xA;Doel&#xD;De proceseigenaar zorgt voor:&#xA;eigenaarschap van procesresultaten besluitvorming over proceswijzigingen bewaking van procesprestaties afstemming met andere processen prioritering van verbeterinitiatieven Verantwoordelijkheden&#xD;De proceseigenaar:&#xA;keurt proceswijzigingen goed bewaakt KPI’s en prestaties bepaalt procesrichting valideert procesdocumentatie Eigenaarschap&#xD;Eigenaarschap betekent:</description>
+    </item>
+    <item>
+      <title>Versiebeheer</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.05-proceseigenschappen/02.05.03-versiebeheer/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.05-proceseigenschappen/02.05.03-versiebeheer/index.html</guid>
+      <description>Versiebeheer regelt hoe wijzigingen in procesdocumentatie worden vastgelegd en beheerd.&#xA;Doel&#xD;Versiebeheer zorgt voor:&#xA;traceerbaarheid van wijzigingen controle over procesontwikkeling behoud van historische versies ondersteuning van audit en compliance Versiestructuur&#xD;Binnen het PDM wordt gewerkt met een semantisch versiemodel:&#xA;v0.x → conceptfase v1.0 → eerste goedgekeurde versie v1.x → kleine wijzigingen v2.0 → structurele herziening Soorten wijzigingen&#xD;Minor changes&#xD;tekstuele correcties kleine verduidelijkingen Major changes&#xD;wijziging in procesflow herontwerp van processtructuur wijziging in KPI-structuur Belangrijk principe&#xD;Elke wijziging in procesinhoud moet traceerbaar zijn via versiebeheer.</description>
+    </item>
+    <item>
+      <title>Processtatus</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.05-proceseigenschappen/02.05.04-processtatus/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.05-proceseigenschappen/02.05.04-processtatus/index.html</guid>
+      <description>De processtatus geeft de actuele levenscyclusfase van een proces aan binnen het PDM.&#xA;Doel&#xD;Processtatus maakt duidelijk:&#xA;of een proces actief wordt gebruikt of het nog in ontwikkeling is of het is uitgefaseerd of het onder review staat Statuscategorieën&#xD;Status Omschrijving Concept Het proces is in ontwikkeling en nog niet definitief. In Review Het proces wordt beoordeeld en gevalideerd. Actief Het proces is goedgekeurd en in gebruik. Gearchiveerd Het proces is niet meer actief, maar wordt bewaard voor referentie. Uitgefaseerd Het proces is vervangen door een nieuw proces. Belangrijk principe&#xD;Een proces kan slechts één actieve status hebben binnen het PDM.</description>
+    </item>
+    <item>
+      <title>Relaties met andere processen</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.05-proceseigenschappen/02.05.05-relaties-met-andere-procesen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.05-proceseigenschappen/02.05.05-relaties-met-andere-procesen/index.html</guid>
+      <description>Deze sectie beschrijft hoe processen binnen het PDM met elkaar verbonden zijn.&#xA;Doel&#xD;Relaties maken inzichtelijk:&#xA;afhankelijkheden tussen processen procesketens en end-to-end flows overdrachtsmomenten tussen processen impact van wijzigingen op andere processen Soorten relaties&#xD;Relatie Omschrijving Input-output relaties Output van proces A is input voor proces B Sequentiële relaties Proces volgt logisch op een ander proces Parallelle relaties Processen lopen gelijktijdig naast elkaar Hiërarchische relaties Subproces binnen hoofdproces Voorbeeld (Orderverwerking)&#xD;Orderverwerking → Facturatie Orderverwerking → Levering Orderverwerking ← Orderintake Belangrijk principe&#xD;Geen enkel proces staat volledig op zichzelf binnen het PDM.</description>
+    </item>
+  </channel>
+</rss>

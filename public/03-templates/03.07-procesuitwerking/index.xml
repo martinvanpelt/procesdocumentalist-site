@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesuitwerking :: Proces Documentalist</title>
+    <link>http://localhost:1313/03-templates/03.07-procesuitwerking/index.html</link>
+    <description>Templates voor het inhoudelijk beschrijven van processen.&#xA;03.07.00 Procesuitwerking 03.07.01 Procesbeschrijving 03.07.02 Werkinstructie 03.07.03 RACI-Matrix 03.07.04 Procesrollen Deze templates zorgen ervoor dat processen niet alleen visueel, maar ook inhoudelijk duidelijk zijn.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/03-templates/03.07-procesuitwerking/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

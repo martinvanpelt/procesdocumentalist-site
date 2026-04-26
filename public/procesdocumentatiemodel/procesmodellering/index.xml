@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesmodellering :: Proces Documentalist</title>
+    <link>http://localhost:1313/procesdocumentatiemodel/procesmodellering/index.html</link>
+    <description>Procesmodellering: hoe je bedrijfsprocessen visueel in kaart brengt met procesdiagrammen.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/procesdocumentatiemodel/procesmodellering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesdiagrammen</title>
+      <link>http://localhost:1313/procesdocumentatiemodel/procesmodellering/procesdiagrammen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/procesdocumentatiemodel/procesmodellering/procesdiagrammen/index.html</guid>
+      <description>Procesdiagrammen visualiseren hoe een proces verloopt en vormen vaak het startpunt van procesdocumentatie.</description>
+    </item>
+    <item>
+      <title>Modelleerconventies</title>
+      <link>http://localhost:1313/procesdocumentatiemodel/procesmodellering/modelleerconventies/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/procesdocumentatiemodel/procesmodellering/modelleerconventies/index.html</guid>
+      <description>Modelleerconventies zorgen voor consistente en begrijpelijke procesdiagrammen binnen een organisatie.</description>
+    </item>
+  </channel>
+</rss>

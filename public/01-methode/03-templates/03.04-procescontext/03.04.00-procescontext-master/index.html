@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Template voor het beschrijven van de context van een proces, inclusief scope, triggers, input/output, regels, en technische integraties.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Procescontext :: Procesdocumentalist">
+    <meta name="twitter:description" content="Template voor het beschrijven van de context van een proces, inclusief scope, triggers, input/output, regels, en technische integraties.">
+    <meta property="og:url" content="http://localhost:1313/01-methode/03-templates/03.04-procescontext/03.04.00-procescontext-master/index.html">
+    <meta property="og:site_name" content="Procesdocumentalist">
+    <meta property="og:title" content="Procescontext :: Procesdocumentalist">
+    <meta property="og:description" content="Template voor het beschrijven van de context van een proces, inclusief scope, triggers, input/output, regels, en technische integraties.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Methode">
+    <meta property="article:tag" content="Procescontext">
+    <meta property="article:tag" content="Template">
+    <meta property="article:tag" content="Scope">
+    <meta property="article:tag" content="Triggers">
+    <meta property="article:tag" content="Integraties">
+    <meta itemprop="name" content="Procescontext :: Procesdocumentalist">
+    <meta itemprop="description" content="Template voor het beschrijven van de context van een proces, inclusief scope, triggers, input/output, regels, en technische integraties.">
+    <meta itemprop="wordCount" content="1393">
+    <meta itemprop="keywords" content="Procescontext,Template,Scope,Triggers,Integraties">
+    <title>Procescontext :: Procesdocumentalist</title>
+    <link href="/images/favicon.svg?1777116863" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1777116863" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1777116863" defer></script>
+    <script src="/js/search-lunr.js?1777116863" defer></script>
+    <script src="/js/search.js?1777116863" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1777116863";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1777116863" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1777116863" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1777116863" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1777116863" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1777116863" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1777116863" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1777116863" rel="stylesheet">
+    <link href="/css/theme.css?1777116863" rel="stylesheet">
+    <link href="/css/format-html.css?1777116863" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/01-methode\/03-templates\/03.04-procescontext\/03.04.00-procescontext-master\/index.html';
+      window.relearn.relBasePath='..\/..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-light', 'relearn-dark', 'auto' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1777116863" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/01-methode/03-templates/03.04-procescontext/03.04.00-procescontext-master/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist in één oogopslag</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/01-methode/index.html"><span itemprop="name">Methode</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/01-methode/03-templates/index.html"><span itemprop="name">PDM Templates</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/01-methode/03-templates/03.04-procescontext/index.html"><span itemprop="name">Procescontext</span></a><meta itemprop="position" content="4">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Procescontext</span><meta itemprop="position" content="5"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/01-methode/03-templates/03.04-procescontext/index.html" title="Procescontext (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/05-procesdocument/index.html" title="Het procesdocument (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable template" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+<div class="R-taxonomy taxonomy-tags cstyle tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/tags/integraties/index.html">Integraties</a></li>
+    <li><a class="term-link" href="/tags/procescontext/index.html">Procescontext</a></li>
+    <li><a class="term-link" href="/tags/scope/index.html">Scope</a></li>
+    <li><a class="term-link" href="/tags/template/index.html">Template</a></li>
+    <li><a class="term-link" href="/tags/triggers/index.html">Triggers</a></li>
+  </ul>
+</div>
+  </header>
+
+<h1 id="procescontext">Procescontext</h1>
+
+<h4 id="inleiding">Inleiding<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Dit Procescontext Template beschrijft de omgevingsfactoren die van invloed zijn op het uitvoeren van {{procesnaam}}. Het doel is om:</p>
+<ul>
+<li>Duidelijke afbakening te bieden van wat wel en niet tot het proces behoort (scope).</li>
+<li>Triggers te identificeren die het proces starten of beïnvloeden.</li>
+<li>Input en output in kaart te brengen voor een soepele doorstroom.</li>
+<li>Regels en beperkingen te documenteren die het proces beïnvloeden.</li>
+<li>Technische integraties te beschrijven voor systeemondersteuning.</li>
+</ul>
+<h4 id="eigenschappen">Eigenschappen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+          <th>Toelichting</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>03.02.00</td>
+          <td>Uniek identificatienummer voor deze procescontext in het Proces Management Document (PMD).</td>
+      </tr>
+      <tr>
+          <td>Versie</td>
+          <td>1</td>
+          <td>Huidige versie van dit document. Wordt geüpdaterd bij elke wijziging.</td>
+      </tr>
+      <tr>
+          <td>Status</td>
+          <td>concept</td>
+          <td>Mogelijke statussen: <em>concept</em>, <em>in review</em>, <em>goedgekeurd</em>, <em>gepubliceerd</em>, <em>verouderd</em>.</td>
+      </tr>
+      <tr>
+          <td>Auteur</td>
+          <td>[Naam]</td>
+          <td>De persoon of afdeling die dit document heeft opgesteld (meestal de procesanalist).</td>
+      </tr>
+      <tr>
+          <td>Eigenaar</td>
+          <td>[Naam proceseigenaar]</td>
+          <td>Verantwoordelijk voor de inhoud en actualiteit van de procescontext.</td>
+      </tr>
+      <tr>
+          <td>Datum</td>
+          <td>17/04/2026</td>
+          <td>Datum van de laatste update.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="1-algemeen-overzicht">1. Algemeen Overzicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Geef hier een kort overzicht van het proces waarvoor de context wordt beschreven.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesnaam</td>
+          <td>[Naam van het proces, bijv. &ldquo;Orderverwerking&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>Procescategorie</td>
+          <td>[Primair / Ondersteunend / Sturend]</td>
+      </tr>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>[PMD-nummer van het proces]</td>
+      </tr>
+      <tr>
+          <td>Doel van het proces</td>
+          <td>[Korte beschrijving, bijv. &ldquo;Tijdige en accurate verwerking van klantorders&rdquo;]</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="2-scope">2. Scope<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Beschrijf hier wat wel en niet tot het proces behoort. Dit voorkomt misverstanden en dubbel werk.</p>
+<h5 id="wat-valt-binnen-het-proces">Wat valt binnen het proces?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Onderdeel</th>
+          <th>Beschrijving</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Ontvangst klantorder&rdquo;]</td>
+          <td>[Korte beschrijving, bijv. &ldquo;Registratie van klantorders in het ERP-systeem&rdquo;]</td>
+          <td>[Naam/afdeling]</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Validatie klantgegevens&rdquo;]</td>
+          <td>[Korte beschrijving, bijv. &ldquo;Controle of klantgegevens compleet en correct zijn&rdquo;]</td>
+          <td>[Naam/afdeling]</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Bevestiging naar klant&rdquo;]</td>
+          <td>[Korte beschrijving, bijv. &ldquo;Versturen van orderbevestiging per e-mail&rdquo;]</td>
+          <td>[Naam/afdeling]</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="wat-valt-buiten-het-proces">Wat valt buiten het proces?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Uitsluiting</th>
+          <th>Toelichting</th>
+          <th>Verantwoordelijk proces</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Inkoop van materialen&rdquo;]</td>
+          <td>[Korte toelichting, bijv. &ldquo;Inkoop valt onder het Inkoopproces&rdquo;]</td>
+          <td>[Bijv. &ldquo;Inkoopproces (PMD-02.01.00)&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Facturatie&rdquo;]</td>
+          <td>[Korte toelichting, bijv. &ldquo;Facturatie valt onder het Financiële proces&rdquo;]</td>
+          <td>[Bijv. &ldquo;Facturatieproces (PMD-01.03.00)&rdquo;]</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="3-triggers">3. Triggers<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Beschrijf hier wat het proces start of beïnvloedt. Triggers kunnen extern (bijv. klantactie) of intern (bijv. systeemgebeurtenis) zijn.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Trigger</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>Bron</th>
+          <th>Frequentie</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Ontvangst klantorder&rdquo;]</td>
+          <td>Extern</td>
+          <td>Een klant plaatst een order via de webshop.</td>
+          <td>Webshop</td>
+          <td>Dagelijks</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Systeemalert&rdquo;]</td>
+          <td>Intern</td>
+          <td>ERP-systeem geeft een alert bij lage voorraad.</td>
+          <td>ERP-systeem</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Handmatige actie&rdquo;]</td>
+          <td>Intern</td>
+          <td>Medewerker start het proces handmatig.</td>
+          <td>Medewerker</td>
+          <td>Dagelijks</td>
+      </tr>
+  </tbody>
+</table>
+<p>Toelichting types triggers:</p>
+<ul>
+<li>Extern: Gebeurtenissen buiten de organisatie (bijv. klantacties, leveranciers).</li>
+<li>Intern: Gebeurtenissen binnen de organisatie (bijv. systeemalerts, handmatige acties).</li>
+</ul>
+<h4 id="4-input">4. Input<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Beschrijf hier wat het proces nodig heeft om te kunnen starten of draaien. Input kan data, documenten, materialen, of goedkeuringen zijn.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Input</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>Bron</th>
+          <th>Kwaliteitseisen</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Klantorder&rdquo;]</td>
+          <td>Data</td>
+          <td>Digitaal orderformulier met klant- en productgegevens.</td>
+          <td>Webshop/CRM</td>
+          <td>Compleet en geverifieerd</td>
+          <td>Sales Team</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Goedkeuring manager&rdquo;]</td>
+          <td>Goedkeuring</td>
+          <td>Handtekening of digitale goedkeuring voor grote orders.</td>
+          <td>Manager</td>
+          <td>Tijdig en accuraat</td>
+          <td>Sales Manager</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Productiespecificaties&rdquo;]</td>
+          <td>Document</td>
+          <td>Technische specificaties voor productie.</td>
+          <td>Productieafdeling</td>
+          <td>Actueel en goedgekeurd</td>
+          <td>Productie Manager</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="5-output">5. Output<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Beschrijf hier wat het proces oplevert. Output kan producten, documenten, data, of diensten zijn.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Output</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>Bestemming</th>
+          <th>Kwaliteitseisen</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Orderbevestiging&rdquo;]</td>
+          <td>Document</td>
+          <td>Bevestiging van de order aan de klant.</td>
+          <td>Klant</td>
+          <td>Accuraat en tijdig</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Productieopdracht&rdquo;]</td>
+          <td>Data</td>
+          <td>Digitaal opdrachtformulier voor productie.</td>
+          <td>Productieafdeling</td>
+          <td>Compleet en foutloos</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Geproduceerd product&rdquo;]</td>
+          <td>Product</td>
+          <td>Afgewerkt product volgens specificaties.</td>
+          <td>Logistiek</td>
+          <td>Voldoet aan kwaliteitsnormen</td>
+          <td>Productie Team</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="6-regels--constraints">6. Regels &amp; Constraints<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Beschrijf hier welke regels en beperkingen gelden voor het proces. Dit kunnen wettelijke eisen, organisatieregels, of technische beperkingen zijn.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Regel/Constraint</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>Impact bij niet-naleving</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;GDPR-compliance&rdquo;]</td>
+          <td>Wettelijk</td>
+          <td>Persoonsgegevens moeten veilig worden opgeslagen.</td>
+          <td>Boete of juridische gevolgen</td>
+          <td>Compliance Officer</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Maximale doorlooptijd&rdquo;]</td>
+          <td>Organisatie</td>
+          <td>Order moet binnen 24 uur worden verwerkt.</td>
+          <td>Vertraging in levering</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Systeemlimiet&rdquo;]</td>
+          <td>Technisch</td>
+          <td>ERP-systeem kan maximaal 100 orders per uur verwerken.</td>
+          <td>Vertraging of fouten</td>
+          <td>IT-afdeling</td>
+      </tr>
+  </tbody>
+</table>
+<p>Toelichting types regels:</p>
+<ul>
+<li>Wettelijk: Regels die voortvloeien uit wet- en regelgeving (bijv. GDPR, ISO-normen).</li>
+<li>Organisatie: Interne regels en beleid van de organisatie.</li>
+<li>Technisch: Beperkingen van systemen of infrastructuur.</li>
+</ul>
+<h4 id="7-systemen--integraties">7. Systemen &amp; Integraties<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Beschrijf hier welke systemen worden gebruikt in het proces en hoe deze met elkaar gekoppeld zijn.</p>
+<h5 id="systemen">Systemen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Systeem</th>
+          <th>Doel</th>
+          <th>Gebruikers</th>
+          <th>Toegang</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;ERP-systeem&rdquo;]</td>
+          <td>Beheer van orders, productie, en voorraad.</td>
+          <td>Order Team, Productie Team</td>
+          <td>Webinterface</td>
+          <td>IT-afdeling</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;CRM-systeem&rdquo;]</td>
+          <td>Beheer van klantgegevens en interacties.</td>
+          <td>Sales Team</td>
+          <td>Webinterface</td>
+          <td>IT-afdeling</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Webshop&rdquo;]</td>
+          <td>Ontvangst van klantorders.</td>
+          <td>Klanten, Sales Team</td>
+          <td>Publieke website</td>
+          <td>Marketing</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="koppelingen">Koppelingen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Koppeling</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>Systemen</th>
+          <th>Frequentie</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;ERP-CRM koppeling&rdquo;]</td>
+          <td>Automatisch</td>
+          <td>Synchronisatie van klantgegevens tussen ERP en CRM.</td>
+          <td>ERP, CRM</td>
+          <td>Real-time</td>
+          <td>IT-afdeling</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Webshop-ERP koppeling&rdquo;]</td>
+          <td>Automatisch</td>
+          <td>Overdracht van orders van webshop naar ERP.</td>
+          <td>Webshop, ERP</td>
+          <td>Real-time</td>
+          <td>IT-afdeling</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Handmatige export&rdquo;]</td>
+          <td>Handmatig</td>
+          <td>Maandelijkse export van ordergegevens voor rapportage.</td>
+          <td>ERP, Excel</td>
+          <td>Maandelijks</td>
+          <td>Order Team</td>
+      </tr>
+  </tbody>
+</table>
+<p>Toelichting types koppelingen:</p>
+<ul>
+<li>Automatisch: Koppelingen die automatisch data overdragen (bijv. API’s, ETL-processen).</li>
+<li>Handmatig: Koppelingen die handmatige actie vereisen (bijv. exports, imports).</li>
+</ul>
+<h4 id="8-visuele-weergave-optioneel">8. Visuele Weergave (Optioneel)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Gebruik een visueel diagram (bijv. in Mermaid) om de procescontext weer te geven, inclusief scope, triggers, input/output, en systemen.</p>
+<p>Voorbeeld:</p>
+<pre class="mermaid actionbar-wrapper align-center ">%% Procescontext voorbeeld - vervang door eigen diagram
+graph TD
+    A[Klant] --&gt;|Klantorder| B[Webshop]
+    B --&gt;|Ordergegevens| C[ERP-systeem]
+    C --&gt;|Productieopdracht| D[Productie]
+    C --&gt;|Orderbevestiging| A
+    D --&gt;|Afgewerkt product| E[Logistiek]
+    E --&gt;|Levering| A
+    F[CRM-systeem] --&gt;|Klantgegevens| C</pre>
+<h4 id="9-stakeholders-en-verantwoordelijkheden">9. Stakeholders en Verantwoordelijkheden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Geef hier een overzicht van wie betrokken is bij de procescontext.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Rol</th>
+          <th>Verantwoordelijkheid</th>
+          <th>Betrokkenheid</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Proceseigenaar</td>
+          <td>Verantwoordelijk voor de inhoud en actualiteit van de procescontext.</td>
+          <td>Continu</td>
+      </tr>
+      <tr>
+          <td>Procesanalist</td>
+          <td>Documenteert en analyseert de procescontext.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>IT-afdeling</td>
+          <td>Ondersteunt bij systeemintegraties en technische beperkingen.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>Compliance Officer</td>
+          <td>Zorgt voor naleving van regels en wetgeving.</td>
+          <td>Periodiek</td>
+      </tr>
+      <tr>
+          <td>Uitvoerend team</td>
+          <td>Voert het proces uit volgens de gedocumenteerde context.</td>
+          <td>Dagelijks</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="10-tips-voor-het-documenteren-van-procescontext">10. Tips voor het Documenteren van Procescontext<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ul>
+<li>Wees specifiek: Beschrijf concreet wat binnen en buiten de scope valt.</li>
+<li>Identificeer alle triggers: Zorg dat alle startmomenten van het proces duidelijk zijn.</li>
+<li>Documenteer input/output: Maak duidelijk wat het proces nodig heeft en wat het oplevert.</li>
+<li>Houd rekening met regels: Zorg dat alle beperkingen (wettelijk, organisatie, technisch) zijn gedocumenteerd.</li>
+<li>Beschrijf systemen en koppelingen: Geef aan hoe systemen met elkaar interageren.</li>
+<li>Betrek stakeholders: Laat de procescontext reviewen door proceseigenaren en IT.</li>
+<li>Houd het actueel: Update de context bij wijzigingen in processen, systemen, of regels.</li>
+</ul>
+<h4 id="11-gerelateerde-documenten">11. Gerelateerde Documenten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Lijst hier alle gerelateerde documenten, zoals:</p>
+<ul>
+<li>[Link naar procesbeschrijving]</li>
+<li>[Link naar BPMN-diagram]</li>
+<li>[Link naar proceslandkaart]</li>
+<li>[Link naar systeemdocumentatie]</li>
+</ul>
+<h4 id="12-versiehistorie">12. Versiehistorie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Versie</th>
+          <th>Datum</th>
+          <th>Wijziging</th>
+          <th>Auteur</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1.0</td>
+          <td>17/04/2026</td>
+          <td>Initiële versie</td>
+          <td>[Naam]</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="13-instructies-voor-gebruik">13. Instructies voor Gebruik<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ol>
+<li>Start met het proces:</li>
+</ol>
+<ul>
+<li>Kies het proces waarvoor je de context wilt beschrijven.</li>
+</ul>
+<ol>
+<li>Definieer de scope:</li>
+</ol>
+<ul>
+<li>Beschrijf wat wel en niet tot het proces behoort.</li>
+</ul>
+<ol>
+<li>Identificeer triggers:</li>
+</ol>
+<ul>
+<li>Bepaal wat het proces start of beïnvloedt.</li>
+</ul>
+<ol>
+<li>Documenteer input en output:</li>
+</ol>
+<ul>
+<li>Geef aan wat het proces nodig heeft en wat het oplevert.</li>
+</ul>
+<ol>
+<li>Beschrijf regels en constraints:</li>
+</ol>
+<ul>
+<li>Documenteer alle beperkingen die gelden voor het proces.</li>
+</ul>
+<ol>
+<li>Beschrijf systemen en integraties:</li>
+</ol>
+<ul>
+<li>Geef aan welke systemen worden gebruikt en hoe deze gekoppeld zijn.</li>
+</ul>
+<ol>
+<li>Valideer met stakeholders:</li>
+</ol>
+<ul>
+<li>Laat de procescontext reviewen door proceseigenaren, IT, en compliance.</li>
+</ul>
+<h4 id="14-voorbeeld-ingevulde-procescontext-orderverwerking">14. Voorbeeld: Ingevulde Procescontext (Orderverwerking)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="algemeen-overzicht">Algemeen Overzicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesnaam</td>
+          <td>Orderverwerking</td>
+      </tr>
+      <tr>
+          <td>Procescategorie</td>
+          <td>Primair</td>
+      </tr>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>PMD-01.01.00</td>
+      </tr>
+      <tr>
+          <td>Doel van het proces</td>
+          <td>Tijdige en accurate verwerking van klantorders.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="scope">Scope<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Wat valt binnen het proces?</p>
+<table>
+  <thead>
+      <tr>
+          <th>Onderdeel</th>
+          <th>Beschrijving</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Ontvangst klantorder</td>
+          <td>Registratie van klantorders in het ERP-systeem.</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td>Validatie klantgegevens</td>
+          <td>Controle of klantgegevens compleet en correct zijn.</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td>Bevestiging naar klant</td>
+          <td>Versturen van orderbevestiging per e-mail.</td>
+          <td>Order Team</td>
+      </tr>
+  </tbody>
+</table>
+<p>Wat valt buiten het proces?</p>
+<table>
+  <thead>
+      <tr>
+          <th>Uitsluiting</th>
+          <th>Toelichting</th>
+          <th>Verantwoordelijk proces</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Inkoop van materialen</td>
+          <td>Inkoop valt onder het Inkoopproces.</td>
+          <td>Inkoopproces (PMD-02.01.00)</td>
+      </tr>
+      <tr>
+          <td>Facturatie</td>
+          <td>Facturatie valt onder het Financiële proces.</td>
+          <td>Facturatieproces (PMD-01.03.00)</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="triggers">Triggers<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Trigger</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>Bron</th>
+          <th>Frequentie</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Ontvangst klantorder</td>
+          <td>Extern</td>
+          <td>Een klant plaatst een order via de webshop.</td>
+          <td>Webshop</td>
+          <td>Dagelijks</td>
+      </tr>
+      <tr>
+          <td>Systeemalert lage voorraad</td>
+          <td>Intern</td>
+          <td>ERP-systeem geeft een alert bij lage voorraad.</td>
+          <td>ERP-systeem</td>
+          <td>Ad hoc</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="input">Input<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Input</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>Bron</th>
+          <th>Kwaliteitseisen</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Klantorder</td>
+          <td>Data</td>
+          <td>Digitaal orderformulier met klant- en productgegevens.</td>
+          <td>Webshop/CRM</td>
+          <td>Compleet en geverifieerd</td>
+          <td>Sales Team</td>
+      </tr>
+      <tr>
+          <td>Goedkeuring manager</td>
+          <td>Goedkeuring</td>
+          <td>Handtekening of digitale goedkeuring voor grote orders.</td>
+          <td>Manager</td>
+          <td>Tijdig en accuraat</td>
+          <td>Sales Manager</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="output">Output<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Output</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>Bestemming</th>
+          <th>Kwaliteitseisen</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Orderbevestiging</td>
+          <td>Document</td>
+          <td>Bevestiging van de order aan de klant.</td>
+          <td>Klant</td>
+          <td>Accuraat en tijdig</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td>Productieopdracht</td>
+          <td>Data</td>
+          <td>Digitaal opdrachtformulier voor productie.</td>
+          <td>Productieafdeling</td>
+          <td>Compleet en foutloos</td>
+          <td>Order Team</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="regels--constraints">Regels &amp; Constraints<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Regel/Constraint</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>Impact bij niet-naleving</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>GDPR-compliance</td>
+          <td>Wettelijk</td>
+          <td>Persoonsgegevens moeten veilig worden opgeslagen.</td>
+          <td>Boete of juridische gevolgen</td>
+          <td>Compliance Officer</td>
+      </tr>
+      <tr>
+          <td>Maximale doorlooptijd</td>
+          <td>Organisatie</td>
+          <td>Order moet binnen 24 uur worden verwerkt.</td>
+          <td>Vertraging in levering</td>
+          <td>Order Team</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="systemen--integraties">Systemen &amp; Integraties<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Systemen:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Systeem</th>
+          <th>Doel</th>
+          <th>Gebruikers</th>
+          <th>Toegang</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>ERP-systeem</td>
+          <td>Beheer van orders, productie, en voorraad.</td>
+          <td>Order Team, Productie Team</td>
+          <td>Webinterface</td>
+          <td>IT-afdeling</td>
+      </tr>
+      <tr>
+          <td>CRM-systeem</td>
+          <td>Beheer van klantgegevens en interacties.</td>
+          <td>Sales Team</td>
+          <td>Webinterface</td>
+          <td>IT-afdeling</td>
+      </tr>
+  </tbody>
+</table>
+<p>Koppelingen:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Koppeling</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>Systemen</th>
+          <th>Frequentie</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>ERP-CRM koppeling</td>
+          <td>Automatisch</td>
+          <td>Synchronisatie van klantgegevens tussen ERP en CRM.</td>
+          <td>ERP, CRM</td>
+          <td>Real-time</td>
+          <td>IT-afdeling</td>
+      </tr>
+      <tr>
+          <td>Webshop-ERP koppeling</td>
+          <td>Automatisch</td>
+          <td>Overdracht van orders van webshop naar ERP.</td>
+          <td>Webshop, ERP</td>
+          <td>Real-time</td>
+          <td>IT-afdeling</td>
+      </tr>
+  </tbody>
+</table>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark relearn-light">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Procesdocumentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="parent " data-nav-id="/01-methode/index.html"><a class="padding default-animation" href="/01-methode/index.html">Methode</a><ul id="R-subsections-73c5657de716354a63503660a5152d83" class="collapsible-menu">
+            <li class="parent hidden alwaysopen " data-nav-id="/01-methode/03-templates/index.html"><a class="padding default-animation" href="/01-methode/03-templates/index.html">PDM Templates</a><ul id="R-subsections-742d3e96fc0e3599806b88ab17b0136b" class="collapsible-menu">
+            <li class="parent hidden alwaysopen " data-nav-id="/01-methode/03-templates/03.04-procescontext/index.html"><a class="padding default-animation" href="/01-methode/03-templates/03.04-procescontext/index.html">Procescontext</a><ul id="R-subsections-6800334b27581a57bd61f20be6029a85" class="collapsible-menu">
+            <li class="active hidden " data-nav-id="/01-methode/03-templates/03.04-procescontext/03.04.00-procescontext-master/index.html"><a class="padding" href="/01-methode/03-templates/03.04-procescontext/03.04.00-procescontext-master/index.html">Procescontext</a></li></ul></li></ul></li></ul></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding" href="/05-procesdocument/index.html">Het procesdocument</a></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over de Procesdocumentalist</a></li>
+            <li class="" data-nav-id="/10-artikelen/index.html"><a class="padding" href="/10-artikelen/index.html">Artikelen</a></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-light" value="relearn-light" selected>Relearn Light</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="R-select-variant-auto" value="auto">Auto</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1777116863" defer></script>
+    <script src="/js/d3/d3-color.min.js?1777116863" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1777116863" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1777116863" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1777116863" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1777116863" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1777116863" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1777116863" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1777116863" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1777116863" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1777116863" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1777116863" defer></script>
+    <script src="/js/theme.js?1777116863" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

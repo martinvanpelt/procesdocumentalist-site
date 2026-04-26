@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aanpak :: Proces Documentalist</title>
+    <link>http://localhost:1313/aanpak/index.html</link>
+    <description>Hoe het Procesdocumentatiemodel (PDM) in de praktijk wordt toegepast met methoden, technieken en hulpmiddelen.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/aanpak/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

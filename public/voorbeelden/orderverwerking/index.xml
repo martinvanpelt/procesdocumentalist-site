@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orderverwerking :: Proces Documentalist</title>
+    <link>http://localhost:1313/voorbeelden/orderverwerking/index.html</link>
+    <description>Onderstaand voorbeeld toont een vereenvoudigde procesarchitectuur voor het proces orderverwerking.&#xA;Het doel van deze architectuur is om te laten zien:&#xA;Waar het proces begint Welke kernstappen het bevat Hoe het proces aansluit op andere bedrijfsprocessen Doel&#xD;Het doel van deze architectuurlaag is om het volledige proces van bestelling tot facturatie in één overzicht te tonen.&#xA;Dit maakt het mogelijk om:</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/voorbeelden/orderverwerking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesarchitectuur</title>
+      <link>http://localhost:1313/voorbeelden/orderverwerking/procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeelden/orderverwerking/procesarchitectuur/index.html</guid>
+      <description>Orderverwerking&#xD;De procesarchitectuur geeft een hoogoverzicht van het orderverwerkingsproces.&#xA;Het doel is om snel te begrijpen hoe het proces past binnen het totale proceslandschap van de organisatie, welke stappen essentieel zijn en welke rollen betrokken zijn.&#xA;Een goed gedefinieerde procesarchitectuur is de basis voor alle verdere documentatie en procesverbetering.&#xA;Doel&#xD;Het doel van deze laag is om het complete proces van bestelling tot levering in één overzicht te tonen.&#xA;Zo kan iedereen in de organisatie:</description>
+    </item>
+    <item>
+      <title>Procesmodellering</title>
+      <link>http://localhost:1313/voorbeelden/orderverwerking/procesmodellering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeelden/orderverwerking/procesmodellering/index.html</guid>
+      <description>Orderverwerking</description>
+    </item>
+    <item>
+      <title>Procesuitwerking</title>
+      <link>http://localhost:1313/voorbeelden/orderverwerking/procesuitwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeelden/orderverwerking/procesuitwerking/index.html</guid>
+      <description>Stap Beschrijving Rollen Input Output Order ontvangen Klantorder binnenkrijgen via webshop/email Sales Klantorder Orderregistratie Order controleren Controleren op beschikbaarheid en juistheid Sales / Magazijn Orderregistratie Goedgekeurde order Order bevestigen Bevestiging sturen naar klant Sales Goedgekeurde order Bevestiging naar klant Order picken Artikelen uit magazijn verzamelen Magazijn Goedgekeurde order Order klaar voor verzending Order verzenden Producten versturen naar klant Logistiek Klaar voor verzending Verzonden order Factuur versturen Factuur genereren en verzenden Finance Verzonden order Factuur naar klant</description>
+    </item>
+    <item>
+      <title>Processturing</title>
+      <link>http://localhost:1313/voorbeelden/orderverwerking/processturing/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeelden/orderverwerking/processturing/index.html</guid>
+      <description>KPI’s:&#xA;Doorlooptijd order → levering Foutpercentage bij ordercontrole First Time Right Klanttevredenheid Analyse: Doorlooptijden vs. SLA, foutenanalyse&#xA;Verbeteracties: Automatiseren van ordercontrole, digitale ordertracking, trainingsprogramma voor magazijnmedewerkers</description>
+    </item>
+  </channel>
+</rss>

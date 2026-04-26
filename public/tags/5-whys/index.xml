@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5 Why&#39;s :: Tag :: Procesdocumentalist</title>
+    <link>http://localhost:1313/tags/5-whys/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/tags/5-whys/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Root Cause Analyse</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.09-procesverbetering/03.09.01-root-cause-analysis/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.09-procesverbetering/03.09.01-root-cause-analysis/index.html</guid>
+      <description>Template voor het uitvoeren van een gestructureerde root cause analyse (RCA) met behulp van de 5 Why&#39;s-methode, Fishbone-diagram, en andere analysetechnieken.</description>
+    </item>
+    <item>
+      <title>Root Cause Analyse - Vertraagde Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.09-procesverbetering/9.3-root-cause-analysis/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.09-procesverbetering/9.3-root-cause-analysis/index.html</guid>
+      <description>Root Cause Analyse (RCA) voor de vertraagde orderverwerking bij TelecomPro B.V., inclusief 5 Why&#39;s, Fishbone-diagram en Pareto-analyse.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesarchitectuur :: Proces Documentalist</title>
+    <link>http://localhost:1313/procesarchitectuur/index.html</link>
+    <description>Een procesarchitectuur beschrijft hoe de processen van een organisatie samenhangen.&#xA;Het vormt de structuur waarbinnen procesdocumentatie wordt georganiseerd.&#xA;Door een duidelijke procesarchitectuur ontstaat overzicht: van strategische hoofdlijnen tot operationele werkprocessen.&#xA;Waarom een procesarchitectuur?&#xD;Veel organisaties hebben losse procesbeschrijvingen, maar missen een duidelijk overzicht van hoe processen samenhangen.&#xA;Een procesarchitectuur helpt om:&#xA;processen logisch te structureren verantwoordelijkheden te verdelen procesverbeteringen te prioriteren samenhang tussen processen zichtbaar te maken Het vormt daarmee de basis voor effectieve procesdocumentatie.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/procesarchitectuur/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

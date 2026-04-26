@@ -1,0 +1,27 @@
+baseURL = "http://localhost/"
+languageCode = "nl-nl"
+title = "Proces Documentalist"
+
+theme = "relearn"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+ignoreFiles = [
+  "\\.obsidian",
+  "\\.trash",
+  "\\.DS_Store"
+]
+
+[params]
+  # Enable Mermaid support
+  mermaid = true
+
+  # Optional but useful
+  # mermaidZoom = true
+
+  custom_css = ["css/custom.css"]
+
+  themeVariant = ["relearn-light", "relearn-dark", "auto"]

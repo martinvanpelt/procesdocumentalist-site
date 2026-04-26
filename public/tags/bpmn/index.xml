@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BPMN :: Tag :: Procesdocumentalist</title>
+    <link>http://localhost:1313/tags/bpmn/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/tags/bpmn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BPMN</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.06-procesmodellering/03.06.01-bpmn/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.06-procesmodellering/03.06.01-bpmn/index.html</guid>
+      <description>Template voor het opstellen van BPMN-procesdiagrammen, inclusief structuur, elementen, rollen, en systemen.</description>
+    </item>
+    <item>
+      <title>BPMN - Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/07.06.02-bpm-diagram/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/07.06.02-bpm-diagram/index.html</guid>
+      <description>Compleet BPMN-diagram van het Orderverwerkingsproces bij TelecomPro B.V., inclusief hoofdstroom, uitzonderingen, beslissingen en verantwoordelijkheden.</description>
+    </item>
+    <item>
+      <title>Procesbeschrijving</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.07-procesuitwerking/03.07.01-procesbeschrijving/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.07-procesuitwerking/03.07.01-procesbeschrijving/index.html</guid>
+      <description>Template voor het gedetailleerd beschrijven van processen, inclusief doel, scope, stappen, systemen, KPI&#39;s en risico&#39;s. Ontworpen voor integratie met BPMN, Swimlane, en andere modelleertechnieken.</description>
+    </item>
+    <item>
+      <title>Procesmodellering - Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/07.06.01-procesmodellering-master/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/07.06.01-procesmodellering-master/index.html</guid>
+      <description>Algemeen template voor de modellering van het Orderverwerkingsproces bij TelecomPro B.V., inclusief richtlijnen en standaarden.</description>
+    </item>
+    <item>
+      <title>Proceshiërarchie</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/03.02.02-proceshi%C3%ABrarchie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/03.02.02-proceshi%C3%ABrarchie/index.html</guid>
+      <description>Template voor het structureren van processen in hiërarchische niveaus, om inzicht te bieden in de opbouw en detailniveaus van processen binnen een organisatie.</description>
+    </item>
+    <item>
+      <title>Swimlane Diagram Template</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.06-procesmodellering/03.06.03-swimlane/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.06-procesmodellering/03.06.03-swimlane/index.html</guid>
+      <description>Template voor het opstellen van swimlane-diagrammen om cross-functionele processen met meerdere verantwoordelijke partijen visueel weer te geven, inclusief BPMN-integratie en praktische toepassingen.</description>
+    </item>
+    <item>
+      <title>Procesarchitectuur</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/03.02.00-procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/03.02.00-procesarchitectuur/index.html</guid>
+      <description>Dit template beschrijft de architectuur van {{procesnaam}} binnen het domein van {{organisatienaam}}. Het doel is om:&#xA;Inzicht te bieden in de opbouw, hiërarchie en relaties van processen. Consistentie te waarborgen in de documentatie van procesarchitecturen. Basis te leggen voor verdere analyse, optimalisatie en automatisering (bijv. met BPMN). Stakeholders (management, uitvoerende teams, IT) een gedegen overzicht te geven van hoe processen in elkaar grijpen. Eigenschappen&#xD;Veld Waarde Toelichting PMD-nummer 03.04.00 Uniek identificatienummer voor deze procesarchitectuur in het Proces Management Document (PMD). Versie 1 Huidige versie van dit document. Wordt geüpdaterd bij elke wijziging. Status concept Mogelijke statussen: concept, in review, goedgekeurd, gepubliceerd, verouderd. Auteur [Naam] De persoon of afdeling die dit document heeft opgesteld (meestal de procesanalist). Eigenaar [Naam proceseigenaar] Verantwoordelijk voor de inhoud en actualiteit van de procesarchitectuur. Datum 17/04/2026 Datum van de laatste update. 1. Domein&#xD;Beschrijf hier het domein waarbinnen het proces valt. Geef aan:</description>
+    </item>
+    <item>
+      <title>Procesmodellering</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.06-procesmodellering/03.06.00-procesmodellering-master/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.06-procesmodellering/03.06.00-procesmodellering-master/index.html</guid>
+      <description>Template voor het modelleren van processen, inclusief hoofdflow, beslissingen, uitzonderingen, en notatiekeuzes.</description>
+    </item>
+  </channel>
+</rss>

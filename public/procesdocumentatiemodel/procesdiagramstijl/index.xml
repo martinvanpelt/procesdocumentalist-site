@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesdiagramstijl :: Proces Documentalist</title>
+    <link>http://localhost:1313/procesdocumentatiemodel/procesdiagramstijl/index.html</link>
+    <description>Om de diagrammen op de Procesdocumentalist-site herkenbaar en consistent te maken, kun je een vaste stijl gebruiken.&#xA;Basisprincipes&#xD;Alle diagrammen gebruiken dezelfde logica:&#xA;Element Betekenis Gebruik Ovaal Start / einde proces Begin en eindpunt Rechthoek Activiteit Processtap Ruit Beslissing Ja/Nee beslissingen Pijl Processtroom Volgorde van stappen Swimlane Rol / afdeling Verantwoordelijkheid Naamgeving van processtappen&#xD;Steeds dezelfde formulering wordt gebruikt:</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/procesdocumentatiemodel/procesdiagramstijl/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

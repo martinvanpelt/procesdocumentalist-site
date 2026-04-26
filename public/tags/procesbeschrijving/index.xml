@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesbeschrijving :: Tag :: Procesdocumentalist</title>
+    <link>http://localhost:1313/tags/procesbeschrijving/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/tags/procesbeschrijving/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesbeschrijving - Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.3-procesbeschrijving/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.3-procesbeschrijving/index.html</guid>
+      <description>Compleet overzicht van het Orderverwerkingsproces bij TelecomPro B.V., inclusief stappen, verantwoordelijkheden, systemen, KPI&#39;s en risico&#39;s.</description>
+    </item>
+  </channel>
+</rss>

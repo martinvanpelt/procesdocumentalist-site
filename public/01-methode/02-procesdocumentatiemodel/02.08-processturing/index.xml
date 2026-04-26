@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Processturing :: Procesdocumentalist</title>
+    <link>http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.08-processturing/index.html</link>
+    <description>Processturing beschrijft hoe processen worden gemeten, gemonitord en geborgd via KPI’s, monitoring, rapportage en kwaliteitsborging binnen het Procesdocumentatiemodel (PDM).</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.08-processturing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KPI&#39;s</title>
+      <link>http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.08-processturing/02.08.01-kpis/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.08-processturing/02.08.01-kpis/index.html</guid>
+      <description>KPI’s (Key Performance Indicators) zijn meetbare indicatoren die de prestaties van een proces objectief inzichtelijk maken.&#xA;Doel&#xD;KPI’s maken het mogelijk om:&#xA;procesprestaties te meten doelstellingen te toetsen trends te identificeren prestaties te vergelijken over tijd Soorten KPI’s&#xD;efficiëntie (snelheid, kosten) effectiviteit (juistheid, volledigheid) kwaliteit (fouten, klanttevredenheid) Belangrijk principe&#xD;Elke KPI moet direct herleidbaar zijn naar het procesdoel.</description>
+    </item>
+    <item>
+      <title>Monitoring</title>
+      <link>http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.08-processturing/02.08.02-monitoring/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.08-processturing/02.08.02-monitoring/index.html</guid>
+      <description>Monitoring&#xD;Monitoring is het continu volgen van procesprestaties om actuele status en afwijkingen zichtbaar te maken.&#xA;Doel&#xD;Monitoring heeft als doel om:&#xA;realtime inzicht te geven in processen afwijkingen vroegtijdig te signaleren operationele sturing mogelijk te maken Vormen van monitoring&#xD;dashboards alerts systeemlogs Belangrijk principe&#xD;Monitoring is alleen waardevol als het leidt tot actie.</description>
+    </item>
+    <item>
+      <title>Rapportage</title>
+      <link>http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.08-processturing/02.08.03-rapportage/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.08-processturing/02.08.03-rapportage/index.html</guid>
+      <description>Rapportage is het periodiek vastleggen en communiceren van procesprestaties op basis van KPI’s en monitoringdata.&#xA;Doel&#xD;Rapportage heeft als doel om:&#xA;inzicht te geven in prestaties trends zichtbaar te maken besluitvorming te ondersteunen transparantie te creëren Rapportagetypen&#xD;operationele rapportages (dagelijks/wekelijks) tactische rapportages (maandelijks) strategische rapportages (kwartaal/jaar) Belangrijk principe&#xD;Rapportage moet leiden tot begrip en actie, niet alleen tot registratie.</description>
+    </item>
+    <item>
+      <title>Kwaliteitsborging</title>
+      <link>http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.08-processturing/02.08.04-kwaliteitsborging/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.08-processturing/02.08.04-kwaliteitsborging/index.html</guid>
+      <description>Kwaliteitsborging omvat alle activiteiten die gericht zijn op het bewaken en verbeteren van de kwaliteit van procesuitvoering en procesoutput.&#xA;Doel&#xD;Kwaliteitsborging heeft als doel om:&#xA;consistentie in procesuitvoering te waarborgen fouten te voorkomen of te verminderen naleving van standaarden te controleren procesresultaten te verbeteren Mechanismen&#xD;controles tijdens uitvoering steekproeven audits validatieregels in systemen Belangrijk principe&#xD;Kwaliteit is geen controle achteraf, maar ingebouwd in het proces.</description>
+    </item>
+  </channel>
+</rss>

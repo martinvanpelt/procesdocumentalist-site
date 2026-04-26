@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Template voor het valideren van procesdocumentatie met procesbetrokkenen, inclusief methoden, checklists, en integratie met andere templates.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Validatie met procesbetrokkenen :: Proces Documentalist">
+    <meta name="twitter:description" content="Template voor het valideren van procesdocumentatie met procesbetrokkenen, inclusief methoden, checklists, en integratie met andere templates.">
+    <meta property="og:url" content="http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.04-validatie/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="Validatie met procesbetrokkenen :: Proces Documentalist">
+    <meta property="og:description" content="Template voor het valideren van procesdocumentatie met procesbetrokkenen, inclusief methoden, checklists, en integratie met andere templates.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Validatie met procesbetrokkenen :: Proces Documentalist">
+    <meta itemprop="description" content="Template voor het valideren van procesdocumentatie met procesbetrokkenen, inclusief methoden, checklists, en integratie met andere templates.">
+    <meta itemprop="wordCount" content="2120">
+    <title>Validatie met procesbetrokkenen :: Proces Documentalist</title>
+    <link href="/01-aanpak/04-bronnen-van-procesinformatie/04.04-validatie/index.xml" rel="alternate" type="application/rss+xml" title="Validatie met procesbetrokkenen :: Proces Documentalist">
+    <link href="/images/favicon.svg?1777193160" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1777193160" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1777193160" defer></script>
+    <script src="/js/search-lunr.js?1777193160" defer></script>
+    <script src="/js/search.js?1777193160" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1777193160";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1777193160" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1777193160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1777193160" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1777193160" rel="stylesheet">
+    <link href="/css/theme.css?1777193160" rel="stylesheet">
+    <link href="/css/format-html.css?1777193160" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/01-aanpak\/04-bronnen-van-procesinformatie\/04.04-validatie\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-light', 'relearn-dark', 'auto' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1777193160" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/01-aanpak/04-bronnen-van-procesinformatie/04.04-validatie/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist in één oogopslag</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/01-aanpak/index.html"><span itemprop="name">Aanpak</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/01-aanpak/04-bronnen-van-procesinformatie/index.html"><span itemprop="name">Bronnen van procesinformatie</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Validatie met procesbetrokkenen</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/01-aanpak/04-bronnen-van-procesinformatie/index.html" title="Bronnen van procesinformatie (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/05-procesdocument/index.html" title="Procesdocument (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 01-aanpak" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="validatie-met-procesbetrokkenen">Validatie met procesbetrokkenen</h1>
+
+<p>Validatie met procesbetrokkenen is een cruciale stap in het proces van procesdocumentatie. Het zorgt ervoor dat de procesbeschrijvingen, diagrammen, en werkinstructies niet alleen accuraat en compleet zijn, maar ook herkenbaar en bruikbaar voor alle betrokkenen.Deze validatie is  essentieel om:</p>
+<ul>
+<li>Correctheid te waarborgen: Zorgt ervoor dat de documentatie feiten en realiteit weerspiegelt.</li>
+<li>Volledigheid te garanderen: Zorgt ervoor dat alle relevante stappen, rollen, en uitzonderingen zijn opgenomen.</li>
+<li>Herkenbaarheid te creëren: Zorgt ervoor dat betrokkenen zich kunnen vinden in de documentatie.</li>
+<li>Consensus te bereiken: Zorgt voor alignement tussen verschillende afdelingen en rollen.</li>
+<li>Kwaliteit te borgen: Voorkomt fouten, misverstanden, en onbruikbare documentatie.</li>
+</ul>
+
+<details open class="box cstyle notices primary">
+  <summary class="box-label" tabindex="-1">
+    Belangrijke opmerking
+  </summary>
+  <div class="box-content">
+<p>Validatie is geen eenmalige activiteit, maar een doorlopend proces. Zorg voor regelmatige updates en feedbackronde om de documentatie actueel en relevant te houden.</p>
+  </div>
+</details>
+<h4 id="waarom-validatie-met-procesbetrokkenen">Waarom Validatie met procesbetrokkenen?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Validatie met betrokkenen biedt meerdere voordelen voor procesdocumentatie:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Voordeel</th>
+          <th>Toelichting</th>
+          <th>Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Accuraatheid</td>
+          <td>Stakeholders kunnen fouten en onnauwkeurigheden opsporen.</td>
+          <td>Betrouwbaardere documentatie.</td>
+      </tr>
+      <tr>
+          <td>Volledigheid</td>
+          <td>Stakeholders kunnen ontbrekende informatie aanleveren.</td>
+          <td>Completere documentatie.</td>
+      </tr>
+      <tr>
+          <td>Herkenbaarheid</td>
+          <td>Stakeholders bevestigen dat de documentatie hun werkelijkheid weerspiegelt.</td>
+          <td>Grotere acceptatie en gebruik.</td>
+      </tr>
+      <tr>
+          <td>Consensus</td>
+          <td>Validatie zorgt voor alignement tussen afdelingen.</td>
+          <td>Minder conflicten en misverstanden.</td>
+      </tr>
+      <tr>
+          <td>Kwaliteitsborging</td>
+          <td>Stakeholders kunnen kwaliteitsnormen toepassen.</td>
+          <td>Professionelere documentatie.</td>
+      </tr>
+      <tr>
+          <td>Betrokkenheid</td>
+          <td>Stakeholders voelen eigenaarschap over de documentatie.</td>
+          <td>Grotere motivatie om documentatie te gebruiken.</td>
+      </tr>
+      <tr>
+          <td>Continue verbetering</td>
+          <td>Feedback van stakeholders leidt tot verbeteringen.</td>
+          <td>Levensechte documentatie.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="wie-betrokken-zijn-bij-validatie">Wie Betrokken Zijn bij Validatie?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Validatie vindt plaats met verschillende groepen betrokkenen, afhankelijk van het proces en de scope van de documentatie.</p>
+<h5 id="21-sleutel-validatiegroepen">2.1 Sleutel Validatiegroepen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Rol</th>
+          <th>Verantwoordelijkheid</th>
+          <th>Betrokkenheid</th>
+          <th>Voorbeeld</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Proceseigenaar</td>
+          <td>Verantwoordelijk voor de inhoud en actualiteit van het proces.</td>
+          <td>Continu</td>
+          <td>Valideert procesbeschrijving en BPMN-diagram.</td>
+      </tr>
+      <tr>
+          <td>Procesuitvoerders</td>
+          <td>Voeren het proces dagelijks uit; kennen praktische knelpunten.</td>
+          <td>Ad hoc</td>
+          <td>Valideert werkinstructies en processtappen.</td>
+      </tr>
+      <tr>
+          <td>Teamleiders</td>
+          <td>Coördineren het proces; kennen afhankelijkheden en samenwerking.</td>
+          <td>Periodiek</td>
+          <td>Valideert verantwoordelijkheden en rollen.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="22-uitgebreide-validatiegroepen">2.2 Uitgebreide Validatiegroepen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Rol</th>
+          <th>Verantwoordelijkheid</th>
+          <th>Betrokkenheid</th>
+          <th>Voorbeeld</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Kwaliteitsmanager</td>
+          <td>Zorgt voor naleving van kwaliteitsnormen (bijv. ISO 9001).</td>
+          <td>Periodiek</td>
+          <td>Valideert procesdocumentatie op compliance.</td>
+      </tr>
+      <tr>
+          <td>IT-afdeling</td>
+          <td>Ondersteunt systeemintegraties en technische aspecten.</td>
+          <td>Ad hoc</td>
+          <td>Valideert systeemstappen in BPMN-diagram.</td>
+      </tr>
+      <tr>
+          <td>Management</td>
+          <td>Valideert strategische alignement van het proces.</td>
+          <td>Periodiek</td>
+          <td>Valideert procesdoelen en KPI&rsquo;s.</td>
+      </tr>
+      <tr>
+          <td>HR</td>
+          <td>Zorgt voor alignement met functieomschrijvingen.</td>
+          <td>Ad hoc</td>
+          <td>Valideert procesrollen en competenties.</td>
+      </tr>
+      <tr>
+          <td>Compliance Officer</td>
+          <td>Zorgt voor naleving van wettelijke eisen (bijv. GDPR).</td>
+          <td>Periodiek</td>
+          <td>Valideert compliance-aspecten in procesdocumentatie.</td>
+      </tr>
+      <tr>
+          <td>Externe betrokkenen</td>
+          <td>Leveranciers, klanten, of partners die betrokken zijn bij het proces.</td>
+          <td>Ad hoc</td>
+          <td>Valideert processtappen die externe partijen raken.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="selectie-van-betrokkenen">Selectie van betrokkenen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Kies procesbetrokkenen op basis van:</p>
+<ul>
+<li>Betrokkenheid bij het proces: Wie is direct of indirect betrokken?</li>
+<li>Kennis en ervaring: Wie heeft diepgaande kennis van het proces?</li>
+<li>Impact van het proces: Wie wordt beïnvloed door het proces?</li>
+<li>Verantwoordelijkheid: Wie is verantwoordelijk voor delen van het proces?</li>
+</ul>
+
+<details open class="box cstyle notices tip">
+  <summary class="box-label" tabindex="-1">
+    <i class="fa-fw fas fa-lightbulb"></i> 
+    <br>
+  </summary>
+  <div class="box-content">
+<p>Gebruik de <a href="/11-gereedschapskist/11.03-checklists/11.03.01-checklist-selectie-procesbetrokkenen/index.html">Checklist selectie procesbetrokkenen</a> om relevante stakeholders te identificeren voor validatie.</p>
+  </div>
+</details>
+<h4 id="wanneer-validatie-uitvoeren">Wanneer validatie uitvoeren?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Validatie kan op verschillende momenten in het proces van procesdocumentatie plaatsvinden:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Moment</th>
+          <th>Doel</th>
+          <th>Voorbeeld</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Tijdens opstelling</td>
+          <td>Tussentijdse feedback om documentatie te verbeteren.</td>
+          <td>Validatie van een concept-BPMN-diagram.</td>
+      </tr>
+      <tr>
+          <td>Na opstelling</td>
+          <td>Eindvalidatie voordat documentatie wordt gepubliceerd.</td>
+          <td>Validatie van de definitieve Procesbeschrijving.</td>
+      </tr>
+      <tr>
+          <td>Periodieke review</td>
+          <td>Regelmatige updates om documentatie actueel te houden.</td>
+          <td>Jaarlijkse validatie van alle procesdocumentatie.</td>
+      </tr>
+      <tr>
+          <td>Na wijzigingen</td>
+          <td>Validatie na aanpassingen in het proces of documentatie.</td>
+          <td>Validatie na een systeemupdate.</td>
+      </tr>
+      <tr>
+          <td>Bij audits</td>
+          <td>Validatie voor compliance-doeleinden.</td>
+          <td>Validatie voor ISO 9001-audit.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="4-validatiemethoden">4. Validatiemethoden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Gebruik verschillende methoden om procesdocumentatie te valideren, afhankelijk van het type documentatie en de beschikbare tijd en resources.</p>
+<h5 id="41-individuele-validatie">4.1 Individuele Validatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Methode</th>
+          <th>Beschrijving</th>
+          <th>Wanneer te gebruiken</th>
+          <th>Voordelen</th>
+          <th>Nadelen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>E-mail validatie</td>
+          <td>Stuur documentatie per e-mail voor feedback.</td>
+          <td>Bij eenvoudige documentatie of beperkte tijd.</td>
+          <td>Snel, eenvoudig.</td>
+          <td>Minder interactie, lagere respons.</td>
+      </tr>
+      <tr>
+          <td>1-op-1 gesprek</td>
+          <td>Bespreek documentatie face-to-face met een stakeholder.</td>
+          <td>Bij complexe documentatie of diepgaande feedback.</td>
+          <td>Diepgaand, persoonlijk.</td>
+          <td>Tijdsintensief.</td>
+      </tr>
+      <tr>
+          <td>Online formulier</td>
+          <td>Gebruik een digitale vragenlijst voor feedback.</td>
+          <td>Bij grote groepen stakeholders.</td>
+          <td>Gestructureerd, meetbaar.</td>
+          <td>Minder persoonlijk.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="42-groepsvalidatie">4.2 Groepsvalidatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Methode</th>
+          <th>Beschrijving</th>
+          <th>Wanneer te gebruiken</th>
+          <th>Voordelen</th>
+          <th>Nadelen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Workshop</td>
+          <td>Organiseer een groepssessie om documentatie te valideren.</td>
+          <td>Bij complexe processen of veel stakeholders.</td>
+          <td>Interactief, consensus.</td>
+          <td>Tijdsintensief, logistiek.</td>
+      </tr>
+      <tr>
+          <td>Focusgroep</td>
+          <td>Kleine groep stakeholders voor diepgaande discussie.</td>
+          <td>Bij specifieke onderwerpen of knelpunten.</td>
+          <td>Diepgaand, gericht.</td>
+          <td>Beperkte deelnemers.</td>
+      </tr>
+      <tr>
+          <td>Reviewmeeting</td>
+          <td>Bespreek documentatie in een formele meeting.</td>
+          <td>Bij belangrijke documentatie (bijv. Proceslandkaart).</td>
+          <td>Gestructureerd, formeel.</td>
+          <td>Minder interactief.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="43-automatische-validatie">4.3 Automatische Validatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Methode</th>
+          <th>Beschrijving</th>
+          <th>Wanneer te gebruiken</th>
+          <th>Voordelen</th>
+          <th>Nadelen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Systeemvalidatie</td>
+          <td>Valideer documentatie tegen systeemdata (bijv. ERP, CRM).</td>
+          <td>Bij processtappen die in systemen zijn geregistreerd.</td>
+          <td>Objectief, feitengebaseerd.</td>
+          <td>Technisch, beperkt tot systeemdata.</td>
+      </tr>
+      <tr>
+          <td>Compliance-check</td>
+          <td>Gebruik automatische tools om compliance te valideren.</td>
+          <td>Bij wettelijke of organisatie-eisen.</td>
+          <td>Snel, nauwkeurig.</td>
+          <td>Beperkt tot vooraf gedefinieerde regels.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="5-validatiechecklists">5. Validatiechecklists<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Gebruik checklists om de validatie gestructureerd en compleet uit te voeren.</p>
+<h5 id="51-checklist-voor-procesbeschrijving">5.1 Checklist voor Procesbeschrijving<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Criterium</th>
+          <th>Vraag</th>
+          <th>Ja/Nee</th>
+          <th>Opmerkingen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Correctheid</td>
+          <td>Kloppen de processtappen met de werkelijkheid?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Validatie met Order Team bevestigd.</td>
+      </tr>
+      <tr>
+          <td>Volledigheid</td>
+          <td>Zijn alle stappen opgenomen?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Ontbrekende stap: Controle voorraad.</td>
+      </tr>
+      <tr>
+          <td>Herkenbaarheid</td>
+          <td>Is de beschrijving herkenbaar voor uitvoerders?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Feedback: &ldquo;Stap 3 is niet duidelijk.&rdquo;</td>
+      </tr>
+      <tr>
+          <td>Consistentie</td>
+          <td>Is de beschrijving consistent met andere documentatie?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Consistent met Werkinstructie.</td>
+      </tr>
+      <tr>
+          <td>Duidelijkheid</td>
+          <td>Is de beschrijving duidelijk en begrijpelijk?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Jargon uitgelegd in Glossarium.</td>
+      </tr>
+      <tr>
+          <td>Actualiteit</td>
+          <td>Is de beschrijving actueel?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Laatste update: 17/04/2026.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="52-checklist-voor-bpmn-diagram">5.2 Checklist voor BPMN-diagram<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Criterium</th>
+          <th>Vraag</th>
+          <th>Ja/Nee</th>
+          <th>Opmerkingen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Correctheid</td>
+          <td>Kloppen de stappen en symbolen met BPMN 2.0?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Geverifieerd met BPMN-handboek.</td>
+      </tr>
+      <tr>
+          <td>Volledigheid</td>
+          <td>Zijn alle processtappen gemodelleerd?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Ontbrekende uitzondering: Systeemstoring.</td>
+      </tr>
+      <tr>
+          <td>Herkenbaarheid</td>
+          <td>Is het diagram herkenbaar voor uitvoerders?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Feedback: &ldquo;Gateway bij stap 2 is onduidelijk.&rdquo;</td>
+      </tr>
+      <tr>
+          <td>Consistentie</td>
+          <td>Is het diagram consistent met de Procesbeschrijving?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Consistent met Procesbeschrijving.</td>
+      </tr>
+      <tr>
+          <td>duidelijkheid</td>
+          <td>Is het diagram duidelijk en leesbaar?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Kleuren toegevoegd voor betere leesbaarheid.</td>
+      </tr>
+      <tr>
+          <td>Actualiteit</td>
+          <td>Is het diagram actueel?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Laatste update: 17/04/2026.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="53-checklist-voor-raci-matrix">5.3 Checklist voor RACI-matrix<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Criterium</th>
+          <th>Vraag</th>
+          <th>Ja/Nee</th>
+          <th>Opmerkingen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Correctheid</td>
+          <td>Kloppen de RACI-codes met de werkelijkheid?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Geverifieerd met Proceseigenaar.</td>
+      </tr>
+      <tr>
+          <td>Volledigheid</td>
+          <td>Zijn alle rollen en activiteiten opgenomen?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Ontbrekende rol: IT-afdeling.</td>
+      </tr>
+      <tr>
+          <td>Herkenbaarheid</td>
+          <td>Is de matrix herkenbaar voor uitvoerders?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Feedback: &ldquo;Verantwoordelijkheid voor stap 3 is onduidelijk.&rdquo;</td>
+      </tr>
+      <tr>
+          <td>Consistentie</td>
+          <td>Is de matrix consistent met andere documentatie?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Consistent met Procesrollen.</td>
+      </tr>
+      <tr>
+          <td>duidelijkheid</td>
+          <td>Is de matrix duidelijk en begrijpelijk?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Legenda toegevoegd.</td>
+      </tr>
+      <tr>
+          <td>Actualiteit</td>
+          <td>Is de matrix actueel?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Laatste update: 17/04/2026.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="6-validatieproces">6. Validatieproces<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Volg deze stappen om een effectieve validatie uit te voeren.</p>
+<h5 id="61-voorbereiding">6.1 Voorbereiding<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ol>
+<li>Selecteer stakeholders:</li>
+</ol>
+<ul>
+<li>Kies relevante stakeholders voor validatie (gebruik RACI-matrix).</li>
+</ul>
+<ol>
+<li>Bepaal validatiemethode:</li>
+</ol>
+<ul>
+<li>Kies een passende methode (e-mail, workshop, 1-op-1 gesprek).</li>
+</ul>
+<ol>
+<li>Stel een planning op:</li>
+</ol>
+<ul>
+<li>Plan tijd en locatie voor validatie.</li>
+</ul>
+<ol>
+<li>Bereid documentatie voor:</li>
+</ol>
+<ul>
+<li>Zorg dat de documentatie compleet en begrijpelijk is.</li>
+</ul>
+<ol>
+<li>Maak een checklist:</li>
+</ol>
+<ul>
+<li>Gebruik een validatiechecklist voor gestructureerde feedback.</li>
+</ul>
+<h5 id="62-uitvoering">6.2 Uitvoering<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ol>
+<li>Introduceer de documentatie:</li>
+</ol>
+<ul>
+<li>Leg uit wat het doel is van de documentatie.</li>
+</ul>
+<ol>
+<li>Geef uitleg:</li>
+</ol>
+<ul>
+<li>Leg uit hoe de documentatie is opgesteld.</li>
+</ul>
+<ol>
+<li>Vraag om feedback:</li>
+</ol>
+<ul>
+<li>Vraag stakeholders om feedback op correctheid, volledigheid, en herkenbaarheid.</li>
+</ul>
+<ol>
+<li>Beantwoord vragen:</li>
+</ol>
+<ul>
+<li>Beantwoord vragen en opmerkingen van stakeholders.</li>
+</ul>
+<ol>
+<li>Documenteer feedback:</li>
+</ol>
+<ul>
+<li>Noteer alle feedback voor latere verwerking.</li>
+</ul>
+<h5 id="63-verwerking-van-feedback">6.3 Verwerking van Feedback<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ol>
+<li>Analyseer feedback:</li>
+</ol>
+<ul>
+<li>Groepeer feedback per categorie (correctheid, volledigheid, etc.).</li>
+</ul>
+<ol>
+<li>Prioriteer feedback:</li>
+</ol>
+<ul>
+<li>Bepaal welke feedback het meest kritisch is.</li>
+</ul>
+<ol>
+<li>Pas documentatie aan:</li>
+</ol>
+<ul>
+<li>Werk de documentatie bij op basis van feedback.</li>
+</ul>
+<ol>
+<li>Valideer aanpassingen:</li>
+</ol>
+<ul>
+<li>Laat aanpassingen valideren door stakeholders.</li>
+</ul>
+<ol>
+<li>Publiceer documentatie:</li>
+</ol>
+<ul>
+<li>Publiceer de gevalideerde documentatie in het PMD.</li>
+</ul>
+<h5 id="64-follow-up">6.4 Follow-up<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ol>
+<li>Bedank stakeholders:</li>
+</ol>
+<ul>
+<li>Bedank stakeholders voor hun tijd en inbreng.</li>
+</ul>
+<ol>
+<li>Communiceer resultaten:</li>
+</ol>
+<ul>
+<li>Deel de gevalideerde documentatie met alle betrokkenen.</li>
+</ul>
+<ol>
+<li>Plan periodieke reviews:</li>
+</ol>
+<ul>
+<li>Plan regelmatige validatie om documentatie actueel te houden.</li>
+</ul>
+<ol>
+<li>Documenteer lessen geleerd:</li>
+</ol>
+<ul>
+<li>Leg ervaringen vast voor toekomstige validaties.</li>
+</ul>
+<h4 id="7-tips-voor-effectieve-validatie">7. Tips voor Effectieve Validatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ul>
+<li>Wees duidelijk: Leg duidelijk uit wat het doel van de validatie is.</li>
+<li>Gebruik checklists: Zorg voor gestructureerde feedback met checklists.</li>
+<li>Betrek de juiste stakeholders: Kies stakeholders die relevante kennis hebben.</li>
+<li>Wees open voor feedback: Moedig kritische feedback aan.</li>
+<li>Documenteer alles: Noteer alle feedback voor latere verwerking.</li>
+<li>Prioriteer feedback: Focus eerst op kritische feedback.</li>
+<li>Valideer in fasen: Valideer tussentijds om grote aanpassingen later te voorkomen.</li>
+<li>Gebruik visuele hulpmiddelen: Toon diagrammen en flowcharts voor betere begrijpelijkheid.</li>
+<li>Houd rekening met cultuur: Pas de validatie aan aan de organisatiecultuur.</li>
+<li>Gebruik je Lean Six Sigma-kennis: Pas DMAIC toe voor gestructureerde validatie.</li>
+</ul>
+<h4 id="8-veelgemaakte-fouten-en-hoe-ze-te-vermijden">8. Veelgemaakte Fouten en Hoe ze te Vermijden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Fout</th>
+          <th>Oorzaak</th>
+          <th>Impact</th>
+          <th>Oplossing</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Te late validatie</td>
+          <td>Validatie wordt pas aan het einde uitgevoerd.</td>
+          <td>Grote aanpassingen nodig, vertraging.</td>
+          <td>Valideer tussentijds tijdens opstelling.</td>
+      </tr>
+      <tr>
+          <td>Verkeerde stakeholders</td>
+          <td>Stakeholders zonder relevante kennis.</td>
+          <td>Onnauwkeurige feedback.</td>
+          <td>Kies relevante stakeholders (gebruik RACI).</td>
+      </tr>
+      <tr>
+          <td>Geen duidelijke vraagstelling</td>
+          <td>Onduidelijk wat er moet worden gevalideerd.</td>
+          <td>Ongefocuste feedback.</td>
+          <td>Gebruik checklists voor gestructureerde feedback.</td>
+      </tr>
+      <tr>
+          <td>Feedback niet documenteren</td>
+          <td>Feedback wordt niet genoteerd.</td>
+          <td>Verloren inzichten.</td>
+          <td>Documenteer alle feedback.</td>
+      </tr>
+      <tr>
+          <td>Geen follow-up</td>
+          <td>Feedback wordt niet verwerkt.</td>
+          <td>Geen verbetering.</td>
+          <td>Verwerk feedback en communiceer resultaten.</td>
+      </tr>
+      <tr>
+          <td>Te veel stakeholders</td>
+          <td>Te grote groep voor effectieve validatie.</td>
+          <td>Chaotische discussie.</td>
+          <td>Beperk tot max. 10 stakeholders.</td>
+      </tr>
+      <tr>
+          <td>Geen prioritering</td>
+          <td>Alle feedback wordt gelijk behandeld.</td>
+          <td>Tijdsverspilling.</td>
+          <td>Prioriteer feedback op basis van impact.</td>
+      </tr>
+      <tr>
+          <td>Geen visuele hulpmiddelen</td>
+          <td>Alleen tekstuele documentatie.</td>
+          <td>Moeilijk te begrijpen.</td>
+          <td>Gebruik diagrammen en flowcharts.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="9-tools-voor-validatie">9. Tools voor Validatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Gebruik deze tools om validatie efficiënter en interactiever te maken:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Tool</th>
+          <th>Doel</th>
+          <th>Voordelen</th>
+          <th>Nadelen</th>
+          <th>Link</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Microsoft Teams/Zoom</td>
+          <td>Online validatiesessies.</td>
+          <td>Gemakkelijk, opnamefunctie.</td>
+          <td>Minder interactief dan fysiek.</td>
+          <td><a href="https://www.microsoft.com/microsoft-teams" rel="external">Teams</a>, <a href="https://zoom.us" rel="external">Zoom</a></td>
+      </tr>
+      <tr>
+          <td>Miro/Mural</td>
+          <td>Visuele validatie (BPMN, Swimlane).</td>
+          <td>Real-time samenwerken, templates.</td>
+          <td>Leercurve.</td>
+          <td><a href="https://miro.com" rel="external">Miro</a>, <a href="https://www.mural.co" rel="external">Mural</a></td>
+      </tr>
+      <tr>
+          <td>Google Forms</td>
+          <td>Digitale feedbackformulieren.</td>
+          <td>Gestructureerd, meetbaar.</td>
+          <td>Minder persoonlijk.</td>
+          <td><a href="https://www.google.com/forms" rel="external">Google Forms</a></td>
+      </tr>
+      <tr>
+          <td>Confluence</td>
+          <td>Samenwerken aan documentatie.</td>
+          <td>Centraal opslaan, versiebeheer.</td>
+          <td>Betaalde versie voor gevorderde functies.</td>
+          <td><a href="https://www.atlassian.com/software/confluence" rel="external">Confluence</a></td>
+      </tr>
+      <tr>
+          <td>SharePoint</td>
+          <td>Centraal opslaan en delen van documentatie.</td>
+          <td>Integratie met Office 365, versiebeheer.</td>
+          <td>Complexe opzet.</td>
+          <td><a href="https://www.microsoft.com/sharepoint" rel="external">SharePoint</a></td>
+      </tr>
+      <tr>
+          <td>Camunda/Signavio</td>
+          <td>Validatie van BPMN-diagrammen.</td>
+          <td>Professionele BPMN-tools, samenwerking.</td>
+          <td>Betaalde versie.</td>
+          <td><a href="https://camunda.com" rel="external">Camunda</a>, <a href="https://www.signavio.com" rel="external">Signavio</a></td>
+      </tr>
+      <tr>
+          <td>Lucidchart</td>
+          <td>Validatie van diagrammen (BPMN, Swimlane).</td>
+          <td>Gebruiksvriendelijk, samenwerking.</td>
+          <td>Betaalde versie voor gevorderde functies.</td>
+          <td><a href="https://www.lucidchart.com" rel="external">Lucidchart</a></td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="10-stakeholders-en-verantwoordelijkheden">10. Stakeholders en Verantwoordelijkheden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Geef hier een overzicht van wie betrokken is bij de validatie.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Rol</th>
+          <th>Verantwoordelijkheid</th>
+          <th>Betrokkenheid</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesanalist</td>
+          <td>Voert de validatie uit en verwerkt feedback.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>Proceseigenaar</td>
+          <td>Valideert de documentatie op correctheid en volledigheid.</td>
+          <td>Continu</td>
+      </tr>
+      <tr>
+          <td>Procesuitvoerders</td>
+          <td>Leveren feedback op herkenbaarheid en praktische uitvoerbaarheid.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>Kwaliteitsmanager</td>
+          <td>Valideert kwaliteitsnormen (bijv. ISO 9001).</td>
+          <td>Periodiek</td>
+      </tr>
+      <tr>
+          <td>IT-afdeling</td>
+          <td>Valideert technische aspecten (bijv. systeemstappen).</td>
+          <td>Ad hoc</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="11-gerelateerde-documenten">11. Gerelateerde Documenten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Lijst hier alle gerelateerde documenten, zoals:</p>
+<ul>
+<li>[Link naar Procesbeschrijving (PMD-03.07.01)]</li>
+<li>[Link naar BPMN-diagram (PMD-03.06.01)]</li>
+<li>[Link naar RACI-matrix (PMD-03.07.03)]</li>
+<li>[Link naar Interviews (PMD-03.09.01)]</li>
+<li>[Link naar Workshops (PMD-03.09.02)]</li>
+<li>[Link naar Systemen en Data (PMD-03.09.03)]</li>
+</ul>
+<h4 id="12-versiehistorie">12. Versiehistorie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Versie</th>
+          <th>Datum</th>
+          <th>Wijziging</th>
+          <th>Auteur</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1.0</td>
+          <td>17/04/2026</td>
+          <td>Initiële versie</td>
+          <td>[Naam]</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="13-instructies-voor-gebruik">13. Instructies voor Gebruik<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ol>
+<li>Selecteer stakeholders:  Kies relevante stakeholders voor validatie.</li>
+<li>Bepaal validatiemethode: Kies een passende methode (e-mail, workshop, 1-op-1 gesprek).</li>
+<li>Bereid documentatie voor: Zorg dat de documentatie compleet en begrijpelijk is.</li>
+<li>Voer validatie uit: Vraag om feedback en documenteer deze.</li>
+<li>Verwerk feedback: Pas documentatie bij op basis van feedback.</li>
+<li>Valideer aanpassingen: Laat aanpassingen valideren door stakeholders.</li>
+<li>Publiceer documentatie: Publiceer de gevalideerde documentatie in het PMD.</li>
+<li>Plan follow-up: Plan regelmatige validatie om documentatie actueel te houden.</li>
+</ol>
+<h4 id="14-voorbeeld-validatie-van-procesbeschrijving-orderverwerking">14. Voorbeeld: Validatie van Procesbeschrijving (Orderverwerking)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="voorbereiding">Voorbereiding<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Stakeholders: Proceseigenaar, 2 Order Medewerkers, Teamleider, IT Medewerker.</li>
+<li>Validatiemethode: Workshop.</li>
+<li>Documentatie: Procesbeschrijving Orderverwerking (conceptversie).</li>
+<li>Checklist: Checklist voor Procesbeschrijving.</li>
+</ul>
+<h5 id="uitvoering-workshop">Uitvoering (Workshop)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ol>
+<li>Inleiding (15 min):</li>
+</ol>
+<ul>
+<li>Facilitator legt doel van de workshop uit: valideren van de Procesbeschrijving Orderverwerking.</li>
+<li>Agenda wordt besproken.</li>
+</ul>
+<ol>
+<li>Presentatie (15 min):</li>
+</ol>
+<ul>
+<li>Proceseigenaar presenteert de Procesbeschrijving.</li>
+<li>Belangrijkste stappen en verantwoordelijkheden worden toegelicht.</li>
+</ul>
+<ol>
+<li>Feedbackronde (30 min):</li>
+</ol>
+<ul>
+<li>Stakeholders geven feedback op:
+<ul>
+<li>Correctheid: &ldquo;Klopt de volgorde van de stappen?&rdquo;</li>
+<li>Volledigheid: &ldquo;Ontbreken er stappen?&rdquo;</li>
+<li>Herkenbaarheid: &ldquo;Is de beschrijving herkenbaar?&rdquo;</li>
+</ul>
+</li>
+<li>Feedback wordt genoteerd op een whiteboard.</li>
+</ul>
+<ol>
+<li>Discussie (30 min):</li>
+</ol>
+<ul>
+<li>Knelpunten worden besproken:
+<ul>
+<li>&ldquo;Validatiestap duurt te lang.&rdquo;</li>
+<li>&ldquo;Controle voorraad ontbreekt.&rdquo;</li>
+</ul>
+</li>
+<li>Oplossingen worden bedacht:
+<ul>
+<li>&ldquo;Automatiseren validatiestap.&rdquo;</li>
+<li>&ldquo;Voeg controle voorraad toe.&rdquo;</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>Afsluiting (15 min):</li>
+</ol>
+<ul>
+<li>Actiepunten worden vastgelegd:
+<ul>
+<li>Procesanalist past Procesbeschrijving aan op basis van feedback.</li>
+<li>Proceseigenaar valideert aanpassingen binnen 1 week.</li>
+</ul>
+</li>
+</ul>
+<h5 id="verwerking-van-feedback">Verwerking van Feedback<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Feedback</th>
+          <th>Categorie</th>
+          <th>Prioriteit</th>
+          <th>Actie</th>
+          <th>Verantwoordelijke</th>
+          <th>Deadline</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Validatiestap duurt te lang.</td>
+          <td>Correctheid</td>
+          <td>Hoog</td>
+          <td>Onderzoek oorzaak.</td>
+          <td>Proceseigenaar</td>
+          <td>20/04/2026</td>
+      </tr>
+      <tr>
+          <td>Controle voorraad ontbreekt.</td>
+          <td>Volledigheid</td>
+          <td>Hoog</td>
+          <td>Voeg stap toe.</td>
+          <td>Procesanalist</td>
+          <td>19/04/2026</td>
+      </tr>
+      <tr>
+          <td>Stap 3 is onduidelijk.</td>
+          <td>Herkenbaarheid</td>
+          <td>Middel</td>
+          <td>Herformuleer stap.</td>
+          <td>Procesanalist</td>
+          <td>19/04/2026</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="follow-up">Follow-up<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>19/04/2026: Procesanalist past Procesbeschrijving aan.</li>
+<li>20/04/2026: Proceseigenaar valideert aanpassingen.</li>
+<li>21/04/2026: Gevalideerde Procesbeschrijving wordt gepubliceerd in PMD.</li>
+</ul>
+<h4 id="15-voorbeeld-validatie-van-bpmn-diagram-sim-activatie-telecom">15. Voorbeeld: Validatie van BPMN-diagram (SIM-activatie, Telecom)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Gebaseerd op je ervaring in de telecomsector, hier een praktisch voorbeeld voor een SIM-activatieproces.</p>
+<h5 id="voorbereiding-1">Voorbereiding<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Stakeholders: Proceseigenaar, 2 Technisch Medewerkers, Teamleider, IT Medewerker.</li>
+<li>Validatiemethode: Workshop.</li>
+<li>Documentatie: BPMN-diagram SIM-activatie (conceptversie).</li>
+<li>Checklist: Checklist voor BPMN-diagram.</li>
+</ul>
+<h5 id="uitvoering-workshop-1">Uitvoering (Workshop)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ol>
+<li>Inleiding (15 min):</li>
+</ol>
+<ul>
+<li>Facilitator legt doel van de workshop uit: valideren van het BPMN-diagram SIM-activatie.</li>
+</ul>
+<ol>
+<li>Presentatie (15 min):</li>
+</ol>
+<ul>
+<li>Proceseigenaar presenteert het BPMN-diagram.</li>
+<li>Belangrijkste stappen, beslissingen, en systemen worden toegelicht.</li>
+</ul>
+<ol>
+<li>Feedbackronde (30 min):</li>
+</ol>
+<ul>
+<li>Stakeholders geven feedback op:
+<ul>
+<li>Correctheid: &ldquo;Kloppen de BPMN-symbolen?&rdquo;</li>
+<li>Volledigheid: &ldquo;Ontbreken er stappen of beslissingen?&rdquo;</li>
+<li>Herkenbaarheid: &ldquo;Is het diagram herkenbaar?&rdquo;</li>
+</ul>
+</li>
+<li>Feedback wordt genoteerd in Miro.</li>
+</ul>
+<ol>
+<li>Discussie (30 min):</li>
+</ol>
+<ul>
+<li>Knelpunten worden besproken:
+<ul>
+<li>&ldquo;Activatiestap duurt te lang.&rdquo;</li>
+<li>&ldquo;Teststap ontbreekt.&rdquo;</li>
+</ul>
+</li>
+<li>Oplossingen worden bedacht:
+<ul>
+<li>&ldquo;Automatiseren activatiestap.&rdquo;</li>
+<li>&ldquo;Voeg teststap toe.&rdquo;</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>Afsluiting (15 min):</li>
+</ol>
+<ul>
+<li>Actiepunten worden vastgelegd:
+<ul>
+<li>Procesanalist past BPMN-diagram aan op basis van feedback.</li>
+<li>Proceseigenaar valideert aanpassingen binnen 1 week.</li>
+</ul>
+</li>
+</ul>
+<h5 id="verwerking-van-feedback-1">Verwerking van Feedback<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Feedback</th>
+          <th>Categorie</th>
+          <th>Prioriteit</th>
+          <th>Actie</th>
+          <th>Verantwoordelijke</th>
+          <th>Deadline</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Activatiestap duurt te lang.</td>
+          <td>Correctheid</td>
+          <td>Hoog</td>
+          <td>Onderzoek oorzaak.</td>
+          <td>Proceseigenaar</td>
+          <td>20/04/2026</td>
+      </tr>
+      <tr>
+          <td>Teststap ontbreekt.</td>
+          <td>Volledigheid</td>
+          <td>Hoog</td>
+          <td>Voeg stap toe.</td>
+          <td>Procesanalist</td>
+          <td>19/04/2026</td>
+      </tr>
+      <tr>
+          <td>Gateway bij stap 2 is onduidelijk.</td>
+          <td>Herkenbaarheid</td>
+          <td>Middel</td>
+          <td>Verduidelijk gateway.</td>
+          <td>Procesanalist</td>
+          <td>19/04/2026</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="follow-up-1">Follow-up<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>19/04/2026: Procesanalist past BPMN-diagram aan.</li>
+<li>20/04/2026: Proceseigenaar valideert aanpassingen.</li>
+<li>21/04/2026: Gevalideerd BPMN-diagram wordt gepubliceerd in PMD.</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark relearn-light">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="parent " data-nav-id="/01-aanpak/index.html"><a class="padding default-animation" href="/01-aanpak/index.html">Aanpak</a><ul id="R-subsections-eef63c732ca8e67c3fdd6cbe13906dc2" class="collapsible-menu">
+            <li class="parent hidden alwaysopen " data-nav-id="/01-aanpak/04-bronnen-van-procesinformatie/index.html"><a class="padding default-animation" href="/01-aanpak/04-bronnen-van-procesinformatie/index.html">Bronnen van procesinformatie</a><ul id="R-subsections-50c7f7e793f4f52df16e29bc50046044" class="collapsible-menu">
+            <li class="active hidden " data-nav-id="/01-aanpak/04-bronnen-van-procesinformatie/04.04-validatie/index.html"><a class="padding" href="/01-aanpak/04-bronnen-van-procesinformatie/04.04-validatie/index.html">Validatie met procesbetrokkenen</a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding" href="/05-procesdocument/index.html">Procesdocument</a></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over</a></li>
+            <li class="" data-nav-id="/10-artikelen/index.html"><a class="padding" href="/10-artikelen/index.html">Artikelen</a></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-light" value="relearn-light" selected>Relearn Light</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="R-select-variant-auto" value="auto">Auto</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-color.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1777193160" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1777193160" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1777193160" defer></script>
+    <script src="/js/theme.js?1777193160" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

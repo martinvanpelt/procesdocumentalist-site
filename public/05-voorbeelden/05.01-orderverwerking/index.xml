@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orderverwerking :: Proces Documentalist</title>
+    <link>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/index.html</link>
+    <description>Volledig uitgewerkt voorbeeld van het orderverwerkingsproces binnen het Procesdocumentatiemodel (PDM), toegepast op een fictieve organisatie: NovaTech Solutions.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/05-voorbeelden/05.01-orderverwerking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>beheer van procesdocumentatie</title>
+      <link>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.01-beheer-van-procesdocumentatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.01-beheer-van-procesdocumentatie/index.html</guid>
+      <description>beheer van de procesdocumentatie voor het orderverwerkingsproces binnen NovaTech Solutions, inclusief rollen, wijzigingsbeheer en kwaliteitsbewaking.</description>
+    </item>
+    <item>
+      <title>Procescontext</title>
+      <link>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.02-procescontext/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.02-procescontext/index.html</guid>
+      <description>Het orderverwerkingsproces binnen NovaTech Solutions beschrijft de verwerking van klantorders voor de NovaSmart Hub X2 via verschillende verkoopkanalen.&#xA;Scope&#xD;Het proces omvat:&#xA;orderontvangst via webshop, API en partners ordervalidatie voorraadcontrole ordervrijgave voor levering facturatie-trigger Triggers en input&#xD;Triggers&#xD;klant plaatst bestelling via webshop API-order vanuit partnerplatform interne sales order registratie Input&#xD;klantgegevens productconfiguratie (NovaSmart Hub X2) prijs- en kortingsregels voorraadstatus Output&#xD;bevestigde order verzendopdracht facturatieopdracht Regels en constraints&#xD;kredietcheck verplicht bij B2B orders alleen beschikbare voorraad kan worden toegewezen prijzen volgen centrale prijslijst Systemen en integraties&#xD;Shopify (webshop) ERP (orderverwerking) WMS (warehouse management) CRM (klantgegevens)</description>
+    </item>
+    <item>
+      <title>Procesdoel</title>
+      <link>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.03-procesdoel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.03-procesdoel/index.html</guid>
+      <description>Het doel van het orderverwerkingsproces is het correct, volledig en tijdig verwerken van klantorders voor de NovaSmart Hub X2, zodat levering en facturatie zonder fouten kunnen plaatsvinden.&#xA;Waardepropositie&#xD;Het proces levert de volgende waarde:&#xA;Klantwaarde&#xD;snelle en betrouwbare orderafhandeling correcte levering van producten Organisatiewaarde&#xD;efficiënte orderflow van verkoop naar logistiek minimale foutkosten in fulfilment en facturatie Operationele waarde&#xD;gestandaardiseerde verwerking van alle ordertypes automatische koppeling tussen systemen Succescriteria&#xD;99% ordercorrectheid &lt;24 uur orderverwerkingstijd zero manual rework bij standaardorders</description>
+    </item>
+    <item>
+      <title>Procesarchitectuur</title>
+      <link>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.04-procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.04-procesarchitectuur/index.html</guid>
+      <description>Het orderverwerkingsproces is onderdeel van het end-to-end Order-to-Cash domein binnen NovaTech Solutions.&#xA;Proceslandschap&#xD;Order-to-Cash (domein) Orderintake Orderverwerking (dit proces) Fulfilment Facturatie Payment processing Proceshiërarchie&#xD;Niveau 1: Order-to-Cash Niveau 2: Orderverwerking Niveau 3: ordervalidatie voorraadcheck ordervrijgave facturatie-trigger Relaties&#xD;input vanuit Orderintake output naar Fulfilment koppeling met Facturatie</description>
+    </item>
+    <item>
+      <title>Procesmetadata</title>
+      <link>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.05-procesmetadata/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.05-procesmetadata/index.html</guid>
+      <description>Proces-ID: OTC-ORD-001 Proceseigenaar: Head of Operations Status: Actief Versie: v1.0 Organisatie: NovaTech Solutions Product: NovaSmart Hub X2 Relaties&#xD;Orderintake → Orderverwerking Orderverwerking → Fulfilment Orderverwerking → Facturatie Versiebeheer&#xD;v0.1 concept v1.0 live proces</description>
+    </item>
+    <item>
+      <title>Procesmodellering</title>
+      <link>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.06-procesmodellering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.06-procesmodellering/index.html</guid>
+      <description>Het orderverwerkingsproces wordt gemodelleerd als een end-to-end flow met duidelijke beslismomenten.&#xA;Hoofdflow&#xD;Order ontvangen Order registreren in ERP Order valideren Kredietcheck uitvoeren (B2B) Voorraad controleren Order vrijgeven Verzending aanmaken Facturatie triggeren Beslismomenten&#xD;Is klantgegevens geldig? Is kredietlimiet akkoord? Is voorraad beschikbaar? Uitzonderingen&#xD;onvoldoende voorraad → backorder krediet afgekeurd → order blokkeren ongeldige data → order terug naar sales Notatie&#xD;Dit proces kan worden gemodelleerd in BPMN of swimlane diagrammen.</description>
+    </item>
+    <item>
+      <title>Procesuitwerking</title>
+      <link>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.07-procesuitwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.07-procesuitwerking/index.html</guid>
+      <description>Procesbeschrijving&#xD;Klant plaatst een bestelling voor de NovaSmart Hub X2 via de webshop. De order wordt automatisch geregistreerd in het ERP-systeem.&#xA;Het systeem voert validaties uit op klantgegevens, prijsregels en voorraad. Bij goedkeuring wordt de order vrijgegeven voor fulfilment.&#xA;Rollen&#xD;Klant Sales system (Shopify) ERP systeem Warehouse team Werkinstructie: Ordervalidatie&#xD;Controleer klantstatus in CRM Valideer prijsconfiguratie Controleer kredietstatus Controleer voorraad Output&#xD;goedgekeurde order of geblokkeerde order met reden</description>
+    </item>
+    <item>
+      <title>Processturing</title>
+      <link>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.08-processturing/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.08-processturing/index.html</guid>
+      <description>KPI’s&#xD;ordercorrectheid: 99% doorlooptijd: &lt; 24 uur first time right: 97% Monitoring&#xD;real-time orderdashboard alerts bij voorraadtekorten ERP logging Rapportage&#xD;dagelijkse orderrapportage wekelijkse performance review maandelijkse operationele review Kwaliteitsborging&#xD;automatische validaties in ERP steekproeven op orders audit van B2B orders</description>
+    </item>
+    <item>
+      <title>Procesanalyse en verbetering</title>
+      <link>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.09-procesanalyse-en--verbetering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/05-voorbeelden/05.01-orderverwerking/05.01.09-procesanalyse-en--verbetering/index.html</guid>
+      <description>Procesanalyse&#xD;Analyse van orderdata toont dat 3% van de orders vertraging oploopt door voorraadverschillen.&#xA;Verbeterinitiatieven&#xD;real-time voorraadintegratie verbeteren forecasting model optimaliseren handmatige checks reduceren Verbeteracties&#xD;implementatie API koppeling ERP–WMS automatisering van voorraadupdates Lessons learned&#xD;datakwaliteit in voorraadbeheer is kritisch handmatige controles zijn foutgevoelig systeemintegratie bepaalt doorlooptijd</description>
+    </item>
+  </channel>
+</rss>

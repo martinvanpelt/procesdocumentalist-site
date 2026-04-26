@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bronnen van procesinformatie :: Proces Documentalist</title>
+    <link>http://localhost:1313/04-bronnen-van-procesinformatie/index.html</link>
+    <description>Procesdocumentatie ontstaat niet alleen uit modellen en templates. De kwaliteit van procesdocumentatie wordt in hoge mate bepaald door de kwaliteit van de procesinformatie waarop zij gebaseerd is.&#xA;Binnen de aanpak van de Procesdocumentalist wordt procesinformatie verzameld uit verschillende bronnen binnen de organisatie. Deze bronnen vullen elkaar aan en helpen om een volledig, betrouwbaar en actueel beeld van het proces te verkrijgen.&#xA;Procesinformatie kan onder andere afkomstig zijn uit:&#xA;interviews met procesbetrokkenen workshops met stakeholders bestaande documentatie informatiesystemen wet- en regelgeving rapportages en KPI’s observatie van werkprocessen Validatie met betrokkenen Door meerdere informatiebronnen te combineren ontstaat een realistisch en holistisch beeld van het proces zoals het daadwerkelijk wordt uitgevoerd.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/04-bronnen-van-procesinformatie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interviews</title>
+      <link>http://localhost:1313/04-bronnen-van-procesinformatie/04.01-interviews/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/04-bronnen-van-procesinformatie/04.01-interviews/index.html</guid>
+      <description>Template voor het structureren en uitvoeren van interviews met procesbetrokkenen, inclusief voorbereiding, uitvoering, en verwerking van interviewgegevens.</description>
+    </item>
+    <item>
+      <title>Workshops</title>
+      <link>http://localhost:1313/04-bronnen-van-procesinformatie/04.02-workshops/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/04-bronnen-van-procesinformatie/04.02-workshops/index.html</guid>
+      <description>Template voor het organiseren en uitvoeren van workshops om gezamenlijk processen in kaart te brengen, inclusief voorbereiding, uitvoering, en follow-up.</description>
+    </item>
+    <item>
+      <title>Validatie met procesbetrokkenen</title>
+      <link>http://localhost:1313/04-bronnen-van-procesinformatie/04.04-validatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/04-bronnen-van-procesinformatie/04.04-validatie/index.html</guid>
+      <description>Template voor het valideren van procesdocumentatie met procesbetrokkenen, inclusief methoden, checklists, en integratie met andere templates.</description>
+    </item>
+    <item>
+      <title>Wet- en regelgeving</title>
+      <link>http://localhost:1313/04-bronnen-van-procesinformatie/04.05-wet-en-regelgeving/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/04-bronnen-van-procesinformatie/04.05-wet-en-regelgeving/index.html</guid>
+      <description>Doel: Het identificeren van alle externe of interne verplichte kaders die het proces moeten volgen. Dit zorgt voor Compliance Assurance.&#xA;Scope: Alle processen met directe invloed op de naleving (compliance) van wetten, sectorstandaarden of beleidsregels.&#xA;1. Procesdoel en Context&#xD;Doel: Het garanderen dat het proces voldoet aan alle geldende wettelijke en interne regelgeving, waardoor juridische risico’s worden geminimaliseerd. Contextuele Vraag: Welke wetten (AVG, Wftc, etc.) of sectorstandaarden zijn van toepassing op de data/acties die in dit proces plaatsvinden? 2. Analyse en Methodologie&#xD;Stap Actie Uitvoerder Output Artefact Identificatie Inventariseer alle relevante wetten, beleidsdocumenten en contractuele verplichtingen. Compliance Officer / Proceseigenaar Lijst van Verplichte Regels (Regelregister) Mapping Breng elke regel één-op-één in kaart met een specifieke stap of beslissing binnen het proces. Processanalist Compliance Matrix (Zie hieronder) Validatie Beoordeel de huidige processen op afwijkingen van deze regels en definieer corrigerende acties. Juridisch Adviseur / Proceseigenaar Risicoreport &amp; Aanbevelingen voor procesaanpassing 3. Output: De Compliance Matrix&#xD;De output is een gestructureerde matrix die de verplichting koppelt aan het processtadium en verantwoordelijkheid.</description>
+    </item>
+  </channel>
+</rss>

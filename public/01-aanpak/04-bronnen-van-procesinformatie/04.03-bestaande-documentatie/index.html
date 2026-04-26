@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Template voor het analyseren en gebruiken van bestaande documentatie als basis voor procesanalyse, inclusief voorbeelden, voordelen, aandachtspunten en validatiemethoden.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Bestaande Documentatie :: Proces Documentalist">
+    <meta name="twitter:description" content="Template voor het analyseren en gebruiken van bestaande documentatie als basis voor procesanalyse, inclusief voorbeelden, voordelen, aandachtspunten en validatiemethoden.">
+    <meta property="og:url" content="http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.03-bestaande-documentatie/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="Bestaande Documentatie :: Proces Documentalist">
+    <meta property="og:description" content="Template voor het analyseren en gebruiken van bestaande documentatie als basis voor procesanalyse, inclusief voorbeelden, voordelen, aandachtspunten en validatiemethoden.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Bestaande Documentatie :: Proces Documentalist">
+    <meta itemprop="description" content="Template voor het analyseren en gebruiken van bestaande documentatie als basis voor procesanalyse, inclusief voorbeelden, voordelen, aandachtspunten en validatiemethoden.">
+    <meta itemprop="wordCount" content="2457">
+    <title>Bestaande Documentatie :: Proces Documentalist</title>
+    <link href="/01-aanpak/04-bronnen-van-procesinformatie/04.03-bestaande-documentatie/index.xml" rel="alternate" type="application/rss+xml" title="Bestaande Documentatie :: Proces Documentalist">
+    <link href="/images/favicon.svg?1777193160" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1777193160" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1777193160" defer></script>
+    <script src="/js/search-lunr.js?1777193160" defer></script>
+    <script src="/js/search.js?1777193160" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1777193160";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1777193160" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1777193160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1777193160" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1777193160" rel="stylesheet">
+    <link href="/css/theme.css?1777193160" rel="stylesheet">
+    <link href="/css/format-html.css?1777193160" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/01-aanpak\/04-bronnen-van-procesinformatie\/04.03-bestaande-documentatie\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-light', 'relearn-dark', 'auto' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1777193160" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/01-aanpak/04-bronnen-van-procesinformatie/04.03-bestaande-documentatie/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist in één oogopslag</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/01-aanpak/index.html"><span itemprop="name">Aanpak</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/01-aanpak/04-bronnen-van-procesinformatie/index.html"><span itemprop="name">Bronnen van procesinformatie</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Bestaande Documentatie</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/01-aanpak/04-bronnen-van-procesinformatie/index.html" title="Bronnen van procesinformatie (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/05-procesdocument/index.html" title="Procesdocument (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 01-aanpak" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="bestaande-documentatie">Bestaande Documentatie</h1>
+
+<p>Bestaande documentatie vormt een waardevolle bron voor het in kaart brengen en analyseren van processen. Het biedt een snel inzicht in hoe processen formele afspraken, richtlijnen, en werkwijzen binnen de organisatie zijn vastgelegd. Voor jou als procesdocumentalist is deze documentatie een essentieel vertrekpunt voor:</p>
+<ul>
+<li>Snel inzicht in processtructuren, terminologie, en afspraken.</li>
+<li>Identificatie van bestaande standaarden, richtlijnen, en compliance-eisen.</li>
+<li>Basis voor interviews en workshops (je kunt gerichte vragen stellen).</li>
+<li>Validatie van nieuwe procesmodellen tegen bestaande documentatie.</li>
+<li>Tijdsbesparing door hergebruik van bestaande informatie.</li>
+</ul>
+
+<details open class="box cstyle notices warning">
+  <summary class="box-label" tabindex="-1">
+    <i class="fa-fw fas fa-exclamation-triangle"></i> 
+    Warning
+  </summary>
+  <div class="box-content">
+<p>Bestaande documentatie is niet altijd actueel of compleet. Het is daarom essentieel om deze aante vullen met interviews, workshops, en observaties.</p>
+  </div>
+</details>
+<h4 id="1-soorten-bestaande-documentatie">1. Soorten Bestaande Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Bestaande documentatie kan verschillende vormen aannemen. Hieronder een overzicht van veelvoorkomende typen en hun toepassing in procesanalyse.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Type Document</th>
+          <th>Beschrijving</th>
+          <th>Toepassing in Procesanalyse</th>
+          <th>Voorbeelden</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Werkinstructies</td>
+          <td>Gedetailleerde stapsgewijze handleidingen voor het uitvoeren van taken.</td>
+          <td>Identificeren van processtappen, verantwoordelijkheden, en systemen.</td>
+          <td>&ldquo;Werkinstructie Orderverwerking&rdquo;, &ldquo;Handleiding CRM-systeem&rdquo;.</td>
+      </tr>
+      <tr>
+          <td>Procesbeschrijvingen</td>
+          <td>Algemene beschrijvingen van processen, inclusief doel, scope, en stappen.</td>
+          <td>Basis voor procesmodellering (BPMN, Swimlane).</td>
+          <td>&ldquo;Procesbeschrijving Klantenservice&rdquo;, &ldquo;Proceslandkaart&rdquo;.</td>
+      </tr>
+      <tr>
+          <td>Procedures</td>
+          <td>Formele beschrijvingen van hoe taken moeten worden uitgevoerd, vaak met compliance-doelen.</td>
+          <td>Identificeren van verplichte stappen, controles, en audits.</td>
+          <td>&ldquo;Procedure Facturatie&rdquo;, &ldquo;Procedure GDPR-naleving&rdquo;.</td>
+      </tr>
+      <tr>
+          <td>Handleidingen</td>
+          <td>Gebruikershandleidingen voor systemen, tools, of apparatuur.</td>
+          <td>Begrijpen van technische processen en systeemintegraties.</td>
+          <td>&ldquo;Handleiding ERP-systeem&rdquo;, &ldquo;Gebruikersgids Webshop&rdquo;.</td>
+      </tr>
+      <tr>
+          <td>Beleidsdocumenten</td>
+          <td>Documenten die richtlijnen, normen, of principes vastleggen.</td>
+          <td>Identificeren van compliance-eisen en organisatiebeleid.</td>
+          <td>&ldquo;Kwaliteitsbeleid ISO 9001&rdquo;, &ldquo;Beleid Klantenservice&rdquo;.</td>
+      </tr>
+      <tr>
+          <td>Procesdiagrammen</td>
+          <td>Visuele weergaven van processen (BPMN, Flowchart, Swimlane).</td>
+          <td>Basis voor nieuwe procesmodellen.</td>
+          <td>&ldquo;BPMN-diagram Order-to-Cash&rdquo;, &ldquo;Flowchart Storingafhandeling&rdquo;.</td>
+      </tr>
+      <tr>
+          <td>SLA’s (Service Level Agreements)</td>
+          <td>Afspraken over prestatieniveaus met klanten of leveranciers.</td>
+          <td>Identificeren van KPI&rsquo;s en prestatie-eisen.</td>
+          <td>&ldquo;SLA Klantenservice&rdquo;, &ldquo;SLA Netwerkbeschikbaarheid&rdquo;.</td>
+      </tr>
+      <tr>
+          <td>Risicoanalyses</td>
+          <td>Documenten die risico&rsquo;s en mitigerende maatregelen beschrijven.</td>
+          <td>Identificeren van kritische risico&rsquo;s in processen.</td>
+          <td>&ldquo;Risicoanalyse Orderverwerking&rdquo;, &ldquo;Risicomatrix IT&rdquo;.</td>
+      </tr>
+      <tr>
+          <td>Kwaliteitshandboeken</td>
+          <td>Documenten die kwaliteitsnormen en -procedures beschrijven.</td>
+          <td>Identificeren van kwaliteitseisen en audits.</td>
+          <td>&ldquo;Kwaliteitshandboek ISO 9001&rdquo;, &ldquo;Kwaliteitsprocedures&rdquo;.</td>
+      </tr>
+      <tr>
+          <td>Organigrammen</td>
+          <td>Visuele weergaven van organisatiestructuren.</td>
+          <td>Identificeren van rollen, verantwoordelijkheden, en hiërarchie.</td>
+          <td>&ldquo;Organigram Sales&rdquo;, &ldquo;Organigram IT-afdeling&rdquo;.</td>
+      </tr>
+      <tr>
+          <td>Checklists</td>
+          <td>Lijsten met controlepunten voor specifieke taken.</td>
+          <td>Identificeren van kritische stappen en kwaliteitscontroles.</td>
+          <td>&ldquo;Checklist Ordervalidatie&rdquo;, &ldquo;Checklist Systeemtest&rdquo;.</td>
+      </tr>
+      <tr>
+          <td>Meeting Minutes</td>
+          <td>Notulen van overleggen en besluitvorming.</td>
+          <td>Identificeren van historische context en besluiten.</td>
+          <td>&ldquo;Notulen Procesverbeterteam&rdquo;, &ldquo;Besluitvorming Order-to-Cash&rdquo;.</td>
+      </tr>
+      <tr>
+          <td>E-mails en Correspondentie</td>
+          <td>Geschreven communicatie over procesgerelateerde onderwerpen.</td>
+          <td>Identificeren van informele afspraken en uitzonderingen.</td>
+          <td>&ldquo;E-mailwisseling over Orderverwerking&rdquo;, &ldquo;Correspondentie met leveranciers&rdquo;.</td>
+      </tr>
+      <tr>
+          <td>Systeemdocumentatie</td>
+          <td>Technische documentatie van IT-systemen en integraties.</td>
+          <td>Begrijpen van systeemafhankelijkheden en technische beperkingen.</td>
+          <td>&ldquo;API-documentatie ERP-systeem&rdquo;, &ldquo;Systeemarchitectuur CRM&rdquo;.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="2-voordelen-van-bestaande-documentatie">2. Voordelen van Bestaande Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Gebruik maken van bestaande documentatie biedt meerdere voordelen voor procesanalyse:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Voordeel</th>
+          <th>Toelichting</th>
+          <th>Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Snel inzicht</td>
+          <td>Bestaande documentatie geeft direct inzicht in processen zonder nieuwe interviews af te hoeven nemen.</td>
+          <td>Tijdbesparend.</td>
+      </tr>
+      <tr>
+          <td>Terminologie begrijpen</td>
+          <td>Documentatie bevat organisatiespecifieke termen en definities.</td>
+          <td>Voorkomt misverstanden.</td>
+      </tr>
+      <tr>
+          <td>Bestaande afspraken identificeren</td>
+          <td>Documentatie legde formele afspraken, richtlijnen, en standaarden vast.</td>
+          <td>Zorgt voor consistentie.</td>
+      </tr>
+      <tr>
+          <td>Compliance-eisen in kaart brengen</td>
+          <td>Beleidsdocumenten en procedures bevatten wettelijke en organisatie-eisen.</td>
+          <td>Voorkomt non-compliance.</td>
+      </tr>
+      <tr>
+          <td>Basis voor nieuwe modellen</td>
+          <td>Bestaande diagrammen en beschrijvingen vormen een startpunt voor nieuwe procesmodellen.</td>
+          <td>Efficiëntie.</td>
+      </tr>
+      <tr>
+          <td>Historische context</td>
+          <td>Documentatie biedt inzicht in hoe processen zijn ontstaan.</td>
+          <td>Helpt bij verbeteringen.</td>
+      </tr>
+      <tr>
+          <td>Validatie van nieuwe inzichten</td>
+          <td>Bestaande documentatie kan worden gebruikt om nieuwe procesmodellen te valideren.</td>
+          <td>Zorgt voor nauwkeurigheid.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="3-aandachtspunten-bij-gebruik-van-bestaande-documentatie">3. Aandachtspunten bij Gebruik van Bestaande Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Hoewel bestaande documentatie waardevol is, zijn er ook aandachtspunten waar je rekening mee moet houden:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Aandachtspunt</th>
+          <th>Toelichting</th>
+          <th>Risico</th>
+          <th>Oplossing</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Verouderde informatie</td>
+          <td>Documentatie is niet altijd actueel.</td>
+          <td>Onnauwkeurige procesmodellen.</td>
+          <td>Valideer met interviews/workshops.</td>
+      </tr>
+      <tr>
+          <td>Onvolledige informatie</td>
+          <td>Documentatie bevat niet alle stappen of uitzonderingen.</td>
+          <td>Ontbrekende procesinformatie.</td>
+          <td>Supplementeer met interviews.</td>
+      </tr>
+      <tr>
+          <td>Te formeel</td>
+          <td>Documentatie beschrijft hoe het proces zou moeten werken, niet hoe het daadwerkelijk werkt.</td>
+          <td>Kloof tussen theorie en praktijk.</td>
+          <td>Combineer met observaties.</td>
+      </tr>
+      <tr>
+          <td>Jargon en terminologie</td>
+          <td>Documentatie bevat organisatiespecifiek jargon dat niet voor iedereen duidelijk is.</td>
+          <td>Misverstanden.</td>
+          <td>Maak een glossarium (Procesbegrippen-template).</td>
+      </tr>
+      <tr>
+          <td>Tegenstrijdige informatie</td>
+          <td>Verschillende documenten bevatten tegenstrijdige informatie.</td>
+          <td>Onduidelijkheid over het proces.</td>
+          <td>Valideer met stakeholders.</td>
+      </tr>
+      <tr>
+          <td>Beperkte toegang</td>
+          <td>Niet alle documentatie is toegankelijk voor de procesanalist.</td>
+          <td>Ontbrekende informatie.</td>
+          <td>Vraag toegang aan bij de eigenaar.</td>
+      </tr>
+      <tr>
+          <td>Te gedetailleerd</td>
+          <td>Sommige documenten zijn te gedetailleerd voor een hoog niveau procesanalyse.</td>
+          <td>Tijdverspilling.</td>
+          <td>Focus op relevante informatie.</td>
+      </tr>
+      <tr>
+          <td>Geen context</td>
+          <td>Documentatie bevat geen achtergrondinformatie over waarom processen zo zijn ingericht.</td>
+          <td>Gebrek aan begrip.</td>
+          <td>Vraag om context bij stakeholders.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="4-stappen-voor-het-analyseren-van-bestaande-documentatie">4. Stappen voor het Analyseren van Bestaande Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Volg deze stappen om bestaande documentatie effectief te analyseren en te gebruiken voor procesanalyse.</p>
+<h6 id="41-inventarisatie-van-documentatie">4.1 Inventarisatie van Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Maak een overzicht van alle relevante documentatie voor het proces dat je analyseert.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Document</th>
+          <th>Type</th>
+          <th>Locatie</th>
+          <th>Eigenaar</th>
+          <th>Datum</th>
+          <th>Relevantie</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Werkinstructie Orderverwerking</td>
+          <td>Werkinstructie</td>
+          <td>SharePoint</td>
+          <td>Order Team</td>
+          <td>15/03/2026</td>
+          <td>Hoog</td>
+          <td>Actueel</td>
+      </tr>
+      <tr>
+          <td>Procesbeschrijving Order-to-Cash</td>
+          <td>Procesbeschrijving</td>
+          <td>Confluence</td>
+          <td>Proceseigenaar</td>
+          <td>10/01/2026</td>
+          <td>Hoog</td>
+          <td>Verouderd</td>
+      </tr>
+      <tr>
+          <td>Handleiding CRM-systeem</td>
+          <td>Handleiding</td>
+          <td>Intranet</td>
+          <td>IT-afdeling</td>
+          <td>01/02/2026</td>
+          <td>Middel</td>
+          <td>Actueel</td>
+      </tr>
+      <tr>
+          <td>Beleidsdocument Kwaliteit</td>
+          <td>Beleidsdocument</td>
+          <td>QMS</td>
+          <td>Kwaliteitsmanager</td>
+          <td>01/01/2026</td>
+          <td>Hoog</td>
+          <td>Actueel</td>
+      </tr>
+  </tbody>
+</table>
+<p>Status:</p>
+<ul>
+<li>Actueel: Document is recent bijgewerkt.</li>
+<li>Verouderd: Document is niet recent bijgewerkt.</li>
+<li>Onbekend: Status is onduidelijk.</li>
+</ul>
+<h6 id="42-selectie-van-relevante-documentatie">4.2 Selectie van Relevante Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Selecteer de meest relevante documenten voor je procesanalyse. Gebruik de volgende criteria:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Criterium</th>
+          <th>Beschrijving</th>
+          <th>Voorbeeld</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Relevantie voor het proces</td>
+          <td>Hoe relevant is het document voor het proces dat je analyseert?</td>
+          <td>&ldquo;Werkinstructie Orderverwerking&rdquo; is zeer relevant.</td>
+      </tr>
+      <tr>
+          <td>Actualiteit</td>
+          <td>Is het document recente en actueel?</td>
+          <td>Documenten ouder dan 1 jaar zijn mogelijk verouderd.</td>
+      </tr>
+      <tr>
+          <td>Diepgang</td>
+          <td>Bevat het document voldoende detail voor je analyse?</td>
+          <td>Een procesbeschrijving is gedetailleerder dan een organigram.</td>
+      </tr>
+      <tr>
+          <td>Betrouwbaarheid</td>
+          <td>Is het document betrouwbaar (bijv. goedgekeurd door management)?</td>
+          <td>Goedgekeurde procedures zijn betrouwbaarder dan conceptdocumenten.</td>
+      </tr>
+      <tr>
+          <td>Toegankelijkheid</td>
+          <td>Is het document toegankelijk voor jou?</td>
+          <td>Documenten op SharePoint zijn vaak toegankelijk.</td>
+      </tr>
+  </tbody>
+</table>
+<h6 id="43-analyse-van-geselecteerde-documentatie">4.3 Analyse van Geselecteerde Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Analyseer de geselecteerde documenten om procesinformatie te extraheren. Gebruik de volgende analysemethoden:</p>
+<p>####### 4.3.1 Informatie Extraheren</p>
+<p>Extraheer de volgende informatie uit de documentatie:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Categorie</th>
+          <th>Informatie</th>
+          <th>Voorbeeld</th>
+          <th>Toepassing</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Processtappen</td>
+          <td>Hoofd- en subprocessen.</td>
+          <td>&ldquo;1. Ontvangst order, 2. Validatie klantgegevens, 3. Genereren productieopdracht.&rdquo;</td>
+          <td>Procesbeschrijving, BPMN-diagram.</td>
+      </tr>
+      <tr>
+          <td>Verantwoordelijkheden</td>
+          <td>Rollen en taken.</td>
+          <td>&ldquo;Order Medewerker: Validatie klantgegevens.&rdquo;</td>
+          <td>RACI-matrix, Procesrollen.</td>
+      </tr>
+      <tr>
+          <td>Beslissingen</td>
+          <td>Keuzepunten en criteria.</td>
+          <td>&ldquo;Is de order compleet? → Ja: Doorgaan, Nee: Terug naar klant.&rdquo;</td>
+          <td>BPMN-diagram (Gateways).</td>
+      </tr>
+      <tr>
+          <td>Input/Output</td>
+          <td>Wat het proces ontvangt en oplevert.</td>
+          <td>&ldquo;Input: Klantorder, Output: Orderbevestiging.&rdquo;</td>
+          <td>Procesinput-output.</td>
+      </tr>
+      <tr>
+          <td>Systemen en Tools</td>
+          <td>Gebruikte systemen.</td>
+          <td>&ldquo;CRM-systeem, ERP-systeem.&rdquo;</td>
+          <td>Betrokken systemen.</td>
+      </tr>
+      <tr>
+          <td>KPI&rsquo;s</td>
+          <td>Prestatie-indicatoren.</td>
+          <td>&ldquo;Doorlooptijd orderverwerking: &lt; 24 uur.&rdquo;</td>
+          <td>KPI-definitie.</td>
+      </tr>
+      <tr>
+          <td>Risico&rsquo;s</td>
+          <td>Potentiële risico&rsquo;s en mitigerende maatregelen.</td>
+          <td>&ldquo;Risico: Vertraagde orderverwerking → Mitigatie: Automatiseren validatie.&rdquo;</td>
+          <td>Risicoanalyse.</td>
+      </tr>
+      <tr>
+          <td>Compliance-eisen</td>
+          <td>Wettelijke en organisatie-eisen.</td>
+          <td>&ldquo;GDPR: Bescherming persoonsgegevens.&rdquo;</td>
+          <td>Kwaliteitsborging.</td>
+      </tr>
+      <tr>
+          <td>Uitzonderingen</td>
+          <td>Afwijkingen van de standaard.</td>
+          <td>&ldquo;Spoedorders worden handmatig doorgezet.&rdquo;</td>
+          <td>Procesbeschrijving.</td>
+      </tr>
+      <tr>
+          <td>Terminologie</td>
+          <td>Organisatiespecifieke begrippen.</td>
+          <td>&ldquo;Orderbevestiging: Bevestiging van de order aan de klant.&rdquo;</td>
+          <td>Procesbegrippen.</td>
+      </tr>
+  </tbody>
+</table>
+<p>####### 4.3.2 Cross-Referentie Analyse</p>
+<p>Vergelijk verschillende documenten om consistentie te checken en tegenstrijdigheden op te sporen.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Document 1</th>
+          <th>Informatie</th>
+          <th>Document 2</th>
+          <th>Informatie</th>
+          <th>Consistent?</th>
+          <th>Opmerkingen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Werkinstructie Orderverwerking</td>
+          <td>Validatie klantgegevens door Order Medewerker.</td>
+          <td>Procesbeschrijving Order-to-Cash</td>
+          <td>Validatie klantgegevens door Sales Team.</td>
+          <td>❌</td>
+          <td>Tegenstrijdigheid: Wie voert validatie uit?</td>
+      </tr>
+      <tr>
+          <td>Handleiding CRM-systeem</td>
+          <td>Automatische validatie mogelijk.</td>
+          <td>Werkinstructie Orderverwerking</td>
+          <td>Handmatige validatie vereist.</td>
+          <td>❌</td>
+          <td>Tegenstrijdigheid: Is validatie handmatig of automatisch?</td>
+      </tr>
+  </tbody>
+</table>
+<p>Actie bij tegenstrijdigheden:</p>
+<ul>
+<li>Valideer met stakeholders (bijv. Proceseigenaar, Order Team).</li>
+<li>Documenteer de juiste informatie in de nieuwe procesdocumentatie.</li>
+</ul>
+<p>####### 4.3.3 Gap-analyse</p>
+<p>Identificeer ontbrekende informatie in de bestaande documentatie.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Categorie</th>
+          <th>Ontbrekende Informatie</th>
+          <th>Impact</th>
+          <th>Actie</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Processtappen</td>
+          <td>Ontbrekende stap: &ldquo;Controle voorraadniveau.&rdquo;</td>
+          <td>Onvolledig procesmodel.</td>
+          <td>Voeg toe na validatie met Order Team.</td>
+      </tr>
+      <tr>
+          <td>Verantwoordelijkheden</td>
+          <td>Ontbrekende rol: &ldquo;IT-afdeling voor systeemondersteuning.&rdquo;</td>
+          <td>Onduidelijke verantwoordelijkheden.</td>
+          <td>Voeg toe aan RACI-matrix.</td>
+      </tr>
+      <tr>
+          <td>Beslissingen</td>
+          <td>Ontbrekend beslispunt: &ldquo;Is krediet goedgekeurd?&rdquo;</td>
+          <td>Onvolledig BPMN-diagram.</td>
+          <td>Voeg toe na overleg met Finance.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="5-validatie-van-bestaande-documentatie">5. Validatie van Bestaande Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Valideer de informatie uit bestaande documentatie met stakeholders om de nauwkeurigheid te waarborgen.</p>
+<h6 id="51-validatiemethoden">5.1 Validatiemethoden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<table>
+  <thead>
+      <tr>
+          <th>Methode</th>
+          <th>Beschrijving</th>
+          <th>Wanneer te gebruiken</th>
+          <th>Voorbeeld</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Interviews</td>
+          <td>Valideer informatie met procesbetrokkenen.</td>
+          <td>Altijd, vooral bij twijfel.</td>
+          <td>Interview met Order Medewerker over validatiestap.</td>
+      </tr>
+      <tr>
+          <td>Workshops</td>
+          <td>Valideer informatie in een groepssessie.</td>
+          <td>Bij complexe processen of tegenstrijdigheden.</td>
+          <td>Workshop om Procesbeschrijving Order-to-Cash te valideren.</td>
+      </tr>
+      <tr>
+          <td>Observaties</td>
+          <td>Observeer het proces in de praktijk.</td>
+          <td>Als documentatie te formeel is.</td>
+          <td>Observeer Order Team tijdens orderverwerking.</td>
+      </tr>
+      <tr>
+          <td>E-mail validatie</td>
+          <td>Vraag schriftelijke bevestiging van informatie.</td>
+          <td>Bij eenvoudige vragen.</td>
+          <td>E-mail naar Proceseigenaar voor bevestiging.</td>
+      </tr>
+      <tr>
+          <td>Documentatiecheck</td>
+          <td>Vergelijk met andere documenten.</td>
+          <td>Bij tegenstrijdigheden.</td>
+          <td>Vergelijk Werkinstructie met Procesbeschrijving.</td>
+      </tr>
+  </tbody>
+</table>
+<h6 id="52-validatiechecklist">5.2 Validatiechecklist<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Gebruik deze checklist om de kwaliteit van bestaande documentatie te valideren.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Criterium</th>
+          <th>Vraag</th>
+          <th>Ja/Nee</th>
+          <th>Opmerkingen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Actualiteit</td>
+          <td>Is het document recent bijgewerkt?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Laatste update: 15/03/2026.</td>
+      </tr>
+      <tr>
+          <td>Volledigheid</td>
+          <td>Bevat het document alle relevante informatie?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Ontbrekende stap: Controle voorraad.</td>
+      </tr>
+      <tr>
+          <td>Consistentie</td>
+          <td>Is de informatie consistent met andere documenten?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Tegenstrijdigheid met Handleiding CRM.</td>
+      </tr>
+      <tr>
+          <td>Betrouwbaarheid</td>
+          <td>Is het document goedgekeurd door de juiste persoon?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Goedgekeurd door Proceseigenaar.</td>
+      </tr>
+      <tr>
+          <td>Toegankelijkheid</td>
+          <td>Is het document toegankelijk voor de procesanalist?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Toegang aangevraagd bij IT.</td>
+      </tr>
+      <tr>
+          <td>Relevantie</td>
+          <td>Is het document relevant voor de procesanalyse?</td>
+          <td>⬜ Ja / ⬜ Nee</td>
+          <td>Relevant voor Orderverwerking.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="6-integratie-met-andere-templates">6. Integratie met Andere Templates<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Gebruik de informatie uit bestaande documentatie om andere templates uit je 7x Framework in te vullen.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Template</th>
+          <th>Toepassing</th>
+          <th>Voorbeeld</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesbeschrijving (PMD-03.07.01)</td>
+          <td>Basis voor gedetailleerde procesbeschrijving.</td>
+          <td>Gebruik processtappen uit Werkinstructie.</td>
+      </tr>
+      <tr>
+          <td>BPMN-diagram (PMD-03.06.01)</td>
+          <td>Visuele weergave van het proces.</td>
+          <td>Gebruik processtappen en beslissingen uit Procesbeschrijving.</td>
+      </tr>
+      <tr>
+          <td>Swimlane-diagram (PMD-03.06.03)</td>
+          <td>Weergave van verantwoordelijkheden.</td>
+          <td>Gebruik rollen uit RACI-matrix.</td>
+      </tr>
+      <tr>
+          <td>Procesrollen (PMD-03.07.04)</td>
+          <td>Beschrijving van rollen en verantwoordelijkheden.</td>
+          <td>Gebruik verantwoordelijkheden uit Werkinstructie.</td>
+      </tr>
+      <tr>
+          <td>RACI-matrix (PMD-03.07.03)</td>
+          <td>Verantwoordelijkheden per taak.</td>
+          <td>Gebruik rollen en taken uit Procesbeschrijving.</td>
+      </tr>
+      <tr>
+          <td>Procesbegrippen (PMD-03.02.01)</td>
+          <td>Definitie van organisatiespecifieke termen.</td>
+          <td>Gebruik terminologie uit Beleidsdocumenten.</td>
+      </tr>
+      <tr>
+          <td>Procesinput-output (PMD-03.02.00)</td>
+          <td>Input, output, en transformatie.</td>
+          <td>Gebruik input/output uit Werkinstructie.</td>
+      </tr>
+      <tr>
+          <td>KPI-definitie (PMD-03.08.04)</td>
+          <td>Definitie van KPI&rsquo;s.</td>
+          <td>Gebruik KPI&rsquo;s uit SLA&rsquo;s.</td>
+      </tr>
+      <tr>
+          <td>Root Cause Analyse (PMD-03.09.01)</td>
+          <td>Analyse van knelpunten.</td>
+          <td>Gebruik risico&rsquo;s uit Risicoanalyse.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="7-tips-voor-effectief-gebruik-van-bestaande-documentatie">7. Tips voor Effectief Gebruik van Bestaande Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>🔹 Begin met bestaande documentatie: Gebruik bestaande documenten als startpunt voor je analyse.<br>
+🔹 Wees kritisch: Valideer altijd de informatie met stakeholders.<br>
+🔹 Combineer bronnen: Gebruik meerdere documenten voor een compleet beeld.<br>
+🔹 Focus op relevantie: Selecteer alleen documenten die relevant zijn voor je analyse.<br>
+🔹 Documenteer bronnen: Noteer welke documenten je hebt gebruikt voor je analyse.<br>
+🔹 Houd rekening met veroudering: Controleer de datum van documenten en valideer indien nodig.<br>
+🔹 Gebruik een glossarium: Maak een lijst van organisatiespecifieke termen (Procesbegrippen-template).<br>
+🔹 Supplementeer met interviews/workshops: Gebruik bestaande documentatie als basis voor verdere analyse.</p>
+<h4 id="8-veelgemaakte-fouten-en-hoe-ze-te-vermijden">8. Veelgemaakte Fouten en Hoe ze te Vermijden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Fout</th>
+          <th>Oorzaak</th>
+          <th>Impact</th>
+          <th>Oplossing</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Alleen vertrouwen op documentatie</td>
+          <td>Aanname dat documentatie altijd actueel is.</td>
+          <td>Onnauwkeurige procesmodellen.</td>
+          <td>Supplementeer met interviews/workshops.</td>
+      </tr>
+      <tr>
+          <td>Te veel documenten analyseren</td>
+          <td>Tijdsgebrek door te veel documenten.</td>
+          <td>Vertraging in procesanalyse.</td>
+          <td>Focus op de meest relevante documenten.</td>
+      </tr>
+      <tr>
+          <td>Tegenstrijdigheden negeren</td>
+          <td>Tegenstrijdige informatie niet oplossen.</td>
+          <td>Onduidelijke procesdocumentatie.</td>
+          <td>Valideer met stakeholders.</td>
+      </tr>
+      <tr>
+          <td>Jargon niet uitleggen</td>
+          <td>Aanname dat iedereen de terminologie begrijpt.</td>
+          <td>Misverstanden.</td>
+          <td>Maak een glossarium.</td>
+      </tr>
+      <tr>
+          <td>Geen context</td>
+          <td>Documentatie zonder achtergrondinformatie gebruiken.</td>
+          <td>Gebrek aan begrip.</td>
+          <td>Vraag om context bij stakeholders.</td>
+      </tr>
+      <tr>
+          <td>Verouderde documenten gebruiken</td>
+          <td>Gebruik van niet-actuele documenten.</td>
+          <td>Onnauwkeurige informatie.</td>
+          <td>Controleer de datum en valideer.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="9-tools-voor-het-analyseren-van-documentatie">9. Tools voor het Analyseren van Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Gebruik deze tools om bestaande documentatie efficiënter te analyseren:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Tool</th>
+          <th>Doel</th>
+          <th>Voordelen</th>
+          <th>Nadelen</th>
+          <th>Link</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Microsoft SharePoint</td>
+          <td>Centraal opslaan en doorzoeken van documenten.</td>
+          <td>Integratie met Office 365, zoekfunctie.</td>
+          <td>Complexe opzet.</td>
+          <td><a href="https://www.microsoft.com/sharepoint" rel="external">SharePoint</a></td>
+      </tr>
+      <tr>
+          <td>Confluence</td>
+          <td>Samenwerken aan documentatie.</td>
+          <td>Gebruiksvriendelijk, templates voor procesdocumentatie.</td>
+          <td>Betaalde versie voor gevorderde functies.</td>
+          <td><a href="https://www.atlassian.com/software/confluence" rel="external">Confluence</a></td>
+      </tr>
+      <tr>
+          <td>Notion</td>
+          <td>Documentatie en kennisbeheer.</td>
+          <td>Flexibel, zoekfunctie, integratie met andere tools.</td>
+          <td>Leercurve.</td>
+          <td><a href="https://www.notion.so" rel="external">Notion</a></td>
+      </tr>
+      <tr>
+          <td>Google Drive</td>
+          <td>Opslaan en delen van documenten.</td>
+          <td>Gratis, eenvoudig, samenwerking.</td>
+          <td>Beperkte zoekfunctie.</td>
+          <td><a href="https://drive.google.com" rel="external">Google Drive</a></td>
+      </tr>
+      <tr>
+          <td>Adobe Acrobat</td>
+          <td>Tekst zoeken in PDF-documenten.</td>
+          <td>Krachtige zoekfunctie, annotaties.</td>
+          <td>Duur.</td>
+          <td><a href="https://www.adobe.com/acrobat" rel="external">Adobe Acrobat</a></td>
+      </tr>
+      <tr>
+          <td>Otter.ai</td>
+          <td>Transcriptie van gesproken documentatie (bijv. opnames van meetings).</td>
+          <td>Automatische transcriptie, zoekbaar.</td>
+          <td>Betaalde versie voor lange opnames.</td>
+          <td><a href="https://otter.ai" rel="external">Otter.ai</a></td>
+      </tr>
+      <tr>
+          <td>Miro</td>
+          <td>Visuele analyse van documentatie.</td>
+          <td>Real-time samenwerken, templates.</td>
+          <td>Leercurve.</td>
+          <td><a href="https://miro.com" rel="external">Miro</a></td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="10-stakeholders-en-verantwoordelijkheden">10. Stakeholders en Verantwoordelijkheden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Geef hier een overzicht van wie betrokken is bij het analyseren van bestaande documentatie.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Rol</th>
+          <th>Verantwoordelijkheid</th>
+          <th>Betrokkenheid</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesanalist</td>
+          <td>Analyseert bestaande documentatie en extraheert procesinformatie.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>Proceseigenaar</td>
+          <td>Valideert de informatie uit bestaande documentatie.</td>
+          <td>Periodiek</td>
+      </tr>
+      <tr>
+          <td>Documentbeheerders</td>
+          <td>Leveren toegang tot en uitleg over documentatie.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>IT-afdeling</td>
+          <td>Ondersteunt bij toegang tot digitale documentatie.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>Kwaliteitsmanager</td>
+          <td>Valideert compliance-eisen in documentatie.</td>
+          <td>Periodiek</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="11-gerelateerde-documenten">11. Gerelateerde Documenten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Lijst hier alle gerelateerde documenten, zoals:</p>
+<ul>
+<li>[Link naar Procesbeschrijving (PMD-03.07.01)]</li>
+<li>[Link naar BPMN-diagram (PMD-03.06.01)]</li>
+<li>[Link naar Interviews (PMD-03.09.01)]</li>
+<li>[Link naar Workshops (PMD-03.09.02)]</li>
+<li>[Link naar Procesbegrippen (PMD-03.02.01)]</li>
+</ul>
+<h4 id="12-versiehistorie">12. Versiehistorie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Versie</th>
+          <th>Datum</th>
+          <th>Wijziging</th>
+          <th>Auteur</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1.0</td>
+          <td>17/04/2026</td>
+          <td>Initiële versie</td>
+          <td>[Naam]</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="13-instructies-voor-gebruik">13. Instructies voor Gebruik<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ol>
+<li>Inventariseer documentatie:</li>
+</ol>
+<ul>
+<li>Maak een overzicht van alle relevante documenten voor het proces.</li>
+</ul>
+<ol>
+<li>Selecteer relevante documenten:</li>
+</ol>
+<ul>
+<li>Kies documenten op basis van relevantie, actualiteit, en diepgang.</li>
+</ul>
+<ol>
+<li>Analyseer de documenten:</li>
+</ol>
+<ul>
+<li>Extraheer processtappen, verantwoordelijkheden, beslissingen, etc.</li>
+</ul>
+<ol>
+<li>Voer cross-referentie analyse uit:</li>
+</ol>
+<ul>
+<li>Controleer op consistentie tussen documenten.</li>
+</ul>
+<ol>
+<li>Voer gap-analyse uit:</li>
+</ol>
+<ul>
+<li>Identificeer ontbrekende informatie.</li>
+</ul>
+<ol>
+<li>Valideer de informatie:</li>
+</ol>
+<ul>
+<li>Gebruik interviews, workshops, of observaties om informatie te valideren.</li>
+</ul>
+<ol>
+<li>Integreer met andere templates:</li>
+</ol>
+<ul>
+<li>Gebruik de informatie om Procesbeschrijving, BPMN-diagrammen, etc. op te stellen.</li>
+</ul>
+<h4 id="14-voorbeeld-analyse-van-bestaande-documentatie-orderverwerking">14. Voorbeeld: Analyse van Bestaande Documentatie (Orderverwerking)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h6 id="inventarisatie-van-documentatie">Inventarisatie van Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<table>
+  <thead>
+      <tr>
+          <th>Document</th>
+          <th>Type</th>
+          <th>Locatie</th>
+          <th>Eigenaar</th>
+          <th>Datum</th>
+          <th>Relevantie</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Werkinstructie Orderverwerking</td>
+          <td>Werkinstructie</td>
+          <td>SharePoint</td>
+          <td>Order Team</td>
+          <td>15/03/2026</td>
+          <td>Hoog</td>
+          <td>Actueel</td>
+      </tr>
+      <tr>
+          <td>Procesbeschrijving Order-to-Cash</td>
+          <td>Procesbeschrijving</td>
+          <td>Confluence</td>
+          <td>Proceseigenaar</td>
+          <td>10/01/2026</td>
+          <td>Hoog</td>
+          <td>Verouderd</td>
+      </tr>
+      <tr>
+          <td>Handleiding CRM-systeem</td>
+          <td>Handleiding</td>
+          <td>Intranet</td>
+          <td>IT-afdeling</td>
+          <td>01/02/2026</td>
+          <td>Middel</td>
+          <td>Actueel</td>
+      </tr>
+      <tr>
+          <td>Beleidsdocument Kwaliteit</td>
+          <td>Beleidsdocument</td>
+          <td>QMS</td>
+          <td>Kwaliteitsmanager</td>
+          <td>01/01/2026</td>
+          <td>Hoog</td>
+          <td>Actueel</td>
+      </tr>
+  </tbody>
+</table>
+<h6 id="selectie-van-relevante-documentatie">Selectie van Relevante Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<ul>
+<li>Werkinstructie Orderverwerking: Zeer relevant voor processtappen en verantwoordelijkheden.</li>
+<li>Procesbeschrijving Order-to-Cash: Relevant, maar verouderd (validatie nodig).</li>
+<li>Handleiding CRM-systeem: Relevant voor systeemintegraties.</li>
+</ul>
+<h6 id="analyse-van-geselecteerde-documentatie">Analyse van Geselecteerde Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>####### Informatie Extraheren</p>
+<table>
+  <thead>
+      <tr>
+          <th>Categorie</th>
+          <th>Informatie</th>
+          <th>Bron</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Processtappen</td>
+          <td>1. Ontvangst order, 2. Validatie klantgegevens, 3. Genereren productieopdracht, 4. Versturen orderbevestiging.</td>
+          <td>Werkinstructie Orderverwerking</td>
+      </tr>
+      <tr>
+          <td>Verantwoordelijkheden</td>
+          <td>Order Medewerker: Validatie klantgegevens, Genereren productieopdracht.</td>
+          <td>Werkinstructie Orderverwerking</td>
+      </tr>
+      <tr>
+          <td>Beslissingen</td>
+          <td>Is de order compleet? → Ja: Doorgaan, Nee: Terug naar klant.</td>
+          <td>Procesbeschrijving Order-to-Cash</td>
+      </tr>
+      <tr>
+          <td>Input/Output</td>
+          <td>Input: Klantorder, Output: Orderbevestiging.</td>
+          <td>Werkinstructie Orderverwerking</td>
+      </tr>
+      <tr>
+          <td>Systemen</td>
+          <td>CRM-systeem, ERP-systeem.</td>
+          <td>Handleiding CRM-systeem</td>
+      </tr>
+  </tbody>
+</table>
+<p>####### Cross-Referentie Analyse</p>
+<table>
+  <thead>
+      <tr>
+          <th>Document 1</th>
+          <th>Informatie</th>
+          <th>Document 2</th>
+          <th>Informatie</th>
+          <th>Consistent?</th>
+          <th>Opmerkingen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Werkinstructie Orderverwerking</td>
+          <td>Validatie klantgegevens door Order Medewerker.</td>
+          <td>Procesbeschrijving Order-to-Cash</td>
+          <td>Validatie klantgegevens door Sales Team.</td>
+          <td>❌</td>
+          <td>Tegenstrijdigheid: Wie voert validatie uit? Actie: Valideren met Proceseigenaar.</td>
+      </tr>
+  </tbody>
+</table>
+<p>####### Gap-analyse</p>
+<table>
+  <thead>
+      <tr>
+          <th>Categorie</th>
+          <th>Ontbrekende Informatie</th>
+          <th>Impact</th>
+          <th>Actie</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Processtappen</td>
+          <td>Ontbrekende stap: &ldquo;Controle voorraadniveau.&rdquo;</td>
+          <td>Onvolledig procesmodel.</td>
+          <td>Voeg toe na validatie met Order Team.</td>
+      </tr>
+      <tr>
+          <td>Verantwoordelijkheden</td>
+          <td>Ontbrekende rol: &ldquo;IT-afdeling voor systeemondersteuning.&rdquo;</td>
+          <td>Onduidelijke verantwoordelijkheden.</td>
+          <td>Voeg toe aan RACI-matrix.</td>
+      </tr>
+  </tbody>
+</table>
+<h6 id="validatie-van-bestaande-documentatie">Validatie van Bestaande Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<ul>
+<li>Interview met Order Medewerker: Bevestigd dat validatie klantgegevens door Order Team wordt uitgevoerd.</li>
+<li>Workshop met Proceseigenaar: Bevestigd dat Controle voorraadniveau ontbreekt in Werkinstructie.</li>
+</ul>
+<h6 id="integratie-met-andere-templates">Integratie met Andere Templates<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<ul>
+<li>Procesbeschrijving (PMD-03.07.01): Gebruik processtappen uit Werkinstructie.</li>
+<li>BPMN-diagram (PMD-03.06.01): Gebruik processtappen en beslissingen uit Procesbeschrijving.</li>
+<li>RACI-matrix (PMD-03.07.03): Voeg IT-afdeling toe als verantwoordelijke voor systeemondersteuning.</li>
+</ul>
+<h4 id="15-voorbeeld-analyse-van-bestaande-documentatie-sim-activatie-telecom">15. Voorbeeld: Analyse van Bestaande Documentatie (SIM-activatie, Telecom)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Gebaseerd op je ervaring in de telecomsector, hier een praktisch voorbeeld voor een SIM-activatieproces.</p>
+<h6 id="inventarisatie-van-documentatie-1">Inventarisatie van Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<table>
+  <thead>
+      <tr>
+          <th>Document</th>
+          <th>Type</th>
+          <th>Locatie</th>
+          <th>Eigenaar</th>
+          <th>Datum</th>
+          <th>Relevantie</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Werkinstructie SIM-activatie</td>
+          <td>Werkinstructie</td>
+          <td>SharePoint</td>
+          <td>Technisch Team</td>
+          <td>10/04/2026</td>
+          <td>Hoog</td>
+          <td>Actueel</td>
+      </tr>
+      <tr>
+          <td>Procesbeschrijving SIM-activatie</td>
+          <td>Procesbeschrijving</td>
+          <td>Confluence</td>
+          <td>Proceseigenaar</td>
+          <td>01/03/2026</td>
+          <td>Hoog</td>
+          <td>Verouderd</td>
+      </tr>
+      <tr>
+          <td>Handleiding Provisioning-systeem</td>
+          <td>Handleiding</td>
+          <td>Intranet</td>
+          <td>IT-afdeling</td>
+          <td>15/02/2026</td>
+          <td>Hoog</td>
+          <td>Actueel</td>
+      </tr>
+      <tr>
+          <td>SLA Netwerkbeschikbaarheid</td>
+          <td>SLA</td>
+          <td>Contractenmap</td>
+          <td>Sales Manager</td>
+          <td>01/01/2026</td>
+          <td>Middel</td>
+          <td>Actueel</td>
+      </tr>
+  </tbody>
+</table>
+<h6 id="selectie-van-relevante-documentatie-1">Selectie van Relevante Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<ul>
+<li>Werkinstructie SIM-activatie: Zeer relevant voor processtappen en verantwoordelijkheden.</li>
+<li>Handleiding Provisioning-systeem: Relevant voor systeemintegraties.</li>
+<li>SLA Netwerkbeschikbaarheid: Relevant voor KPI&rsquo;s (bijv. activatietijd).</li>
+</ul>
+<h6 id="analyse-van-geselecteerde-documentatie-1">Analyse van Geselecteerde Documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>####### Informatie Extraheren</p>
+<table>
+  <thead>
+      <tr>
+          <th>Categorie</th>
+          <th>Informatie</th>
+          <th>Bron</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Processtappen</td>
+          <td>1. Ontvangst activatieaanvraag, 2. Validatie klantgegevens, 3. Activatie SIM-kaart, 4. Versturen bevestiging.</td>
+          <td>Werkinstructie SIM-activatie</td>
+      </tr>
+      <tr>
+          <td>Verantwoordelijkheden</td>
+          <td>Technisch Medewerker: Activatie SIM-kaart.</td>
+          <td>Werkinstructie SIM-activatie</td>
+      </tr>
+      <tr>
+          <td>Beslissingen</td>
+          <td>Is de klant geverifieerd? → Ja: Doorgaan, Nee: Afwijzen.</td>
+          <td>Procesbeschrijving SIM-activatie</td>
+      </tr>
+      <tr>
+          <td>Input/Output</td>
+          <td>Input: Activatieaanvraag, Output: Bevestiging.</td>
+          <td>Werkinstructie SIM-activatie</td>
+      </tr>
+      <tr>
+          <td>Systemen</td>
+          <td>Provisioning-systeem, CRM-systeem.</td>
+          <td>Handleiding Provisioning-systeem</td>
+      </tr>
+      <tr>
+          <td>KPI&rsquo;s</td>
+          <td>Activatietijd: &lt; 1 uur.</td>
+          <td>SLA Netwerkbeschikbaarheid</td>
+      </tr>
+  </tbody>
+</table>
+<p>####### Cross-Referentie Analyse</p>
+<table>
+  <thead>
+      <tr>
+          <th>Document 1</th>
+          <th>Informatie</th>
+          <th>Document 2</th>
+          <th>Informatie</th>
+          <th>Consistent?</th>
+          <th>Opmerkingen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Werkinstructie SIM-activatie</td>
+          <td>Activatie SIM-kaart door Technisch Medewerker.</td>
+          <td>Procesbeschrijving SIM-activatie</td>
+          <td>Activatie SIM-kaart door Technisch Team.</td>
+          <td>-</td>
+          <td>Consistent.</td>
+      </tr>
+      <tr>
+          <td>Handleiding Provisioning-systeem</td>
+          <td>Automatische activatie mogelijk.</td>
+          <td>Werkinstructie SIM-activatie</td>
+          <td>Handmatige activatie vereist.</td>
+          <td>❌</td>
+          <td>Tegenstrijdigheid: Is activatie handmatig of automatisch? Actie: Valideren met IT-afdeling.</td>
+      </tr>
+  </tbody>
+</table>
+<p>####### Gap-analyse</p>
+<table>
+  <thead>
+      <tr>
+          <th>Categorie</th>
+          <th>Ontbrekende Informatie</th>
+          <th>Impact</th>
+          <th>Actie</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Processtappen</td>
+          <td>Ontbrekende stap: &ldquo;Testen SIM-kaart na activatie.&rdquo;</td>
+          <td>Onvolledig procesmodel.</td>
+          <td>Voeg toe na validatie met Technisch Team.</td>
+      </tr>
+      <tr>
+          <td>Systemen</td>
+          <td>Ontbrekende koppeling: Provisioning-systeem en CRM-systeem.</td>
+          <td>Onduidelijke systeemintegratie.</td>
+          <td>Voeg toe aan Systeemdocumentatie.</td>
+      </tr>
+  </tbody>
+</table>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark relearn-light">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="parent " data-nav-id="/01-aanpak/index.html"><a class="padding default-animation" href="/01-aanpak/index.html">Aanpak</a><ul id="R-subsections-eef63c732ca8e67c3fdd6cbe13906dc2" class="collapsible-menu">
+            <li class="parent hidden alwaysopen " data-nav-id="/01-aanpak/04-bronnen-van-procesinformatie/index.html"><a class="padding default-animation" href="/01-aanpak/04-bronnen-van-procesinformatie/index.html">Bronnen van procesinformatie</a><ul id="R-subsections-50c7f7e793f4f52df16e29bc50046044" class="collapsible-menu">
+            <li class="active hidden " data-nav-id="/01-aanpak/04-bronnen-van-procesinformatie/04.03-bestaande-documentatie/index.html"><a class="padding" href="/01-aanpak/04-bronnen-van-procesinformatie/04.03-bestaande-documentatie/index.html">Bestaande Documentatie</a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding" href="/05-procesdocument/index.html">Procesdocument</a></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over</a></li>
+            <li class="" data-nav-id="/10-artikelen/index.html"><a class="padding" href="/10-artikelen/index.html">Artikelen</a></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-light" value="relearn-light" selected>Relearn Light</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="R-select-variant-auto" value="auto">Auto</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-color.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1777193160" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1777193160" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1777193160" defer></script>
+    <script src="/js/theme.js?1777193160" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

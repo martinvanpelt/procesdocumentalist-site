@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Checklists :: Proces Documentalist</title>
+    <link>http://localhost:1313/11-hulpmiddelen/11.03-checklists/index.html</link>
+    <description>Checklists&#xD;Checklist selectie procesbetrokkenen De documentalist kan de checklists gebruiken als een verplichte intake-fase. Door eerst deze vragen te beantwoorden, wordt de kwaliteit van het uiteindelijke procesdocument significant verbeterd en worden vermeden onnodige herzieningen in latere fasen.&#xA;Checklist voor Procesdocumentatie Intake Checklist bepaling context en scope Checklist procesmapping Checklist validatie en governance</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/11-hulpmiddelen/11.03-checklists/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Checklist selectie procesbetrokkenen</title>
+      <link>http://localhost:1313/11-hulpmiddelen/11.03-checklists/11.03.01-checklist-selectie-procesbetrokkenen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/11-hulpmiddelen/11.03-checklists/11.03.01-checklist-selectie-procesbetrokkenen/index.html</guid>
+      <description>Hieronder volgt een gestructureerde checklist voor de Selectie en Analyse van Procesbetrokkenen. Deze methode helpt u om te verzekeren dat alle relevante perspectieven worden meegenomen, zonder onnodige managementjargon te gebruiken.&#xA;Dit is een essentiële stap in het Procesdocumentatiemodel (PDM). Een correcte selectie van procesbetrokkenen bepaalt de volledigheid en bruikbaarheid van het uiteindelijke procesdocument.&#xA;Checklist: Selectie en Analyse van Procesbetrokkenen&#xD;Fase 1: Bepaling van de Context&#xD;Doel: Vaststellen waar het proces begint en eindigt, en welke grenzen er zijn.</description>
+    </item>
+    <item>
+      <title>Checklist voor Procesdocumentatie Intake</title>
+      <link>http://localhost:1313/11-hulpmiddelen/11.03-checklists/11.03.02-checklist-voor-procesdocumentatie-intake/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/11-hulpmiddelen/11.03-checklists/11.03.02-checklist-voor-procesdocumentatie-intake/index.html</guid>
+      <description>Doel: Het vaststellen van de context, grenzen en vereisten voor de gedocumenteerde bedrijfsprocessen.&#xA;Fase 1: Context en Mandaat&#xD;Waarom en Wie&#xA;Dit deel legt de organisatorische en projectcontext vast.&#xA;ID Onderwerp Vraagstelling Relevantie voor Procesdocumentatie Status Opmerkingen 1.1 Project Mandaat &amp; Eigenaarschap Wie is de opdrachtgever en wie is de Copafijth projectmanager? Bepaalt de eindverantwoordelijke voor het procesmodel. ☐ 1.2 Documentbeheer Kent het documentproject mandaat versiebeheer? Waar is dit document opgeslagen? Zorgt voor traceerbaarheid van alle inputdocumenten. ☐ 1.3 Procesdoelstelling (Business) Aan welke kernwaarde(n) van de organisatie levert het proces/project een bijdrage? Bepaalt de strategische focus van de documentatie. ☐ Fase 2: Probleem en Doelstelling&#xD;Wat moet er veranderen?</description>
+    </item>
+    <item>
+      <title>Checklist bepaling context en scope</title>
+      <link>http://localhost:1313/11-hulpmiddelen/11.03-checklists/11.03.03--checklist-bepaling-context-en-scope/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/11-hulpmiddelen/11.03-checklists/11.03.03--checklist-bepaling-context-en-scope/index.html</guid>
+      <description>Doel: Zorgen dat het ‘waarom’ en de grenzen van het proces duidelijk zijn voordat men de stappen begint te documenteren.&#xA;Categorie Controlepunt Vraagstelling voor Documentalist Acceptatiecriteria Status Organisatorische Context Eigenaar &amp; Mandaat Wie is de eindverantwoordelijke (Accountable) voor dit proces? Naam/Functie van de eigenaar is benoemd. ☐ Strategisch Doel Welke bedrijfsdoelen ondersteunt dit proces? De link naar de hogere strategische doelstelling(en) zijn vastgelegd. ☐ Scope Definitie Inclusie/Exclusie Welke processen of afdelingen vallen binnen en buiten deze documentatie? Duidelijke grenzen van de scope zijn gedefinieerd (In-Scope / Out-of-Scope). ☐ Randvoorwaarden Regelgeving &amp; Compliance Welke externe wetten, regelgeving of interne beleidsregels beïnvloeden dit proces? Alle relevante compliance-eisen zijn geïdentificeerd. ☐ Technische Beperkingen Zijn er technische systemen (IT) die de uitvoering beperken of sturen? De interface met externe systemen is gespecificeerd. ☐ Input/Output Data Flow Definitie Wat zijn de exacte data-inputs en outputs van het proces? Inputvariabelen en Outputresultaten zijn gedefinieerd (met meeteenheden indien relevant). ☐</description>
+    </item>
+    <item>
+      <title>Checklist procesmapping</title>
+      <link>http://localhost:1313/11-hulpmiddelen/11.03-checklists/11.03.04-checklist-procesmapping/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/11-hulpmiddelen/11.03-checklists/11.03.04-checklist-procesmapping/index.html</guid>
+      <description>Doel: Zorgen voor een nauwkeurige, reproduceerbare beschrijving van de huidige (‘as-is’) of gewenste (’to-be’) stroom.&#xA;Categorie Controlepunt Vraagstelling voor Documentalist Acceptatiecriteria Status Stapdefinitie Processtappen Zijn alle acties en beslissingen op een niveau van detail gedocumenteerd? Elke stap is beschreven als een duidelijke, uitvoerbare actie. ☐ Sequentie &amp; Flow Is de logische volgorde van de stappen correct weergegeven (sequentie)? De flowdiagram/stroomdiagram reflecteert de werkelijke operationele volgorde. ☐ Rollen en Verantwoordelijkheden Actoren Toewijzing Voor elke stap is een specifieke rol of functie toegewezen? Rollen zijn gekoppeld aan acties (bv. ‘Analist voert X uit’). ☐ Beslismomenten Zijn alle kritieke beslissingspunten en de bijbehorende regels gedocumenteerd? De afwegingen en de consequenties van elke keuze zijn vastgelegd. ☐ Exception Handling Foutafhandeling Hoe wordt omgegaan met fouten, afwijkingen of uitzonderingen in het proces? Er is een duidelijke route gedefinieerd voor niet-standaardscenario’s (escalatiepad). ☐ Meetbaarheid Kwaliteitsmetrieken Zijn er meetbare criteria om de kwaliteit van de output te beoordelen? KPI’s of controlepunten zijn geïntegreerd in het procesmodel. ☐</description>
+    </item>
+    <item>
+      <title>Checklist validatie en governance</title>
+      <link>http://localhost:1313/11-hulpmiddelen/11.03-checklists/11.03.05-checklist-validatie-en-governance/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/11-hulpmiddelen/11.03-checklists/11.03.05-checklist-validatie-en-governance/index.html</guid>
+      <description>Doel: Zorgen voor de levensvatbaarheid, controleerbaarheid en onderhoudbaarheid van het gedocumenteerde proces.&#xA;Categorie Controlepunt Vraagstelling voor Documentalist Acceptatiecriteria Status Controleerbaarheid Traceerbaarheid Kan elke stap in het proces worden teruggevoerd naar een bron (document, regel, systeem)? Alle stappen zijn traceerbaar naar de inputgegevens of regels. ☐ Consistentie Interne Consistentie Zijn alle gedocumenteerde processen binnen de organisatie consistent met elkaar? Er is geen tegenstrijdigheid tussen verschillende procesdocumenten. ☐ Validatie Stakeholder Review Zijn de belangrijkste betrokken partijen (Rollen uit Checklist 1) geconsulteerd en akkoord gegeven op het model? Formele goedkeuring van de processownderwerpen is verkregen. ☐ Onderhoudbaarheid Revisieprocedure Is er een vastgesteld proces voor het bijwerken van het document na wijzigingen? Een formele revisie- en goedkeuringsworkflow is gedefinieerd. ☐ Versiebeheer Documentversie Wordt de versiegeschiedenis nauwkeurig beheerd? De huidige versie en alle eerdere versies zijn duidelijk gelabeld. ☐</description>
+    </item>
+  </channel>
+</rss>

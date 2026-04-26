@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Downloads :: Proces Documentalist</title>
+    <link>http://localhost:1313/downloads/index.html</link>
+    <description>Contact&#xD;Heeft u vragen over procesdocumentatie, wilt u een proces laten analyseren, of bent u benieuwd hoe uw organisatie processen beter kan vastleggen en verbeteren?&#xA;De Procesdocumentalist helpt organisaties hun processen inzichtelijk, overdraagbaar en verbeterbaar te maken.&#xA;Wanneer kunt u contact opnemen?&#xD;Neem gerust contact op als u bijvoorbeeld:</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/downloads/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KPI&#39;s en kwaliteitsborging – Orderverwerking</title>
+      <link>http://localhost:1313/downloads/templates/kpis-en-kwaliteitsborging/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/downloads/templates/kpis-en-kwaliteitsborging/index.html</guid>
+      <description>Meten van prestaties en kwaliteit van het proces.</description>
+    </item>
+    <item>
+      <title>Procesbeschrijvingen – Orderverwerking</title>
+      <link>http://localhost:1313/downloads/templates/procesbeschrijvingen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/downloads/templates/procesbeschrijvingen/index.html</guid>
+      <description>Gedetailleerde beschrijving van het orderverwerkingsproces.</description>
+    </item>
+    <item>
+      <title>Procesdiagrammen – Orderverwerking</title>
+      <link>http://localhost:1313/downloads/templates/procesdiagrammen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/downloads/templates/procesdiagrammen/index.html</guid>
+      <description>Visuele weergave van het orderverwerkingsproces.</description>
+    </item>
+    <item>
+      <title>Procesdoel – Orderverwerking</title>
+      <link>http://localhost:1313/downloads/templates/procesdoel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/downloads/templates/procesdoel/index.html</guid>
+      <description>Waarom het orderverwerkingsproces bestaat en welke waarde het levert.</description>
+    </item>
+    <item>
+      <title>Proceslandkaart – Orderverwerking</title>
+      <link>http://localhost:1313/downloads/templates/proceslandkaart/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/downloads/templates/proceslandkaart/index.html</guid>
+      <description>Plaats van het orderverwerkingsproces binnen de procesarchitectuur.</description>
+    </item>
+    <item>
+      <title>Analyse – Orderverwerking</title>
+      <link>http://localhost:1313/downloads/templates/analyse/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/downloads/templates/analyse/index.html</guid>
+      <description>Analyse van procesprestaties en knelpunten.</description>
+    </item>
+    <item>
+      <title>Modelleerconventies – Orderverwerking</title>
+      <link>http://localhost:1313/downloads/templates/modelleerconventies/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/downloads/templates/modelleerconventies/index.html</guid>
+      <description>Afspraak over hoe het procesmodel is opgebouwd.</description>
+    </item>
+    <item>
+      <title>Proceshiërarchie – Orderverwerking</title>
+      <link>http://localhost:1313/downloads/templates/proceshierarchie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/downloads/templates/proceshierarchie/index.html</guid>
+      <description>Hiërarchische plaats van het orderverwerkingsproces.</description>
+    </item>
+    <item>
+      <title>Rollen en verantwoordelijkheden – Orderverwerking</title>
+      <link>http://localhost:1313/downloads/templates/rollen-en-verantwoordelijkheden/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/downloads/templates/rollen-en-verantwoordelijkheden/index.html</guid>
+      <description>Wie doet wat binnen het proces.</description>
+    </item>
+    <item>
+      <title>Verbeteracties – Orderverwerking</title>
+      <link>http://localhost:1313/downloads/templates/verbeteracties/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/downloads/templates/verbeteracties/index.html</guid>
+      <description>Verbetermaatregelen voor het proces.</description>
+    </item>
+    <item>
+      <title>Werkinstructies – Orderverwerking</title>
+      <link>http://localhost:1313/downloads/templates/werkinstructies/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/downloads/templates/werkinstructies/index.html</guid>
+      <description>Stap-voor-stap instructies voor uitvoering.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beheer van procesdocumentatie :: Procesdocumentalist</title>
+    <link>http://localhost:1313/01-methode/03-templates/03.01-procesdocumentatiebeheer/index.html</link>
+    <description>Templates&#xD;Beheer van procesdocumentatie Wijzigingslog procesdocumentatie Wijzigingsverzoek</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/01-methode/03-templates/03.01-procesdocumentatiebeheer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wijzigingsverzoek</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.01-procesdocumentatiebeheer/03.01.02-wijzigingsverzoek/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.01-procesdocumentatiebeheer/03.01.02-wijzigingsverzoek/index.html</guid>
+      <description>Template voor het indienen van een wijzigingsverzoek voor procesdocumentatie, inclusief classificatie, beoordeling, en goedkeuring.</description>
+    </item>
+    <item>
+      <title>Beheer van procesdocumentatie</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.01-procesdocumentatiebeheer/03.01.00-beheer-van-procesdocumentatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.01-procesdocumentatiebeheer/03.01.00-beheer-van-procesdocumentatie/index.html</guid>
+      <description>Inleiding&#xD;Dit template beschrijft hoe de procesdocumentatie voor {{procesnaam}} wordt beheerd, onderhouden en geactualiseerd. Het doel is om ervoor te zorgen dat de documentatie accuraat, actueel en toegankelijk blijft voor alle betrokkenen. Dit template is bedoeld voor proceseigenaren, procesanalisten, reviewboards en systeembeheerders.&#xA;Eigenschappen&#xD;Veld Waarde Toelichting PMD-nummer 03.01.00 Uniek identificatienummer voor dit proces in het Proces Management Document (PMD). Versie 1 Huidige versie van dit document. Wordt geüpdaterd bij elke wijziging. Status concept Mogelijke statussen: concept, in review, goedgekeurd, gepubliceerd, verouderd. Auteur [Naam] De persoon of afdeling die dit document heeft opgesteld. Eigenaar [Naam proceseigenaar] Verantwoordelijk voor de inhoud en actualiteit van het proces. Datum 17/04/2026 Datum van de laatste update. 1. Doel en Scope&#xD;Doel:&#xA;Zorgdragen voor een gestructureerd en consistent beheer van de procesdocumentatie, zodat:</description>
+    </item>
+    <item>
+      <title>Wijzigingslog procesdocumentatie</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.01-procesdocumentatiebeheer/03.01.01-wijzigingslog-procesdocumentatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.01-procesdocumentatiebeheer/03.01.01-wijzigingslog-procesdocumentatie/index.html</guid>
+      <description>Inleiding&#xD;Dit wijzigingslog documenteert alle aanpassingen aan de procesdocumentatie van {{procesnaam}}. Het doel is om:&#xA;Transparantie te bieden over wie, wat, wanneer en waarom wijzigingen zijn doorgevoerd. Traceerbaarheid te waarborgen voor audits, compliance en continue verbetering. Communicatie te vergemakkelijken tussen proceseigenaren, analisten en betrokken teams. Eigenschappen&#xD;Veld Waarde Toelichting PMD-nummer 03.01.01 Uniek identificatienummer voor dit wijzigingslog in het Proces Management Document (PMD). Versie 1 Huidige versie van dit logboek. Wordt geüpdaterd bij elke nieuwe wijziging. Status concept Mogelijke statussen: concept, in review, goedgekeurd, gepubliceerd. Auteur [Naam] De persoon die het logboek beheert (meestal de procesanalist). Eigenaar [Naam proceseigenaar] Verantwoordelijk voor de inhoud en actualiteit van het proces. Datum 17/04/2026 Datum van de laatste update van dit logboek. 1. Wijzigingsdetails&#xD;Vul per wijziging de onderstaande velden in. Gebruik één rij per wijziging voor overzichtelijkheid.</description>
+    </item>
+  </channel>
+</rss>

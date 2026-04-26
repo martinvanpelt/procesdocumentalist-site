@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PDM Templates :: Proces Documentalist</title>
+    <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/index.html</link>
+    <description>PDM Templates&#xD;01.10.01 Master Template 01.10.02 Procesdocumentatie-governance 01.10.03 Procescontext 01.10.04 Procesarchitectuur 01.10.05 Procesmetadata 01.10.06 Procesmodellering 01.10.07 Procesuitwerking 01.10.08 Processturing 01.10.09 Procesanalyse en verbetering</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesdocumentatie-governance</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.02-procesdocumentatie-governance/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.02-procesdocumentatie-governance/index.html</guid>
+      <description>Governance&#xD;Beschrijf hier hoe de procesdocumentatie van {{procesnaam}} wordt beheerd.&#xA;Rollen&#xD;Proceseigenaar: Procesanalist: Reviewboard: Systeembeheer: Wijzigingsbeheer&#xD;Wijzigingsverzoek Impactanalyse Review Goedkeuring Publicatie Reviewcyclus&#xD;Periodiek: Ad hoc: Publicatieproces&#xD;Draft → Review → Approved → Published Standaarden&#xD;PDM structuur verplicht Geen afwijkingen zonder goedkeuring</description>
+    </item>
+    <item>
+      <title>Procescontext</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.03-procescontext/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.03-procescontext/index.html</guid>
+      <description>Scope&#xD;Wat valt binnen het proces:&#xA;… Wat valt buiten het proces:&#xA;… Triggers&#xD;… Input&#xD;… Output&#xD;… Regels &amp; constraints&#xD;… Systemen &amp; integraties&#xD;Systemen: Koppelingen:</description>
+    </item>
+    <item>
+      <title>Procesarchitectuur</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.04-procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.04-procesarchitectuur/index.html</guid>
+      <description>Domein&#xD;… Proceshiërarchie&#xD;Niveau 1: Niveau 2: Niveau 3: Relaties&#xD;Input: Output: Afhankelijkheden:</description>
+    </item>
+    <item>
+      <title>Procesmetadata</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.05-procesmetadata/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.05-procesmetadata/index.html</guid>
+      <description>Proces-ID: Proceseigenaar: Status: Versie: Organisatie: Product/dienst: Relaties&#xD;… Versiebeheer&#xD;v0.1: v1.0:</description>
+    </item>
+    <item>
+      <title>Procesmodellering</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.06-procesmodellering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.06-procesmodellering/index.html</guid>
+      <description>Hoofdflow&#xD;… … … Beslissingen&#xD;… … Uitzonderingen&#xD;… Notatie&#xD;BPMN / Flowchart / Swimlane</description>
+    </item>
+    <item>
+      <title>Procesuitwerking</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.07-procesuitwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.07-procesuitwerking/index.html</guid>
+      <description>Procesbeschrijving&#xD;…&#xA;Rollen&#xD;… Werkinstructies&#xD;Stap 1&#xD;…&#xA;Stap 2&#xD;…</description>
+    </item>
+    <item>
+      <title>Processturing</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.08-processturing/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.08-processturing/index.html</guid>
+      <description>KPI’s&#xD;… Monitoring&#xD;dashboards: alerts: Rapportage&#xD;frequentie: inhoud: Kwaliteitsborging&#xD;controles: audits:</description>
+    </item>
+    <item>
+      <title>Procesanalyse en verbetering</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.09-procesanalyse-en-verbetering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.09-procesanalyse-en-verbetering/index.html</guid>
+      <description>Procesanalyse&#xD;trends: knelpunten: Verbeterinitiatieven&#xD;… Verbeteracties&#xD;… Lessons learned&#xD;wat ging goed: wat ging fout: acties voor toekomst:</description>
+    </item>
+    <item>
+      <title>Volledig PDM proces</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.01-master-template/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.10-pdm-templates/01.10.01-master-template/index.html</guid>
+      <description>00 Governance&#xD;…&#xA;01 Context&#xD;…&#xA;02 Doel&#xD;…&#xA;03 Architectuur&#xD;…&#xA;04 Metadata&#xD;…</description>
+    </item>
+  </channel>
+</rss>

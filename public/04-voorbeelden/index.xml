@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Voorbeeldproces :: Proces Documentalist</title>
+    <link>http://localhost:1313/04-voorbeelden/index.html</link>
+    <description>Hoe ziet goede procesdocumentatie er in de praktijk uit?&#xA;Om dat te laten zien bevat deze website een volledig uitgewerkt voorbeeldproces. In dit voorbeeld wordt stap voor stap zichtbaar hoe een proces wordt vastgelegd met behulp van het Procesdocumentatiemodel (PDM).&#xA;Het voorbeeld laat niet alleen een procesdiagram zien, maar de volledige structuur van procesdocumentatie: van context en doel tot procesmodellering, sturing en verbetering.&#xA;Waarom een voorbeeldproces?&#xD;Procesdocumentatie wordt vaak beperkt tot een procesdiagram of een werkinstructie. Het Procesdocumentatiemodel gaat verder. Het beschrijft processen in hun volledige samenhang, zodat duidelijk wordt:</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/04-voorbeelden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orderverwerking</title>
+      <link>http://localhost:1313/04-voorbeelden/04.01-orderverwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/04-voorbeelden/04.01-orderverwerking/index.html</guid>
+      <description>Volledig uitgewerkt voorbeeld van het orderverwerkingsproces binnen het Procesdocumentatiemodel (PDM), toegepast op een fictieve organisatie: NovaTech Solutions.</description>
+    </item>
+  </channel>
+</rss>

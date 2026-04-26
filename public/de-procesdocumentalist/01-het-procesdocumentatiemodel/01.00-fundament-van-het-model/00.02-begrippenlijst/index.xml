@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://localhost:1313/de-procesdocumentalist/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.02-begrippenlijst/index.html</link>
+    <description>Proces&#xA;Een proces is een geordende reeks activiteiten die input omzet in output om een specifiek doel en waarde te realiseren voor een klant of stakeholder.&#xA;Procesdocumentatie&#xA;Procesdocumentatie is de gestructureerde vastlegging van informatie over een proces, inclusief context, structuur, uitvoering en sturing.&#xA;Procescontext&#xA;Procescontext is de omgeving waarin een proces functioneert, inclusief systemen, regels, data, stakeholders, randvoorwaarden en externe invloeden.&#xA;Procesdoel&#xA;Het procesdoel beschrijft de reden van bestaan van een proces en de waarde die het proces levert aan een interne of externe klant.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/de-procesdocumentalist/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.02-begrippenlijst/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

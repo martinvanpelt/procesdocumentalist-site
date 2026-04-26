@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RACI :: Tag :: Procesdocumentalist</title>
+    <link>http://localhost:1313/tags/raci/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/tags/raci/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RACI Matrix</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.07-procesuitwerking/03.07.03-raci-matrix/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.07-procesuitwerking/03.07.03-raci-matrix/index.html</guid>
+      <description>Template voor het definieren van rollen en verantwoordelijkheden in processen met behulp van de RACI-methode (Responsible, Accountable, Consulted, Informed).</description>
+    </item>
+    <item>
+      <title>RACI Matrix - Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.5-raci-matrix/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.5-raci-matrix/index.html</guid>
+      <description>Gedetailleerde RACI-matrix voor het Orderverwerkingsproces bij TelecomPro B.V., inclusief verantwoordelijkheden per activiteit en rol.</description>
+    </item>
+  </channel>
+</rss>

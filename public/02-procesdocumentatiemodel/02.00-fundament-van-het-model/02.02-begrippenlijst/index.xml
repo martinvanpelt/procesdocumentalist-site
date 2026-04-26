@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Begrippenlijst :: Proces Documentalist</title>
+    <link>http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.02-begrippenlijst/index.html</link>
+    <description>A&#xD;KPI (Key Performance Indicator)&#xD;Een KPI is een meetbare indicator die de prestaties van een proces weergeeft ten opzichte van vooraf vastgestelde doelen.&#xA;B&#xD;Bronnen van procesinformatie&#xD;Bronnen van procesinformatie zijn alle inputbronnen waaruit kennis over een proces wordt gehaald, zoals interviews, documentatie, observaties, systemen en rapportages.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.02-begrippenlijst/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

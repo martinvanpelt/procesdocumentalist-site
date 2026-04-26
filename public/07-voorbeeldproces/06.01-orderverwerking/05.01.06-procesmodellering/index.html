@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.159.1">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Het orderverwerkingsproces wordt gemodelleerd als een end-to-end flow met duidelijke beslismomenten.
+HoofdflowOrder ontvangen Order registreren in ERP Order valideren Kredietcheck uitvoeren (B2B) Voorraad controleren Order vrijgeven Verzending aanmaken Facturatie triggeren BeslismomentenIs klantgegevens geldig? Is kredietlimiet akkoord? Is voorraad beschikbaar? Uitzonderingenonvoldoende voorraad → backorder krediet afgekeurd → order blokkeren ongeldige data → order terug naar sales NotatieDit proces kan worden gemodelleerd in BPMN of swimlane diagrammen.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Procesmodellering :: Proces Documentalist">
+    <meta name="twitter:description" content="Het orderverwerkingsproces wordt gemodelleerd als een end-to-end flow met duidelijke beslismomenten.
+HoofdflowOrder ontvangen Order registreren in ERP Order valideren Kredietcheck uitvoeren (B2B) Voorraad controleren Order vrijgeven Verzending aanmaken Facturatie triggeren BeslismomentenIs klantgegevens geldig? Is kredietlimiet akkoord? Is voorraad beschikbaar? Uitzonderingenonvoldoende voorraad → backorder krediet afgekeurd → order blokkeren ongeldige data → order terug naar sales NotatieDit proces kan worden gemodelleerd in BPMN of swimlane diagrammen.">
+    <meta property="og:url" content="http://localhost:1313/07-voorbeeldproces/06.01-orderverwerking/05.01.06-procesmodellering/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="Procesmodellering :: Proces Documentalist">
+    <meta property="og:description" content="Het orderverwerkingsproces wordt gemodelleerd als een end-to-end flow met duidelijke beslismomenten.
+HoofdflowOrder ontvangen Order registreren in ERP Order valideren Kredietcheck uitvoeren (B2B) Voorraad controleren Order vrijgeven Verzending aanmaken Facturatie triggeren BeslismomentenIs klantgegevens geldig? Is kredietlimiet akkoord? Is voorraad beschikbaar? Uitzonderingenonvoldoende voorraad → backorder krediet afgekeurd → order blokkeren ongeldige data → order terug naar sales NotatieDit proces kan worden gemodelleerd in BPMN of swimlane diagrammen.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Een voorbeeldproces">
+    <meta itemprop="name" content="Procesmodellering :: Proces Documentalist">
+    <meta itemprop="description" content="Het orderverwerkingsproces wordt gemodelleerd als een end-to-end flow met duidelijke beslismomenten.
+HoofdflowOrder ontvangen Order registreren in ERP Order valideren Kredietcheck uitvoeren (B2B) Voorraad controleren Order vrijgeven Verzending aanmaken Facturatie triggeren BeslismomentenIs klantgegevens geldig? Is kredietlimiet akkoord? Is voorraad beschikbaar? Uitzonderingenonvoldoende voorraad → backorder krediet afgekeurd → order blokkeren ongeldige data → order terug naar sales NotatieDit proces kan worden gemodelleerd in BPMN of swimlane diagrammen.">
+    <meta itemprop="wordCount" content="69">
+    <title>Procesmodellering :: Proces Documentalist</title>
+    <link href="/images/favicon.svg?1776589303" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1776589303" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776589303" defer></script>
+    <script src="/js/search-lunr.js?1776589303" defer></script>
+    <script src="/js/search.js?1776589303" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1776589303";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1776589303" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776589303" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776589303" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1776589303" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1776589303" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776589303" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776589303" rel="stylesheet">
+    <link href="/css/theme.css?1776589303" rel="stylesheet">
+    <link href="/css/format-html.css?1776589303" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/07-voorbeeldproces\/06.01-orderverwerking\/05.01.06-procesmodellering\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto', 'relearn-dark' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1776589303" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/07-voorbeeldproces/06.01-orderverwerking/05.01.06-procesmodellering/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/07-voorbeeldproces/index.html"><span itemprop="name">Een voorbeeldproces</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/07-voorbeeldproces/06.01-orderverwerking/index.html"><span itemprop="name">Orderverwerking</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Procesmodellering</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/07-voorbeeldproces/06.01-orderverwerking/05.01.05-procesmetadata/index.html" title="Procesmetadata (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/07-voorbeeldproces/06.01-orderverwerking/05.01.07-procesuitwerking/index.html" title="Procesuitwerking (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 07-voorbeeldproces" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="procesmodellering">Procesmodellering</h1>
+
+<p>Het orderverwerkingsproces wordt gemodelleerd als een end-to-end flow met duidelijke beslismomenten.</p>
+<h4 id="hoofdflow">Hoofdflow<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ol>
+<li>Order ontvangen</li>
+<li>Order registreren in ERP</li>
+<li>Order valideren</li>
+<li>Kredietcheck uitvoeren (B2B)</li>
+<li>Voorraad controleren</li>
+<li>Order vrijgeven</li>
+<li>Verzending aanmaken</li>
+<li>Facturatie triggeren</li>
+</ol>
+<h4 id="beslismomenten">Beslismomenten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ul>
+<li>Is klantgegevens geldig?</li>
+<li>Is kredietlimiet akkoord?</li>
+<li>Is voorraad beschikbaar?</li>
+</ul>
+<h4 id="uitzonderingen">Uitzonderingen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ul>
+<li>onvoldoende voorraad → backorder</li>
+<li>krediet afgekeurd → order blokkeren</li>
+<li>ongeldige data → order terug naar sales</li>
+</ul>
+<h4 id="notatie">Notatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Dit proces kan worden gemodelleerd in BPMN of swimlane diagrammen.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/01-werkwijze/index.html"><a class="padding" href="/01-werkwijze/index.html">Werkwijze</a></li>
+            <li class="" data-nav-id="/02-procesdocumentatiemodel/index.html"><a class="padding" href="/02-procesdocumentatiemodel/index.html">Het procesdocumentatiemodel</a></li>
+            <li class="" data-nav-id="/03-pdm-templates/index.html"><a class="padding" href="/03-pdm-templates/index.html">PDM Templates</a></li>
+            <li class="" data-nav-id="/04-bronnen-van-procesinformatie/index.html"><a class="padding" href="/04-bronnen-van-procesinformatie/index.html">Bronnen van procesinformatie</a></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding" href="/05-procesdocument/index.html">Het procesdocument</a></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="parent " data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Een voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu">
+            <li class="parent hidden alwaysopen " data-nav-id="/07-voorbeeldproces/06.01-orderverwerking/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/06.01-orderverwerking/index.html">Orderverwerking</a><ul id="R-subsections-6146d3f7e4c3674cdc2702fa67a0a36f" class="collapsible-menu">
+            <li class="" data-nav-id="/07-voorbeeldproces/06.01-orderverwerking/05.01.01-beheer-van-procesdocumentatie/index.html"><a class="padding" href="/07-voorbeeldproces/06.01-orderverwerking/05.01.01-beheer-van-procesdocumentatie/index.html">beheer van procesdocumentatie</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/06.01-orderverwerking/05.01.02-procescontext/index.html"><a class="padding" href="/07-voorbeeldproces/06.01-orderverwerking/05.01.02-procescontext/index.html">Procescontext</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/06.01-orderverwerking/05.01.03-procesdoel/index.html"><a class="padding" href="/07-voorbeeldproces/06.01-orderverwerking/05.01.03-procesdoel/index.html">Procesdoel</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/06.01-orderverwerking/05.01.04-procesarchitectuur/index.html"><a class="padding" href="/07-voorbeeldproces/06.01-orderverwerking/05.01.04-procesarchitectuur/index.html">Procesarchitectuur</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/06.01-orderverwerking/05.01.05-procesmetadata/index.html"><a class="padding" href="/07-voorbeeldproces/06.01-orderverwerking/05.01.05-procesmetadata/index.html">Procesmetadata</a></li>
+            <li class="active " data-nav-id="/07-voorbeeldproces/06.01-orderverwerking/05.01.06-procesmodellering/index.html"><a class="padding" href="/07-voorbeeldproces/06.01-orderverwerking/05.01.06-procesmodellering/index.html">Procesmodellering</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/06.01-orderverwerking/05.01.07-procesuitwerking/index.html"><a class="padding" href="/07-voorbeeldproces/06.01-orderverwerking/05.01.07-procesuitwerking/index.html">Procesuitwerking</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/06.01-orderverwerking/05.01.08-processturing/index.html"><a class="padding" href="/07-voorbeeldproces/06.01-orderverwerking/05.01.08-processturing/index.html">Processturing</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/06.01-orderverwerking/05.01.09-procesanalyse-en--verbetering/index.html"><a class="padding" href="/07-voorbeeldproces/06.01-orderverwerking/05.01.09-procesanalyse-en--verbetering/index.html">Procesanalyse en verbetering</a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over de Procesdocumentalist</a></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/10-artikelen/index.html"><a class="padding default-animation" href="/10-artikelen/index.html">Artikelen</a><ul id="R-subsections-ad2eb70ad2c7c7324360baad241e1727" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/11-7x-framework/index.html"><a class="padding default-animation" href="/11-7x-framework/index.html">7x Framework</a><ul id="R-subsections-c70d9bb0db4cf066f73e62752d338db1" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1776589303" defer></script>
+    <script src="/js/d3/d3-color.min.js?1776589303" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1776589303" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1776589303" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1776589303" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1776589303" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1776589303" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1776589303" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1776589303" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1776589303" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1776589303" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776589303" defer></script>
+    <script src="/js/theme.js?1776589303" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

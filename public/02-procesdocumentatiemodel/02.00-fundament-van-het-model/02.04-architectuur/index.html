@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Procesdocumentatie is geen statisch document, maar een dynamisch ecosysteem dat meegroeit met de organisatie. Net zoals een levend organisme zich aanpast aan zijn omgeving, moet procesdocumentatie evolueren om relevant te blijven. Processen veranderen continu door:
+Categorie Voorbeelden Impact op processen Externe factoren Nieuwe wet- en regelgeving (AVG, ISO 9001, sector-specifieke eisen), marktveranderingen, concurrentie. Processen moeten worden aangepast om te voldoen aan nieuwe eisen of om concurrentievoordeel te behouden. Interne factoren Fusies, herstructureringen, nieuwe strategieën, cultuurveranderingen. Processen moeten worden afgestemd op nieuwe organisatiestructuren of doelen. Technologische factoren Automatisering (RPA, AI), nieuwe software (ERP, CRM), digitale transformatie. Processen kunnen worden geoptimaliseerd of herontworpen om gebruik te maken van nieuwe technologieën. Verbeterinitiatieven Lean, Six Sigma, Agile, continue verbeterprogramma’s (Kaizen). Processen worden continue geëvalueerd en verbeterd om efficiëntie en kwaliteit te verhogen. Daarom bevat het Procesdocumentatie Model (PDM) een expliciete laag voor processturing en procesverbetering. Deze laag zorgt ervoor dat procesdocumentatie niet alleen een momentopname is, maar een levend instrument voor actieve sturing, continue verbetering en strategische alignement.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Sturing en verbetering als integraal onderdeel :: Proces Documentalist">
+    <meta name="twitter:description" content="Procesdocumentatie is geen statisch document, maar een dynamisch ecosysteem dat meegroeit met de organisatie. Net zoals een levend organisme zich aanpast aan zijn omgeving, moet procesdocumentatie evolueren om relevant te blijven. Processen veranderen continu door:
+Categorie Voorbeelden Impact op processen Externe factoren Nieuwe wet- en regelgeving (AVG, ISO 9001, sector-specifieke eisen), marktveranderingen, concurrentie. Processen moeten worden aangepast om te voldoen aan nieuwe eisen of om concurrentievoordeel te behouden. Interne factoren Fusies, herstructureringen, nieuwe strategieën, cultuurveranderingen. Processen moeten worden afgestemd op nieuwe organisatiestructuren of doelen. Technologische factoren Automatisering (RPA, AI), nieuwe software (ERP, CRM), digitale transformatie. Processen kunnen worden geoptimaliseerd of herontworpen om gebruik te maken van nieuwe technologieën. Verbeterinitiatieven Lean, Six Sigma, Agile, continue verbeterprogramma’s (Kaizen). Processen worden continue geëvalueerd en verbeterd om efficiëntie en kwaliteit te verhogen. Daarom bevat het Procesdocumentatie Model (PDM) een expliciete laag voor processturing en procesverbetering. Deze laag zorgt ervoor dat procesdocumentatie niet alleen een momentopname is, maar een levend instrument voor actieve sturing, continue verbetering en strategische alignement.">
+    <meta property="og:url" content="http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.04-architectuur/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="Sturing en verbetering als integraal onderdeel :: Proces Documentalist">
+    <meta property="og:description" content="Procesdocumentatie is geen statisch document, maar een dynamisch ecosysteem dat meegroeit met de organisatie. Net zoals een levend organisme zich aanpast aan zijn omgeving, moet procesdocumentatie evolueren om relevant te blijven. Processen veranderen continu door:
+Categorie Voorbeelden Impact op processen Externe factoren Nieuwe wet- en regelgeving (AVG, ISO 9001, sector-specifieke eisen), marktveranderingen, concurrentie. Processen moeten worden aangepast om te voldoen aan nieuwe eisen of om concurrentievoordeel te behouden. Interne factoren Fusies, herstructureringen, nieuwe strategieën, cultuurveranderingen. Processen moeten worden afgestemd op nieuwe organisatiestructuren of doelen. Technologische factoren Automatisering (RPA, AI), nieuwe software (ERP, CRM), digitale transformatie. Processen kunnen worden geoptimaliseerd of herontworpen om gebruik te maken van nieuwe technologieën. Verbeterinitiatieven Lean, Six Sigma, Agile, continue verbeterprogramma’s (Kaizen). Processen worden continue geëvalueerd en verbeterd om efficiëntie en kwaliteit te verhogen. Daarom bevat het Procesdocumentatie Model (PDM) een expliciete laag voor processturing en procesverbetering. Deze laag zorgt ervoor dat procesdocumentatie niet alleen een momentopname is, maar een levend instrument voor actieve sturing, continue verbetering en strategische alignement.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Sturing en verbetering als integraal onderdeel :: Proces Documentalist">
+    <meta itemprop="description" content="Procesdocumentatie is geen statisch document, maar een dynamisch ecosysteem dat meegroeit met de organisatie. Net zoals een levend organisme zich aanpast aan zijn omgeving, moet procesdocumentatie evolueren om relevant te blijven. Processen veranderen continu door:
+Categorie Voorbeelden Impact op processen Externe factoren Nieuwe wet- en regelgeving (AVG, ISO 9001, sector-specifieke eisen), marktveranderingen, concurrentie. Processen moeten worden aangepast om te voldoen aan nieuwe eisen of om concurrentievoordeel te behouden. Interne factoren Fusies, herstructureringen, nieuwe strategieën, cultuurveranderingen. Processen moeten worden afgestemd op nieuwe organisatiestructuren of doelen. Technologische factoren Automatisering (RPA, AI), nieuwe software (ERP, CRM), digitale transformatie. Processen kunnen worden geoptimaliseerd of herontworpen om gebruik te maken van nieuwe technologieën. Verbeterinitiatieven Lean, Six Sigma, Agile, continue verbeterprogramma’s (Kaizen). Processen worden continue geëvalueerd en verbeterd om efficiëntie en kwaliteit te verhogen. Daarom bevat het Procesdocumentatie Model (PDM) een expliciete laag voor processturing en procesverbetering. Deze laag zorgt ervoor dat procesdocumentatie niet alleen een momentopname is, maar een levend instrument voor actieve sturing, continue verbetering en strategische alignement.">
+    <meta itemprop="wordCount" content="1541">
+    <title>Sturing en verbetering als integraal onderdeel :: Proces Documentalist</title>
+    <link href="/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.04-architectuur/index.xml" rel="alternate" type="application/rss+xml" title="Sturing en verbetering als integraal onderdeel :: Proces Documentalist">
+    <link href="/images/favicon.svg?1776863172" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1776863172" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776863172" defer></script>
+    <script src="/js/search-lunr.js?1776863172" defer></script>
+    <script src="/js/search.js?1776863172" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1776863172";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1776863172" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776863172" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776863172" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1776863172" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1776863172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776863172" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776863172" rel="stylesheet">
+    <link href="/css/theme.css?1776863172" rel="stylesheet">
+    <link href="/css/format-html.css?1776863172" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/02-procesdocumentatiemodel\/02.00-fundament-van-het-model\/02.04-architectuur\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto', 'relearn-dark' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1776863172" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.04-architectuur/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/02-procesdocumentatiemodel/index.html"><span itemprop="name">Het Procesdocumentatiemodel</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/02-procesdocumentatiemodel/02.00-fundament-van-het-model/index.html"><span itemprop="name">Fundament</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Sturing en verbetering als integraal onderdeel</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.05-oorsprong/index.html" title="Oorsprong (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/03-pdm-templates/index.html" title="PDM Templates (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 02-procesdocumentatiemodel" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="sturing-en-verbetering-als-integraal-onderdeel">Sturing en verbetering als integraal onderdeel</h1>
+
+<p>Procesdocumentatie is geen statisch document, maar een dynamisch ecosysteem dat meegroeit met de organisatie. Net zoals een levend organisme zich aanpast aan zijn omgeving, moet procesdocumentatie evolueren om relevant te blijven. Processen veranderen continu door:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Categorie</th>
+          <th>Voorbeelden</th>
+          <th>Impact op processen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Externe factoren</td>
+          <td>Nieuwe wet- en regelgeving (AVG, ISO 9001, sector-specifieke eisen), marktveranderingen, concurrentie.</td>
+          <td>Processen moeten worden aangepast om te voldoen aan nieuwe eisen of om concurrentievoordeel te behouden.</td>
+      </tr>
+      <tr>
+          <td>Interne factoren</td>
+          <td>Fusies, herstructureringen, nieuwe strategieën, cultuurveranderingen.</td>
+          <td>Processen moeten worden afgestemd op nieuwe organisatiestructuren of doelen.</td>
+      </tr>
+      <tr>
+          <td>Technologische factoren</td>
+          <td>Automatisering (RPA, AI), nieuwe software (ERP, CRM), digitale transformatie.</td>
+          <td>Processen kunnen worden geoptimaliseerd of herontworpen om gebruik te maken van nieuwe technologieën.</td>
+      </tr>
+      <tr>
+          <td>Verbeterinitiatieven</td>
+          <td>Lean, Six Sigma, Agile, continue verbeterprogramma’s (Kaizen).</td>
+          <td>Processen worden continue geëvalueerd en verbeterd om efficiëntie en kwaliteit te verhogen.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Daarom bevat het Procesdocumentatie Model (PDM) een expliciete laag voor processturing en procesverbetering. Deze laag zorgt ervoor dat procesdocumentatie niet alleen een momentopname is, maar een levend instrument voor actieve sturing, continue verbetering en strategische alignement.</p>
+<h4 id="wat-omvat-de-laag-voor-sturing-en-verbetering">Wat omvat de laag voor sturing en verbetering?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Deze laag beschrijft hoe processen worden gemeten, geanalyseerd, verbeterd en beheerd. Het omvat de volgende vijf pijlers, die samen een gesloten lus vormen voor continue verbetering:</p>
+<h5 id="meten-kpis-en-prestatie-indicatoren">Meten: KPI’s en prestatie-indicatoren<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>&ldquo;Wat je niet meet, kun je niet verbeteren.&rdquo; — W. Edwards Deming</p>
+<p>KPI’s (Key Performance Indicators) en prestatie-indicatoren zijn meetbare grootheden die aangeven of een proces zijn doelen bereikt. Ze vormen de basis voor datagedreven besluitvorming.</p>
+<h6 id="soorten-kpis">Soorten KPI’s<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<table>
+  <thead>
+      <tr>
+          <th>Type KPI</th>
+          <th>Doel</th>
+          <th>Voorbeeld</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Efficiëntie</td>
+          <td>Meten hoe snel en soepel een proces verloopt.</td>
+          <td>Doorlooptijd van orderverwerking: &lt; 24 uur.</td>
+      </tr>
+      <tr>
+          <td>Kwaliteit</td>
+          <td>Meten in hoeverre het proces voldoet aan de gestelde normen.</td>
+          <td>Percentage foutloze facturen: ≥ 99%.</td>
+      </tr>
+      <tr>
+          <td>Kosten</td>
+          <td>Meten wat de uitvoering van het proces kost.</td>
+          <td>Kosten per factuur: &lt; €5.</td>
+      </tr>
+      <tr>
+          <td>Klanttevredenheid</td>
+          <td>Meten hoe tevreden klanten zijn over het resultaat van het proces.</td>
+          <td>Net Promoter Score (NPS): ≥ 8.</td>
+      </tr>
+      <tr>
+          <td>Compliance</td>
+          <td>Meten in hoeverre het proces voldoet aan wettelijke en interne eisen.</td>
+          <td>Aantal auditvondsten: 0.</td>
+      </tr>
+  </tbody>
+</table>
+<h6 id="hoe-kpis-te-bepalen">Hoe KPI’s te bepalen?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Gebruik de SMART-methode om KPI’s te definieren:</p>
+<ul>
+<li>Specifiek: Duidelijk en eenduidig.</li>
+<li>Meetbaar: Kwantificeerbaar (bijv. in tijd, geld, percentage).</li>
+<li>Acceptabel: Realistisch en haalbaar.</li>
+<li>Relevant: Gerelateerd aan de strategische doelen van de organisatie.</li>
+<li>Tijdgebonden: Met een duidelijke deadline of meetfrequentie.</li>
+</ul>
+<h5 id="monitoren-continu-inzicht-in-procesprestaties">Monitoren: Continu inzicht in procesprestaties<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Monitoring zorgt voor real-time of periodiek inzicht in hoe processen presteren. Dit stelt organisaties in staat om proactief te sturen.</p>
+<h6 id="monitoringmethoden">Monitoringmethoden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<table>
+  <thead>
+      <tr>
+          <th>Methode</th>
+          <th>Toelichting</th>
+          <th>Voorbeeld</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Dashboards</td>
+          <td>Visuele weergave van KPI’s en prestatiegegevens.</td>
+          <td>Een Power BI-dashboard met real-time data over doorlooptijden en foutenpercentages.</td>
+      </tr>
+      <tr>
+          <td>Rapportages</td>
+          <td>Periodieke (dagelijkse, wekelijkse, maandelijkse) overzichten van procesprestaties.</td>
+          <td>Maandelijkse rapportage met trends in doorlooptijd en klanttevredenheid.</td>
+      </tr>
+      <tr>
+          <td>Alerts en notificaties</td>
+          <td>Automatische waarschuwingen bij afwijkingen (bijv. als een KPI onder een drempelwaarde zakt).</td>
+          <td>Een e-mailalert als de doorlooptijd van een proces &gt; 48 uur is.</td>
+      </tr>
+      <tr>
+          <td>Process Mining</td>
+          <td>Analyse van digitale sporen (bijv. logbestanden) om de werkelijke processtroom in kaart te brengen.</td>
+          <td>Gebruik van tools zoals Celonis of Disco om knelpunten in processen te identificeren.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="analyseren-identificeren-van-knelpunten-en-kansen">Analyseren: Identificeren van knelpunten en kansen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Analyse is de brug tussen meten en verbeteren. Door procesdata te analyseren, kun je oorzaken van problemen blootleggen en verbeterkansen identificeren.</p>
+<h6 id="analysemethoden">Analysemethoden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<table>
+  <thead>
+      <tr>
+          <th>Methode</th>
+          <th>Toelichting</th>
+          <th>Wanneer toepassen?</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Root Cause Analysis (RCA)</td>
+          <td>Systematische methode om de onderliggende oorzaak van een probleem te vinden.</td>
+          <td>Als een proces herhaaldelijk niet aan de KPI’s voldoet.</td>
+      </tr>
+      <tr>
+          <td>5 Whys</td>
+          <td>Vraag vijf keer &ldquo;waarom?&rdquo; om de kernoorzaak van een probleem te achterhalen.</td>
+          <td>Bij eenvoudige, maar terugkerende problemen.</td>
+      </tr>
+      <tr>
+          <td>Fishbone-diagram (Ishikawa)</td>
+          <td>Visuele weergave van mogelijke oorzaken van een probleem, gegroepeerd in categorieën (bijv. Mens, Methode, Materiaal, Machine).</td>
+          <td>Bij complexe problemen met meerdere mogelijke oorzaken.</td>
+      </tr>
+      <tr>
+          <td>Pareto-analyse</td>
+          <td>Identificeer de 20% van de oorzaken die verantwoordelijk zijn voor 80% van de problemen.</td>
+          <td>Als er veel kleine problemen zijn en je wilt prioriteiten stellen.</td>
+      </tr>
+      <tr>
+          <td>SWOT-analyse</td>
+          <td>Analyse van Sterktes, Zwaktes, Kansen en Bedreigingen van een proces.</td>
+          <td>Bij strategische evaluaties of grote procesveranderingen.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="verbeteren-concrete-acties-om-processen-te-optimaliseren">Verbeteren: Concrete acties om processen te optimaliseren<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Verbeteren is het hart van continue verbetering. Op basis van de analyse worden concrete acties ondernomen om processen te optimaliseren.</p>
+<h6 id="verbetermethoden">Verbetermethoden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<table>
+  <thead>
+      <tr>
+          <th>Methode</th>
+          <th>Toelichting</th>
+          <th>Voorbeeld</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>PDCA-cyclus</td>
+          <td>Plan-Do-Check-Act: Structurele methode voor continue verbetering.</td>
+          <td>Een pilot uitvoeren met een nieuwe werkwijze, evalueren, en bij succes opschalen.</td>
+      </tr>
+      <tr>
+          <td>Lean</td>
+          <td>Focus op waarde toevoegen en verspilling elimineren (Muda).</td>
+          <td>Een 5S-implementatie om de werkplek te organiseren en efficiëntie te verhogen.</td>
+      </tr>
+      <tr>
+          <td>Six Sigma</td>
+          <td>Data-gedreven methode om variatie in processen te reduceren en kwaliteit te verbeteren.</td>
+          <td>Een DMAIC-project (Define, Measure, Analyze, Improve, Control) om fouten in factuurverwerking te verminderen.</td>
+      </tr>
+      <tr>
+          <td>Agile</td>
+          <td>Iteratieve en incrementale verbetering, met focus op flexibiliteit en klantwaarde.</td>
+          <td>Een Scrum-team dat in sprints werkt aan verbeteringen in het klantenserviceproces.</td>
+      </tr>
+      <tr>
+          <td>Automatisering (RPA)</td>
+          <td>Gebruik van Robotic Process Automation om repetitieve taken te automatiseren.</td>
+          <td>Een RPA-bot die facturen automatisch controleert en goedkeurt.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="beheren-zorgen-voor-actuele-en-betrouwbare-documentatie">Beheren: Zorgen voor actuele en betrouwbare documentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Beheer zorgt ervoor dat de procesdocumentatie altijd actueel, toegankelijk en betrouwbaar blijft. Dit is cruciaal voor compliance, efficiëntie en betrokkenheid.</p>
+<h6 id="beheeraspecten">Beheeraspecten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<table>
+  <thead>
+      <tr>
+          <th>Aspect</th>
+          <th>Toelichting</th>
+          <th>Voorbeeld</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Versiebeheer</td>
+          <td>Zorg dat iedereen toegang heeft tot de meest recente versie van de documentatie.</td>
+          <td>Gebruik van Confluence, SharePoint, of Git voor versiebeheer.</td>
+      </tr>
+      <tr>
+          <td>Eigenaarschap</td>
+          <td>Wijs procesowners aan die verantwoordelijk zijn voor het onderhoud van de documentatie.</td>
+          <td>De Finance Manager is verantwoordelijk voor de documentatie van factuurverwerking.</td>
+      </tr>
+      <tr>
+          <td>Feedbacklussen</td>
+          <td>Creëer mogelijkheden voor medewerkers om input te leveren voor verbeteringen.</td>
+          <td>Regelmatige workshops of digitale feedbacktools (bijv. Microsoft Forms).</td>
+      </tr>
+      <tr>
+          <td>Training en communicatie</td>
+          <td>Zorg dat medewerkers op de hoogte zijn van wijzigingen in processen en documentatie.</td>
+          <td>Een nieuwsbrief of trainingssessie bij grote proceswijzigingen.</td>
+      </tr>
+      <tr>
+          <td>Audit en review</td>
+          <td>Periodieke controles om te zorgen dat de documentatie nog klopt met de werkelijkheid.</td>
+          <td>Jaarlijkse interne audit van alle procesdocumentatie.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="waarom-is-dit-essentieel">Waarom is dit essentieel?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Door sturing en verbetering integraal op te nemen in de procesdocumentatie, bereik je de volgende strategische voordelen:</p>
+<h5 id="proactieve-sturing-voorkomen-in-plaats-van-genezen">Proactieve sturing: Voorkomen in plaats van genezen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Voorspellend onderhoud: Door procesprestaties te monitoren, kun je voorspellend ingrijpen voordat problemen escaleren.<br>
+Voorbeeld: Als de doorlooptijd van een proces toeneemt, kun je tijdig capaciteit aanpassen of een bottleneck oplossen.</li>
+<li>Data-gedreven beslissingen: KPI’s en analyses bieden objectieve inzichten om verbeteringen te onderbouwen.<br>
+Voorbeeld: Als uit de data blijkt dat 30% van de klachten betrekking heeft op leververtragingen, kun je gericht werken aan logistieke verbeteringen.</li>
+</ul>
+<h5 id="continue-verbetering-een-cultuur-van-groei">Continue verbetering: Een cultuur van groei<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Cultuur van verbeteren: Door verbeteracties structureel op te nemen, stimuleer je een cultuur van continue verbetering (bijv. volgens de PDCA-cyclus).</li>
+<li>Lean en Agile principes: Procesdocumentatie wordt een levend document dat meegroeit met de organisatie, in lijn met methodieken zoals Lean Six Sigma of Agile.</li>
+<li>Innovatie: Door continue evaluatie en verbetering ontstaat ruimte voor innovatie en optimalisatie.</li>
+</ul>
+<h5 id="betrouwbare-en-actuele-documentatie-de-basis-voor-succes">Betrouwbare en actuele documentatie: De basis voor succes<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Versiebeheer: Zorg dat iedereen toegang heeft tot de meest recente versie van de documentatie, met duidelijke aanduidingen van wijzigingen.</li>
+<li>Eigenaarschap: Wijs procesowners aan die verantwoordelijk zijn voor het onderhoud van de documentatie.</li>
+<li>Feedbacklussen: Creëer mogelijkheden voor medewerkers om input te leveren voor verbeteringen (bijv. via workshops of digitale feedbacktools).</li>
+</ul>
+<h4 id="praktisch-voorbeeld-sturing-en-verbetering-in-de-praktijk">Praktisch voorbeeld: Sturing en verbetering in de praktijk<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Stel, je hebt het proces &ldquo;Factuurverwerking&rdquo; gedocumenteerd. De sturing- en verbeterlaag zou er als volgt uit kunnen zien:</p>
+<h5 id="1-kpis">1. KPI’s<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Doorlooptijd factuurverwerking: &lt; 48 uur.</li>
+<li>Percentage foutloze facturen: ≥ 99%.</li>
+<li>Gemiddelde tijd tot betaling door klant: &lt; 14 dagen.</li>
+<li>Kosten per factuur: &lt; €5.</li>
+</ul>
+<h5 id="2-monitoring">2. Monitoring<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Wekelijkse rapportage van de doorlooptijd en foutenpercentage (via Power BI).</li>
+<li>Maandelijkse review van openstaande facturen ouder dan 30 dagen.</li>
+<li>Automatische alerts als de doorlooptijd &gt; 48 uur is.</li>
+</ul>
+<h5 id="3-analyse">3. Analyse<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Als de doorlooptijd toeneemt: Root Cause Analysis uitvoeren om te onderzoeken of er een bottleneck is in de goedkeuringsstap.</li>
+<li>Als het foutenpercentage stijgt: Fishbone-diagram maken om de oorzaken te identificeren (bijv. gebrek aan training, onduidelijke procedures).</li>
+</ul>
+<h5 id="4-verbeteracties">4. Verbeteracties<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Automatisering: Implementatie van een RPA-tool (bijv. UiPath) om de factuurcontrole te automatiseren.</li>
+<li>Training: Een workshop organiseren voor medewerkers over nieuwe factureringsregels.</li>
+<li>Procesherontwerp: Het proces herinrichten volgens Lean-principes om verspilling te elimineren.</li>
+</ul>
+<h5 id="5-beheer">5. Beheer<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>De documentatie wordt beheerd in Confluence, met een duidelijke versiehistorie en toegang voor alle betrokkenen.</li>
+<li>De Finance Manager is verantwoordelijk voor het bijwerken van de documentatie.</li>
+<li>Kwartaalijks wordt de documentatie gereviewd en bijgewerkt op basis van feedback van medewerkers.</li>
+</ul>
+<h4 id="voordelen-van-een-geïntegreerde-aanpak">Voordelen van een geïntegreerde aanpak<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Voordeel</th>
+          <th>Uitleg</th>
+          <th>Impact op de organisatie</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Flexibiliteit</td>
+          <td>De organisatie kan snel reageren op veranderingen, omdat processen en documentatie meegroeien.</td>
+          <td>Snellere aanpassing aan nieuwe marktomstandigheden of wettelijke eisen.</td>
+      </tr>
+      <tr>
+          <td>Efficiëntie</td>
+          <td>Door continue verbetering worden processen slimmer en sneller.</td>
+          <td>Lagere operationele kosten en hogere productiviteit.</td>
+      </tr>
+      <tr>
+          <td>Compliance</td>
+          <td>De organisatie voldoet altijd aan de laatste wet- en regelgeving.</td>
+          <td>Verminderd risico op boetes of juridische problemen.</td>
+      </tr>
+      <tr>
+          <td>Betrokkenheid</td>
+          <td>Medewerkers voelen zich eigenaar van de processen en dragen actief bij aan verbeteringen.</td>
+          <td>Hogere medewerkerstevredenheid en lagere verloopcijfers.</td>
+      </tr>
+      <tr>
+          <td>Transparantie</td>
+          <td>Iedereen heeft inzicht in hoe processen presteren en waar verbeterpunten liggen.</td>
+          <td>Betere communicatie en samenwerking tussen afdelingen.</td>
+      </tr>
+      <tr>
+          <td>Innovatie</td>
+          <td>Continue evaluatie en verbetering stimuleren creativiteit en innovatie.</td>
+          <td>Nieuwe producten, diensten of werkwijzen die de organisatie vooruit helpen.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="conclusie-van-statisch-naar-dynamisch">Conclusie: Van statisch naar dynamisch<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>In het PDM is procesdocumentatie geen eindproduct, maar een levend instrument voor procesmanagement. Door sturing en verbetering expliciet op te nemen, zorg je ervoor dat:</p>
+<ul>
+<li>Processen meegroeien met de organisatie.</li>
+<li>Verbeteringen structureel worden doorgevoerd.</li>
+<li>Documentatie altijd actueel en relevant blijft.</li>
+</ul>
+<p>Kortom: Procesdocumentatie is pas waardevol als het leeft — en groeit met de organisatie.</p>
+<h4 id="integratie-met-het-7x-framework-en-7x-process-language">Integratie met het 7x Framework en 7x Process Language<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Deze aanpak sluit naadloos aan bij jouw 7x Framework en 7x Process Language, waarbij:</p>
+<ul>
+<li>Sturing past bij de strategische laag (bijv. alignement met organisatiedoelen).</li>
+<li>Verbetering past bij de operationele laag (bijv. continue optimalisatie).</li>
+<li>Beheer past bij de tactische laag (bijv. versiebeheer en eigenaarschap).</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/01-methode/index.html"><a class="padding default-animation" href="/01-methode/index.html">Methode</a><ul id="R-subsections-73c5657de716354a63503660a5152d83" class="collapsible-menu"></ul></li>
+            <li class="parent " data-nav-id="/02-procesdocumentatiemodel/index.html"><a class="padding default-animation" href="/02-procesdocumentatiemodel/index.html">Het Procesdocumentatiemodel</a><ul id="R-subsections-f5ab0185af80272c8837219e91361569" class="collapsible-menu">
+            <li class="parent hidden alwaysopen " data-nav-id="/02-procesdocumentatiemodel/02.00-fundament-van-het-model/index.html"><a class="padding default-animation" href="/02-procesdocumentatiemodel/02.00-fundament-van-het-model/index.html">Fundament</a><ul id="R-subsections-9b9ac2aa7116b2f9996fe395d9948474" class="collapsible-menu">
+            <li class="" data-nav-id="/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.05-oorsprong/index.html"><a class="padding" href="/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.05-oorsprong/index.html">Oorsprong</a></li>
+            <li class="active " data-nav-id="/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.04-architectuur/index.html"><a class="padding" href="/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.04-architectuur/index.html">Sturing en verbetering als integraal onderdeel</a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/03-pdm-templates/index.html"><a class="padding" href="/03-pdm-templates/index.html">PDM Templates</a></li>
+            <li class="" data-nav-id="/04-bronnen-van-procesinformatie/index.html"><a class="padding" href="/04-bronnen-van-procesinformatie/index.html">Bronnen van procesinformatie</a></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding default-animation" href="/05-procesdocument/index.html">Het procesdocument</a><ul id="R-subsections-5c49dcae193485065049068268687701" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over de Procesdocumentalist</a></li>
+            <li class="" data-nav-id="/10-artikelen/index.html"><a class="padding" href="/10-artikelen/index.html">Artikelen</a></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-color.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1776863172" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1776863172" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776863172" defer></script>
+    <script src="/js/theme.js?1776863172" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

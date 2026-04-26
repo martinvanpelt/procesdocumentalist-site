@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bronnen van procesinformatie :: Proces Documentalist</title>
+    <link>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/index.html</link>
+    <description>Procesdocumentatie ontstaat niet alleen uit modellen en templates. De kwaliteit van procesdocumentatie wordt in hoge mate bepaald door de kwaliteit van de procesinformatie waarop zij gebaseerd is.&#xA;Binnen de aanpak van de Procesdocumentalist wordt procesinformatie verzameld uit verschillende bronnen binnen de organisatie. Deze bronnen vullen elkaar aan en helpen om een volledig, betrouwbaar en actueel beeld van het proces te verkrijgen.&#xA;Procesinformatie kan onder andere afkomstig zijn uit:&#xA;interviews met procesbetrokkenen workshops met stakeholders bestaande documentatie informatiesystemen wet- en regelgeving rapportages en KPI’s observatie van werkprocessen validatie met betrokkenen rapportages en KPI’s observatie van werkprocessen feedback van medewerkers Door meerdere informatiebronnen te combineren ontstaat een realistisch en holistisch beeld van het proces zoals het daadwerkelijk wordt uitgevoerd.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interviews</title>
+      <link>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.01-interviews/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.01-interviews/index.html</guid>
+      <description>Template voor het structureren en uitvoeren van interviews met procesbetrokkenen, inclusief voorbereiding, uitvoering, en verwerking van interviewgegevens.</description>
+    </item>
+    <item>
+      <title>Workshops</title>
+      <link>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.02-workshops/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.02-workshops/index.html</guid>
+      <description>Template voor het organiseren en uitvoeren van workshops om gezamenlijk processen in kaart te brengen, inclusief voorbereiding, uitvoering, en follow-up.</description>
+    </item>
+    <item>
+      <title>Bestaande Documentatie</title>
+      <link>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.03-bestaande-documentatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.03-bestaande-documentatie/index.html</guid>
+      <description>Template voor het analyseren en gebruiken van bestaande documentatie als basis voor procesanalyse, inclusief voorbeelden, voordelen, aandachtspunten en validatiemethoden.</description>
+    </item>
+    <item>
+      <title>Validatie met procesbetrokkenen</title>
+      <link>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.04-validatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.04-validatie/index.html</guid>
+      <description>Template voor het valideren van procesdocumentatie met procesbetrokkenen, inclusief methoden, checklists, en integratie met andere templates.</description>
+    </item>
+    <item>
+      <title>Wet- en regelgeving</title>
+      <link>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.05-wet-en-regelgeving/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.05-wet-en-regelgeving/index.html</guid>
+      <description>Doel: Het identificeren van alle externe of interne verplichte kaders die het proces moeten volgen. Dit zorgt voor Compliance Assurance.&#xA;Scope: Alle processen met directe invloed op de naleving (compliance) van wetten, sectorstandaarden of beleidsregels.&#xA;1. Procesdoel en Context&#xD;Doel: Het garanderen dat het proces voldoet aan alle geldende wettelijke en interne regelgeving, waardoor juridische risico’s worden geminimaliseerd. Contextuele Vraag: Welke wetten (AVG, Wftc, etc.) of sectorstandaarden zijn van toepassing op de data/acties die in dit proces plaatsvinden? 2. Analyse en Methodologie&#xD;Stap Actie Uitvoerder Output Artefact Identificatie Inventariseer alle relevante wetten, beleidsdocumenten en contractuele verplichtingen. Compliance Officer / Proceseigenaar Lijst van Verplichte Regels (Regelregister) Mapping Breng elke regel één-op-één in kaart met een specifieke stap of beslissing binnen het proces. Processanalist Compliance Matrix (Zie hieronder) Validatie Beoordeel de huidige processen op afwijkingen van deze regels en definieer corrigerende acties. Juridisch Adviseur / Proceseigenaar Risicoreport &amp; Aanbevelingen voor procesaanpassing 3. Output: De Compliance Matrix&#xD;De output is een gestructureerde matrix die de verplichting koppelt aan het processtadium en verantwoordelijkheid.</description>
+    </item>
+    <item>
+      <title>Rapportages en KPI&#39;s</title>
+      <link>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.06-rapportages-en-kpis/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.06-rapportages-en-kpis/index.html</guid>
+      <description>Rapportages en Key Performance Indicators (KPI’s) bieden objectieve, meetbare inzichten in de prestaties van processen. Deze bron is expliciet en essentieel voor het evalueren, sturen en verbeteren van processen. Voor een Procesdocumentalist zijn rapportages en KPI’s onmisbaar om datagedreven beslissingen te nemen en de effectiviteit van procesdocumentatie te meten.&#xA;Waarom zijn rapportages en KPI’s relevant?&#xD;Rapportages en KPI’s helpen om:</description>
+    </item>
+    <item>
+      <title>Observatie van werkprocessen</title>
+      <link>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.07-observatie-van-werkprocessen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.07-observatie-van-werkprocessen/index.html</guid>
+      <description>Observatie van werkprocessen is een krachtige, impliciete bron van procesinformatie. Door direct te kijken hoe processen in de praktijk worden uitgevoerd, ontdek je afwijkingen, knelpunten en ongedocumenteerde stappen die niet in formele documentatie staan. Voor een Procesdocumentalist is observatie essentieel om realistische, bruikbare procesdocumentatie te creëren die aansluit bij de dagelijkse praktijk.&#xA;Waarom is observatie relevant?&#xD;Observatie helpt om:</description>
+    </item>
+    <item>
+      <title>Feedback van medewerkers</title>
+      <link>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.08-feedback-van-medewerkers/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/04.08-feedback-van-medewerkers/index.html</guid>
+      <description>Feedback van medewerkers is een krachtige, impliciete bron van procesinformatie. Het omvat ervaringen, suggesties, frustraties en ongeschreven regels die medewerkers in de praktijk hanteren. Deze feedback onthult vaak knelpunten, workarounds en verbetermogelijkheden die niet in formele documentatie staan, maar wel cruciaal zijn voor het realistisch en effectief functioneren van processen.&#xA;Rol binnen procesdocumentatie&#xD;Feedback van medewerkers speelt een centrale rol in het leefbaar en bruikbaar maken van procesdocumentatie. Het zorgt ervoor dat documentatie niet alleen theoretisch correct is, maar ook praktisch toepasbaar in de dagelijkse werkzaamheden.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7x Framework :: Proces Documentalist</title>
+    <link>http://localhost:1313/11-7x-framework/index.html</link>
+    <description>Een end-to-end methodiek om innovaties en verbeterinitiatieven herhaalbaar, bestuurbaar en meetbaar van idee naar impact te brengen.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/11-7x-framework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7x Framework Handboek</title>
+      <link>http://localhost:1313/11-7x-framework/7x-framework/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/11-7x-framework/7x-framework/index.html</guid>
+      <description>Een diepgaande samenvatting van het 7x Framework Handboek, inclusief de zeven strategische uitdagingen, zeven ontwerpprincipes (7R’s), structuur, doelgroepen, toepassingsmogelijkheden en praktische implementatiestappen.</description>
+    </item>
+  </channel>
+</rss>

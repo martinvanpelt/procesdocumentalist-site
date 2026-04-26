@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesdocumentatiemodel :: Proces Documentalist</title>
+    <link>http://localhost:1313/01-het-procesdocumentatiemodel/index.html</link>
+    <description>Een gestructureerde methode voor het documenteren van bedrijfsprocessen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/01-het-procesdocumentatiemodel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fundament</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/index.html</guid>
+      <description>Het fundament van het Procesdocumentatiemodel: definities, begrippen, ontwerpprincipes en architectuur.</description>
+    </item>
+    <item>
+      <title>Procesdocumentatie-governance</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.01-procesdocumentatie-governance/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.01-procesdocumentatie-governance/index.html</guid>
+      <description>De governance van het Procesdocumentatiemodel (PDM): afspraken, rollen en processen voor het beheren van procesdocumentatie.</description>
+    </item>
+    <item>
+      <title>Procescontext</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.02-procescontext/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.02-procescontext/index.html</guid>
+      <description>De procescontext beschrijft de omgeving, randvoorwaarden en input/output van een proces binnen het Procesdocumentatiemodel (PDM).</description>
+    </item>
+    <item>
+      <title>Procesdoel</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.03-procesdoel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.03-procesdoel/index.html</guid>
+      <description>Het procesdoel beschrijft waarom een proces bestaat en welke waarde het levert binnen het Procesdocumentatiemodel (PDM).</description>
+    </item>
+    <item>
+      <title>Procesarchitectuur</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.04-procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.04-procesarchitectuur/index.html</guid>
+      <description>De procesarchitectuur beschrijft de structuur, samenhang en hiërarchie van processen binnen de organisatie.</description>
+    </item>
+    <item>
+      <title>Procesmetadata</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.05-procesmetadata/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.05-procesmetadata/index.html</guid>
+      <description>Procesmetadata beschrijft de identificatie, status, eigenaarschap en relaties van processen binnen het Procesdocumentatiemodel (PDM).</description>
+    </item>
+    <item>
+      <title>Procesmodellering</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.06-procesmodellering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.06-procesmodellering/index.html</guid>
+      <description>Procesmodellering beschrijft hoe processen visueel worden weergegeven met behulp van modellen, conventies en diagrammen binnen het Procesdocumentatiemodel (PDM).</description>
+    </item>
+    <item>
+      <title>Procesuitwerking</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.07-procesuitwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.07-procesuitwerking/index.html</guid>
+      <description>Procesuitwerking beschrijft het proces in detail: activiteiten, rollen, verantwoordelijkheden en werkinstructies binnen het Procesdocumentatiemodel (PDM).</description>
+    </item>
+    <item>
+      <title>Processturing</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.08-processturing/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.08-processturing/index.html</guid>
+      <description>Processturing beschrijft hoe processen worden gemeten, gemonitord en geborgd via KPI’s, monitoring, rapportage en kwaliteitsborging binnen het Procesdocumentatiemodel (PDM).</description>
+    </item>
+    <item>
+      <title>Procesanalyse en verbetering</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.09-procesanalyse-en-verbetering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.09-procesanalyse-en-verbetering/index.html</guid>
+      <description>Procesanalyse en verbetering beschrijft hoe processen worden geëvalueerd en structureel verbeterd binnen het Procesdocumentatiemodel (PDM).</description>
+    </item>
+  </channel>
+</rss>

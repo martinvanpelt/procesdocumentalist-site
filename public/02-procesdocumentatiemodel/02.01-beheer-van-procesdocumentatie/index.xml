@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beheer van procesdocumentatie :: Proces Documentalist</title>
+    <link>http://localhost:1313/02-procesdocumentatiemodel/02.01-beheer-van-procesdocumentatie/index.html</link>
+    <description>De beheer van het Procesdocumentatiemodel (PDM): afspraken, rollen en processen voor het beheren van procesdocumentatie.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/02-procesdocumentatiemodel/02.01-beheer-van-procesdocumentatie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rollen en verantwoordelijkheden</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.01-beheer-van-procesdocumentatie/02.01.01-rollen-en-verantwoordelijkheden/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.01-beheer-van-procesdocumentatie/02.01.01-rollen-en-verantwoordelijkheden/index.html</guid>
+      <description>Rollen en verantwoordelijkheden&#xD;Binnen het Procesdocumentatiemodel (PDM) zijn rollen en verantwoordelijkheden essentieel om eigenaarschap, kwaliteit en consistentie van procesdocumentatie te waarborgen.&#xA;Elke rol heeft een duidelijk gedefinieerde verantwoordelijkheid binnen zowel procesuitvoering als procesdocumentatie.&#xA;Kernrollen&#xD;graph TD PG[&#34;Procesbeheer board&lt;br/&gt;(optioneel)&#34;] PO[Proceseigenaar] PA[Procesanalist] PU[Procesuitvoerder] DB[Documentbeheerder] PG --&gt; PO PO --&gt; PA PO --&gt; PU PO --&gt; DB PA --&gt; DB&#xD;Toelichting</description>
+    </item>
+    <item>
+      <title>Procesdocumentatiecyclus</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.01-beheer-van-procesdocumentatie/02.01.02-procesdocumentatiecyclus/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.01-beheer-van-procesdocumentatie/02.01.02-procesdocumentatiecyclus/index.html</guid>
+      <description>Procesdocumentatie ontstaat niet in één stap. Het is een iteratief proces waarin informatie wordt verzameld, gestructureerd, gevalideerd en onderhouden.&#xA;Binnen de werkwijze van de Procesdocumentalist wordt procesdocumentatie gezien als een cyclisch proces. Documentatie wordt opgesteld, gevalideerd en gepubliceerd, maar daarna ook periodiek herijkt om te voorkomen dat informatie veroudert.&#xA;Dit proces zorgt ervoor dat procesdocumentatie:&#xA;consistent wordt opgebouwd gevalideerd is door proceseigenaren toegankelijk is voor de organisatie actueel blijft bij veranderingen De procesdocumentatiecyclus bestaat uit zeven stappen.</description>
+    </item>
+    <item>
+      <title>Reviewproces</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.01-beheer-van-procesdocumentatie/02.01.03-reviewproces/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.01-beheer-van-procesdocumentatie/02.01.03-reviewproces/index.html</guid>
+      <description>Het reviewproces zorgt ervoor dat procesdocumentatie binnen het Procesdocumentatiemodel (PDM) actueel, volledig en correct blijft.&#xA;Doel van het reviewproces&#xD;waarborgen van documentkwaliteit voorkomen van verouderde procesinformatie verbeteren van consistentie tussen processen validatie van procesmodellen en beschrijvingen Reviewmomenten&#xD;Procesdocumentatie wordt minimaal gereviewd:&#xA;jaarlijks (standaard reviewcyclus) bij grote proceswijzigingen bij organisatorische veranderingen bij systeemwijzigingen Reviewactiviteiten&#xD;Tijdens een review worden de volgende aspecten gecontroleerd:</description>
+    </item>
+    <item>
+      <title>Publicatieproces</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.01-beheer-van-procesdocumentatie/02.01.04-publicatieproces/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.01-beheer-van-procesdocumentatie/02.01.04-publicatieproces/index.html</guid>
+      <description>Het publicatieproces beschrijft hoe goedgekeurde procesdocumentatie formeel wordt vrijgegeven binnen de organisatie en beschikbaar wordt gesteld aan gebruikers.&#xA;Binnen het Procesdocumentatiemodel (PDM) vormt publicatie de laatste stap van de documentatiecyclus. Pas na publicatie wordt procesinformatie beschouwd als de geldende, officiële versie.&#xA;Het publicatieproces zorgt er daarmee voor dat procesdocumentatie betrouwbaar, traceerbaar en consistent beschikbaar is.&#xA;Doel&#xD;Het publicatieproces waarborgt dat alleen:</description>
+    </item>
+    <item>
+      <title>Wijzigingsbeheer</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.01-beheer-van-procesdocumentatie/02.01.05-wijzigingsbeheer/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.01-beheer-van-procesdocumentatie/02.01.05-wijzigingsbeheer/index.html</guid>
+      <description>Wijzigingsbeheer binnen het Procesdocumentatiemodel (PDM) regelt hoe wijzigingen in procesdocumentatie gecontroleerd, beoordeeld en doorgevoerd worden.&#xA;Het doel is om te voorkomen dat procesdocumentatie inconsistent of ongecontroleerd verandert.&#xA;Principes&#xD;Wijzigingsbeheer is gebaseerd op de volgende principes:&#xA;elke wijziging is traceerbaar wijzigingen worden vooraf beoordeeld goedkeuring is verplicht vóór publicatie eerdere versies blijven beschikbaar wijzigingen zijn gedocumenteerd Wijzigingstypes&#xD;Kleine wijziging&#xD;tekstuele correcties verduidelijking zonder procesimpact Middelgrote wijziging&#xD;aanpassing in werkinstructies wijziging in verantwoordelijkheden Grote wijziging&#xD;wijziging in procesflow impact op systemen of KPI’s herontwerp van processtappen Wijzigingsproces&#xD;graph TB %% Lanes subgraph Initiator[&#34;Procesuitvoerder / Initiator&#34;] A1[&#34;Indienen wijzigingsverzoek&#34;] end subgraph Analist[&#34;Procesanalist&#34;] A2[&#34;Analyseer wijzigingsverzoek&#34;] A4[&#34;Voeren wijziging in model door&#34;] A5[&#34;Validateer aangepaste documentatie&#34;] end subgraph Eigenaar[&#34;Proceseigenaar&#34;] A3{&#34;Beoordeel wijzigingsverzoek&#34;} end subgraph Publicatie[&#34;Documentbeheerder&#34;] A6[&#34;Publiceer nieuwe versie&#34;] end %% Flow A1 --&gt; A2 --&gt; A3 A3 --&gt;|Akkoord| A4 A3 --&gt;|Niet akkoord| A1 A4 --&gt; A5 --&gt; A6&#xD;Toelichting</description>
+    </item>
+    <item>
+      <title>Modelleringstandaarden</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.01-beheer-van-procesdocumentatie/02.01.06-modelleringsstandaarden/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.01-beheer-van-procesdocumentatie/02.01.06-modelleringsstandaarden/index.html</guid>
+      <description>Modelleringstandaarden binnen het Procesdocumentatiemodel (PDM) zorgen voor uniforme en consistente procesmodellen.&#xA;Ze definiëren hoe processen visueel en tekstueel worden weergegeven.&#xA;Doel&#xD;eenduidige interpretatie van procesmodellen consistente documentatie over alle processen betere leesbaarheid en overdraagbaarheid ondersteuning van automatisering en analyse Modelleringprincipes&#xD;eenvoud boven complexiteit consistente symboliek expliciete start- en eindpunten logische procesflow scheiding tussen hoofdproces en uitzonderingen Modelleringvormen&#xD;Procesdiagrammen&#xD;Visuele weergave van procesflows (bijv. BPMN).</description>
+    </item>
+  </channel>
+</rss>

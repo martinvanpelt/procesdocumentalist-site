@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.159.1">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="title: Procesinput-output
+tags:
+procescontext input-output template transformatie kwaliteit
+description: Template voor het in kaart brengen van triggers, input, output, transformatie en kwaliteitsvoorwaarden van een proces. InleidingDit Procesinput-output-template beschrijft de stroom van input naar output binnen {{procesnaam}}, inclusief triggers, transformatiestappen, en kwaliteitsvoorwaarden. Het doel is om:
+✅ Duidelijkheid te scheppen over wat het proces start en wat het oplevert.
+✅ Inzicht te bieden in de transformatie die plaatsvindt tussen input en output.
+✅ Kwaliteitsvoorwaarden te definieren voor input en output.
+✅ Stakeholders een helder overzicht te geven van de processtroom.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="title: Procesinput-output
+tags:
+procescontext input-output template transformatie kwaliteit
+description: Template voor het in kaart brengen van triggers, input, output, transformatie en kwaliteitsvoorwaarden van een proces. InleidingDit Procesinput-output-template beschrijft de stroom van input naar output binnen {{procesnaam}}, inclusief triggers, transformatiestappen, en kwaliteitsvoorwaarden. Het doel is om:
+✅ Duidelijkheid te scheppen over wat het proces start en wat het oplevert.
+✅ Inzicht te bieden in de transformatie die plaatsvindt tussen input en output.
+✅ Kwaliteitsvoorwaarden te definieren voor input en output.
+✅ Stakeholders een helder overzicht te geven van de processtroom.">
+    <meta property="og:url" content="http://localhost:1313/03-templates/03.04-procescontext/03.04.01-procesinput-output/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:description" content="title: Procesinput-output
+tags:
+procescontext input-output template transformatie kwaliteit
+description: Template voor het in kaart brengen van triggers, input, output, transformatie en kwaliteitsvoorwaarden van een proces. InleidingDit Procesinput-output-template beschrijft de stroom van input naar output binnen {{procesnaam}}, inclusief triggers, transformatiestappen, en kwaliteitsvoorwaarden. Het doel is om:
+✅ Duidelijkheid te scheppen over wat het proces start en wat het oplevert.
+✅ Inzicht te bieden in de transformatie die plaatsvindt tussen input en output.
+✅ Kwaliteitsvoorwaarden te definieren voor input en output.
+✅ Stakeholders een helder overzicht te geven van de processtroom.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="PDM Templates">
+    <meta itemprop="description" content="title: Procesinput-output
+tags:
+procescontext input-output template transformatie kwaliteit
+description: Template voor het in kaart brengen van triggers, input, output, transformatie en kwaliteitsvoorwaarden van een proces. InleidingDit Procesinput-output-template beschrijft de stroom van input naar output binnen {{procesnaam}}, inclusief triggers, transformatiestappen, en kwaliteitsvoorwaarden. Het doel is om:
+✅ Duidelijkheid te scheppen over wat het proces start en wat het oplevert.
+✅ Inzicht te bieden in de transformatie die plaatsvindt tussen input en output.
+✅ Kwaliteitsvoorwaarden te definieren voor input en output.
+✅ Stakeholders een helder overzicht te geven van de processtroom.">
+    <meta itemprop="wordCount" content="1412">
+    <title></title>
+    <link href="/images/favicon.svg?1776512677" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1776512677" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776512677" defer></script>
+    <script src="/js/search-lunr.js?1776512677" defer></script>
+    <script src="/js/search.js?1776512677" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1776512677";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1776512677" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776512677" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776512677" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1776512677" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1776512677" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776512677" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776512677" rel="stylesheet">
+    <link href="/css/theme.css?1776512677" rel="stylesheet">
+    <link href="/css/format-html.css?1776512677" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/03-templates\/03.04-procescontext\/03.04.01-procesinput-output\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto', 'relearn-dark' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1776512677" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/03-templates/03.04-procescontext/03.04.01-procesinput-output/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#inleiding"><strong>Inleiding</strong></a></li>
+        <li><a href="#eigenschappen"><strong>Eigenschappen</strong></a></li>
+        <li><a href="#1-algemeen-overzicht"><strong>1. Algemeen Overzicht</strong></a></li>
+        <li><a href="#2-procestrigger"><strong>2. Procestrigger</strong></a></li>
+        <li><a href="#3-input"><strong>3. Input</strong></a></li>
+        <li><a href="#4-output"><strong>4. Output</strong></a></li>
+        <li><a href="#5-transformatie"><strong>5. Transformatie</strong></a></li>
+        <li><a href="#6-kwaliteitsvoorwaarden"><strong>6. Kwaliteitsvoorwaarden</strong></a></li>
+        <li><a href="#7-visuele-weergave-optioneel"><strong>7. Visuele Weergave (Optioneel)</strong></a></li>
+        <li><a href="#8-stakeholders-en-verantwoordelijkheden"><strong>8. Stakeholders en Verantwoordelijkheden</strong></a></li>
+        <li><a href="#9-tips-voor-het-documenteren-van-procesinput-output"><strong>9. Tips voor het Documenteren van Procesinput-Output</strong></a></li>
+        <li><a href="#10-gerelateerde-documenten"><strong>10. Gerelateerde Documenten</strong></a></li>
+        <li><a href="#11-versiehistorie"><strong>11. Versiehistorie</strong></a></li>
+        <li><a href="#12-instructies-voor-gebruik"><strong>12. Instructies voor Gebruik</strong></a></li>
+        <li><a href="#13-voorbeeld-ingevulde-procesinput-output-orderverwerking"><strong>13. Voorbeeld: Ingevulde Procesinput-Output (Orderverwerking)</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/03-templates/index.html"><span itemprop="name">PDM Templates</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/03-templates/03.04-procescontext/index.html"><span itemprop="name">Procescontext</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/03-templates/03.04-procescontext/index.html" title="Procescontext (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/04-bronnen-van-procesinformatie/index.html" title="Bronnen van procesinformatie (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 03-templates" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id=""></h1>
+
+<p>title: Procesinput-output<br>
+tags:</p>
+<ul>
+<li>procescontext</li>
+<li>input-output</li>
+<li>template</li>
+<li>transformatie</li>
+<li>kwaliteit<br>
+description: Template voor het in kaart brengen van triggers, input, output, transformatie en kwaliteitsvoorwaarden van een proces.</li>
+</ul>
+<hr>
+<h3 id="inleiding"><strong>Inleiding</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Dit <strong>Procesinput-output-template</strong> beschrijft de <strong>stroom van input naar output</strong> binnen {{procesnaam}}, inclusief <strong>triggers, transformatiestappen, en kwaliteitsvoorwaarden</strong>. Het doel is om:<br>
+✅ <strong>Duidelijkheid</strong> te scheppen over <strong>wat het proces start</strong> en <strong>wat het oplevert</strong>.<br>
+✅ <strong>Inzicht</strong> te bieden in de <strong>transformatie</strong> die plaatsvindt tussen input en output.<br>
+✅ <strong>Kwaliteitsvoorwaarden</strong> te definieren voor <strong>input en output</strong>.<br>
+✅ <strong>Stakeholders</strong> een <strong>helder overzicht</strong> te geven van de <strong>processtroom</strong>.</p>
+<hr>
+<hr>
+<h3 id="eigenschappen"><strong>Eigenschappen</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+          <th>Toelichting</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>PMD-nummer</strong></td>
+          <td>03.02.01</td>
+          <td>Uniek identificatienummer voor deze procesinput-output in het Proces Management Document (PMD).</td>
+      </tr>
+      <tr>
+          <td><strong>Versie</strong></td>
+          <td>1</td>
+          <td>Huidige versie van dit document. Wordt geüpdaterd bij elke wijziging.</td>
+      </tr>
+      <tr>
+          <td><strong>Status</strong></td>
+          <td>concept</td>
+          <td>Mogelijke statussen: <em>concept</em>, <em>in review</em>, <em>goedgekeurd</em>, <em>gepubliceerd</em>, <em>verouderd</em>.</td>
+      </tr>
+      <tr>
+          <td><strong>Auteur</strong></td>
+          <td>[Naam]</td>
+          <td>De persoon of afdeling die dit document heeft opgesteld (meestal de procesanalist).</td>
+      </tr>
+      <tr>
+          <td><strong>Eigenaar</strong></td>
+          <td>[Naam proceseigenaar]</td>
+          <td>Verantwoordelijk voor de inhoud en actualiteit van de procesinput-output.</td>
+      </tr>
+      <tr>
+          <td><strong>Datum</strong></td>
+          <td>17/04/2026</td>
+          <td>Datum van de laatste update.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<hr>
+<h3 id="1-algemeen-overzicht"><strong>1. Algemeen Overzicht</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Geef hier een <strong>kort overzicht</strong> van het proces waarvoor de input-output wordt beschreven.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Veld</strong></th>
+          <th><strong>Waarde</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Procesnaam</strong></td>
+          <td>[Naam van het proces, bijv. &ldquo;Orderverwerking&rdquo;]</td>
+      </tr>
+      <tr>
+          <td><strong>Procescategorie</strong></td>
+          <td>[Primair / Ondersteunend / Sturend]</td>
+      </tr>
+      <tr>
+          <td><strong>PMD-nummer</strong></td>
+          <td>[PMD-nummer van het proces]</td>
+      </tr>
+      <tr>
+          <td><strong>Doel van het proces</strong></td>
+          <td>[Korte beschrijving, bijv. &ldquo;Tijdige en accurate verwerking van klantorders&rdquo;]</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<hr>
+<h3 id="2-procestrigger"><strong>2. Procestrigger</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Beschrijf hier <strong>wat het proces start</strong>. Een trigger kan een <strong>event, aanvraag, of signaal</strong> zijn.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Trigger</strong></th>
+          <th><strong>Type</strong></th>
+          <th><strong>Beschrijving</strong></th>
+          <th><strong>Bron</strong></th>
+          <th><strong>Frequentie</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Ontvangst klantorder&rdquo;]</td>
+          <td>Event</td>
+          <td>Een klant plaatst een order via de webshop.</td>
+          <td>Webshop</td>
+          <td>Dagelijks</td>
+          <td>Sales Team</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Aanvraag productieopdracht&rdquo;]</td>
+          <td>Aanvraag</td>
+          <td>Een medewerker vraagt een productieopdracht aan.</td>
+          <td>Order Team</td>
+          <td>Dagelijks</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Signaal lage voorraad&rdquo;]</td>
+          <td>Signaal uit ander proces</td>
+          <td>ERP-systeem geeft een alert bij lage voorraad.</td>
+          <td>ERP-systeem</td>
+          <td>Ad hoc</td>
+          <td>IT-afdeling</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Toelichting types triggers:</strong></p>
+<ul>
+<li><strong>Event</strong>: Een <strong>gebeurtenis</strong> die het proces start (bijv. ontvangst van een order, een klantverzoek).</li>
+<li><strong>Aanvraag</strong>: Een <strong>verzoek</strong> van een persoon of afdeling om het proces te starten.</li>
+<li><strong>Signaal uit ander proces</strong>: Een <strong>automatisch signaal</strong> uit een ander proces (bijv. systeemalert, koppeling met een ander proces).</li>
+</ul>
+<hr>
+<hr>
+<h3 id="3-input"><strong>3. Input</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Beschrijf hier <strong>wat het proces nodig heeft</strong> om te kunnen starten of draaien. Input kan <strong>data, documenten, systemen, of externe input</strong> zijn.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Input</strong></th>
+          <th><strong>Type</strong></th>
+          <th><strong>Beschrijving</strong></th>
+          <th><strong>Bron</strong></th>
+          <th><strong>Kwaliteitsvoorwaarden</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Klantorder&rdquo;]</td>
+          <td>Data</td>
+          <td>Digitaal orderformulier met klant- en productgegevens.</td>
+          <td>Webshop/CRM</td>
+          <td>Compleet, geverifieerd, en tijdig</td>
+          <td>Sales Team</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Productiespecificaties&rdquo;]</td>
+          <td>Document</td>
+          <td>Technische specificaties voor productie.</td>
+          <td>Productieafdeling</td>
+          <td>Actueel, goedgekeurd, en beschikbaar</td>
+          <td>Productie Manager</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Goedkeuring manager&rdquo;]</td>
+          <td>Goedkeuring</td>
+          <td>Handtekening of digitale goedkeuring voor grote orders.</td>
+          <td>Manager</td>
+          <td>Tijdig en accuraat</td>
+          <td>Sales Manager</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Externe leveranciersgegevens&rdquo;]</td>
+          <td>Externe input</td>
+          <td>Gegevens van leveranciers voor inkoop.</td>
+          <td>Leverancier</td>
+          <td>Betrouwbaar en up-to-date</td>
+          <td>Inkoop Team</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Toelichting types input:</strong></p>
+<ul>
+<li><strong>Data</strong>: Digitale informatie (bijv. klantgegevens, ordergegevens).</li>
+<li><strong>Documenten</strong>: Fysieke of digitale documenten (bijv. contracten, specificaties).</li>
+<li><strong>Systemen</strong>: Toegang tot systemen (bijv. ERP, CRM).</li>
+<li><strong>Externe input</strong>: Input van buiten de organisatie (bijv. leveranciers, klanten).</li>
+</ul>
+<hr>
+<hr>
+<h3 id="4-output"><strong>4. Output</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Beschrijf hier <strong>wat het proces oplevert</strong>. Output kan een <strong>product, dienst, besluit, of registratie</strong> zijn.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Output</strong></th>
+          <th><strong>Type</strong></th>
+          <th><strong>Beschrijving</strong></th>
+          <th><strong>Bestemming</strong></th>
+          <th><strong>Kwaliteitsvoorwaarden</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Orderbevestiging&rdquo;]</td>
+          <td>Document</td>
+          <td>Bevestiging van de order aan de klant.</td>
+          <td>Klant</td>
+          <td>Accuraat, tijdig, en professioneel</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Productieopdracht&rdquo;]</td>
+          <td>Data</td>
+          <td>Digitaal opdrachtformulier voor productie.</td>
+          <td>Productieafdeling</td>
+          <td>Compleet, foutloos, en tijdig</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Afgewerkt product&rdquo;]</td>
+          <td>Product</td>
+          <td>Fysiek product volgens specificaties.</td>
+          <td>Logistiek</td>
+          <td>Voldoet aan kwaliteitsnormen</td>
+          <td>Productie Team</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Besluit goedkeuring order&rdquo;]</td>
+          <td>Besluit</td>
+          <td>Goedkeuring of afwijzing van een order.</td>
+          <td>Klant/Sales</td>
+          <td>Duidelijk en gemotiveerd</td>
+          <td>Sales Manager</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Toelichting types output:</strong></p>
+<ul>
+<li><strong>Product</strong>: Fysiek of digitaal product (bijv. software, hardware).</li>
+<li><strong>Dienst</strong>: Een dienst die wordt geleverd (bijv. klantenservice, onderhoud).</li>
+<li><strong>Besluit</strong>: Een beslissing die wordt genomen (bijv. goedkeuring, afwijzing).</li>
+<li><strong>Registratie</strong>: Een registratie in een systeem (bijv. orderregistratie, factuur).</li>
+</ul>
+<hr>
+<hr>
+<h3 id="5-transformatie"><strong>5. Transformatie</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Beschrijf hier <strong>wat er gebeurt tussen input en output</strong>. Geef de <strong>belangrijkste bewerkingen, kernactiviteiten, en logische stappen</strong> weer.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Stap</strong></th>
+          <th><strong>Beschrijving</strong></th>
+          <th><strong>Type Activiteit</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+          <th><strong>Systeem/Tool</strong></th>
+          <th><strong>Duur</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Ontvangst klantorder&rdquo;]</td>
+          <td>Registratie van de klantorder in het ERP-systeem.</td>
+          <td>Registratie</td>
+          <td>Order Team</td>
+          <td>ERP-systeem</td>
+          <td>5 minuten</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Validatie klantgegevens&rdquo;]</td>
+          <td>Controle of klantgegevens compleet en correct zijn.</td>
+          <td>Validatie</td>
+          <td>Order Team</td>
+          <td>CRM-systeem</td>
+          <td>10 minuten</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Genereren productieopdracht&rdquo;]</td>
+          <td>Omzetten van klantorder naar productieopdracht.</td>
+          <td>Transformatie</td>
+          <td>Order Team</td>
+          <td>ERP-systeem</td>
+          <td>15 minuten</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Versturen orderbevestiging&rdquo;]</td>
+          <td>Verzenden van bevestigingsmail naar klant.</td>
+          <td>Communicatie</td>
+          <td>Order Team</td>
+          <td>E-mail</td>
+          <td>2 minuten</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Toelichting types activiteiten:</strong></p>
+<ul>
+<li><strong>Registratie</strong>: Het vastleggen van gegevens in een systeem.</li>
+<li><strong>Validatie</strong>: Het controleren van gegevens op juistheid en volledigheid.</li>
+<li><strong>Transformatie</strong>: Het omzetten van input naar een andere vorm (bijv. order naar productieopdracht).</li>
+<li><strong>Communicatie</strong>: Het doorgeven van informatie aan een andere partij (bijv. klant, afdeling).</li>
+</ul>
+<hr>
+<hr>
+<h3 id="6-kwaliteitsvoorwaarden"><strong>6. Kwaliteitsvoorwaarden</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Definieer hier <strong>wanneer input bruikbaar is</strong> en <strong>wanneer output correct is</strong>. Gebruik <strong>kwalitatieve en kwantitatieve criteria</strong>.</p>
+<h4 id="kwaliteitsvoorwaarden-voor-input"><strong>Kwaliteitsvoorwaarden voor Input</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Voorwaarde</strong></th>
+          <th><strong>Beschrijving</strong></th>
+          <th><strong>Meetmethode</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Volledigheid</strong></td>
+          <td>Alle benodigde gegevens zijn aanwezig.</td>
+          <td>Controle op ontbrekende velden</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td><strong>Juistheid</strong></td>
+          <td>Gegevens zijn correct en accuraat.</td>
+          <td>Validatie tegen brongegevens</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td><strong>Tijdigheid</strong></td>
+          <td>Input is tijdig beschikbaar.</td>
+          <td>Controle op ontvangsttijd</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td><strong>Consistentie</strong></td>
+          <td>Gegevens zijn consistent met andere systemen.</td>
+          <td>Vergelijking met andere bronnen</td>
+          <td>IT-afdeling</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="kwaliteitsvoorwaarden-voor-output"><strong>Kwaliteitsvoorwaarden voor Output</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Voorwaarde</strong></th>
+          <th><strong>Beschrijving</strong></th>
+          <th><strong>Meetmethode</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Volledigheid</strong></td>
+          <td>Alle benodigde output is geleverd.</td>
+          <td>Controle op ontbrekende onderdelen</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td><strong>Juistheid</strong></td>
+          <td>Output is correct en accuraat.</td>
+          <td>Validatie tegen input</td>
+          <td>Kwaliteitsmanager</td>
+      </tr>
+      <tr>
+          <td><strong>Tijdigheid</strong></td>
+          <td>Output is tijdig geleverd.</td>
+          <td>Controle op leverdatum</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td><strong>Naleving normen</strong></td>
+          <td>Output voldoet aan organisatie- en wettelijke normen.</td>
+          <td>Audit</td>
+          <td>Compliance Officer</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<hr>
+<h3 id="7-visuele-weergave-optioneel"><strong>7. Visuele Weergave (Optioneel)</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Gebruik een <strong>visueel diagram</strong> (bijv. in Mermaid) om de <strong>input-output-stroom</strong> van het proces weer te geven.</p>
+<p><strong>Voorbeeld:</strong></p>
+<pre class="mermaid actionbar-wrapper align-center ">%% Procesinput-output voorbeeld - vervang door eigen diagram
+graph LR
+    A[Klant] --&gt;|Klantorder| B[Webshop]
+    B --&gt;|Ordergegevens| C[Orderverwerking]
+    C --&gt;|Productieopdracht| D[Productie]
+    C --&gt;|Orderbevestiging| A
+    D --&gt;|Afgewerkt product| E[Logistiek]
+    E --&gt;|Levering| A</pre>
+<hr>
+<hr>
+<h3 id="8-stakeholders-en-verantwoordelijkheden"><strong>8. Stakeholders en Verantwoordelijkheden</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Geef hier een overzicht van <strong>wie betrokken is</strong> bij de input-output-stroom van het proces.</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Rol</strong></th>
+          <th><strong>Verantwoordelijkheid</strong></th>
+          <th><strong>Betrokkenheid</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Proceseigenaar</strong></td>
+          <td>Verantwoordelijk voor de <strong>inhoud en actualiteit</strong> van de input-output-stroom.</td>
+          <td>Continu</td>
+      </tr>
+      <tr>
+          <td><strong>Procesanalist</strong></td>
+          <td><strong>Documenteert en analyseert</strong> de input-output-stroom.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td><strong>Uitvoerend team</strong></td>
+          <td><strong>Voert het proces uit</strong> volgens de gedocumenteerde stappen.</td>
+          <td>Dagelijks</td>
+      </tr>
+      <tr>
+          <td><strong>IT-afdeling</strong></td>
+          <td><strong>Ondersteunt</strong> bij systeemintegraties en technische beperkingen.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td><strong>Kwaliteitsmanager</strong></td>
+          <td><strong>Monitort</strong> de kwaliteitsvoorwaarden voor input en output.</td>
+          <td>Periodiek</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<hr>
+<h3 id="9-tips-voor-het-documenteren-van-procesinput-output"><strong>9. Tips voor het Documenteren van Procesinput-Output</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>🔹 <strong>Wees specifiek</strong>: Beschrijf <strong>concreet</strong> wat de input en output zijn.<br>
+🔹 <strong>Identificeer alle triggers</strong>: Zorg dat <strong>alle startmomenten</strong> van het proces duidelijk zijn.<br>
+🔹 <strong>Documenteer de transformatie</strong>: Maak <strong>duidelijk wat er gebeurt</strong> tussen input en output.<br>
+🔹 <strong>Definieer kwaliteitsvoorwaarden</strong>: Zorg dat <strong>input en output</strong> voldoen aan <strong>duidelijke criteria</strong>.<br>
+🔹 <strong>Gebruik visuele hulpmiddelen</strong>: <strong>Diagrammen</strong> (bijv. Mermaid) maken de stroom inzichtelijk.<br>
+🔹 <strong>Betrek stakeholders</strong>: Laat de input-output-stroom <strong>reviewen</strong> door proceseigenaren en IT.<br>
+🔹 <strong>Houd het actueel</strong>: Update de documentatie bij <strong>wijzigingen in processen, systemen, of regels</strong>.</p>
+<hr>
+<hr>
+<h3 id="10-gerelateerde-documenten"><strong>10. Gerelateerde Documenten</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Lijst hier alle <strong>gerelateerde documenten</strong>, zoals:</p>
+<ul>
+<li>[Link naar procesbeschrijving]</li>
+<li>[Link naar BPMN-diagram]</li>
+<li>[Link naar proceslandkaart]</li>
+<li>[Link naar systeemdocumentatie]</li>
+</ul>
+<hr>
+<hr>
+<h3 id="11-versiehistorie"><strong>11. Versiehistorie</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Versie</strong></th>
+          <th><strong>Datum</strong></th>
+          <th><strong>Wijziging</strong></th>
+          <th><strong>Auteur</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1.0</td>
+          <td>17/04/2026</td>
+          <td>Initiële versie</td>
+          <td>[Naam]</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<hr>
+<h3 id="12-instructies-voor-gebruik"><strong>12. Instructies voor Gebruik</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<ol>
+<li><strong>Start met het proces</strong>:</li>
+</ol>
+<ul>
+<li>Kies het proces waarvoor je de input-output wilt beschrijven.</li>
+</ul>
+<ol start="2">
+<li><strong>Identificeer triggers</strong>:</li>
+</ol>
+<ul>
+<li>Bepaal <strong>wat het proces start</strong>.</li>
+</ul>
+<ol start="3">
+<li><strong>Documenteer input</strong>:</li>
+</ol>
+<ul>
+<li>Beschrijf <strong>wat het proces nodig heeft</strong> om te kunnen draaien.</li>
+</ul>
+<ol start="4">
+<li><strong>Documenteer output</strong>:</li>
+</ol>
+<ul>
+<li>Beschrijf <strong>wat het proces oplevert</strong>.</li>
+</ul>
+<ol start="5">
+<li><strong>Beschrijf de transformatie</strong>:</li>
+</ol>
+<ul>
+<li>Geef aan <strong>wat er gebeurt tussen input en output</strong>.</li>
+</ul>
+<ol start="6">
+<li><strong>Definieer kwaliteitsvoorwaarden</strong>:</li>
+</ol>
+<ul>
+<li>Stel <strong>criteria</strong> op voor input en output.</li>
+</ul>
+<ol start="7">
+<li><strong>Valideer met stakeholders</strong>:</li>
+</ol>
+<ul>
+<li>Laat de input-output-stroom <strong>reviewen</strong> door proceseigenaren en betrokken teams.</li>
+</ul>
+<hr>
+<hr>
+<h3 id="13-voorbeeld-ingevulde-procesinput-output-orderverwerking"><strong>13. Voorbeeld: Ingevulde Procesinput-Output (Orderverwerking)</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<h4 id="algemeen-overzicht"><strong>Algemeen Overzicht</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Veld</strong></th>
+          <th><strong>Waarde</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Procesnaam</strong></td>
+          <td>Orderverwerking</td>
+      </tr>
+      <tr>
+          <td><strong>Procescategorie</strong></td>
+          <td>Primair</td>
+      </tr>
+      <tr>
+          <td><strong>PMD-nummer</strong></td>
+          <td>PMD-01.01.00</td>
+      </tr>
+      <tr>
+          <td><strong>Doel van het proces</strong></td>
+          <td>Tijdige en accurate verwerking van klantorders.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h4 id="procestrigger"><strong>Procestrigger</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Trigger</strong></th>
+          <th><strong>Type</strong></th>
+          <th><strong>Beschrijving</strong></th>
+          <th><strong>Bron</strong></th>
+          <th><strong>Frequentie</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Ontvangst klantorder</td>
+          <td>Event</td>
+          <td>Een klant plaatst een order via de webshop.</td>
+          <td>Webshop</td>
+          <td>Dagelijks</td>
+          <td>Sales Team</td>
+      </tr>
+      <tr>
+          <td>Signaal lage voorraad</td>
+          <td>Signaal uit ander proces</td>
+          <td>ERP-systeem geeft een alert bij lage voorraad.</td>
+          <td>ERP-systeem</td>
+          <td>Ad hoc</td>
+          <td>IT-afdeling</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h4 id="input"><strong>Input</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Input</strong></th>
+          <th><strong>Type</strong></th>
+          <th><strong>Beschrijving</strong></th>
+          <th><strong>Bron</strong></th>
+          <th><strong>Kwaliteitsvoorwaarden</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Klantorder</td>
+          <td>Data</td>
+          <td>Digitaal orderformulier met klant- en productgegevens.</td>
+          <td>Webshop/CRM</td>
+          <td>Compleet, geverifieerd, en tijdig</td>
+          <td>Sales Team</td>
+      </tr>
+      <tr>
+          <td>Productiespecificaties</td>
+          <td>Document</td>
+          <td>Technische specificaties voor productie.</td>
+          <td>Productieafdeling</td>
+          <td>Actueel, goedgekeurd, en beschikbaar</td>
+          <td>Productie Manager</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h4 id="output"><strong>Output</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Output</strong></th>
+          <th><strong>Type</strong></th>
+          <th><strong>Beschrijving</strong></th>
+          <th><strong>Bestemming</strong></th>
+          <th><strong>Kwaliteitsvoorwaarden</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Orderbevestiging</td>
+          <td>Document</td>
+          <td>Bevestiging van de order aan de klant.</td>
+          <td>Klant</td>
+          <td>Accuraat, tijdig, en professioneel</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td>Productieopdracht</td>
+          <td>Data</td>
+          <td>Digitaal opdrachtformulier voor productie.</td>
+          <td>Productieafdeling</td>
+          <td>Compleet, foutloos, en tijdig</td>
+          <td>Order Team</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h4 id="transformatie"><strong>Transformatie</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Stap</strong></th>
+          <th><strong>Beschrijving</strong></th>
+          <th><strong>Type Activiteit</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+          <th><strong>Systeem/Tool</strong></th>
+          <th><strong>Duur</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Ontvangst klantorder</td>
+          <td>Registratie van de klantorder in het ERP-systeem.</td>
+          <td>Registratie</td>
+          <td>Order Team</td>
+          <td>ERP-systeem</td>
+          <td>5 minuten</td>
+      </tr>
+      <tr>
+          <td>Validatie klantgegevens</td>
+          <td>Controle of klantgegevens compleet en correct zijn.</td>
+          <td>Validatie</td>
+          <td>Order Team</td>
+          <td>CRM-systeem</td>
+          <td>10 minuten</td>
+      </tr>
+      <tr>
+          <td>Genereren productieopdracht</td>
+          <td>Omzetten van klantorder naar productieopdracht.</td>
+          <td>Transformatie</td>
+          <td>Order Team</td>
+          <td>ERP-systeem</td>
+          <td>15 minuten</td>
+      </tr>
+      <tr>
+          <td>Versturen orderbevestiging</td>
+          <td>Verzenden van bevestigingsmail naar klant.</td>
+          <td>Communicatie</td>
+          <td>Order Team</td>
+          <td>E-mail</td>
+          <td>2 minuten</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h4 id="kwaliteitsvoorwaarden"><strong>Kwaliteitsvoorwaarden</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p><strong>Voor Input:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Voorwaarde</strong></th>
+          <th><strong>Beschrijving</strong></th>
+          <th><strong>Meetmethode</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Volledigheid</td>
+          <td>Alle benodigde gegevens zijn aanwezig.</td>
+          <td>Controle op ontbrekende velden</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td>Juistheid</td>
+          <td>Gegevens zijn correct en accuraat.</td>
+          <td>Validatie tegen brongegevens</td>
+          <td>Order Team</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Voor Output:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Voorwaarde</strong></th>
+          <th><strong>Beschrijving</strong></th>
+          <th><strong>Meetmethode</strong></th>
+          <th><strong>Verantwoordelijke</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Volledigheid</td>
+          <td>Alle benodigde output is geleverd.</td>
+          <td>Controle op ontbrekende onderdelen</td>
+          <td>Order Team</td>
+      </tr>
+      <tr>
+          <td>Juistheid</td>
+          <td>Output is correct en accuraat.</td>
+          <td>Validatie tegen input</td>
+          <td>Kwaliteitsmanager</td>
+      </tr>
+  </tbody>
+</table>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/01-werkwijze/index.html"><a class="padding" href="/01-werkwijze/index.html">Werkwijze</a></li>
+            <li class="" data-nav-id="/02-procesdocumentatiemodel/index.html"><a class="padding" href="/02-procesdocumentatiemodel/index.html">Het procesdocumentatiemodel</a></li>
+            <li class="parent " data-nav-id="/03-templates/index.html"><a class="padding default-animation" href="/03-templates/index.html">PDM Templates</a><ul id="R-subsections-031b19932c520fd501627fb0bd8059aa" class="collapsible-menu">
+            <li class="parent hidden alwaysopen " data-nav-id="/03-templates/03.04-procescontext/index.html"><a class="padding default-animation" href="/03-templates/03.04-procescontext/index.html">Procescontext</a><ul id="R-subsections-5872c849dde7a6bcc99bd2f73be190b3" class="collapsible-menu">
+            <li class="active hidden " data-nav-id="/03-templates/03.04-procescontext/03.04.01-procesinput-output/index.html"><a class="padding" href="/03-templates/03.04-procescontext/03.04.01-procesinput-output/index.html"></a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/04-bronnen-van-procesinformatie/index.html"><a class="padding" href="/04-bronnen-van-procesinformatie/index.html">Bronnen van procesinformatie</a></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding" href="/05-procesdocument/index.html">Het procesdocument</a></li>
+            <li class="" data-nav-id="/06-voorbeelden/index.html"><a class="padding" href="/06-voorbeelden/index.html">Een voorbeeldproces</a></li>
+            <li class="" data-nav-id="/07-over/index.html"><a class="padding" href="/07-over/index.html">Over de Procesdocumentalist</a></li>
+            <li class="" data-nav-id="/07-contact/index.html"><a class="padding" href="/07-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-artikelen/index.html"><a class="padding" href="/08-artikelen/index.html">Artikelen</a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-color.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1776512677" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1776512677" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1776512677" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776512677" defer></script>
+    <script src="/js/theme.js?1776512677" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

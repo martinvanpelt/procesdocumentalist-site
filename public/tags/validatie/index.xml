@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Validatie :: Tag :: Proces Documentalist</title>
+    <link>http://localhost:1313/tags/validatie/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/tags/validatie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Validatie met Stakeholders</title>
+      <link>http://localhost:1313/04-bronnen-van-procesinformatie/04.04-validatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/04-bronnen-van-procesinformatie/04.04-validatie/index.html</guid>
+      <description>Template voor het valideren van procesdocumentatie met stakeholders, inclusief methoden, checklists, en integratie met andere templates.</description>
+    </item>
+  </channel>
+</rss>

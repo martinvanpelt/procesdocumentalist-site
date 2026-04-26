@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags :: Proces Documentalist</title>
+    <link>http://localhost:1313/tags/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tag :: 7x Framework</title>
+      <link>http://localhost:1313/tags/7x-framework/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/7x-framework/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Orderverwerking</title>
+      <link>http://localhost:1313/tags/orderverwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/orderverwerking/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: PDM</title>
+      <link>http://localhost:1313/tags/pdm/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pdm/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Procesarchitectuur</title>
+      <link>http://localhost:1313/tags/procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/procesarchitectuur/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Procescontext</title>
+      <link>http://localhost:1313/tags/procescontext/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/procescontext/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Procesdocumentatiebeheer</title>
+      <link>http://localhost:1313/tags/procesdocumentatiebeheer/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/procesdocumentatiebeheer/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Procesdoel</title>
+      <link>http://localhost:1313/tags/procesdoel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/procesdoel/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Procesmetadata</title>
+      <link>http://localhost:1313/tags/procesmetadata/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/procesmetadata/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Procesmodellering</title>
+      <link>http://localhost:1313/tags/procesmodellering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/procesmodellering/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Procesrollen</title>
+      <link>http://localhost:1313/tags/procesrollen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/procesrollen/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Processturing</title>
+      <link>http://localhost:1313/tags/processturing/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/processturing/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Procesuitwerking</title>
+      <link>http://localhost:1313/tags/procesuitwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/procesuitwerking/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Procesverbetering</title>
+      <link>http://localhost:1313/tags/procesverbetering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/procesverbetering/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: TelecomPro</title>
+      <link>http://localhost:1313/tags/telecompro/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/telecompro/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Wijzigingslog</title>
+      <link>http://localhost:1313/tags/wijzigingslog/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/wijzigingslog/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

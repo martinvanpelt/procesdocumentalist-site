@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="DetailsProcescontext beschrijft de omgeving, randvoorwaarden en input/output van een proces binnen het Procesdocumentatiemodel (PDM). Een essentiële laag om processen correct te begrijpen, modelleren en verbeteren.
+Procesdocumentatie die niet werkt, heeft vaak één ding gemeen: het ontbreekt aan context. Zonder inzicht in de omgeving waarin een proces functioneert, de randvoorwaarden waaraan het moet voldoen, en de input en output die het verbindt met de rest van de organisatie, blijft elke procesbeschrijving een losstaand document – niet een bruikbaar en betrouwbaar onderdeel van een groter systeem.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Wat is procescontext? :: Proces Documentalist">
+    <meta name="twitter:description" content="DetailsProcescontext beschrijft de omgeving, randvoorwaarden en input/output van een proces binnen het Procesdocumentatiemodel (PDM). Een essentiële laag om processen correct te begrijpen, modelleren en verbeteren.
+Procesdocumentatie die niet werkt, heeft vaak één ding gemeen: het ontbreekt aan context. Zonder inzicht in de omgeving waarin een proces functioneert, de randvoorwaarden waaraan het moet voldoen, en de input en output die het verbindt met de rest van de organisatie, blijft elke procesbeschrijving een losstaand document – niet een bruikbaar en betrouwbaar onderdeel van een groter systeem.">
+    <meta property="og:url" content="http://localhost:1313/10-artikelen/08.10-wat-is-procescontext/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="Wat is procescontext? :: Proces Documentalist">
+    <meta property="og:description" content="DetailsProcescontext beschrijft de omgeving, randvoorwaarden en input/output van een proces binnen het Procesdocumentatiemodel (PDM). Een essentiële laag om processen correct te begrijpen, modelleren en verbeteren.
+Procesdocumentatie die niet werkt, heeft vaak één ding gemeen: het ontbreekt aan context. Zonder inzicht in de omgeving waarin een proces functioneert, de randvoorwaarden waaraan het moet voldoen, en de input en output die het verbindt met de rest van de organisatie, blijft elke procesbeschrijving een losstaand document – niet een bruikbaar en betrouwbaar onderdeel van een groter systeem.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Artikelen">
+    <meta itemprop="name" content="Wat is procescontext? :: Proces Documentalist">
+    <meta itemprop="description" content="DetailsProcescontext beschrijft de omgeving, randvoorwaarden en input/output van een proces binnen het Procesdocumentatiemodel (PDM). Een essentiële laag om processen correct te begrijpen, modelleren en verbeteren.
+Procesdocumentatie die niet werkt, heeft vaak één ding gemeen: het ontbreekt aan context. Zonder inzicht in de omgeving waarin een proces functioneert, de randvoorwaarden waaraan het moet voldoen, en de input en output die het verbindt met de rest van de organisatie, blijft elke procesbeschrijving een losstaand document – niet een bruikbaar en betrouwbaar onderdeel van een groter systeem.">
+    <meta itemprop="wordCount" content="2239">
+    <title>Wat is procescontext? :: Proces Documentalist</title>
+    <link href="/images/favicon.svg?1777193160" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1777193160" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1777193160" defer></script>
+    <script src="/js/search-lunr.js?1777193160" defer></script>
+    <script src="/js/search.js?1777193160" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1777193160";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1777193160" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1777193160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1777193160" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1777193160" rel="stylesheet">
+    <link href="/css/theme.css?1777193160" rel="stylesheet">
+    <link href="/css/format-html.css?1777193160" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/10-artikelen\/08.10-wat-is-procescontext\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-light', 'relearn-dark', 'auto' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1777193160" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/10-artikelen/08.10-wat-is-procescontext/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist in één oogopslag</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/10-artikelen/index.html"><span itemprop="name">Artikelen</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Wat is procescontext?</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/10-artikelen/index.html" title="Artikelen (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/11-gereedschapskist/index.html" title="Hulpmiddelen (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 10-artikelen" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="wat-is-procescontext">Wat is procescontext?</h1>
+
+
+<details open class="box cstyle notices primary">
+  <summary class="box-label a11y-only" tabindex="-1">
+    <span class="a11y-only">Details</span>
+  </summary>
+  <div class="box-content">
+<p>Procescontext beschrijft de omgeving, randvoorwaarden en input/output van een proces binnen het Procesdocumentatiemodel (PDM). Een essentiële laag om processen correct te begrijpen, modelleren en verbeteren.</p>
+  </div>
+</details>
+<p>Procesdocumentatie die niet werkt, heeft vaak één ding gemeen: het ontbreekt aan context. Zonder inzicht in de omgeving waarin een proces functioneert, de randvoorwaarden waaraan het moet voldoen, en de input en output die het verbindt met de rest van de organisatie, blijft elke procesbeschrijving een losstaand document – niet een bruikbaar en betrouwbaar onderdeel van een groter systeem.</p>
+<p>Binnen het Procesdocumentatiemodel (PDM) vormt procescontext de eerste inhoudelijke laag. Deze laag legde de basis voor alle verdere procesdocumentatie: zonder context kun je processen niet correct begrijpen, modelleren of verbeteren. In dit artikel duiken we diep in wat procescontext precies inhoudt binnen het PDM, waarom het zo essentieel is, en hoe je het praktisch toepast in je eigen organisatie.</p>
+<h4 id="deel-1-wat-is-procescontext-binnen-het-pdm">Deel 1: Wat is procescontext binnen het PDM?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="definitie-en-doel">Definitie en doel<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Procescontext beschrijft de omgeving waarin een proces functioneert. Het geeft inzicht in:</p>
+<ul>
+<li>De voorwaarden waaronder een proces wordt uitgevoerd.</li>
+<li>De externe en interne factoren die het proces beïnvloeden.</li>
+<li>De afhankelijkheden tussen processen, systemen en stakeholders.</li>
+</ul>
+<p>Binnen het PDM heeft procescontext vijf kerndoelen:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Doel</th>
+          <th>Uitleg</th>
+          <th>Voorbeeld</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Het proces in zijn juiste omgeving plaatsen</td>
+          <td>Zorgt ervoor dat medewerkers begrijpen <em>waar</em> en <em>waarom</em> een proces bestaat.</td>
+          <td>Een inkoopproces voor een productiebedrijf is anders dan voor een dienstverlener.</td>
+      </tr>
+      <tr>
+          <td>Randvoorwaarden expliciet maken</td>
+          <td>Maakt duidelijk onder welke omstandigheden een proces werkt (of niet werkt).</td>
+          <td>Een proces voor klantenservice vereist toegang tot een CRM-systeem.</td>
+      </tr>
+      <tr>
+          <td>Afhankelijkheden zichtbaar maken</td>
+          <td>Toont hoe een proces verbonden is met andere processen, systemen of teams.</td>
+          <td>Een orderproces is afhankelijk van het voorraadbeheersysteem.</td>
+      </tr>
+      <tr>
+          <td>Input en output definiëren</td>
+          <td>Specificeert wat een proces ontvangt en levert, en hoe dit verbonden is met andere processen.</td>
+          <td>Input: klantorder. Output: bevestigingsmail + order in ERP-systeem.</td>
+      </tr>
+      <tr>
+          <td>Interpretatiefouten in procesmodellen voorkomen</td>
+          <td>Voorkomt dat medewerkers een proces verkeerd begrijpen door ontbrekende context.</td>
+          <td>Een stap als &ldquo;Controleer order&rdquo; is pas duidelijk als je weet <em>wat</em> gecontroleerd moet worden (bijv. voorraad, betaling, klantgegevens).</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="onderwerpen-binnen-procescontext-pdm">Onderwerpen binnen procescontext (PDM)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Procescontext binnen het PDM bestaat uit vijf kernonderwerpen, die samen de complete omgeving van een proces beschrijven:</p>
+<ol>
+<li><a href="/10-artikelen/08.10-wat-is-procescontext/index.html#scope-en-afbakening">Scope en afbakening</a></li>
+<li><a href="/10-artikelen/08.10-wat-is-procescontext/index.html#processtart-triggers-en-input">Processtart, triggers en input</a></li>
+<li><a href="/10-artikelen/08.10-wat-is-procescontext/index.html#output-en-resultaten">Output en resultaten</a></li>
+<li><a href="/10-artikelen/08.10-wat-is-procescontext/index.html#regels-en-randvoorwaarden">Regels en randvoorwaarden</a></li>
+<li><a href="/10-artikelen/08.10-wat-is-procescontext/index.html#systemen-en-integraties">Systemen en integraties</a></li>
+</ol>
+<p>We lichten elk onderwerp hieronder toe, met praktische voorbeelden en tips voor toepassing.</p>
+<h4 id="deel-2-de-vijf-kernonderwerpen-van-procescontext">Deel 2: De vijf kernonderwerpen van procescontext<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="scope-en-afbakening">Scope en afbakening<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>De scope definieert wat wel en niet tot het proces behoort. Het beschrijft:</p>
+<ul>
+<li>De grens van het proces (waar begint en eindigt het?).</li>
+<li>De betrokken partijen (wie is verantwoordelijk, wie is betrokken?).</li>
+<li>De relatie met andere processen (hoe past dit proces in de grotere procesarchitectuur?).</li>
+</ul>
+<p>Waarom is het belangrijk?<br>
+Zonder duidelijke afbakening:</p>
+<ul>
+<li>Weten medewerkers niet welke stappen bij hen horen.</li>
+<li>Ontstaan gaten of overlappingen tussen processen.</li>
+<li>Is het moeilijk om verantwoordelijkheden toe te wijzen.</li>
+</ul>
+<p>Hoe leg je het vast?<br>
+Gebruik een scopebeschrijving met de volgende elementen:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Element</th>
+          <th>Vraag</th>
+          <th>Voorbeeld (Proces: Orderverwerking)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Naam proces</td>
+          <td>Wat is de naam van het proces?</td>
+          <td>Orderverwerking</td>
+      </tr>
+      <tr>
+          <td>Doel</td>
+          <td>Wat is het doel van het proces?</td>
+          <td>Zorgen voor tijdige en accurate verwerking van klantorders.</td>
+      </tr>
+      <tr>
+          <td>Startpunt</td>
+          <td>Waar begint het proces?</td>
+          <td>Ontvangst van een klantorder (via webshop, e-mail, of telefoon).</td>
+      </tr>
+      <tr>
+          <td>Eindpunt</td>
+          <td>Waar eindigt het proces?</td>
+          <td>Levering van de order aan de klant + facturatie.</td>
+      </tr>
+      <tr>
+          <td>Betrokken partijen</td>
+          <td>Wie is betrokken?</td>
+          <td>Klant, Verkoop, Logistiek, Financiën, IT.</td>
+      </tr>
+      <tr>
+          <td>Relatie met andere processen</td>
+          <td>Hoe past dit proces in de grotere architectuur?</td>
+          <td>Onderdeel van het verkoopproces. Voorafgaand: offerteproces. Vervolg: leveringsproces.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Tip: Gebruik een visueel proceslandschap (bijv. een high-level flowchart) om de scope en afbakening inzichtelijk te maken.</p>
+<h5 id="processtart-triggers-en-input">Processtart, triggers en input<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Dit onderdeel beschrijft:</p>
+<ul>
+<li>Hoe een proces start (handmatig, geautomatiseerd, op tijdstip?).</li>
+<li>Wat de trigger is (bijv. een klantactie, een systeemgebeurtenis, een deadline).</li>
+<li>Welke input het proces ontvangt (documenten, data, materialen).</li>
+</ul>
+<p>Waarom is het belangrijk?<br>
+Zonder inzicht in triggers en input:</p>
+<ul>
+<li>Weten medewerkers niet wanneer ze een proces moeten starten.</li>
+<li>Ontbreekt essentiële informatie om het proces uit te voeren.</li>
+<li>Ontstaan vertragingen doordat input ontbreekt.</li>
+</ul>
+<p>Hoe leg je het vast?<br>
+Maak een overzichtstabel voor triggers en input:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Trigger</th>
+          <th>Type</th>
+          <th>Input</th>
+          <th>Bron</th>
+          <th>Voorbeeld (Proces: Klachtbehandeling)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Klant belt met klacht</td>
+          <td>Handmatig</td>
+          <td>Mondelinge klacht</td>
+          <td>Klant</td>
+          <td>Klant belt naar klantenservice.</td>
+      </tr>
+      <tr>
+          <td>E-mail met klacht</td>
+          <td>Geautomatiseerd</td>
+          <td>E-mail</td>
+          <td>Klant</td>
+          <td>Klant stuurt e-mail via contactformulier.</td>
+      </tr>
+      <tr>
+          <td>Systeemalert (bijv. storing)</td>
+          <td>Geautomatiseerd</td>
+          <td>Storingmelding</td>
+          <td>Monitoringssysteem</td>
+          <td>Systeem detecteert netwerkstoring.</td>
+      </tr>
+      <tr>
+          <td>Deadline bereikt</td>
+          <td>Tijdgebonden</td>
+          <td>Openstaande klachten</td>
+          <td>CRM-systeem</td>
+          <td>Klachten ouder dan 24 uur moeten worden geëscaleerd.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Tip: Gebruik BPMN (Business Process Model and Notation) om triggers visueel weer te geven (bijv. met een <em>start event</em>).</p>
+<h6 id="output-en-resultaten">Output en resultaten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Dit onderdeel beschrijft:</p>
+<ul>
+<li>Wat het proces oplevert (tangible en intangible resultaten).</li>
+<li>Voor wie de output bestemd is.</li>
+<li>Hoe de output wordt geleverd (systeem, document, mondeling).</li>
+</ul>
+<p>Waarom is het belangrijk?<br>
+Zonder duidelijke output:</p>
+<ul>
+<li>Weten medewerkers niet wat ze moeten opleveren.</li>
+<li>Ontstaan miscommunicatie over verwachtingen.</li>
+<li>Is het moeilijk om het succes van het proces te meten.</li>
+</ul>
+<p>Hoe leg je het vast?<br>
+Gebruik een outputmatrix:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Output</th>
+          <th>Type</th>
+          <th>Bestemd voor</th>
+          <th>Leverwijze</th>
+          <th>Voorbeeld (Proces: Orderverwerking)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Orderbevestiging</td>
+          <td>Document</td>
+          <td>Klant</td>
+          <td>E-mail</td>
+          <td>Automatische bevestigingsmail na ontvangst order.</td>
+      </tr>
+      <tr>
+          <td>Factuur</td>
+          <td>Document</td>
+          <td>Klant, Financiën</td>
+          <td>ERP-systeem</td>
+          <td>Factuur gegenereerd in SAP.</td>
+      </tr>
+      <tr>
+          <td>Geupdate voorraad</td>
+          <td>Data</td>
+          <td>Logistiek, Verkoop</td>
+          <td>ERP-systeem</td>
+          <td>Voorraadniveaus worden aangepast in het systeem.</td>
+      </tr>
+      <tr>
+          <td>Leveringsbevestiging</td>
+          <td>Document</td>
+          <td>Klant</td>
+          <td>E-mail</td>
+          <td>Bevestiging van verzending met track &amp; trace.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Tip: Koppel output altijd aan KPI’s (Key Performance Indicators) om het succes van het proces meetbaar te maken.</p>
+<h6 id="regels-en-randvoorwaarden">Regels en randvoorwaarden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Dit onderdeel beschrijft:</p>
+<ul>
+<li>Welke regels gelden voor het proces (wetgeving, bedrijfsbeleid, standaarden).</li>
+<li>Welke randvoorwaarden moeten zijn voldaan om het proces uit te voeren (bijv. toegang tot systemen, beschikbaarheid van resources).</li>
+</ul>
+<p>Waarom is het belangrijk?<br>
+Zonder regels en randvoorwaarden:</p>
+<ul>
+<li>Weten medewerkers niet wat wel en niet mag.</li>
+<li>Ontstaan compliance-risico’s (bijv. overtreding van wetgeving).</li>
+<li>Lopen processen vast door ontbrekende voorwaarden.</li>
+</ul>
+<p>Hoe leg je het vast?<br>
+Gebruik een checklist voor regels en randvoorwaarden:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Categorie</th>
+          <th>Regel/Randvoorwaarde</th>
+          <th>Bron</th>
+          <th>Impact bij niet-naleving</th>
+          <th>Voorbeeld (Proces: Databeveiliging)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Wetgeving</td>
+          <td>AVG (Algemene verordening gegevensbescherming)</td>
+          <td>Europese Unie</td>
+          <td>Boetes tot 4% van de wereldwijde omzet.</td>
+          <td>Persoonsgegevens moeten worden versleuteld.</td>
+      </tr>
+      <tr>
+          <td>Bedrijfsbeleid</td>
+          <td>Toegang tot klantgegevens alleen voor geautoriseerde medewerkers.</td>
+          <td>Intern beleid</td>
+          <td>Disciplinaire maatregelen.</td>
+          <td>Medewerkers moeten een NDAs ondertekenen.</td>
+      </tr>
+      <tr>
+          <td>Technisch</td>
+          <td>Minimaal 2FA (Two-Factor Authentication) voor toegang tot systemen.</td>
+          <td>IT-afdeling</td>
+          <td>Beveiligingsrisico’s.</td>
+          <td>Alle accounts moeten 2FA hebben ingeschakeld.</td>
+      </tr>
+      <tr>
+          <td>Operationeel</td>
+          <td>Back-up van gegevens moet dagelijks worden uitgevoerd.</td>
+          <td>IT-beleid</td>
+          <td>Gegevensverlies.</td>
+          <td>Automatische back-ups om 02:00 uur.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Tip: Gebruik kleurcodering in je documentatie om kritische regels (bijv. wettelijke eisen) te benadrukken.</p>
+<h6 id="systemen-en-integraties">Systemen en integraties<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Dit onderdeel beschrijft:</p>
+<ul>
+<li>Welke systemen worden gebruikt in het proces.</li>
+<li>Hoe deze systemen met elkaar en met externe partijen integreren.</li>
+<li>Welke beperkingen de systemen hebben (bijv. compatibiliteit, prestaties).</li>
+</ul>
+<p>Waarom is het belangrijk?<br>
+Zonder inzicht in systemen en integraties:</p>
+<ul>
+<li>Weten medewerkers niet welke tools ze moeten gebruiken.</li>
+<li>Ontstaan fouten door verkeerd gebruik van systemen.</li>
+<li>Lopen processen vast door technische beperkingen.</li>
+</ul>
+<p>Hoe leg je het vast?<br>
+Gebruik een systeemlandschap:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Systeem</th>
+          <th>Rol in het proces</th>
+          <th>Integraties</th>
+          <th>Beperkingen</th>
+          <th>Voorbeeld (Proces: Orderverwerking)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CRM (Salesforce)</td>
+          <td>Beheer klantgegevens en orderontvangst.</td>
+          <td>Geïntegreerd met ERP (SAP).</td>
+          <td>Maximale 10.000 records per dag.</td>
+          <td>Orders worden automatisch gesynchroniseerd met SAP.</td>
+      </tr>
+      <tr>
+          <td>ERP (SAP)</td>
+          <td>Voorraadbeheer, facturatie, logistiek.</td>
+          <td>Geïntegreerd met CRM en TMS.</td>
+          <td>Geen real-time updates.</td>
+          <td>Voorraadniveaus worden 1x per uur bijgewerkt.</td>
+      </tr>
+      <tr>
+          <td>TMS (Transport Management System)</td>
+          <td>Planning en tracking van leveringen.</td>
+          <td>Geïntegreerd met ERP.</td>
+          <td>Alleen beschikbaar voor logistiek team.</td>
+          <td>Leveringsstatus wordt automatisch bijgewerkt in ERP.</td>
+      </tr>
+      <tr>
+          <td>E-mail (Outlook)</td>
+          <td>Communicatie met klanten.</td>
+          <td>Handmatige koppeling met CRM.</td>
+          <td>Geen automatische logging.</td>
+          <td>Orderbevestigingen worden handmatig verstuurd.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Tip: Gebruik een visueel integratiediagram (bijv. met Lucidchart of Miro) om de systeemlandschappen inzichtelijk te maken.</p>
+<h4 id="deel-3-hoe-pas-je-procescontext-toe-in-de-praktijk">Deel 3: Hoe pas je procescontext toe in de praktijk?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="stapsgewijze-aanpak-binnen-het-pdm">Stapsgewijze aanpak binnen het PDM<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Nu je weet wat procescontext inhoudt, is de volgende vraag: hoe pas je het toe? Hieronder een stapsgewijze aanpak, gebaseerd op de PDM-cyclus (Inrichten, Vastleggen, Valideren, Publiceren, Beheren).</p>
+<h5 id="stap-1-inrichten--bepaal-de-scope-van-je-contextdocumentatie">Stap 1: Inrichten – Bepaal de scope van je contextdocumentatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Voordat je procescontext gaat documenteren, moet je bepalen welke processen je gaat beschrijven en hoe diep je gaat.</p>
+<ul>
+<li>Kies een pilootproces: Begin met een kritisch proces (bijv. orderverwerking, klachtbehandeling) waar context ontbreekt.</li>
+<li>Definieer de diepgang: Ga je alleen de hoofdcontext beschrijven, of ook subprocessen?</li>
+<li>Bepaal de verantwoordelijkheden: Wie is verantwoordelijk voor het documenteren en onderhouden van de context?</li>
+</ul>
+<p>Tip: Gebruik een RACI-matrix om verantwoordelijkheden duidelijk te maken.</p>
+<h5 id="stap-2-vastleggen--verzamel-en-documenteer-de-context">Stap 2: Vastleggen – Verzamel en documenteer de context<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Gebruik de vijf kernonderwerpen (scope, triggers, output, regels, systemen) als leidraad om de context te verzamelen.</p>
+<ul>
+<li>Interviews: Praat met uitvoerende medewerkers, managers en IT om inzicht te krijgen in de werkelijke context.</li>
+<li>Workshops: Organiseer een context-mapping workshop om afhankelijkheden en randvoorwaarden in kaart te brengen.</li>
+<li>Documentanalyse: Bekijk bestaande documentatie (bijv. handleidingen, SLA’s, contracten) om context te extraheren.</li>
+</ul>
+<p>Tip: Gebruik een template voor procescontext (zie onderstaand voorbeeld).</p>
+<p>Voorbeeld: Procescontext-template (PDM)</p>
+<h5 id="naam-proces">[Naam Proces]<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<h5 id="1-scope-en-afbakening">1. Scope en afbakening<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Doel: [Beschrijving doel]</li>
+<li>Startpunt: [Waar begint het proces?]</li>
+<li>Eindpunt: [Waar eindigt het proces?]</li>
+<li>Betrokken partijen: [Lijst van partijen]</li>
+<li>Relatie met andere processen: [Hoe past dit proces in de grotere architectuur?]</li>
+</ul>
+<h5 id="2-processtart-triggers-en-input">2. Processtart, triggers en input<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Trigger</th>
+          <th>Type</th>
+          <th>Input</th>
+          <th>Bron</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Trigger 1]</td>
+          <td>[Type]</td>
+          <td>[Input]</td>
+          <td>[Bron]</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="3-output-en-resultaten">3. Output en resultaten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Output</th>
+          <th>Type</th>
+          <th>Bestemd voor</th>
+          <th>Leverwijze</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Output 1]</td>
+          <td>[Type]</td>
+          <td>[Bestemd voor]</td>
+          <td>[Leverwijze]</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="4-regels-en-randvoorwaarden">4. Regels en randvoorwaarden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Categorie</th>
+          <th>Regel/Randvoorwaarde</th>
+          <th>Bron</th>
+          <th>Impact bij niet-naleving</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Categorie 1]</td>
+          <td>[Regel]</td>
+          <td>[Bron]</td>
+          <td>[Impact]</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="5-systemen-en-integraties">5. Systemen en integraties<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Systeem</th>
+          <th>Rol in het proces</th>
+          <th>Integraties</th>
+          <th>Beperkingen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Systeem 1]</td>
+          <td>[Rol]</td>
+          <td>[Integraties]</td>
+          <td>[Beperkingen]</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="stap-3-valideren--zorg-voor-nauwkeurigheid-en-bruikbaarheid">Stap 3: Valideren – Zorg voor nauwkeurigheid en bruikbaarheid<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Procescontext is alleen waardevol als het klopt en bruikbaar is. Valideer daarom:</p>
+<ul>
+<li>Nauwkeurigheid: Controleer of de gedocumenteerde context overeenkomt met de werkelijkheid (bijv. via tests of audits).</li>
+<li>Bruikbaarheid: Vraag uitvoerende medewerkers of de context hen helpt om het proces beter te begrijpen en uit te voeren.</li>
+<li>Consistentie: Zorg dat de context consistent is met andere procesdocumentatie (bijv. BPMN-modellen, handleidingen).</li>
+</ul>
+<p>Tip: Gebruik een reviewproces met stakeholderfeedback (bijv. via een eenvoudig formulier in Confluence).</p>
+<h6 id="stap-4-publiceren--maak-context-toegankelijk">Stap 4: Publiceren – Maak context toegankelijk<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Procescontext moet toegankelijk zijn voor alle betrokkenen. Zorg voor:</p>
+<ul>
+<li>Een centrale locatie: Bewaar alle contextdocumentatie op één plek (bijv. in een <em>Procescontext Wiki</em> in Confluence of SharePoint).</li>
+<li>Visuele weergave: Gebruik diagrammen, flowcharts en infographics om complexe context inzichtelijk te maken.</li>
+<li>Rollenspecifieke views: Pas de weergave van context aan op de rol van de medewerker (bijv. een technicus ziet andere context dan een manager).</li>
+</ul>
+<p>Tip: Gebruik tags en metadata om contextdocumentatie doorzoekbaar te maken.</p>
+<h5 id="stap-5-beheren--houd-context-actueel">Stap 5: Beheren – Houd context actueel<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Procescontext is dynamisch: het verandert mee met de organisatie. Om ervoor te zorgen dat je documentatie actueel blijft:</p>
+<ul>
+<li>Plan periodieke reviews: Update de context minimaal 1x per 6 maanden (of vaker bij snelle veranderingen).</li>
+<li>Creëer feedbacklussen: Moedig medewerkers aan om wijzigingen in context te melden (bijv. via een eenvoudig formulier).</li>
+<li>Koppel context aan wijzigingsbeheer: Zorg dat wijzigingen in context (bijv. een nieuw systeem) automatisch leiden tot een update van de procesdocumentatie.</li>
+</ul>
+<p>Tip: Gebruik het wijzigingsbeheer-onderdeel van het PDM om contextupdates te structureren.</p>
+<h4 id="deel-4-veelgemaakte-fouten-en-hoe-je-ze-vermijdt">Deel 4: Veelgemaakte fouten en hoe je ze vermijdt<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Zelfs met de beste intenties maken organisaties vaak fouten bij het documenteren van procescontext. Hieronder de meest voorkomende valkuilen – en hoe je ze vermijdt.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Fout</th>
+          <th>Oorzaak</th>
+          <th>Gevolg</th>
+          <th>Oplossing</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Te generiek</td>
+          <td>Context wordt te algemene beschreven, zonder specifieke details.</td>
+          <td>Medewerkers weten niet hoe ze de context moeten toepassen.</td>
+          <td>Gebruik concrete voorbeelden en rollenspecifieke informatie.</td>
+      </tr>
+      <tr>
+          <td>Te technisch</td>
+          <td>Context wordt volgeschreven met jargon en technische details.</td>
+          <td>Niet-technische medewerkers begrijpen de context niet.</td>
+          <td>Schrijf in duidelijke, eenvoudige taal en gebruik visuele hulpmiddelen.</td>
+      </tr>
+      <tr>
+          <td>Statisch</td>
+          <td>Context wordt als een eenmalig document gezien, zonder updates.</td>
+          <td>Context veroudert snel en wordt onbruikbaar.</td>
+          <td>Zorg voor regelmatige reviews en feedbacklussen.</td>
+      </tr>
+      <tr>
+          <td>Geïsoleerd</td>
+          <td>Context wordt los van de rest van de procesdocumentatie beheerd.</td>
+          <td>Medewerkers moeten op meerdere plekken zoeken naar informatie.</td>
+          <td>Integreer context in een centraal procesdocumentatiesysteem (bijv. PDM).</td>
+      </tr>
+      <tr>
+          <td>Onvolledig</td>
+          <td>Niet alle onderdelen van procescontext (scope, triggers, output, regels, systemen) worden gedocumenteerd.</td>
+          <td>Medewerkers missen essentiële informatie.</td>
+          <td>Gebruik een checklist om ervoor te zorgen dat alle onderdelen zijn gedocumenteerd.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="deel-5-conclusie--procescontext-als-fundament-van-het-pdm">Deel 5: Conclusie – Procescontext als fundament van het PDM<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Procescontext is de eerste en meest cruciale laag van het Procesdocumentatiemodel (PDM). Zonder context zijn procesbeschrijvingen losse puzzelstukjes – met context worden ze onderdeel van een samenhangend, bruikbaar en betrouwbaar systeem.</p>
+<p>De sleutels tot succes:</p>
+<ul>
+<li>Zie procescontext als een integraal onderdeel van je procesdocumentatie – niet als een optionele toevoeging.</li>
+<li>Gebruik de vijf kernonderwerpen (scope, triggers, output, regels, systemen) als leidraad.</li>
+<li>Betrek de werkvloer bij het in kaart brengen van context. Zij kennen de werkelijke omstandigheden het best.</li>
+<li>Maak context zichtbaar en toegankelijk voor alle betrokkenen, in een formaat dat past bij hun rol.</li>
+<li>Houd context levend door regelmatige reviews en feedbacklussen.</li>
+</ul>
+<p>Afsluitende gedachte:</p>
+<blockquote>
+<p><em>&ldquo;Een proces zonder context is als een schip zonder kompas: je weet waar je naartoe wilt, maar niet hoe je daar moet komen. Met procescontext geef je je organisatie de tools om processen niet alleen te documenteren, maar ook te begrijpen, te sturen en te verbeteren.&rdquo;</em></p>
+</blockquote>
+<h6 id="volgende-stappen-hoe-pas-jij-procescontext-toe">Volgende stappen: Hoe pas jij procescontext toe?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<ol>
+<li>Kies een pilootproces: Begin met een kritisch proces waar context ontbreekt.</li>
+<li>Documenteer de context: Gebruik de vijf kernonderwerpen en het template uit dit artikel.</li>
+<li>Valideer met medewerkers: Vraag feedback om de context nauwkeurig en bruikbaar te maken.</li>
+<li>Publiceer en beheer: Zorg voor een centrale locatie en regelmatige updates.</li>
+</ol>
+<p>Over de auteur<br>
+Martin van Pelt is een ervaren Procesdocumentalist met 30+ jaar ervaring in de telecomsector. Hij helpt organisaties om processen in kaart te brengen, te stroomlijnen en te documenteren als een beheerd, consistent en betrouwbaar informatiesysteem, gebaseerd op het <em>Procesdocumentatiemodel (PDM)</em>. Zijn aanpak combineert technische precisie met praktische bruikbaarheid, afgestemd op de dagelijkse realiteit van organisaties.</p>
+<p>Gerelateerde artikelen</p>
+<ul>
+<li><a href="./scope-en-afbakening/">Scope en afbakening: Hoe bakent u uw processen af?</a></li>
+<li><a href="./processtart-triggers-input/">Processtart, triggers en input: Wat zorgt ervoor dat een proces start?</a></li>
+<li><a href="./output-en-resultaten/">Output en resultaten: Wat levert een proces op?</a></li>
+<li><a href="./regels-en-randvoorwaarden/">Regels en randvoorwaarden: Welke beperkingen gelden voor uw processen?</a></li>
+<li><a href="./systemen-en-integraties/">Systemen en integraties: Hoe hangen uw processen en systemen samen?</a></li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark relearn-light">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/01-aanpak/index.html"><a class="padding" href="/01-aanpak/index.html">Aanpak</a></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding" href="/05-procesdocument/index.html">Procesdocument</a></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over</a></li>
+            <li class="parent " data-nav-id="/10-artikelen/index.html"><a class="padding default-animation" href="/10-artikelen/index.html">Artikelen</a><ul id="R-subsections-ad2eb70ad2c7c7324360baad241e1727" class="collapsible-menu">
+            <li class="active hidden " data-nav-id="/10-artikelen/08.10-wat-is-procescontext/index.html"><a class="padding" href="/10-artikelen/08.10-wat-is-procescontext/index.html">Wat is procescontext?</a></li></ul></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-light" value="relearn-light" selected>Relearn Light</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="R-select-variant-auto" value="auto">Auto</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-color.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1777193160" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1777193160" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1777193160" defer></script>
+    <script src="/js/theme.js?1777193160" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

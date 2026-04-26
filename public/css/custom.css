@@ -1,0 +1,36 @@
+.definition {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted #888;
+}
+
+.definition-text {
+  visibility: hidden;
+  width: 260px;
+  background: #2b2b2b;
+  color: #fff;
+  text-align: left;
+  padding: 8px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 100;
+  bottom: 130%;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.2s;
+  font-size: 0.9rem;
+}
+
+.definition:hover .definition-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tippy-box {
+  max-width: 400px;
+  font-size: 0.9rem;
+}
+
+.tippy-content {
+  text-align: left;
+}

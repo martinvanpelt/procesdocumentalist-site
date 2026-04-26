@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fundament :: Proces Documentalist</title>
+    <link>http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/index.html</link>
+    <description>Het fundament van het Procesdocumentatiemodel: definities, begrippen, ontwerpprincipes en architectuur.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Definitie</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.01-definitie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.01-definitie/index.html</guid>
+      <description>Het Procesdocumentatiemodel (PDM) is een gestructureerd raamwerk voor het systematisch vastleggen en beheren van procesdocumentatie binnen organisaties.&#xA;Het model beschrijft hoe procesinformatie kan worden geordend en vastgelegd in een consistente structuur, zodat processen op een uniforme en begrijpelijke manier worden gedocumenteerd.&#xA;Het PDM ordent procesdocumentatie in een gelaagde structuur. Deze structuur begint bij de context en het doel van een proces en loopt via procesarchitectuur, modellering en procesuitwerking door naar sturing, analyse en verbetering.</description>
+    </item>
+    <item>
+      <title>Begrippenlijst</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.02-begrippenlijst/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.02-begrippenlijst/index.html</guid>
+      <description>A&#xD;KPI (Key Performance Indicator)&#xD;Een KPI is een meetbare indicator die de prestaties van een proces weergeeft ten opzichte van vooraf vastgestelde doelen.&#xA;B&#xD;Bronnen van procesinformatie&#xD;Bronnen van procesinformatie zijn alle inputbronnen waaruit kennis over een proces wordt gehaald, zoals interviews, documentatie, observaties, systemen en rapportages.</description>
+    </item>
+    <item>
+      <title>Ontwerpprincipes</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.03-ontwerpprincipes/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.03-ontwerpprincipes/index.html</guid>
+      <description>Het Procesdocumentatiemodel is niet alleen een structuur voor procesdocumentatie, maar ook een methode om processen systematisch te begrijpen, vast te leggen en te verbeteren.&#xA;De opbouw van het model is gebaseerd op vijf ontwerpprincipes:&#xA;02.03.01. Context vóór beschrijving 02.03.02. Doel vóór uitvoering 02.03.03. Architectuur vóór detail 02.03.04. Visualisatie vóór tekst 02.03.05. Sturing en verbetering als integraal onderdeel</description>
+    </item>
+    <item>
+      <title>Oorsprong</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.05-oorsprong/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.05-oorsprong/index.html</guid>
+      <description>De oorsprong en evolutie van het Procesdocumentatiemodel (PDM), ontwikkeld uit 35+ jaar praktijkervaring in procesanalyse, modellering en verbetering. Een antwoord op de beperkingen van bestaande methoden, met focus op praktische toepasbaarheid, toegankelijkheid en samenhang.</description>
+    </item>
+    <item>
+      <title>Sturing en verbetering als integraal onderdeel</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.04-architectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.04-architectuur/index.html</guid>
+      <description>Procesdocumentatie is geen statisch document, maar een dynamisch ecosysteem dat meegroeit met de organisatie. Net zoals een levend organisme zich aanpast aan zijn omgeving, moet procesdocumentatie evolueren om relevant te blijven. Processen veranderen continu door:&#xA;Categorie Voorbeelden Impact op processen Externe factoren Nieuwe wet- en regelgeving (AVG, ISO 9001, sector-specifieke eisen), marktveranderingen, concurrentie. Processen moeten worden aangepast om te voldoen aan nieuwe eisen of om concurrentievoordeel te behouden. Interne factoren Fusies, herstructureringen, nieuwe strategieën, cultuurveranderingen. Processen moeten worden afgestemd op nieuwe organisatiestructuren of doelen. Technologische factoren Automatisering (RPA, AI), nieuwe software (ERP, CRM), digitale transformatie. Processen kunnen worden geoptimaliseerd of herontworpen om gebruik te maken van nieuwe technologieën. Verbeterinitiatieven Lean, Six Sigma, Agile, continue verbeterprogramma’s (Kaizen). Processen worden continue geëvalueerd en verbeterd om efficiëntie en kwaliteit te verhogen. Daarom bevat het Procesdocumentatie Model (PDM) een expliciete laag voor processturing en procesverbetering. Deze laag zorgt ervoor dat procesdocumentatie niet alleen een momentopname is, maar een levend instrument voor actieve sturing, continue verbetering en strategische alignement.</description>
+    </item>
+  </channel>
+</rss>

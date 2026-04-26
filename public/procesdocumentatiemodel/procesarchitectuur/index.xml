@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesarchitectuur :: Proces Documentalist</title>
+    <link>http://localhost:1313/procesdocumentatiemodel/procesarchitectuur/index.html</link>
+    <description>Een procesarchitectuur beschrijft hoe de processen van een organisatie samenhangen.&#xA;Het vormt de structuur waarbinnen procesdocumentatie wordt georganiseerd.&#xA;Door een duidelijke procesarchitectuur ontstaat overzicht: van strategische hoofdlijnen tot operationele werkprocessen.&#xA;Waarom een procesarchitectuur?&#xD;Veel organisaties hebben losse procesbeschrijvingen, maar missen een duidelijk overzicht van hoe processen samenhangen.&#xA;Een procesarchitectuur helpt om:&#xA;processen logisch te structureren verantwoordelijkheden te verdelen procesverbeteringen te prioriteren samenhang tussen processen zichtbaar te maken Het vormt daarmee de basis voor effectieve procesdocumentatie.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/procesdocumentatiemodel/procesarchitectuur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proceslandkaart</title>
+      <link>http://localhost:1313/procesdocumentatiemodel/procesarchitectuur/proceslandkaart/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/procesdocumentatiemodel/procesarchitectuur/proceslandkaart/index.html</guid>
+      <description>Een proceslandkaart geeft een overzicht van alle hoofdprocessen binnen een organisatie en laat zien hoe deze samenhangen.</description>
+    </item>
+    <item>
+      <title>Proceshiërarchie</title>
+      <link>http://localhost:1313/procesdocumentatiemodel/procesarchitectuur/proceshi%C3%ABrarchie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/procesdocumentatiemodel/procesarchitectuur/proceshi%C3%ABrarchie/index.html</guid>
+      <description>De proceshiërarchie laat zien hoe processen zijn opgebouwd uit hoofdprocessen, subprocessen en processtappen.</description>
+    </item>
+  </channel>
+</rss>

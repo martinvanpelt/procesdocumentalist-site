@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesverbetering :: Tag :: Proces Documentalist</title>
+    <link>http://localhost:1313/tags/procesverbetering/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/tags/procesverbetering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Verbeteracties</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.09-procesanalyse-en-verbetering/02.09.03-verbeteracties/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.09-procesanalyse-en-verbetering/02.09.03-verbeteracties/index.html</guid>
+      <description>Verbeteracties&#xD;Verbeteracties zijn concrete interventies die worden uitgevoerd om procesprestaties te verbeteren.&#xA;Doel&#xD;procesprestaties verbeteren fouten reduceren efficiëntie verhogen kwaliteit borgen Types&#xD;correctief preventief structureel Belangrijk principe&#xD;Elke actie moet meetbare impact hebben op het proces.</description>
+    </item>
+    <item>
+      <title>Lessons learned</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.09-procesanalyse-en-verbetering/02.09.04-lessons-learned/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.09-procesanalyse-en-verbetering/02.09.04-lessons-learned/index.html</guid>
+      <description>Lessons learned&#xD;Lessons learned zijn vastgelegde inzichten uit procesuitvoering, analyse en verbeteringen.&#xA;Doel&#xD;kennis borgen herhaling van fouten voorkomen organisatie leren laten accumuleren toekomstige processen verbeteren Inhoud&#xD;wat ging goed wat ging fout waarom gebeurde dit wat moeten we aanpassen Belangrijk principe&#xD;Zonder borging van leren is er geen structurele verbetering.</description>
+    </item>
+  </channel>
+</rss>

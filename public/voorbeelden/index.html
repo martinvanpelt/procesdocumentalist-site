@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html id="R-html" lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.159.1">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Volledig uitgewerkt voorbeeld van het orderverwerkingsproces inclusief procesdoel, context, architectuur, modellering, uitwerking en sturing.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Orderverwerking – Volledige Procesbundel :: Proces Documentalist">
+    <meta name="twitter:description" content="Volledig uitgewerkt voorbeeld van het orderverwerkingsproces inclusief procesdoel, context, architectuur, modellering, uitwerking en sturing.">
+    <meta property="og:url" content="http://localhost:1313/voorbeelden/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="Orderverwerking – Volledige Procesbundel :: Proces Documentalist">
+    <meta property="og:description" content="Volledig uitgewerkt voorbeeld van het orderverwerkingsproces inclusief procesdoel, context, architectuur, modellering, uitwerking en sturing.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Orderverwerking – Volledige Procesbundel :: Proces Documentalist">
+    <meta itemprop="description" content="Volledig uitgewerkt voorbeeld van het orderverwerkingsproces inclusief procesdoel, context, architectuur, modellering, uitwerking en sturing.">
+    <meta itemprop="wordCount" content="436">
+    <title>Orderverwerking – Volledige Procesbundel :: Proces Documentalist</title>
+    <link href="/voorbeelden/index.xml" rel="alternate" type="application/rss+xml" title="Orderverwerking – Volledige Procesbundel :: Proces Documentalist">
+    <link href="/css/auto-complete/auto-complete.min.css?1775829211" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1775829211" defer></script>
+    <script src="/js/search-lunr.js?1775829211" defer></script>
+    <script src="/js/search.js?1775829211" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1775829211";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1775829211" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1775829211" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1775829211" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1775829211" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1775829211" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1775829211" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1775829211" rel="stylesheet">
+    <link href="/css/theme.css?1775829211" rel="stylesheet">
+    <link href="/css/format-html.css?1775829211" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/voorbeelden\/index.html';
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1775829211" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/voorbeelden/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#1-procesdoel">1. Procesdoel</a>
+      <ul>
+        <li><a href="#waarom-bestaat-dit-proces">Waarom bestaat dit proces?</a></li>
+        <li><a href="#behoefte">Behoefte</a></li>
+        <li><a href="#waarde">Waarde</a></li>
+        <li><a href="#resultaat">Resultaat</a></li>
+        <li><a href="#strategische-bijdrage">Strategische bijdrage</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#21-scope-en-afbakening">2.1 Scope en afbakening</a>
+      <ul>
+        <li><a href="#in-scope">In scope</a></li>
+        <li><a href="#out-of-scope">Out of scope</a></li>
+        <li><a href="#procesgrenzen">Procesgrenzen</a></li>
+      </ul>
+    </li>
+    <li><a href="#22-triggers-en-inputs">2.2 Triggers en inputs</a>
+      <ul>
+        <li><a href="#procestrigger">Procestrigger</a></li>
+        <li><a href="#inputs">Inputs</a></li>
+      </ul>
+    </li>
+    <li><a href="#23-systemen-en-integraties">2.3 Systemen en integraties</a></li>
+    <li><a href="#24-regels-en-constraints">2.4 Regels en constraints</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#31-procespositie">3.1 Procespositie</a></li>
+    <li><a href="#32-proceshiërarchie">3.2 Proceshiërarchie</a></li>
+    <li><a href="#33-afhankelijkheden">3.3 Afhankelijkheden</a></li>
+    <li><a href="#34-proceslandkaart-placeholder">3.4 Proceslandkaart (placeholder)</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#41-procesdiagram">4.1 Procesdiagram</a></li>
+    <li><a href="#42-processtappen">4.2 Processtappen</a></li>
+    <li><a href="#43-beslispunten">4.3 Beslispunten</a></li>
+    <li><a href="#44-uitzonderingen">4.4 Uitzonderingen</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#51-procesbeschrijving">5.1 Procesbeschrijving</a>
+      <ul>
+        <li><a href="#doel--scope">Doel &amp; scope</a></li>
+        <li><a href="#processtappen">Processtappen</a></li>
+        <li><a href="#input--output">Input / Output</a></li>
+        <li><a href="#systemen">Systemen</a></li>
+      </ul>
+    </li>
+    <li><a href="#52-rollen-en-verantwoordelijkheden">5.2 Rollen en verantwoordelijkheden</a></li>
+    <li><a href="#53-werkinstructies">5.3 Werkinstructies</a></li>
+    <li><a href="#54-veelgemaakte-fouten">5.4 Veelgemaakte fouten</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#61-kpis">6.1 KPI’s</a></li>
+    <li><a href="#62-analyse">6.2 Analyse</a></li>
+    <li><a href="#63-verbeteracties">6.3 Verbeteracties</a></li>
+    <li><a href="#7-samenvatting">7. Samenvatting</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Orderverwerking – Volledige Procesbundel</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/index.html" title="De Procesdocumentalist (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/voorbeelden/orderverwerking/index.html" title="Orderverwerking (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable voorbeelden" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="orderverwerking--volledige-procesbundel">Orderverwerking – Volledige Procesbundel</h1>
+
+<h1 id="orderverwerking">Orderverwerking<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h1>
+<h2 id="1-procesdoel">1. Procesdoel<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<h3 id="waarom-bestaat-dit-proces">Waarom bestaat dit proces?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Het orderverwerkingsproces bestaat om klantorders correct, tijdig en efficiënt om te zetten in leverbare producten of diensten, zodat klanttevredenheid, betrouwbaarheid en omzet worden gerealiseerd.</p>
+<hr>
+<h3 id="behoefte">Behoefte<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<ul>
+<li>Klanten verwachten correcte en tijdige levering van bestelde producten</li>
+<li>De organisatie heeft behoefte aan gecontroleerde omzetverwerking</li>
+<li>Interne afdelingen hebben behoefte aan gestructureerde orderafhandeling</li>
+</ul>
+<hr>
+<h3 id="waarde">Waarde<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<ul>
+<li>Snelle en foutloze orderverwerking</li>
+<li>Betrouwbare levering aan klanten</li>
+<li>Vermindering van correcties en retouren</li>
+</ul>
+<hr>
+<h3 id="resultaat">Resultaat<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<ul>
+<li>Een gevalideerde en verwerkte order</li>
+<li>Een leverbare opdracht richting logistiek of uitvoering</li>
+</ul>
+<hr>
+<h3 id="strategische-bijdrage">Strategische bijdrage<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<ul>
+<li>Verhoogt klanttevredenheid</li>
+<li>Ondersteunt omzetrealisatie</li>
+<li>Verbetert operationele efficiëntie</li>
+</ul>
+<hr>
+<h1 id="2-procescontext">2. Procescontext<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h1>
+<h2 id="21-scope-en-afbakening">2.1 Scope en afbakening<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<h3 id="in-scope">In scope<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<ul>
+<li>Ontvangst van klantorder</li>
+<li>Validatie van ordergegevens</li>
+<li>Verwerking naar uitvoerbare opdracht</li>
+</ul>
+<h3 id="out-of-scope">Out of scope<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<ul>
+<li>Marketing en leadgeneratie</li>
+<li>Productontwikkeling</li>
+<li>Leveringslogistiek (uitvoering zelf)</li>
+</ul>
+<h3 id="procesgrenzen">Procesgrenzen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<ul>
+<li>Start: ontvangst van een geldige klantorder</li>
+<li>Eind: vrijgave van order voor uitvoering</li>
+</ul>
+<hr>
+<h2 id="22-triggers-en-inputs">2.2 Triggers en inputs<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<h3 id="procestrigger">Procestrigger<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<ul>
+<li>Klant plaatst een order via webshop, EDI of handmatig kanaal</li>
+</ul>
+<h3 id="inputs">Inputs<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<ul>
+<li>Klantgegevens</li>
+<li>Productinformatie</li>
+<li>Orderregels</li>
+</ul>
+<hr>
+<h2 id="23-systemen-en-integraties">2.3 Systemen en integraties<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ul>
+<li>ERP-systeem</li>
+<li>Ordermanagementsysteem</li>
+<li>CRM-systeem</li>
+<li>Voorraadsysteem</li>
+</ul>
+<hr>
+<h2 id="24-regels-en-constraints">2.4 Regels en constraints<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ul>
+<li>Alleen beschikbare producten mogen worden bevestigd</li>
+<li>Kredietcontrole bij B2B klanten</li>
+<li>Verwerking binnen 24 uur na ontvangst</li>
+</ul>
+<hr>
+<h1 id="3-procesarchitectuur">3. Procesarchitectuur<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h1>
+<h2 id="31-procespositie">3.1 Procespositie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ul>
+<li>Type proces: Primair proces (kernproces)</li>
+</ul>
+<hr>
+<h2 id="32-proceshiërarchie">3.2 Proceshiërarchie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ul>
+<li>Niveau 1: Organisatieprocessen</li>
+<li>Niveau 2: Commerciële operatie</li>
+<li>Niveau 3: Orderverwerking</li>
+</ul>
+<hr>
+<h2 id="33-afhankelijkheden">3.3 Afhankelijkheden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ul>
+<li>Afhankelijk van:
+<ul>
+<li>CRM</li>
+<li>Voorraadbeheer</li>
+</ul>
+</li>
+<li>Levert output aan:
+<ul>
+<li>Logistiek proces</li>
+<li>Facturatieproces</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="34-proceslandkaart-placeholder">3.4 Proceslandkaart (placeholder)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<blockquote>
+<p>Voeg hier visuele proceslandkaart toe</p>
+</blockquote>
+<hr>
+<h1 id="4-procesmodellering">4. Procesmodellering<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h1>
+<h2 id="41-procesdiagram">4.1 Procesdiagram<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<blockquote>
+<p>Voeg BPMN of flowchart toe</p>
+</blockquote>
+<hr>
+<h2 id="42-processtappen">4.2 Processtappen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ol>
+<li>Order ontvangen</li>
+<li>Order valideren</li>
+<li>Beschikbaarheid controleren</li>
+<li>Order bevestigen</li>
+<li>Order vrijgeven</li>
+</ol>
+<hr>
+<h2 id="43-beslispunten">4.3 Beslispunten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ul>
+<li>Is product beschikbaar?</li>
+<li>Is klant geautoriseerd (kredietcheck)?</li>
+</ul>
+<hr>
+<h2 id="44-uitzonderingen">4.4 Uitzonderingen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ul>
+<li>Niet-leverbare producten</li>
+<li>Onvolledige ordergegevens</li>
+<li>Kredietweigering</li>
+</ul>
+<hr>
+<h1 id="5-procesuitwerking">5. Procesuitwerking<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h1>
+<h2 id="51-procesbeschrijving">5.1 Procesbeschrijving<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<h3 id="doel--scope">Doel &amp; scope<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<ul>
+<li>Correct verwerken van klantorders tot uitvoerbare opdrachten</li>
+</ul>
+<hr>
+<h3 id="processtappen">Processtappen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Stap</th>
+          <th>Activiteit</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Order ontvangen</td>
+          <td>Sales / systeem</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Order controleren</td>
+          <td>Orderdesk</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Validatie uitvoeren</td>
+          <td>ERP systeem</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Order bevestigen</td>
+          <td>Orderdesk</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>Vrijgave voor uitvoering</td>
+          <td>Operations</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="input--output">Input / Output<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<ul>
+<li>Input: klantorder</li>
+<li>Output: gevalideerde order</li>
+</ul>
+<hr>
+<h3 id="systemen">Systemen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<ul>
+<li>ERP</li>
+<li>CRM</li>
+<li>Ordermanagement</li>
+</ul>
+<hr>
+<h2 id="52-rollen-en-verantwoordelijkheden">5.2 Rollen en verantwoordelijkheden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Activiteit</th>
+          <th>Sales</th>
+          <th>Orderdesk</th>
+          <th>ERP</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Ontvangst</td>
+          <td>R</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Validatie</td>
+          <td></td>
+          <td>R</td>
+          <td>A</td>
+      </tr>
+      <tr>
+          <td>Vrijgave</td>
+          <td></td>
+          <td>R</td>
+          <td>C</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="53-werkinstructies">5.3 Werkinstructies<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ol>
+<li>Controleer volledigheid order</li>
+<li>Valideer klantgegevens</li>
+<li>Controleer voorraad</li>
+<li>Bevestig order</li>
+<li>Vrijgave naar uitvoering</li>
+</ol>
+<hr>
+<h2 id="54-veelgemaakte-fouten">5.4 Veelgemaakte fouten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ul>
+<li>Onvolledige klantgegevens accepteren</li>
+<li>Voorraad niet realtime controleren</li>
+</ul>
+<hr>
+<h1 id="6-processturing">6. Processturing<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h1>
+<h2 id="61-kpis">6.1 KPI’s<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<table>
+  <thead>
+      <tr>
+          <th>KPI</th>
+          <th>Definitie</th>
+          <th>Streefwaarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Doorlooptijd</td>
+          <td>Tijd van order tot vrijgave</td>
+          <td>&lt; 24 uur</td>
+      </tr>
+      <tr>
+          <td>Foutpercentage</td>
+          <td>% incorrecte orders</td>
+          <td>&lt; 2%</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="62-analyse">6.2 Analyse<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ul>
+<li>Analyse van vertragingen in orderflow</li>
+<li>Root cause analysis bij foutorders</li>
+<li>Trendanalyse per productcategorie</li>
+</ul>
+<hr>
+<h2 id="63-verbeteracties">6.3 Verbeteracties<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ul>
+<li>Automatisering van validatiestappen</li>
+<li>Verbetering van datakwaliteit in CRM</li>
+<li>Optimalisatie van voorraadkoppeling</li>
+</ul>
+<hr>
+<h2 id="7-samenvatting">7. Samenvatting<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Het orderverwerkingsproces vormt een kernproces binnen de organisatie en verbindt klantvraag direct met operationele uitvoering.</p>
+<p>Door toepassing van het Procesdocumentatiemodel ontstaat:</p>
+<ul>
+<li>Duidelijkheid (procesdoel)</li>
+<li>Begrip (context)</li>
+<li>Structuur (architectuur)</li>
+<li>Inzicht (modellering)</li>
+<li>Uitvoering (uitwerking)</li>
+<li>Verbetering (sturing)</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark relearn-light">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo-6.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="active parent " data-nav-id="/voorbeelden/index.html"><a class="padding default-animation" href="/voorbeelden/index.html">Orderverwerking – Volledige Procesbundel</a><ul id="R-subsections-e3f4f13c4557bc33ad1b5e984631c87f" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/voorbeelden/orderverwerking/index.html"><a class="padding default-animation" href="/voorbeelden/orderverwerking/index.html">Orderverwerking</a><ul id="R-subsections-bce5e8b6e289b9acb96aa832e2822a0a" class="collapsible-menu"></ul></li></ul></li>
+            <li class="" data-nav-id="/procesdocumentatiemodel/index.html"><a class="padding default-animation" href="/procesdocumentatiemodel/index.html">Procesdocumentatiemodel</a><ul id="R-subsections-6117a540a43192ae81c3c179f974e07f" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/aanpak/index.html"><a class="padding" href="/aanpak/index.html">Aanpak</a></li>
+            <li class="" data-nav-id="/over/index.html"><a class="padding" href="/over/index.html">Over</a></li>
+            <li class="" data-nav-id="/downloads/index.html"><a class="padding default-animation" href="/downloads/index.html">Downloads</a><ul id="R-subsections-b14a53687802f9b36f9771a2344f2097" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/contact/index.html"><a class="padding" href="/contact/index.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-color.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1775829211" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1775829211" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1775829211" defer></script>
+    <script src="/js/theme.js?1775829211" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

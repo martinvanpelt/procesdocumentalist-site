@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesarchitectuur :: Proces Documentalist</title>
+    <link>http://localhost:1313/03-templates/03.04-procesarchitectuur/index.html</link>
+    <description>Templates voor het structureren van het proceslandschap van een organisatie.&#xA;03.04.00 Procesarchitectuur 03.04.01 Proceslandkaart 03.04.02 Proceshiërarchie 03.04.03 Procesinventarisatie Deze templates helpen bij het beantwoorden van vragen zoals:&#xA;Welke processen heeft de organisatie? Hoe hangen processen met elkaar samen? Welke processen zijn primair, ondersteunend of sturend?</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/03-templates/03.04-procesarchitectuur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proceslandkaart</title>
+      <link>http://localhost:1313/03-templates/03.04-procesarchitectuur/03.04.01-proceslandkaart/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-templates/03.04-procesarchitectuur/03.04.01-proceslandkaart/index.html</guid>
+      <description>Template voor het opstellen van een proceslandkaart.</description>
+    </item>
+    <item>
+      <title>Proceshiërarchie</title>
+      <link>http://localhost:1313/03-templates/03.04-procesarchitectuur/03.04.02-proceshi%C3%ABrarchie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-templates/03.04-procesarchitectuur/03.04.02-proceshi%C3%ABrarchie/index.html</guid>
+      <description>Template voor het structureren van processen in niveaus.</description>
+    </item>
+    <item>
+      <title>Procesinventarisatie</title>
+      <link>http://localhost:1313/03-templates/03.04-procesarchitectuur/03.04.03-procesinventarisatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-templates/03.04-procesarchitectuur/03.04.03-procesinventarisatie/index.html</guid>
+      <description>Template voor het inventariseren van processen in een organisatie.</description>
+    </item>
+    <item>
+      <title>Procesarchitectuur</title>
+      <link>http://localhost:1313/03-templates/03.04-procesarchitectuur/03.04.00-procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-templates/03.04-procesarchitectuur/03.04.00-procesarchitectuur/index.html</guid>
+      <description>Eigenschappen&#xD;Veld Waarde PMD-nummer 03.04.00 Versie 1 Status concept Auteur De Procesdocumentalist Eigenaar proceseigenaar Datum 17/04/2026 Domein&#xD;… Proceshiërarchie&#xD;Niveau 1: Niveau 2: Niveau 3: Relaties&#xD;Input: Output: Afhankelijkheden:</description>
+    </item>
+    <item>
+      <title>Procesinteractie</title>
+      <link>http://localhost:1313/03-templates/03.04-procesarchitectuur/03.04.04-procesinteractie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-templates/03.04-procesarchitectuur/03.04.04-procesinteractie/index.html</guid>
+      <description>Eigenschappen&#xD;Veld Waarde PMD-nummer 03.04.04 Versie 1 Status concept Auteur De Procesdocumentalist Eigenaar proceseigenaar Datum 17/04/2026 1. Doel van deze interactie&#xD;Waarom bestaat deze koppeling tussen processen?&#xA;2. Upstream processen&#xD;Welke processen leveren input?</description>
+    </item>
+  </channel>
+</rss>

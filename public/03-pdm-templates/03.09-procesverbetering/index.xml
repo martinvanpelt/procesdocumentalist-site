@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesverbetering :: Proces Documentalist</title>
+    <link>http://localhost:1313/03-pdm-templates/03.09-procesverbetering/index.html</link>
+    <description>Templates voor het analyseren en verbeteren van processen.&#xA;Procesverbetering Root Cause Analysis Procesverbeterplan Deze templates helpen organisaties om structureel te leren van problemen en processen continu te verbeteren.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/03-pdm-templates/03.09-procesverbetering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Root Cause Analyse</title>
+      <link>http://localhost:1313/03-pdm-templates/03.09-procesverbetering/03.09.01-root-cause-analysis/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-pdm-templates/03.09-procesverbetering/03.09.01-root-cause-analysis/index.html</guid>
+      <description>Template voor het uitvoeren van een gestructureerde root cause analyse (RCA) met behulp van de 5 Why&#39;s-methode, Fishbone-diagram, en andere analysetechnieken.</description>
+    </item>
+    <item>
+      <title>Procesverbeterplan</title>
+      <link>http://localhost:1313/03-pdm-templates/03.09-procesverbetering/03.09.02-procesverbeterplan/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-pdm-templates/03.09-procesverbetering/03.09.02-procesverbeterplan/index.html</guid>
+      <description>Template voor het opstellen van een gedetailleerd procesverbeterplan, inclusief verbeterpunten, acties, verantwoordelijkheden, deadlines, en succescriteria.</description>
+    </item>
+    <item>
+      <title>Procesverbetering</title>
+      <link>http://localhost:1313/03-pdm-templates/03.09-procesverbetering/03.09.00-procesverbetering-master/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-pdm-templates/03.09-procesverbetering/03.09.00-procesverbetering-master/index.html</guid>
+      <description>Template voor het analyseren en verbeteren van processen, inclusief procesanalyse, verbeterinitiatieven, verbeteracties en lessons learned.</description>
+    </item>
+  </channel>
+</rss>

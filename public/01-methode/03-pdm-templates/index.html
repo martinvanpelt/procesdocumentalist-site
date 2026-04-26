@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Praktische templates voor het documenteren, analyseren, modelleren, sturen en verbeteren van bedrijfsprocessen, gebaseerd op het Procesdocumentatiemodel (PDM). Deze templates vormen een samenhangend systeem voor end-to-end procesbeheer.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="PDM Templates :: Proces Documentalist">
+    <meta name="twitter:description" content="Praktische templates voor het documenteren, analyseren, modelleren, sturen en verbeteren van bedrijfsprocessen, gebaseerd op het Procesdocumentatiemodel (PDM). Deze templates vormen een samenhangend systeem voor end-to-end procesbeheer.">
+    <meta property="og:url" content="http://localhost:1313/01-methode/03-pdm-templates/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="PDM Templates :: Proces Documentalist">
+    <meta property="og:description" content="Praktische templates voor het documenteren, analyseren, modelleren, sturen en verbeteren van bedrijfsprocessen, gebaseerd op het Procesdocumentatiemodel (PDM). Deze templates vormen een samenhangend systeem voor end-to-end procesbeheer.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="PDM Templates :: Proces Documentalist">
+    <meta itemprop="description" content="Praktische templates voor het documenteren, analyseren, modelleren, sturen en verbeteren van bedrijfsprocessen, gebaseerd op het Procesdocumentatiemodel (PDM). Deze templates vormen een samenhangend systeem voor end-to-end procesbeheer.">
+    <meta itemprop="wordCount" content="1540">
+    <title>PDM Templates :: Proces Documentalist</title>
+    <link href="/01-methode/03-pdm-templates/index.xml" rel="alternate" type="application/rss+xml" title="PDM Templates :: Proces Documentalist">
+    <link href="/images/favicon.svg?1776864881" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1776864881" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776864881" defer></script>
+    <script src="/js/search-lunr.js?1776864881" defer></script>
+    <script src="/js/search.js?1776864881" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1776864881";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1776864881" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776864881" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776864881" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1776864881" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1776864881" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776864881" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776864881" rel="stylesheet">
+    <link href="/css/theme.css?1776864881" rel="stylesheet">
+    <link href="/css/format-html.css?1776864881" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/01-methode\/03-pdm-templates\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto', 'relearn-dark' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1776864881" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/01-methode/03-pdm-templates/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/01-methode/index.html"><span itemprop="name">Methode</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">PDM Templates</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/01-methode/02-procesdocumentatiemodel/index.html" title="Het Procesdocumentatiemodel (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/01-methode/04-bronnen-van-procesinformatie/index.html" title="Bronnen van procesinformatie (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 01-methode" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="pdm-templates">PDM Templates</h1>
+
+
+<details open class="box cstyle notices primary">
+  <summary class="box-label" tabindex="-1">
+    Over deze templates<br>
+  </summary>
+  <div class="box-content">
+<p>De templates zijn gebaseerd op het Procesdocumentatiemodel (PDM) en bieden een gestructureerde aanpak voor:</p>
+<ul>
+<li>Documenteren (procesbeschrijvingen, werkinstructies, rollen).</li>
+<li>Analyseren (proceslandkaarten, input-output, KPI’s).</li>
+<li>Modelleren (BPMN, Flowchart, Swimlane).</li>
+<li>Sturen (processturing, dashboards, reviews).</li>
+<li>Verbeteren (root cause analyse, verbeterplannen).</li>
+<li>Beheren (wijzigingslog, wijzigingsverzoeken).</li>
+</ul>
+<p>Doelgroep: Procesmanagers, documentatie-specialisten, uitvoerende teams, en stakeholders betrokken bij procesoptimalisatie.</p>
+  </div>
+</details>
+<h4 id="overzicht-per-categorie">Overzicht per Categorie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p><em>(Gegroepeerd op basis van de directory structuur en functioneel doel)</em></p>
+<h5 id="1-procesdocumentatiebeheer">1. Procesdocumentatiebeheer<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Beheer en traceerbaarheid van wijzigingen in procesdocumentatie.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Template</th>
+          <th>PMD-nummer</th>
+          <th>Weight</th>
+          <th>Beschrijving</th>
+          <th>Gebruik</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Wijzigingslog procesdocumentatie</a></td>
+          <td>PMD-03.01.01</td>
+          <td>4</td>
+          <td>Logboek voor alle wijzigingen in procesdocumentatie (datum, auteur, wijziging, reden).</td>
+          <td>Traceerbaarheid, audit, versiebeheer.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Wijzigingsverzoek</a></td>
+          <td>PMD-03.01.02</td>
+          <td>3</td>
+          <td>Formulier voor het indienen, beoordelen en goedkeuren van wijzigingen.</td>
+          <td>Gecontroleerde wijzigingen, stakeholder-alignment.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="2-procesarchitectuur">2. Procesarchitectuur<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Structuur en overzicht van alle processen binnen de organisatie.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Template</th>
+          <th>PMD-nummer</th>
+          <th>Weight</th>
+          <th>Beschrijving</th>
+          <th>Gebruik</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procesarchitectuur Master</a></td>
+          <td>PMD-03.02.00</td>
+          <td>5</td>
+          <td>Overkoepelend document met richtlijnen voor procesarchitectuur.</td>
+          <td>Strategische alignement, framework-definitie.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Proceslandkaart</a></td>
+          <td>PMD-03.02.01</td>
+          <td>4</td>
+          <td>Visuele weergave van alle processen en hun onderlinge relaties (bijv. waardeketen).</td>
+          <td>Strategisch overzicht, processelectie.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Proceshiërarchie</a></td>
+          <td>PMD-03.02.02</td>
+          <td>3</td>
+          <td>Hiërarchische structuur van processen (Level 0-4: organisatie → taak).</td>
+          <td>Procesclassificatie, scope bepalen.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procesinventarisatie</a></td>
+          <td>PMD-03.02.03</td>
+          <td>2</td>
+          <td>Lijst van alle processen met korte beschrijvingen en eigenaars.</td>
+          <td>Inventarisatie, gap-analyse.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procesinteractie</a></td>
+          <td>PMD-03.02.04</td>
+          <td>3</td>
+          <td>Overzicht van interacties tussen processen (bijv. input/output-stromen).</td>
+          <td>Procesintegratie, bottleneck-identificatie.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="3-procesdoel">3. Procesdoel<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Definiëren van het doel, scope en succescriteria van processen.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Template</th>
+          <th>PMD-nummer</th>
+          <th>Weight</th>
+          <th>Beschrijving</th>
+          <th>Gebruik</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procesdoel Master</a></td>
+          <td>PMD-03.03.00</td>
+          <td>2</td>
+          <td>Sjabloon voor het vastleggen van doel, scope, KPI’s en succescriteria per proces.</td>
+          <td>Alignement met organisatiedoelen, prestatiemeting.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="4-procescontext">4. Procescontext<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Contextuele informatie over processen, zoals input, output en omgevingsfactoren.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Template</th>
+          <th>PMD-nummer</th>
+          <th>Weight</th>
+          <th>Beschrijving</th>
+          <th>Gebruik</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procescontext Master</a></td>
+          <td>PMD-03.04.00</td>
+          <td>2</td>
+          <td>Overkoepelend document met richtlijnen voor procescontext.</td>
+          <td>Framework voor contextuele analyse.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procesinput-output</a></td>
+          <td>PMD-03.04.01</td>
+          <td>2</td>
+          <td>Beschrijving van input, output, transformatie en afhankelijkheden van een proces.</td>
+          <td>Procesanalyse, KPI-definitie, systeemintegratie.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="5-proceseigenschappen">5. Proceseigenschappen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Definiëren van begrippen, regels en eigenschappen die gelden voor processen.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Template</th>
+          <th>PMD-nummer</th>
+          <th>Weight</th>
+          <th>Beschrijving</th>
+          <th>Gebruik</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Proceseigenschappen Master</a></td>
+          <td>PMD-03.05.00</td>
+          <td>2</td>
+          <td>Overkoepelend document met richtlijnen voor proceseigenschappen.</td>
+          <td>Standaardisatie, compliance.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procesbegrippen</a></td>
+          <td>PMD-03.05.01</td>
+          <td>1</td>
+          <td>Glossary met definities van procesgerelateerde termen.</td>
+          <td>Eenduidige communicatie, training.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="6-procesmodellering">6. Procesmodellering<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Visuele en tekstuele modellering van processen voor analyse en communicatie.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Template</th>
+          <th>PMD-nummer</th>
+          <th>Weight</th>
+          <th>Beschrijving</th>
+          <th>Gebruik</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procesmodellering Master</a></td>
+          <td>PMD-03.06.00</td>
+          <td>4</td>
+          <td>Richtlijnen voor het modelleren van processen (notaties, standaarden).</td>
+          <td>Consistentie, kwaliteitsborging.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">BPMN</a></td>
+          <td>PMD-03.06.01</td>
+          <td>3</td>
+          <td>Template voor Business Process Model and Notation (BPMN 2.0).</td>
+          <td>Complexe procesmodellering, automatisering.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Flowchart</a></td>
+          <td>PMD-03.06.02</td>
+          <td>2</td>
+          <td>Template voor eenvoudige stroomdiagrammen.</td>
+          <td>Training, quick scans.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Swimlane Diagram</a></td>
+          <td>PMD-03.06.03</td>
+          <td>3</td>
+          <td>Template voor cross-functionele processen (verantwoordelijkheden per afdeling/rol).</td>
+          <td>Verantwoordelijkheidsverdeling, samenwerking.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="7-procesuitwerking">7. Procesuitwerking<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Gedetailleerde beschrijving en uitvoering van processen.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Template</th>
+          <th>PMD-nummer</th>
+          <th>Weight</th>
+          <th>Beschrijving</th>
+          <th>Gebruik</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procesuitwerking Master</a></td>
+          <td>PMD-03.07.00</td>
+          <td>5</td>
+          <td>Overkoepelend document met richtlijnen voor procesuitwerking.</td>
+          <td>Kwaliteitsborging, standaardisatie.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procesbeschrijving</a></td>
+          <td>PMD-03.07.01</td>
+          <td>3</td>
+          <td>Gedetailleerde beschrijving van een proces, inclusief stappen, rollen, systemen en tools.</td>
+          <td>Basisdocumentatie, training, audit.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Werkinstructie</a></td>
+          <td>PMD-03.07.02</td>
+          <td>2</td>
+          <td>Stapsgewijze handleiding voor het uitvoeren van een taak/proces.</td>
+          <td>Uitvoerende teams, onboarding.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">RACI-Matrix</a></td>
+          <td>PMD-03.07.03</td>
+          <td>3</td>
+          <td>Matrix voor het toewijzen van verantwoordelijkheden (Responsible, Accountable, Consulted, Informed).</td>
+          <td>Rollenclarificatie, samenwerking.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procesrollen</a></td>
+          <td>PMD-03.07.04</td>
+          <td>4</td>
+          <td>Gedetailleerde beschrijving van rollen, taken en competenties binnen een proces.</td>
+          <td>Rollendefinitie, HR-alignment.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="8-processturing">8. Processturing<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Sturen, meten en borgen van procesprestaties.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Template</th>
+          <th>PMD-nummer</th>
+          <th>Weight</th>
+          <th>Beschrijving</th>
+          <th>Gebruik</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Processturing Master</a></td>
+          <td>PMD-03.08.00</td>
+          <td>6</td>
+          <td>Overkoepelend document met richtlijnen voor processturing.</td>
+          <td>Strategische sturing, governance.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">KPI’s</a></td>
+          <td>PMD-03.08.01</td>
+          <td>3</td>
+          <td>Template voor het definiëren en meten van KPI’s (Key Performance Indicators).</td>
+          <td>Prestatiemeting, procesverbetering.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procesdashboard</a></td>
+          <td>PMD-03.08.02</td>
+          <td>3</td>
+          <td>Template voor het opstellen van een dashboard voor procesmonitoring.</td>
+          <td>Real-time inzicht, sturing.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procesreview</a></td>
+          <td>PMD-03.08.03</td>
+          <td>4</td>
+          <td>Template voor het evalueren van procesprestaties en identificeren van verbeterpunten.</td>
+          <td>Periodieke evaluatie, continue verbetering.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">KPI Definitie</a></td>
+          <td>PMD-03.08.04</td>
+          <td>2</td>
+          <td>Gedetailleerde definitie van individuele KPI’s (formule, bron, doelwaarde).</td>
+          <td>Meetbaarheid, prestatiesturing.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="9-procesverbetering">9. Procesverbetering<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Analyseren, verbeteren en optimaliseren van processen.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Template</th>
+          <th>PMD-nummer</th>
+          <th>Weight</th>
+          <th>Beschrijving</th>
+          <th>Gebruik</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procesverbetering Master</a></td>
+          <td>PMD-03.09.00</td>
+          <td>7</td>
+          <td>Overkoepelend document met richtlijnen voor procesverbetering.</td>
+          <td>Strategische verbetering, methodiek.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Root Cause Analysis</a></td>
+          <td>PMD-03.09.01</td>
+          <td>4</td>
+          <td>Template voor het uitvoeren van een root cause analyse (RCA) (bijv. 5 Why’s, Fishbone).</td>
+          <td>Probleemoplossing, knelpunten identificeren.</td>
+      </tr>
+      <tr>
+          <td><a href="/01-methode/03-pdm-templates/index.html">Procesverbeterplan</a></td>
+          <td>PMD-03.09.02</td>
+          <td>5</td>
+          <td>Template voor het opstellen van een verbeterplan (acties, eigenaren, deadlines).</td>
+          <td>Actiegericht, projectmanagement.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="overzicht-per-gewicht">Overzicht per Gewicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p><em>(Hoe hoger het gewicht, hoe strategischer of complexer het template)</em></p>
+<table>
+  <thead>
+      <tr>
+          <th>Weight</th>
+          <th>Templates</th>
+          <th>Doel</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>7</td>
+          <td>Procesverbetering Master</td>
+          <td>Strategische verbetering, methodiek.</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>Processturing Master, Procesuitwerking Master</td>
+          <td>Sturing, uitwerking, governance.</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>Procesarchitectuur Master, Procesmodellering Master, Procesverbeterplan, Wijzigingslog procesdocumentatie</td>
+          <td>Architectuur, modellering, verbetering, beheer.</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Proceslandkaart, Procesrollen, Procesreview, Root Cause Analysis, Wijzigingsverzoek</td>
+          <td>Structuur, rollen, evaluatie, analyse, beheer.</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Proceshiërarchie, Swimlane Diagram, RACI-Matrix, KPI’s, Procesdashboard, Procesbeschrijving, Wijzigingsverzoek</td>
+          <td>Hiërarchie, verantwoordelijkheden, prestatiemeting, documentatie.</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Procesdoel Master, Procesinput-output, Flowchart, KPI Definitie, Proceseigenschappen Master, Procesbegrippen, Werkinstructie</td>
+          <td>Basisdefinities, modellering, meetbaarheid, uitvoering.</td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>-</td>
+          <td>-</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="relaties-tussen-templates">Relaties tussen Templates<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>De templates zijn met elkaar verbonden en vormen een coherent systeem voor procesdocumentatie. Hier een overzicht van de belangrijkste relaties:</p>
+<h5 id="1-procesarchitectuur--procesdefinitie">1. Procesarchitectuur → Procesdefinitie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>De <a href="/01-methode/03-pdm-templates/index.html">Proceslandkaart</a> en <a href="/01-methode/03-pdm-templates/index.html">Proceshiërarchie</a> geven een overzicht van alle processen.
+<ul>
+<li>Vanuit hier kun je specifieke processen selecteren voor verdere uitwerking met:
+<ul>
+<li><a href="/01-methode/03-pdm-templates/index.html">Procesdoel Master</a></li>
+<li><a href="/01-methode/03-pdm-templates/index.html">Procesinput-output</a></li>
+<li><a href="/01-methode/03-pdm-templates/index.html">Procesbeschrijving</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="2-procesdefinitie--procesmodellering">2. Procesdefinitie → Procesmodellering<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>De <a href="/01-methode/03-pdm-templates/index.html">Procesbeschrijving</a> en <a href="/01-methode/03-pdm-templates/index.html">Procesdoel Master</a> vormen de basis voor:
+<ul>
+<li><a href="/01-methode/03-pdm-templates/index.html">BPMN</a></li>
+<li><a href="/01-methode/03-pdm-templates/index.html">Flowchart</a></li>
+<li><a href="/01-methode/03-pdm-templates/index.html">Swimlane Diagram</a></li>
+</ul>
+</li>
+</ul>
+<h5 id="3-procesmodellering--procesuitwerking">3. Procesmodellering → Procesuitwerking<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>De visuele modellen (BPMN, Flowchart, Swimlane) worden gebruikt voor:
+<ul>
+<li><a href="/01-methode/03-pdm-templates/index.html">Procesuitwerking Master</a></li>
+<li><a href="/01-methode/03-pdm-templates/index.html">Werkinstructie</a></li>
+</ul>
+</li>
+</ul>
+<h5 id="4-procesuitwerking--procesrollen-en-verantwoordelijkheden">4. Procesuitwerking → Procesrollen en Verantwoordelijkheden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>De <a href="/01-methode/03-pdm-templates/index.html">Procesuitwerking Master</a> en <a href="/01-methode/03-pdm-templates/index.html">Werkinstructie</a> worden aangevuld met:
+<ul>
+<li><a href="/01-methode/03-pdm-templates/index.html">RACI-Matrix</a></li>
+<li><a href="/01-methode/03-pdm-templates/index.html">Procesrollen</a></li>
+</ul>
+</li>
+</ul>
+<h5 id="5-processturing-en-kpis--procesverbetering">5. Processturing en KPI’s → Procesverbetering<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>De <a href="/01-methode/03-pdm-templates/index.html">Processturing Master</a>, <a href="/01-methode/03-pdm-templates/index.html">KPI’s</a>, en <a href="/01-methode/03-pdm-templates/index.html">Procesdashboard</a> vormen de basis voor:
+<ul>
+<li><a href="/01-methode/03-pdm-templates/index.html">Procesreview</a></li>
+<li><a href="/01-methode/03-pdm-templates/index.html">Root Cause Analysis</a></li>
+<li><a href="/01-methode/03-pdm-templates/index.html">Procesverbeterplan</a></li>
+</ul>
+</li>
+</ul>
+<h5 id="6-procesdocumentatiebeheer--alle-templates">6. Procesdocumentatiebeheer → Alle Templates<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li><a href="/01-methode/03-pdm-templates/index.html">Wijzigingslog procesdocumentatie</a> en <a href="/01-methode/03-pdm-templates/index.html">Wijzigingsverzoek</a> zorgen voor gecontroleerde wijzigingen in:
+<ul>
+<li>Alle andere templates (versiebeheer, traceerbaarheid).</li>
+</ul>
+</li>
+</ul>
+<h4 id="toepassing-in-de-praktijk-voorbeeldtraject">Toepassing in de Praktijk: Voorbeeldtraject<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Hieronder een stapsgewijs voorbeeld van hoe de templates samenwerken in een procesverbeteringstraject voor Orderverwerking:</p>
+<h5 id="stap-1-processelectie">Stap 1: Processelectie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Gebruik de <a href="/01-methode/03-pdm-templates/index.html">Proceslandkaart</a> om het Orderverwerkingsproces te selecteren.</li>
+<li>Gebruik de <a href="/01-methode/03-pdm-templates/index.html">Proceshiërarchie</a> om het niveau (Level 2) te bepalen.</li>
+</ul>
+<h5 id="stap-2-procesdefinitie">Stap 2: Procesdefinitie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Vul de <a href="/01-methode/03-pdm-templates/index.html">Procesdoel Master</a> in om het doel en scope van Orderverwerking te definiëren.</li>
+<li>Vul de <a href="/01-methode/03-pdm-templates/index.html">Procesinput-output</a> in om input, output en transformatie te beschrijven.</li>
+</ul>
+<h5 id="stap-3-procesarchitectuur">Stap 3: Procesarchitectuur<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Gebruik de <a href="/01-methode/03-pdm-templates/index.html">Procesinteractie</a> om afhankelijkheden met andere processen (bijv. Logistiek, Facturatie) in kaart te brengen.</li>
+</ul>
+<h5 id="stap-4-informatieverzameling-optioneel-niet-in-directory-tree-maar-wel-relevant">Stap 4: Informatieverzameling <em>(optioneel, niet in directory tree maar wel relevant)</em><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Verzamel informatie via:
+<ul>
+<li>Interviews met Order Medewerkers, Proceseigenaar, IT-afdeling.</li>
+<li>Workshops om het proces gezamenlijk in kaart te brengen.</li>
+<li>Bestaande documentatie (Werkinstructies, Procesbeschrijvingen).</li>
+<li>Systemen en data (ERP, CRM) voor processtappen en doorlooptijden.</li>
+</ul>
+</li>
+</ul>
+<h5 id="stap-5-procesmodellering">Stap 5: Procesmodellering<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Maak een <a href="/01-methode/03-pdm-templates/index.html">BPMN-diagram</a> voor een gedetailleerde visuele weergave van het proces.</li>
+<li>Maak een <a href="/01-methode/03-pdm-templates/index.html">Swimlane-diagram</a> om verantwoordelijkheden per afdeling weer te geven.</li>
+<li>Maak een <a href="/01-methode/03-pdm-templates/index.html">Flowchart</a> voor een eenvoudige weergave voor training.</li>
+</ul>
+<h5 id="stap-6-procesuitwerking">Stap 6: Procesuitwerking<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Vul de <a href="/01-methode/03-pdm-templates/index.html">Procesbeschrijving</a> in met stappen, rollen en systemen.</li>
+<li>Vul de <a href="/01-methode/03-pdm-templates/index.html">Werkinstructie</a> in met stapsgewijze handleidingen voor Order Medewerkers.</li>
+<li>Vul de <a href="/01-methode/03-pdm-templates/index.html">Procesuitwerking Master</a> in met gedetailleerde uitwerking van het proces.</li>
+</ul>
+<h5 id="stap-7-rollen-en-verantwoordelijkheden">Stap 7: Rollen en Verantwoordelijkheden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Vul de <a href="/01-methode/03-pdm-templates/index.html">RACI-Matrix</a> in om verantwoordelijkheden per taak te definieren.</li>
+<li>Vul de <a href="/01-methode/03-pdm-templates/index.html">Procesrollen</a> in om rollen en competenties te beschrijven.</li>
+</ul>
+<h5 id="stap-8-processturing-en-kpis">Stap 8: Processturing en KPI’s<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Definieer <a href="/01-methode/03-pdm-templates/index.html">KPI’s</a> voor het meten van procesprestaties (bijv. doorlooptijd, foutpercentage).</li>
+<li>Vul de <a href="/01-methode/03-pdm-templates/index.html">KPI Definitie</a> in voor gedetailleerde KPI-beschrijvingen.</li>
+<li>Maak een <a href="/01-methode/03-pdm-templates/index.html">Procesdashboard</a> voor real-time monitoring van KPI’s.</li>
+</ul>
+<h5 id="stap-9-procesverbetering">Stap 9: Procesverbetering<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Voer een <a href="/01-methode/03-pdm-templates/index.html">Procesreview</a> uit om prestaties en knelpunten te evalueren.</li>
+<li>Voer een <a href="/01-methode/03-pdm-templates/index.html">Root Cause Analysis</a> uit om onderliggende oorzaken van knelpunten te identificeren.</li>
+<li>Stel een <a href="/01-methode/03-pdm-templates/index.html">Procesverbeterplan</a> op met concrete verbeteracties.</li>
+</ul>
+<h5 id="stap-10-wijzigingsbeheer">Stap 10: Wijzigingsbeheer<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<ul>
+<li>Dien een <a href="/01-methode/03-pdm-templates/index.html">Wijzigingsverzoek</a> in voor goedkeuring van verbeteringen.</li>
+<li>Gebruik het <a href="/01-methode/03-pdm-templates/index.html">Wijzigingslog procesdocumentatie</a> om wijzigingen gecontroleerd door te voeren.</li>
+<li>Valideer de gewijzigde documentatie met stakeholders.</li>
+</ul>
+<h4 id="tips-voor-gebruik">Tips voor Gebruik<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ol>
+<li>Volg de logische volgorde:   Begin met Procesarchitectuur (landkaart, hiërarchie) → Procesdefinitie (doel, input-output) → Procesmodellering → Procesuitwerking → Processturing → Procesverbetering.</li>
+<li>Combineer templates:   Gebruik bijvoorbeeld <a href="/01-methode/03-pdm-templates/index.html">Proceslandkaart</a> + <a href="/01-methode/03-pdm-templates/index.html">Proceshiërarchie</a> + <a href="/01-methode/03-pdm-templates/index.html">Procesinteractie</a> voor een compleet overzicht van processen.</li>
+<li>Houd documentatie actueel:   Gebruik <a href="/01-methode/03-pdm-templates/index.html">Wijzigingslog procesdocumentatie</a> en <a href="/01-methode/03-pdm-templates/index.html">Wijzigingsverzoek</a> om wijzigingen gecontroleerd door te voeren.</li>
+<li>Betrek stakeholders:   Zorg voor validatie met alle relevante partijen (bijv. via workshops of reviews).</li>
+<li>Gebruik visuele modellen:   <a href="/01-methode/03-pdm-templates/index.html">BPMN</a>, <a href="/01-methode/03-pdm-templates/index.html">Flowchart</a>, en <a href="/01-methode/03-pdm-templates/index.html">Swimlane</a> helpen bij communicatie en analyse.</li>
+<li>Meet en verbeter:   Gebruik <a href="/01-methode/03-pdm-templates/index.html">KPI’s</a>, <a href="/01-methode/03-pdm-templates/index.html">Procesdashboard</a>, en <a href="/01-methode/03-pdm-templates/index.html">Procesreview</a> voor continue verbetering.</li>
+</ol>
+<h4 id="samenvatting-hoe-de-templates-te-gebruiken">Samenvatting: Hoe de Templates te Gebruiken<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Stap</th>
+          <th>Categorie</th>
+          <th>Templates</th>
+          <th>Doel</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Procesarchitectuur</td>
+          <td>Proceslandkaart, Proceshiërarchie, Procesinteractie</td>
+          <td>Overzicht en structuur van processen.</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Procesdefinitie</td>
+          <td>Procesdoel Master, Procesinput-output</td>
+          <td>Doel, scope en context definieren.</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Procesmodellering</td>
+          <td>BPMN, Flowchart, Swimlane</td>
+          <td>Visuele weergave van processen.</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Procesuitwerking</td>
+          <td>Procesbeschrijving, Werkinstructie, Procesuitwerking Master</td>
+          <td>Gedetailleerde uitwerking.</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>Procesrollen</td>
+          <td>RACI-Matrix, Procesrollen</td>
+          <td>Verantwoordelijkheden en rollen definieren.</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>Processturing</td>
+          <td>Processturing Master, KPI’s, Procesdashboard, Procesreview</td>
+          <td>Sturen, meten en evalueren.</td>
+      </tr>
+      <tr>
+          <td>7</td>
+          <td>Procesverbetering</td>
+          <td>Procesverbetering Master, Root Cause Analysis, Procesverbeterplan</td>
+          <td>Analyseren en verbeteren.</td>
+      </tr>
+      <tr>
+          <td>8</td>
+          <td>Wijzigingsbeheer</td>
+          <td>Wijzigingslog, Wijzigingsverzoek</td>
+          <td>Gecontroleerde wijzigingen doorvoeren.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="zoekfunctie-en-navigatie">Zoekfunctie en Navigatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Om de templates makkelijk vindbaar te maken, kun je de volgende navigatiestructuur toepassen in je documentatiesysteem (bijv. Confluence, SharePoint):</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>PDM Templates/
+├── 01 Procesdocumentatiebeheer/
+│   ├── Wijzigingslog procesdocumentatie
+│   └── Wijzigingsverzoek
+├── 02 Procesarchitectuur/
+│   ├── Procesarchitectuur Master
+│   ├── Proceslandkaart
+│   ├── Proceshiërarchie
+│   ├── Procesinventarisatie
+│   └── Procesinteractie
+├── 03 Procesdoel/
+│   └── Procesdoel Master
+├── 04 Procescontext/
+│   ├── Procescontext Master
+│   └── Procesinput-output
+├── 05 Proceseigenschappen/
+│   ├── Proceseigenschappen Master
+│   └── Procesbegrippen
+├── 06 Procesmodellering/
+│   ├── Procesmodellering Master
+│   ├── BPMN
+│   ├── Flowchart
+│   └── Swimlane
+├── 07 Procesuitwerking/
+│   ├── Procesuitwerking Master
+│   ├── Procesbeschrijving
+│   ├── Werkinstructie
+│   ├── RACI-Matrix
+│   └── Procesrollen
+├── 08 Processturing/
+│   ├── Processturing Master
+│   ├── KPI’s
+│   ├── Procesdashboard
+│   ├── Procesreview
+│   └── KPI Definitie
+└── 09 Procesverbetering/
+    ├── Procesverbetering Master
+    ├── Root Cause Analysis
+    └── Procesverbeterplan</code></pre></div>
+<h4 id="laatste-opmerkingen">Laatste Opmerkingen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ul>
+<li>Consistentie: Zorg dat alle templates dezelfde stijl en opmaak hanteren (bijv. kleurcodes, lettertypes).</li>
+<li>Feedback: Vraag regelmatig feedback van gebruikers om templates te verbeteren.</li>
+<li>Training: Organiseer trainingssessies voor teams om de templates effectief te gebruiken.</li>
+<li>Integratie: Koppel de templates aan bestaande systemen (bijv. ERP, CRM, SharePoint).</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="parent " data-nav-id="/01-methode/index.html"><a class="padding default-animation" href="/01-methode/index.html">Methode</a><ul id="R-subsections-73c5657de716354a63503660a5152d83" class="collapsible-menu">
+            <li class="" data-nav-id="/01-methode/02-procesdocumentatiemodel/index.html"><a class="padding" href="/01-methode/02-procesdocumentatiemodel/index.html">Het Procesdocumentatiemodel</a></li>
+            <li class="active " data-nav-id="/01-methode/03-pdm-templates/index.html"><a class="padding" href="/01-methode/03-pdm-templates/index.html">PDM Templates</a></li>
+            <li class="" data-nav-id="/01-methode/04-bronnen-van-procesinformatie/index.html"><a class="padding" href="/01-methode/04-bronnen-van-procesinformatie/index.html">Bronnen van procesinformatie</a></li>
+            <li class="" data-nav-id="/01-methode/01.05-standaardinstrumenten/index.html"><a class="padding" href="/01-methode/01.05-standaardinstrumenten/index.html">De 12 Standaardinstrumenten voor de Procesdocumentalist</a></li></ul></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding default-animation" href="/05-procesdocument/index.html">Het procesdocument</a><ul id="R-subsections-5c49dcae193485065049068268687701" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over de Procesdocumentalist</a></li>
+            <li class="" data-nav-id="/10-artikelen/index.html"><a class="padding" href="/10-artikelen/index.html">Artikelen</a></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1776864881" defer></script>
+    <script src="/js/d3/d3-color.min.js?1776864881" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1776864881" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1776864881" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1776864881" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1776864881" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1776864881" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1776864881" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1776864881" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1776864881" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1776864881" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776864881" defer></script>
+    <script src="/js/theme.js?1776864881" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

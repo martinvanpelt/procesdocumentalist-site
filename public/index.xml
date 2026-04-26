@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>De Procesdocumentalist :: Proces Documentalist</title>
+    <link>http://localhost:1313/index.html</link>
+    <description>De Procesdocumentalist in één oogopslag&#xD;Een Procesdocumentalist is een specialist die processen analyseert, structureert en vastlegt zodat organisaties hun werk beter kunnen begrijpen, uitvoeren en verbeteren.&#xA;De Procesdocumentalist zorgt ervoor dat proceskennis:&#xA;begrijpelijk wordt vastgelegd consistent wordt gestructureerd toegankelijk blijft voor medewerkers onderhoudbaar blijft in de tijd De aanpak van de Procesdocumentalist&#xD;De Procesdocumentalist gebruikt een gestructureerde aanpak om procesinformatie uit de organisatie om te zetten in bruikbare procesdocumentatie.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Sat, 18 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aanpak</title>
+      <link>http://localhost:1313/01-aanpak/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/index.html</guid>
+      <description>Details&#xD;De methode van de Procesdocumentalist zet informatie uit de praktijk om in heldere en bruikbare procesdocumentatie. Procesinformatie wordt verzameld uit verschillende bronnen, gestructureerd met templates en uitgewerkt volgens het Procesdocumentatiemodel (PDM). Het resultaat is een procesdocument dat wordt gepubliceerd op een procesdocumentatieplatform en beschikbaar is voor de organisatie.&#xA;De methode van de Procesdocumentalist beschrijft hoe processen systematisch worden geanalyseerd, gestructureerd en vastgelegd. Het doel van de methode is om procesinformatie om te zetten in heldere, consistente en bruikbare procesdocumentatie.</description>
+    </item>
+    <item>
+      <title>Procesdocument</title>
+      <link>http://localhost:1313/05-procesdocument/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/05-procesdocument/index.html</guid>
+      <description>Wat is een procesdocument binnen het Procesdocumentatiemodel (PDM)? Hoe ontstaat het, welke rol speelt het, en hoe zorgt het voor begrijpelijke, bestuurbare en duurzame procesdocumentatie? Deze pagina legde eerst het conceptuele model uit, gevolgd door de concrete invulling en toepassing in de praktijk.</description>
+    </item>
+    <item>
+      <title>Procesdocumentatieplatform</title>
+      <link>http://localhost:1313/06-procesdocumentatieplatform/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/06-procesdocumentatieplatform/index.html</guid>
+      <description>Het procesdocumentatieplatform is de omgeving waarin procesdocumentatie wordt opgeslagen, beheerd en beschikbaar gesteld binnen de organisatie.</description>
+    </item>
+    <item>
+      <title>Voorbeeldproces</title>
+      <link>http://localhost:1313/07-voorbeeldproces/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/index.html</guid>
+      <description>Hoe ziet goede procesdocumentatie er in de praktijk uit?&#xA;Om dat te laten zien bevat deze website een volledig uitgewerkt voorbeeldproces. In dit voorbeeld wordt stap voor stap zichtbaar hoe een proces wordt vastgelegd met behulp van het Procesdocumentatiemodel (PDM).&#xA;Het voorbeeld laat niet alleen een procesdiagram zien, maar de volledige structuur van procesdocumentatie: van context en doel tot procesmodellering, sturing en verbetering.&#xA;Waarom een voorbeeldproces?&#xD;Procesdocumentatie wordt vaak beperkt tot een procesdiagram of een werkinstructie. Het Procesdocumentatiemodel gaat verder. Het beschrijft processen in hun volledige samenhang, zodat duidelijk wordt:</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/09-contact/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/09-contact/index.html</guid>
+      <description>Neem contact op met de Procesdocumentalist voor vragen, samenwerking of uitwisseling over het Procesdocumentatiemodel (PDM).</description>
+    </item>
+    <item>
+      <title>Over</title>
+      <link>http://localhost:1313/08-over/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/08-over/index.html</guid>
+      <description>Mijn verhaal, mijn visie en de aanleiding voor het ontwikkelen van het Procesdocumentatiemodel (PDM).</description>
+    </item>
+    <item>
+      <title>Artikelen</title>
+      <link>http://localhost:1313/10-artikelen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/10-artikelen/index.html</guid>
+      <description>Op deze pagina vindt u een verzameling artikelen over procesdocumentatie, procesarchitectuur en procesbeheer.&#xA;De artikelen zijn bedoeld voor iedereen die betrokken is bij het ontwerpen, documenteren, beheren of verbeteren van processen. Ze bieden praktische uitleg, achtergrondinformatie en concrete handvatten voor het opzetten en onderhouden van effectieve procesdocumentatie.&#xA;De onderwerpen variëren van basisconcepten tot praktische werkwijzen en organisatorische vraagstukken rondom procesbeheer.&#xA;Basisbegrippen&#xD;Wat is procesdocumentatie?&#xD;Een introductie in het concept procesdocumentatie. Dit artikel legt uit wat procesdocumentatie is, waarom organisaties het nodig hebben en welke rol het speelt bij het beheersen en verbeteren van bedrijfsprocessen.</description>
+    </item>
+    <item>
+      <title>7x Framework</title>
+      <link>http://localhost:1313/12-7x-framework/index.html</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/12-7x-framework/index.html</guid>
+      <description>Een end-to-end methodiek om innovaties en verbeterinitiatieven herhaalbaar, bestuurbaar en meetbaar van idee naar impact te brengen.</description>
+    </item>
+    <item>
+      <title>Hulpmiddelen</title>
+      <link>http://localhost:1313/11-gereedschapskist/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/11-gereedschapskist/index.html</guid>
+      <description>Gereedschap&#xD;Gereedschap&#xA;Checklists&#xD;Checklists</description>
+    </item>
+    <item>
+      <title>Sandbox</title>
+      <link>http://localhost:1313/sandbox/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sandbox/index.html</guid>
+      <description>test&#xA;Built with by Relearn and Hugo&#xA;Built with by Relearn and Hugo&#xA;:::info Processtappen Overzicht 01 Methode: De Analytische Cyclus Dit hoofdstuk beschrijft de stapsgewijze aanpak van procesanalyse. :::</description>
+    </item>
+  </channel>
+</rss>

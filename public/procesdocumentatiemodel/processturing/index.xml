@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Processturing :: Proces Documentalist</title>
+    <link>http://localhost:1313/procesdocumentatiemodel/processturing/index.html</link>
+    <description>Processturing: meten, analyseren en verbeteren van processen op basis van KPI’s.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/procesdocumentatiemodel/processturing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analyse</title>
+      <link>http://localhost:1313/procesdocumentatiemodel/processturing/analyse/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/procesdocumentatiemodel/processturing/analyse/index.html</guid>
+      <description>Analyse van procesdata om knelpunten, oorzaken en verbeterkansen te identificeren.</description>
+    </item>
+    <item>
+      <title>Verbeteracties</title>
+      <link>http://localhost:1313/procesdocumentatiemodel/processturing/verbeteracties/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/procesdocumentatiemodel/processturing/verbeteracties/index.html</guid>
+      <description>Verbeteracties: concrete maatregelen om processen efficiënter, betrouwbaarder en effectiever te maken.</description>
+    </item>
+    <item>
+      <title>KPI&#39;s en kwaliteitsborging</title>
+      <link>http://localhost:1313/procesdocumentatiemodel/processturing/kpis-en-kwaliteitsborging/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/procesdocumentatiemodel/processturing/kpis-en-kwaliteitsborging/index.html</guid>
+      <description>KPI&#39;s maken zichtbaar hoe goed processen presteren en ondersteunen continue verbetering.</description>
+    </item>
+  </channel>
+</rss>

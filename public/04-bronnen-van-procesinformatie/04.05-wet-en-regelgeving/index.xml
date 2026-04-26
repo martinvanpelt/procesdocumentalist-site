@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wet- en regelgeving :: Proces Documentalist</title>
+    <link>http://localhost:1313/04-bronnen-van-procesinformatie/04.05-wet-en-regelgeving/index.html</link>
+    <description>Doel: Het identificeren van alle externe of interne verplichte kaders die het proces moeten volgen. Dit zorgt voor Compliance Assurance.&#xA;Scope: Alle processen met directe invloed op de naleving (compliance) van wetten, sectorstandaarden of beleidsregels.&#xA;1. Procesdoel en Context&#xD;Doel: Het garanderen dat het proces voldoet aan alle geldende wettelijke en interne regelgeving, waardoor juridische risico’s worden geminimaliseerd. Contextuele Vraag: Welke wetten (AVG, Wftc, etc.) of sectorstandaarden zijn van toepassing op de data/acties die in dit proces plaatsvinden? 2. Analyse en Methodologie&#xD;Stap Actie Uitvoerder Output Artefact Identificatie Inventariseer alle relevante wetten, beleidsdocumenten en contractuele verplichtingen. Compliance Officer / Proceseigenaar Lijst van Verplichte Regels (Regelregister) Mapping Breng elke regel één-op-één in kaart met een specifieke stap of beslissing binnen het proces. Processanalist Compliance Matrix (Zie hieronder) Validatie Beoordeel de huidige processen op afwijkingen van deze regels en definieer corrigerende acties. Juridisch Adviseur / Proceseigenaar Risicoreport &amp; Aanbevelingen voor procesaanpassing 3. Output: De Compliance Matrix&#xD;De output is een gestructureerde matrix die de verplichting koppelt aan het processtadium en verantwoordelijkheid.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/04-bronnen-van-procesinformatie/04.05-wet-en-regelgeving/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

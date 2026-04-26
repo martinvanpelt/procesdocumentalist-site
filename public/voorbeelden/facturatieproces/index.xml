@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Facturatieproces :: Proces Documentalist</title>
+    <link>http://localhost:1313/voorbeelden/facturatieproces/index.html</link>
+    <description>Dit voorbeeld laat zien hoe procesdocumentatie kan worden opgebouwd.&#xA;De documentatie bestaat uit:&#xA;procesarchitectuur procesmodellering procesdocumentatie processturing Disclaimer&#xD;De voorbeelden op deze website zijn fictieve of geanonimiseerde illustraties van procesdocumentatie. Ze zijn bedoeld om de werkwijze en documentatiestructuur te demonstreren en bevatten geen informatie van opdrachtgevers of werkgevers.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/voorbeelden/facturatieproces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesarchitectuur</title>
+      <link>http://localhost:1313/voorbeelden/facturatieproces/procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeelden/facturatieproces/procesarchitectuur/index.html</guid>
+      <description>Doel: Facturen correct en tijdig versturen en betalingen opvolgen.&#xA;Scope: Van orderverwerking / dienstlevering tot betaling&#xA;Hoofdproces: Finance&#xA;Subprocessen: Factuur aanmaken, Verzenden, Betaling opvolgen, Incasseren&#xA;Rollen: Finance, Sales, Klant</description>
+    </item>
+    <item>
+      <title>Procesdocumentatie</title>
+      <link>http://localhost:1313/voorbeelden/facturatieproces/procesdocumentatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeelden/facturatieproces/procesdocumentatie/index.html</guid>
+      <description>Stap Beschrijving Rollen Input Output Factuur aanmaken Genereren van factuur op basis van order of dienst Finance Ordergegevens / Dienstregistratie Conceptfactuur Factuur controleren Controleren op juistheid en volledigheid Finance Conceptfactuur Goedgekeurde factuur Factuur verzenden Versturen naar klant Finance Goedgekeurde factuur Verzonden factuur Betaling opvolgen Monitoren van betalingstermijnen Finance Verzonden factuur Openstaande posten Incasseren bij achterstand Sturen van herinneringen / incasso Finance Openstaande posten Betaalde factuur</description>
+    </item>
+    <item>
+      <title>Procesmodellering</title>
+      <link>http://localhost:1313/voorbeelden/facturatieproces/procesmodellering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeelden/facturatieproces/procesmodellering/index.html</guid>
+      <description>flowchart LR&#xD;A[Factuur aanmaken] --&gt; B[Factuur controleren]&#xD;B --&gt; C[Factuur verzenden]&#xD;C --&gt; D[Betaling opvolgen]&#xD;D --&gt; E[Incasseren bij achterstand]</description>
+    </item>
+    <item>
+      <title>Processturing</title>
+      <link>http://localhost:1313/voorbeelden/facturatieproces/processturing/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeelden/facturatieproces/processturing/index.html</guid>
+      <description>KPI’s:&#xA;Doorlooptijd facturatie (aanmaak → verzonden) Percentage tijdige betalingen Aantal fouten in facturen Analyse: Overzicht openstaande posten, betalingsachterstanden&#xA;Verbeteracties: Automatiseren van facturatie, integratie met ERP, betalingsherinneringen optimaliseren</description>
+    </item>
+  </channel>
+</rss>

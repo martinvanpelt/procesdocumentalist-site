@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesarchitectuur :: Proces Documentalist</title>
+    <link>http://localhost:1313/07-voorbeeldproces/07.02-procesarchitectuur/index.html</link>
+    <description>Processen&#xA;2.1 Procesarchitectuur Master 2.2 Proceslandkaart 2.3 Proceshiërarchie 2.4 Procesinventarisatie 2.5 Procesinteractie</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/07-voorbeeldproces/07.02-procesarchitectuur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesarchitectuur</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.02-procesarchitectuur/2.1-procesarchitectuur-master/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.02-procesarchitectuur/2.1-procesarchitectuur-master/index.html</guid>
+      <description>Architectuur van alle processen binnen TelecomPro B.V., inclusief categorisatie, relaties, en governance.</description>
+    </item>
+    <item>
+      <title>Proceslandkaart</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.02-procesarchitectuur/2.2-proceslandkaart/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.02-procesarchitectuur/2.2-proceslandkaart/index.html</guid>
+      <description>Visuele weergave van alle processen binnen TelecomPro B.V., inclusief relaties en domeinen.</description>
+    </item>
+    <item>
+      <title>Proceshiërarchie</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.02-procesarchitectuur/2.3-proceshi%C3%ABrarchie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.02-procesarchitectuur/2.3-proceshi%C3%ABrarchie/index.html</guid>
+      <description>Hiërarchische structuur van processen binnen TelecomPro B.V., inclusief niveaus en relaties.</description>
+    </item>
+    <item>
+      <title>Procesinventarisatie</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.02-procesarchitectuur/2.4-procesinventarisatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.02-procesarchitectuur/2.4-procesinventarisatie/index.html</guid>
+      <description>Inventarisatie van alle processen binnen TelecomPro B.V., inclusief metadata en status.</description>
+    </item>
+    <item>
+      <title>Procesinteractie</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.02-procesarchitectuur/2.5-procesinteractie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.02-procesarchitectuur/2.5-procesinteractie/index.html</guid>
+      <description>Interacties en afhankelijkheden tussen processen binnen TelecomPro B.V.</description>
+    </item>
+  </channel>
+</rss>

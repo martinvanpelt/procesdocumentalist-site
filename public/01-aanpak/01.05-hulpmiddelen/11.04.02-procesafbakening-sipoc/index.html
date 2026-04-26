@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="Procesafbakening is het snel en helder definiëren van de grenzen van een specifiek proces door de externe relaties (leveranciers, inputs, outputs, klanten) in kaart te brengen. SIPOC (Suppliers, Inputs, Process, Outputs, Customers) zorgt voor:
+Duidelijke scope: Wat hoort wel/niet bij het proces? Afhankelijkheden inzichtelijk: Wie of wat beïnvloedt het proces? Focus op waarde: Welke inputs en outputs zijn kritisch voor de klant? Basis voor verdere analyse: SIPOC is vaak de eerste stap in procesverbetering (bijv. Lean Six Sigma DMAIC). Waarom SIPOC?Efficiëntie: Voorkomt “scope creep” door heldere grenzen te stellen. Communicatie: Maakt complexiteit begrijpelijk voor alle stakeholders (van uitvoerend team tot management). Risicomanagement: Identificeert externe afhankelijkheden die het proces kunnen verstoren. Compliance: Helpt bij het voldoen aan normen (bijv. ISO 9001) door procesgrenzen te documenteren. Stappenplan voor SIPOC1. VoorbereidingDoel: Zorg voor een gestructureerde aanpak voordat je begint met de afbakening.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="Procesafbakening is het snel en helder definiëren van de grenzen van een specifiek proces door de externe relaties (leveranciers, inputs, outputs, klanten) in kaart te brengen. SIPOC (Suppliers, Inputs, Process, Outputs, Customers) zorgt voor:
+Duidelijke scope: Wat hoort wel/niet bij het proces? Afhankelijkheden inzichtelijk: Wie of wat beïnvloedt het proces? Focus op waarde: Welke inputs en outputs zijn kritisch voor de klant? Basis voor verdere analyse: SIPOC is vaak de eerste stap in procesverbetering (bijv. Lean Six Sigma DMAIC). Waarom SIPOC?Efficiëntie: Voorkomt “scope creep” door heldere grenzen te stellen. Communicatie: Maakt complexiteit begrijpelijk voor alle stakeholders (van uitvoerend team tot management). Risicomanagement: Identificeert externe afhankelijkheden die het proces kunnen verstoren. Compliance: Helpt bij het voldoen aan normen (bijv. ISO 9001) door procesgrenzen te documenteren. Stappenplan voor SIPOC1. VoorbereidingDoel: Zorg voor een gestructureerde aanpak voordat je begint met de afbakening.">
+    <meta property="og:url" content="http://localhost:1313/01-aanpak/01.05-hulpmiddelen/11.04.02-procesafbakening-sipoc/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:description" content="Procesafbakening is het snel en helder definiëren van de grenzen van een specifiek proces door de externe relaties (leveranciers, inputs, outputs, klanten) in kaart te brengen. SIPOC (Suppliers, Inputs, Process, Outputs, Customers) zorgt voor:
+Duidelijke scope: Wat hoort wel/niet bij het proces? Afhankelijkheden inzichtelijk: Wie of wat beïnvloedt het proces? Focus op waarde: Welke inputs en outputs zijn kritisch voor de klant? Basis voor verdere analyse: SIPOC is vaak de eerste stap in procesverbetering (bijv. Lean Six Sigma DMAIC). Waarom SIPOC?Efficiëntie: Voorkomt “scope creep” door heldere grenzen te stellen. Communicatie: Maakt complexiteit begrijpelijk voor alle stakeholders (van uitvoerend team tot management). Risicomanagement: Identificeert externe afhankelijkheden die het proces kunnen verstoren. Compliance: Helpt bij het voldoen aan normen (bijv. ISO 9001) door procesgrenzen te documenteren. Stappenplan voor SIPOC1. VoorbereidingDoel: Zorg voor een gestructureerde aanpak voordat je begint met de afbakening.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Aanpak">
+    <meta itemprop="description" content="Procesafbakening is het snel en helder definiëren van de grenzen van een specifiek proces door de externe relaties (leveranciers, inputs, outputs, klanten) in kaart te brengen. SIPOC (Suppliers, Inputs, Process, Outputs, Customers) zorgt voor:
+Duidelijke scope: Wat hoort wel/niet bij het proces? Afhankelijkheden inzichtelijk: Wie of wat beïnvloedt het proces? Focus op waarde: Welke inputs en outputs zijn kritisch voor de klant? Basis voor verdere analyse: SIPOC is vaak de eerste stap in procesverbetering (bijv. Lean Six Sigma DMAIC). Waarom SIPOC?Efficiëntie: Voorkomt “scope creep” door heldere grenzen te stellen. Communicatie: Maakt complexiteit begrijpelijk voor alle stakeholders (van uitvoerend team tot management). Risicomanagement: Identificeert externe afhankelijkheden die het proces kunnen verstoren. Compliance: Helpt bij het voldoen aan normen (bijv. ISO 9001) door procesgrenzen te documenteren. Stappenplan voor SIPOC1. VoorbereidingDoel: Zorg voor een gestructureerde aanpak voordat je begint met de afbakening.">
+    <meta itemprop="wordCount" content="1163">
+    <title></title>
+    <link href="/images/favicon.svg?1777194855" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1777194855" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1777194855" defer></script>
+    <script src="/js/search-lunr.js?1777194855" defer></script>
+    <script src="/js/search.js?1777194855" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1777194855";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1777194855" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1777194855" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1777194855" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1777194855" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1777194855" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1777194855" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1777194855" rel="stylesheet">
+    <link href="/css/theme.css?1777194855" rel="stylesheet">
+    <link href="/css/format-html.css?1777194855" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/01-aanpak\/01.05-hulpmiddelen\/11.04.02-procesafbakening-sipoc\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-light', 'relearn-dark', 'auto' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1777194855" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/01-aanpak/01.05-hulpmiddelen/11.04.02-procesafbakening-sipoc/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/01-aanpak/index.html"><span itemprop="name">Aanpak</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/01-aanpak/01.05-hulpmiddelen/index.html"><span itemprop="name">Hulpmiddelen</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/01-aanpak/01.05-hulpmiddelen/index.html" title="Hulpmiddelen (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/05-procesdocument/index.html" title="Procesdocument (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 01-aanpak" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id=""></h1>
+
+<p>Procesafbakening is het snel en helder definiëren van de grenzen van een specifiek proces door de externe relaties (leveranciers, inputs, outputs, klanten) in kaart te brengen. SIPOC (Suppliers, Inputs, Process, Outputs, Customers) zorgt voor:</p>
+<ul>
+<li>Duidelijke scope: Wat hoort wel/niet bij het proces?</li>
+<li>Afhankelijkheden inzichtelijk: Wie of wat beïnvloedt het proces?</li>
+<li>Focus op waarde: Welke inputs en outputs zijn kritisch voor de klant?</li>
+<li>Basis voor verdere analyse: SIPOC is vaak de eerste stap in procesverbetering (bijv. Lean Six Sigma DMAIC).</li>
+</ul>
+<h4 id="waarom-sipoc">Waarom SIPOC?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ul>
+<li>Efficiëntie: Voorkomt &ldquo;scope creep&rdquo; door heldere grenzen te stellen.</li>
+<li>Communicatie: Maakt complexiteit begrijpelijk voor alle stakeholders (van uitvoerend team tot management).</li>
+<li>Risicomanagement: Identificeert externe afhankelijkheden die het proces kunnen verstoren.</li>
+<li>Compliance: Helpt bij het voldoen aan normen (bijv. ISO 9001) door procesgrenzen te documenteren.</li>
+</ul>
+<h4 id="stappenplan-voor-sipoc">Stappenplan voor SIPOC<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="1-voorbereiding">1. Voorbereiding<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Zorg voor een gestructureerde aanpak voordat je begint met de afbakening.</p>
+<p>Activiteiten:</p>
+<ul>
+<li>Proces selecteren: Kies een specifiek proces (bijv. &ldquo;Orderverwerking&rdquo; in plaats van &ldquo;Verkoop&rdquo;).</li>
+<li>Team samenstellen: Betrek:
+<ul>
+<li>Proceseigenaar: Verantwoordelijk voor het proces.</li>
+<li>Uitvoerders: Medewerkers die het proces dagelijks uitvoeren.</li>
+<li>Klanten: Interne/externe ontvangers van de output.</li>
+<li>Leveranciers: Externe partijen die inputs leveren.</li>
+</ul>
+</li>
+<li>Doel definieren: Wat wil je bereiken met de SIPOC? (Bijv. &ldquo;Scope bepalen voor een Lean-project&rdquo; of &ldquo;Afhankelijkheden in kaart brengen voor automatisering&rdquo;).</li>
+</ul>
+
+<details open class="box cstyle notices tip">
+  <summary class="box-label" tabindex="-1">
+    <i class="fa-fw fas fa-lightbulb"></i> 
+    Tip
+  </summary>
+  <div class="box-content">
+<p>Gebruik een workshop met stakeholders om consensus te bereiken over de scope.</p>
+  </div>
+</details>
+<h5 id="2-suppliers-leveranciers">2. Suppliers (Leveranciers)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Identificeer alle entiteiten die inputs leveren voor het proces.</p>
+<p>Focusvraagstelling:</p>
+<ul>
+<li>Welke externe partijen (bijv. leveranciers, klanten, andere afdelingen) zijn cruciaal voor het starten van dit proces?</li>
+<li>Welke systemen (bijv. ERP, CRM) of databronnen (bijv. databases, Excel-bestanden) leveren data?</li>
+<li>Wie zijn de interne leveranciers (bijv. andere teams binnen de organisatie)?</li>
+</ul>
+<p>Activiteiten:</p>
+<ul>
+<li>Maak een lijst van alle leveranciers, inclusief:
+<ul>
+<li>Naam van de leverancier.</li>
+<li>Type input dat ze leveren (bijv. &ldquo;Ordergegevens&rdquo;, &ldquo;Grondstoffen&rdquo;).</li>
+<li>Kritikaliteit: Hoe essentieel is deze leverancier? (Bijv. &ldquo;Hoog: zonder deze input stopt het proces&rdquo;).</li>
+</ul>
+</li>
+</ul>
+<p>Resultaat:</p>
+<ul>
+<li>Lijst van kritieke externe afhankelijkheden, gesorteerd op prioriteit.</li>
+</ul>
+<p>Voorbeeld:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Leverancier</th>
+          <th>Type Input</th>
+          <th>Kritikaliteit</th>
+          <th>Opmerkingen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Klant</td>
+          <td>Orderverzoek</td>
+          <td>Hoog</td>
+          <td>Starttrigger voor het proces</td>
+      </tr>
+      <tr>
+          <td>Inkoopafdeling</td>
+          <td>Grondstoffen</td>
+          <td>Hoog</td>
+          <td>Nodig voor productie</td>
+      </tr>
+      <tr>
+          <td>ERP-systeem</td>
+          <td>Klantgegevens</td>
+          <td>Middel</td>
+          <td>Gebruikt voor facturatie</td>
+      </tr>
+      <tr>
+          <td>Externe logistiek</td>
+          <td>Transportcapaciteit</td>
+          <td>Hoog</td>
+          <td>Afhankelijk van levertermijnen</td>
+      </tr>
+  </tbody>
+</table>
+<p>Controlepunt:</p>
+<ul>
+<li>Zijn alle leveranciers traceerbaar (bijv. contactpersoon, contractnummer)?</li>
+<li>Zijn er verborgen leveranciers (bijv. informele afspraken met andere afdelingen)?</li>
+</ul>
+<h5 id="3-inputs-inputs">3. Inputs (Inputs)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Bepaal wat nodig is om het proces te starten.</p>
+<p>Focusvraagstelling:</p>
+<ul>
+<li>Welke gegevens, materialen of informatie zijn vereist?</li>
+<li>Wat is de minimale set aan inputs om het proces uit te voeren?</li>
+<li>Welke kwaliteitseisen gelden voor de inputs? (Bijv. &ldquo;Order moet goedgekeurd zijn&rdquo;, &ldquo;Data moet valide zijn&rdquo;).</li>
+</ul>
+<p>Activiteiten:</p>
+<ul>
+<li>Categoriseer inputs:
+<ul>
+<li>Fysiek: Materialen, producten.</li>
+<li>Digitaal: Data, documenten, e-mails.</li>
+<li>Menselijk: Kennis, vaardigheden, goedkeuringen.</li>
+</ul>
+</li>
+<li>Valideer inputs: Zorg dat inputs meetbaar zijn (bijv. &ldquo;Ordernummer moet uniek zijn&rdquo;).</li>
+</ul>
+<p>Resultaat:</p>
+<ul>
+<li>Gedefinieerde inputvariabelen met kwaliteitseisen.</li>
+</ul>
+<p>Voorbeeld:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Input</th>
+          <th>Type</th>
+          <th>Kwaliteitseis</th>
+          <th>Leverancier</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Orderbevestiging</td>
+          <td>Digitaal</td>
+          <td>Handtekening klant vereist</td>
+          <td>Klant</td>
+      </tr>
+      <tr>
+          <td>Grondstoffen</td>
+          <td>Fysiek</td>
+          <td>Certificaat van kwaliteit</td>
+          <td>Leverancier X</td>
+      </tr>
+      <tr>
+          <td>Klantgegevens</td>
+          <td>Digitaal</td>
+          <td>Volledig en up-to-date</td>
+          <td>ERP-systeem</td>
+      </tr>
+  </tbody>
+</table>
+<p>Controlepunt:</p>
+<ul>
+<li>Zijn de inputs volledig (geen ontbrekende gegevens)?</li>
+<li>Zijn de kwaliteitseisen meetbaar en realistisch?</li>
+</ul>
+<h5 id="4-process-proces">4. Process (Proces)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Definieer de kernactiviteiten die inputs omzetten in outputs.</p>
+<p>Focusvraagstelling:</p>
+<ul>
+<li>Welke stappen zijn essentieel om het doel te bereiken?</li>
+<li>Welke beslismomenten (bijv. goedkeuringen, keuzes) zijn er?</li>
+<li>Wie is verantwoordelijk voor elke stap?</li>
+</ul>
+<p>Activiteiten:</p>
+<ul>
+<li>Processtappen opsommen:
+<ul>
+<li>Gebruik werkwoorden (bijv. &ldquo;Ontvangen&rdquo;, &ldquo;Valideren&rdquo;, &ldquo;Verwerken&rdquo;).</li>
+<li>Voeg doorlooptijden toe (bijv. &ldquo;Stap 1: 2 uur&rdquo;).</li>
+</ul>
+</li>
+<li>Grenzen bepalen:
+<ul>
+<li>Startpunt: Wanneer begint het proces? (Bijv. &ldquo;Bij ontvangst orderbevestiging&rdquo;).</li>
+<li>Eindpunt: Wanneer stopt het proces? (Bijv. &ldquo;Bij verzending factuur&rdquo;).</li>
+</ul>
+</li>
+</ul>
+<p>Resultaat:</p>
+<ul>
+<li>Definitie van de procesgrenzen, inclusief:
+<ul>
+<li>Stappen in chronologische volgorde.</li>
+<li>Verantwoordelijke per stap.</li>
+<li>Doorlooptijd per stap.</li>
+</ul>
+</li>
+</ul>
+<p>Voorbeeld:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Stap</th>
+          <th>Activiteit</th>
+          <th>Verantwoordelijke</th>
+          <th>Doorlooptijd</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Order ontvangen</td>
+          <td>Verkoopteam</td>
+          <td>1 uur</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Order valideren</td>
+          <td>Logistiek</td>
+          <td>30 minuten</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Grondstoffen bestellen</td>
+          <td>Inkoop</td>
+          <td>2 uur</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Productie plannen</td>
+          <td>Productie</td>
+          <td>1 dag</td>
+      </tr>
+  </tbody>
+</table>
+<p>Controlepunt:</p>
+<ul>
+<li>Zijn de stappen logisch en volledig?</li>
+<li>Zijn de verantwoordelijkheden duidelijk toegekend?</li>
+</ul>
+
+<details open class="box cstyle notices tip">
+  <summary class="box-label" tabindex="-1">
+    <i class="fa-fw fas fa-lightbulb"></i> 
+    Tip
+  </summary>
+  <div class="box-content">
+<p>Gebruik een swimlane-diagram (in BPMN) om verantwoordelijkheden per afdeling visueel te maken.</p>
+  </div>
+</details>
+<h5 id="5-outputs-outputs">5. Outputs (Outputs)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Bepaal wat het proces oplevert.</p>
+<p>Focusvraagstelling:</p>
+<ul>
+<li>Welk meetbaar resultaat moet gegenereerd worden?</li>
+<li>Wie gebruikt de output?</li>
+<li>Welke kwaliteitseisen gelden voor de output? (Bijv. &ldquo;Factuur moet foutloos zijn&rdquo;).</li>
+</ul>
+<p>Activiteiten:</p>
+<ul>
+<li>Categoriseer outputs:
+<ul>
+<li>Fysiek: Producten, documenten.</li>
+<li>Digitaal: Rapporten, databestanden.</li>
+<li>Diensten: Ondersteuning, advies.</li>
+</ul>
+</li>
+<li>Valideer outputs: Zorg dat outputs meetbaar zijn (bijv. &ldquo;Factuur moet binnen 24 uur verzonden zijn&rdquo;).</li>
+</ul>
+<p>Resultaat:</p>
+<ul>
+<li>Gedefinieerde outputcriteria en -eenheden.</li>
+</ul>
+<p>Voorbeeld:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Output</th>
+          <th>Type</th>
+          <th>Kwaliteitseis</th>
+          <th>Ontvanger</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Factuur</td>
+          <td>Digitaal</td>
+          <td>Foutloos, PDF-formaat</td>
+          <td>Klant</td>
+      </tr>
+      <tr>
+          <td>Product</td>
+          <td>Fysiek</td>
+          <td>Voldoet aan specificaties</td>
+          <td>Magazijn</td>
+      </tr>
+      <tr>
+          <td>Rapportage</td>
+          <td>Digitaal</td>
+          <td>Wekelijks, per e-mail</td>
+          <td>Management</td>
+      </tr>
+  </tbody>
+</table>
+<p>Controlepunt:</p>
+<ul>
+<li>Zijn de outputs afgestemd op de behoeften van de klant?</li>
+<li>Zijn de kwaliteitseisen meetbaar?</li>
+</ul>
+<h5 id="6-customers-klanten">6. Customers (Klanten)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<p>Doel: Identificeer wie de output ontvangt en wat hun behoeften zijn.</p>
+<p>Focusvraagstelling:</p>
+<ul>
+<li>Wie zijn de interne/externe ontvangers van het eindresultaat?</li>
+<li>Wat zijn de behoeften van de klant? (Bijv. &ldquo;Snelle levering&rdquo;, &ldquo;Nauwkeurige facturatie&rdquo;).</li>
+<li>Hoe wordt de output gebruikt?</li>
+</ul>
+<p>Activiteiten:</p>
+<ul>
+<li>Klanten opsommen:
+<ul>
+<li>Extern: Eindklanten, partners.</li>
+<li>Intern: Andere afdelingen, management.</li>
+</ul>
+</li>
+<li>Behoeften analyseren:
+<ul>
+<li>Voer interviews of enquêtes uit om klantbehoeften te achterhalen.</li>
+</ul>
+</li>
+</ul>
+<p>Resultaat:</p>
+<ul>
+<li>Definitie van de klantbehoeften die het proces moet vervullen.</li>
+</ul>
+<p>Voorbeeld:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Klant</th>
+          <th>Type</th>
+          <th>Behoefte</th>
+          <th>Gebruik Output</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Eindklant</td>
+          <td>Extern</td>
+          <td>Snelle levering</td>
+          <td>Ontvangt product</td>
+      </tr>
+      <tr>
+          <td>Financiële Afdeling</td>
+          <td>Intern</td>
+          <td>Nauwkeurige facturatie</td>
+          <td>Verwerkt factuur</td>
+      </tr>
+      <tr>
+          <td>Management</td>
+          <td>Intern</td>
+          <td>Inzicht in procesprestaties</td>
+          <td>Gebruikt rapportage</td>
+      </tr>
+  </tbody>
+</table>
+<p>Controlepunt:</p>
+<ul>
+<li>Zijn alle klanten geïdentificeerd?</li>
+<li>Zijn de behoeften specifiek en meetbaar?</li>
+</ul>
+<h4 id="sipoc-in-de-praktijk-voorbeeld">SIPOC in de praktijk: Voorbeeld<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Hieronder een volledig SIPOC-diagram voor het proces &ldquo;Orderverwerking&rdquo;:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Element</th>
+          <th>Beschrijving</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Suppliers</td>
+          <td>Klant (orderverzoek), Inkoop (grondstoffen), ERP-systeem (klantgegevens)</td>
+      </tr>
+      <tr>
+          <td>Inputs</td>
+          <td>Orderbevestiging (digitaal, handtekening vereist), Grondstoffen (fysiek, gecertificeerd), Klantgegevens (digitaal, up-to-date)</td>
+      </tr>
+      <tr>
+          <td>Process</td>
+          <td>1. Order ontvangen (Verkoopteam, 1 uur) → 2. Order valideren (Logistiek, 30 min) → 3. Grondstoffen bestellen (Inkoop, 2 uur) → 4. Productie plannen (Productie, 1 dag)</td>
+      </tr>
+      <tr>
+          <td>Outputs</td>
+          <td>Factuur (digitaal, foutloos), Product (fysiek, voldoet aan specificaties)</td>
+      </tr>
+      <tr>
+          <td>Customers</td>
+          <td>Eindklant (ontvangt product), Financiële Afdeling (verwerkt factuur)</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="visuele-weergave-tekstueel">Visuele weergave (tekstueel)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h4 id="tips-voor-een-effectieve-sipoc">Tips voor een effectieve SIPOC<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ol>
+<li>Houd het simpel: SIPOC is een high-level overzicht. Detail komt later (bijv. in BPMN-diagrammen).</li>
+<li>Betrek stakeholders: Zorg voor consensus over de scope en afbakening.</li>
+<li>Valideer met data: Gebruik procesmetingen (bijv. doorlooptijden, foutpercentages) om de SIPOC te onderbouwen.</li>
+<li>Koppel aan doelen: Zorg dat de outputs bijdragen aan de organisatiedoelen (bijv. klanttevredenheid, efficiëntie).</li>
+<li>Gebruik templates: Werk met een standaard SIPOC-sjabloon (bijv. in Excel of Miro) voor consistentie.</li>
+</ol>
+<h4 id="veelgemaakte-valkuilen">Veelgemaakte valkuilen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ol>
+<li>Te gedetailleerd: SIPOC is geen gedetailleerd procesdiagram. Blijf op hoog niveau.</li>
+<li>Vergeten leveranciers/klanten: Zorg dat alle externe partijen zijn meegenomen.</li>
+<li>Onduidelijke grenzen: Zorg voor heldere start- en eindpunten van het proces.</li>
+<li>Geen validatie: Laat de SIPOC reviewen door proceseigenaren en klanten.</li>
+<li>Statisch document: SIPOC is een levend document. Update het regelmatig (bijv. bij proceswijzigingen).</li>
+</ol>
+<h4 id="tools-en-templates">Tools en Templates<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ul>
+<li>SIPOC-sjabloon:<br>
+Download hier een Excel- of Word-sjabloon voor SIPOC.</li>
+<li>Visuele tools:
+<ul>
+<li>Lucidchart of Miro voor interactieve SIPOC-diagrammen.</li>
+<li>BPMN (in tools zoals Camunda) voor gedetailleerdere procesmodellering.</li>
+</ul>
+</li>
+<li>Collaboratief:<br>
+Werk samen in Confluence of Notion voor real-time afstemming.</li>
+</ul>
+<h4 id="vervolgstappen">Vervolgstappen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Na de SIPOC:</p>
+<ol>
+<li>Detailanalyse: Gebruik de SIPOC als basis voor:
+<ul>
+<li>BPMN-diagrammen (voor gedetailleerde processtappen).</li>
+<li>Swimlane-diagrammen (voor verantwoordelijkheden per afdeling).</li>
+<li>Value Stream Mapping (voor Lean Six Sigma-projecten).</li>
+</ul>
+</li>
+<li>Validatie: Laat de SIPOC reviewen door alle stakeholders.</li>
+<li>Integratie: Koppel de SIPOC aan andere documentatie (bijv. werkinstructies, KPI’s).</li>
+</ol>
+<h4 id="sipoc-vs-andere-methoden">SIPOC vs. andere methoden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Methode</th>
+          <th>Doel</th>
+          <th>Detailniveau</th>
+          <th>Wanneer gebruiken?</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>SIPOC</td>
+          <td>Procesgrenzen afbakenen</td>
+          <td>Hoog</td>
+          <td>Begin van een procesverbeterproject</td>
+      </tr>
+      <tr>
+          <td>BPMN</td>
+          <td>Gedetailleerde processtappen</td>
+          <td>Laag</td>
+          <td>Na SIPOC, voor implementatie</td>
+      </tr>
+      <tr>
+          <td>Value Stream Map</td>
+          <td>Waardestroom analyseren</td>
+          <td>Middel</td>
+          <td>Lean Six Sigma-projecten</td>
+      </tr>
+      <tr>
+          <td>Swimlane</td>
+          <td>Verantwoordelijkheden in kaart brengen</td>
+          <td>Middel</td>
+          <td>Cross-functionele processen</td>
+      </tr>
+  </tbody>
+</table>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark relearn-light">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="parent " data-nav-id="/01-aanpak/index.html"><a class="padding default-animation" href="/01-aanpak/index.html">Aanpak</a><ul id="R-subsections-eef63c732ca8e67c3fdd6cbe13906dc2" class="collapsible-menu">
+            <li class="parent hidden alwaysopen " data-nav-id="/01-aanpak/01.05-hulpmiddelen/index.html"><a class="padding default-animation" href="/01-aanpak/01.05-hulpmiddelen/index.html">Hulpmiddelen</a><ul id="R-subsections-d21cba5e517babe9895b836c09b5a5f9" class="collapsible-menu">
+            <li class="active hidden " data-nav-id="/01-aanpak/01.05-hulpmiddelen/11.04.02-procesafbakening-sipoc/index.html"><a class="padding" href="/01-aanpak/01.05-hulpmiddelen/11.04.02-procesafbakening-sipoc/index.html"></a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding" href="/05-procesdocument/index.html">Procesdocument</a></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over</a></li>
+            <li class="" data-nav-id="/10-artikelen/index.html"><a class="padding" href="/10-artikelen/index.html">Artikelen</a></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-light" value="relearn-light" selected>Relearn Light</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="R-select-variant-auto" value="auto">Auto</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1777194855" defer></script>
+    <script src="/js/d3/d3-color.min.js?1777194855" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1777194855" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1777194855" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1777194855" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1777194855" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1777194855" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1777194855" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1777194855" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1777194855" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1777194855" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1777194855" defer></script>
+    <script src="/js/theme.js?1777194855" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

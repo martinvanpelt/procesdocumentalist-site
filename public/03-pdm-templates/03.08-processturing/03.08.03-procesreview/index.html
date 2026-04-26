@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Template voor het uitvoeren van gestructureerde procesreviews, inclusief KPI-prestaties, bevindingen, verbeteracties en follow-up.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Procesreview :: Proces Documentalist">
+    <meta name="twitter:description" content="Template voor het uitvoeren van gestructureerde procesreviews, inclusief KPI-prestaties, bevindingen, verbeteracties en follow-up.">
+    <meta property="og:url" content="http://localhost:1313/03-pdm-templates/03.08-processturing/03.08.03-procesreview/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="Procesreview :: Proces Documentalist">
+    <meta property="og:description" content="Template voor het uitvoeren van gestructureerde procesreviews, inclusief KPI-prestaties, bevindingen, verbeteracties en follow-up.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="PDM Templates">
+    <meta property="article:tag" content="Processturing">
+    <meta property="article:tag" content="Template">
+    <meta property="article:tag" content="Procesreview">
+    <meta property="article:tag" content="Continue Verbetering">
+    <meta property="article:tag" content="7x Framework">
+    <meta property="article:tag" content="Lean Six Sigma">
+    <meta itemprop="name" content="Procesreview :: Proces Documentalist">
+    <meta itemprop="description" content="Template voor het uitvoeren van gestructureerde procesreviews, inclusief KPI-prestaties, bevindingen, verbeteracties en follow-up.">
+    <meta itemprop="wordCount" content="1981">
+    <meta itemprop="keywords" content="Processturing,Template,Procesreview,Continue Verbetering,7x Framework,Lean Six Sigma">
+    <title>Procesreview :: Proces Documentalist</title>
+    <link href="/images/favicon.svg?1776863172" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1776863172" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776863172" defer></script>
+    <script src="/js/search-lunr.js?1776863172" defer></script>
+    <script src="/js/search.js?1776863172" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1776863172";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1776863172" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776863172" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776863172" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1776863172" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1776863172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776863172" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776863172" rel="stylesheet">
+    <link href="/css/theme.css?1776863172" rel="stylesheet">
+    <link href="/css/format-html.css?1776863172" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/03-pdm-templates\/03.08-processturing\/03.08.03-procesreview\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto', 'relearn-dark' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1776863172" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/03-pdm-templates/03.08-processturing/03.08.03-procesreview/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#1-algemeen-overzicht">1. Algemeen Overzicht</a></li>
+    <li><a href="#2-voorbereiding">2. Voorbereiding</a></li>
+    <li><a href="#3-kpi-prestaties">3. KPI Prestaties</a></li>
+    <li><a href="#4-bevindingen">4. Bevindingen</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#5-verbeteracties">5. Verbeteracties</a></li>
+    <li><a href="#6-actieplan">6. Actieplan</a></li>
+    <li><a href="#7-follow-up">7. Follow-up</a></li>
+    <li><a href="#8-stappen-voor-het-uitvoeren-van-een-procesreview">8. Stappen voor het Uitvoeren van een Procesreview</a></li>
+    <li><a href="#9-tips-voor-een-effectieve-procesreview">9. Tips voor een Effectieve Procesreview</a></li>
+    <li><a href="#10-visuele-weergave-optioneel">10. Visuele Weergave (Optioneel)</a></li>
+    <li><a href="#11-stakeholders-en-verantwoordelijkheden">11. Stakeholders en Verantwoordelijkheden</a></li>
+    <li><a href="#12-gerelateerde-documenten">12. Gerelateerde Documenten</a></li>
+    <li><a href="#13-versiehistorie">13. Versiehistorie</a></li>
+    <li><a href="#14-instructies-voor-gebruik">14. Instructies voor Gebruik</a></li>
+    <li><a href="#15-voorbeeld-ingevulde-procesreview-orderverwerking">15. Voorbeeld: Ingevulde Procesreview (Orderverwerking)</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#16-voorbeeld-procesreview-voor-sim-activatie-telecom">16. Voorbeeld: Procesreview voor SIM-activatie (Telecom)</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/03-pdm-templates/index.html"><span itemprop="name">PDM Templates</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/03-pdm-templates/03.08-processturing/index.html"><span itemprop="name">Processturing</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Procesreview</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/03-pdm-templates/03.08-processturing/03.08.02-procesdashboard/index.html" title="Procesdashboard (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/03-pdm-templates/03.08-processturing/03.08.00-processturing-master/index.html" title="Processturing (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable template" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+<div class="R-taxonomy taxonomy-tags cstyle tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/tags/7x-framework/index.html">7x Framework</a></li>
+    <li><a class="term-link" href="/tags/continue-verbetering/index.html">Continue Verbetering</a></li>
+    <li><a class="term-link" href="/tags/lean-six-sigma/index.html">Lean Six Sigma</a></li>
+    <li><a class="term-link" href="/tags/procesreview/index.html">Procesreview</a></li>
+    <li><a class="term-link" href="/tags/processturing/index.html">Processturing</a></li>
+    <li><a class="term-link" href="/tags/template/index.html">Template</a></li>
+  </ul>
+</div>
+  </header>
+
+<h1 id="procesreview">Procesreview</h1>
+
+<h4 id="inleiding">Inleiding<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Dit Procesreview-template biedt een gestructureerde aanpak voor het evalueren en verbeteren van {{procesnaam}}. Het doel is om:</p>
+<ul>
+<li>Prestaties van het proces objectief te beoordelen op basis van KPI&rsquo;s en bevindingen.</li>
+<li>Knippunten en kansen voor verbetering te identificeren.</li>
+<li>Actieplannen op te stellen voor continue verbetering.</li>
+<li>Verantwoordelijkheid en follow-up te waarborgen voor het implementeren van verbeteringen.</li>
+<li>Transparantie te creëren voor stakeholders (management, teams, klanten).</li>
+</ul>
+<h4 id="eigenschappen">Eigenschappen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+          <th>Toelichting</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>03.08.03</td>
+          <td>Uniek identificatienummer voor deze procesreview in het Proces Management Document (PMD).</td>
+      </tr>
+      <tr>
+          <td>Versie</td>
+          <td>1</td>
+          <td>Huidige versie van dit document. Wordt geüpdaterd bij elke wijziging.</td>
+      </tr>
+      <tr>
+          <td>Status</td>
+          <td>concept</td>
+          <td>Mogelijke statussen: <em>concept</em>, <em>in review</em>, <em>goedgekeurd</em>, <em>gepubliceerd</em>, <em>verouderd</em>.</td>
+      </tr>
+      <tr>
+          <td>Auteur</td>
+          <td>[Naam]</td>
+          <td>De persoon of afdeling die deze review heeft opgesteld (meestal de procesanalist).</td>
+      </tr>
+      <tr>
+          <td>Eigenaar</td>
+          <td>[Naam proceseigenaar]</td>
+          <td>Verantwoordelijk voor de inhoud en actualiteit van de procesreview.</td>
+      </tr>
+      <tr>
+          <td>Datum</td>
+          <td>17/04/2026</td>
+          <td>Datum van de laatste update.</td>
+      </tr>
+      <tr>
+          <td>Gekoppeld aan</td>
+          <td>[Bijv. &ldquo;Procesbeschrijving (PMD-03.07.01), KPI&rsquo;s (PMD-03.08.01), Procesdashboard (PMD-03.08.02)&rdquo;]</td>
+          <td>Referentie naar gerelateerde documenten.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="1-algemeen-overzicht">1. Algemeen Overzicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Geef hier een kort overzicht van de procesreview.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+          <th>Toelichting</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesnaam</td>
+          <td>[Naam van het proces, bijv. &ldquo;Orderverwerking&rdquo;]</td>
+          <td>Naam van het proces dat wordt gereviewd.</td>
+      </tr>
+      <tr>
+          <td>Proces-ID</td>
+          <td>[Bijv. &ldquo;PR-001&rdquo;]</td>
+          <td>Unieke identifier.</td>
+      </tr>
+      <tr>
+          <td>Datum review</td>
+          <td>[Bijv. &ldquo;17/04/2026&rdquo;]</td>
+          <td>Datum waarop de review is uitgevoerd.</td>
+      </tr>
+      <tr>
+          <td>Type review</td>
+          <td>[Bijv. &ldquo;Maandelijkse review&rdquo;, &ldquo;Jaarlijkse audit&rdquo;, &ldquo;Ad-hoc review&rdquo;]</td>
+          <td>Type review.</td>
+      </tr>
+      <tr>
+          <td>Doel van de review</td>
+          <td>[Bijv. &ldquo;Evaluatie van procesprestaties en identificatie van verbeterpunten.&rdquo;]</td>
+          <td>Wat de review moet bereiken.</td>
+      </tr>
+      <tr>
+          <td>Scope</td>
+          <td>[Bijv. &ldquo;Hele proces van ontvangst tot bevestiging van orders.&rdquo;]</td>
+          <td>Wat valt binnen de scope van de review.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="2-voorbereiding">2. Voorbereiding<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Beschrijf hier wat nodig is om de review voor te bereiden.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Benodigde documenten</td>
+          <td>[Lijst van documenten, bijv. &ldquo;Procesbeschrijving, KPI-rapport, Procesdashboard, RACI-matrix&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>Benodigde data</td>
+          <td>[Lijst van data, bijv. &ldquo;KPI-waarden, proceslogs, klantfeedback&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>Betrokken partijen</td>
+          <td>[Lijst van rollen, bijv. &ldquo;Proceseigenaar, Procesanalist, Kwaliteitsmanager, IT-afdeling&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>Agenda</td>
+          <td>[Lijst van onderwerpen, bijv. &ldquo;KPI-prestaties, bevindingen, verbeteracties&rdquo;]</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="3-kpi-prestaties">3. KPI Prestaties<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Evalueer hier de prestaties van het proces op basis van KPI&rsquo;s. Gebruik de KPI-template (PMD-03.08.01) als uitgangspunt.</p>
+<table>
+  <thead>
+      <tr>
+          <th>KPI</th>
+          <th>Huidige waarde</th>
+          <th>Norm</th>
+          <th>Trend</th>
+          <th>Status</th>
+          <th>Afwijking</th>
+          <th>Oorzaak</th>
+          <th>Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Doorlooptijd orderverwerking</td>
+          <td>90%</td>
+          <td>&lt; 24 uur</td>
+          <td>⬆️</td>
+          <td>🟡</td>
+          <td>+10%</td>
+          <td>Handmatige validatiestap</td>
+          <td>Vertraging in levering</td>
+      </tr>
+      <tr>
+          <td>Aantal fouten per order</td>
+          <td>0,8%</td>
+          <td>&lt; 1%</td>
+          <td>⬆️</td>
+          <td>🔴</td>
+          <td>+0,3%</td>
+          <td>Onvoldoende training</td>
+          <td>Onjuiste orderverwerking</td>
+      </tr>
+      <tr>
+          <td>Klanttevredenheid (NPS)</td>
+          <td>8,2</td>
+          <td>&gt; 8</td>
+          <td>⬇️</td>
+          <td>🔴</td>
+          <td>-0,3</td>
+          <td>Vertraagde levering</td>
+          <td>Lagere klanttevredenheid</td>
+      </tr>
+      <tr>
+          <td>Systeembeschikbaarheid</td>
+          <td>99,2%</td>
+          <td>&gt; 99%</td>
+          <td>⬇️</td>
+          <td>🟡</td>
+          <td>-0,3%</td>
+          <td>Systeemupdates</td>
+          <td>Onderbreking van proces</td>
+      </tr>
+  </tbody>
+</table>
+<p>Legenda Status:</p>
+<ul>
+<li>🟢 Groen: Norm bereikt of overschreden.</li>
+<li>🟡 Oranje: Waarschuwing (dicht bij norm, maar niet bereikt).</li>
+<li>🔴 Rood: Afwijking (norm niet bereikt).</li>
+</ul>
+<h2 id="4-bevindingen">4. Bevindingen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Documenteer hier de belangrijkste bevindingen uit de review. Gebruik de 5 Why&rsquo;s-methode (uit Lean Six Sigma) om root causes te identificeren.</p>
+<h4 id="positieve-bevindingen">Positieve Bevindingen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Bevinding</th>
+          <th>Beschrijving</th>
+          <th>Oorzaak</th>
+          <th>Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Automatische orderbevestiging&rdquo;]</td>
+          <td>Orderbevestigingen worden automatisch verstuurd.</td>
+          <td>Geïmplementeerd in CRM-systeem</td>
+          <td>Vermindering van handmatig werk.</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Hoge systeembeschikbaarheid&rdquo;]</td>
+          <td>ERP-systeem is 99,2% beschikbaar.</td>
+          <td>Goed onderhoud door IT-afdeling</td>
+          <td>Betrouwbare procesuitvoering.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="negatieve-bevindingen-verbeterpunten">Negatieve Bevindingen (Verbeterpunten)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Bevinding</th>
+          <th>Beschrijving</th>
+          <th>Oorzaak (5 Why&rsquo;s)</th>
+          <th>Impact</th>
+          <th>Prioriteit</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Vertraagde orderverwerking</td>
+          <td>Doorlooptijd is toegenomen met 10%.</td>
+          <td>1. Handmatige validatie duurt te lang. 2. Geen automatisering. 3. Beperkte IT-capaciteit. 4. Geen budget voor automatisering. 5. Geen business case opgesteld.</td>
+          <td>Vertraging in levering</td>
+          <td>Hoog</td>
+      </tr>
+      <tr>
+          <td>Hoog foutpercentage</td>
+          <td>Aantal fouten per order is gestegen naar 0,8%.</td>
+          <td>1. Onvoldoende training. 2. Nieuwe medewerkers. 3. Geen gestandaardiseerde werkwijze. 4. Geen checklists. 5. Geen kwaliteitscontroles.</td>
+          <td>Onjuiste orderverwerking</td>
+          <td>Hoog</td>
+      </tr>
+      <tr>
+          <td>Lage klanttevredenheid</td>
+          <td>NPS is gedaald naar 8,2.</td>
+          <td>1. Vertraagde levering. 2. Onjuiste orders. 3. Gebrek aan communicatie. 4. Geen proactieve updates. 5. Geen klantfeedbackmechanisme.</td>
+          <td>Lagere klanttevredenheid</td>
+          <td>Hoog</td>
+      </tr>
+  </tbody>
+</table>
+<p>Prioriteit:</p>
+<ul>
+<li>Hoog: Kritisch voor procesprestaties, directe actie vereist.</li>
+<li>Middel: Belangrijk, maar niet kritiek.</li>
+<li>Laag: Wenselijk, maar niet urgent.</li>
+</ul>
+<h2 id="5-verbeteracties">5. Verbeteracties<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Stel hier concrete verbeteracties op op basis van de bevindingen. Gebruik de PDCA-cyclus (Plan-Do-Check-Act) voor structuur.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Verbeterpunt</th>
+          <th>KPI</th>
+          <th>Bevinding</th>
+          <th>Actie</th>
+          <th>Verantwoordelijke</th>
+          <th>Deadline</th>
+          <th>Status</th>
+          <th>Impact</th>
+          <th>Kosten</th>
+          <th>Prioriteit</th>
+          <th>Succescriteria</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Automatiseren validatiestap</td>
+          <td>Doorlooptijd orderverwerking</td>
+          <td>Vertraagde orderverwerking</td>
+          <td>Implementeer automatische validatie in CRM.</td>
+          <td>IT-afdeling</td>
+          <td>30/06/2026</td>
+          <td>In uitvoering</td>
+          <td>⬇️ Doorlooptijd met 50%</td>
+          <td>€5.000</td>
+          <td>Hoog</td>
+          <td>Doorlooptijd &lt; 24 uur</td>
+      </tr>
+      <tr>
+          <td>Extra training Order Team</td>
+          <td>Aantal fouten per order</td>
+          <td>Hoog foutpercentage</td>
+          <td>Organiseer training voor nieuwe medewerkers.</td>
+          <td>Kwaliteitsmanager</td>
+          <td>15/05/2026</td>
+          <td>Gepland</td>
+          <td>⬇️ Fouten met 30%</td>
+          <td>€2.000</td>
+          <td>Hoog</td>
+          <td>Foutpercentage &lt; 1%</td>
+      </tr>
+      <tr>
+          <td>Verbeter klantcommunicatie</td>
+          <td>Klanttevredenheid (NPS)</td>
+          <td>Lage klanttevredenheid</td>
+          <td>Implementeer automatische statusupdates.</td>
+          <td>Sales Manager</td>
+          <td>30/05/2026</td>
+          <td>Gepland</td>
+          <td>⬆️ NPS met 0,5 punt</td>
+          <td>€1.000</td>
+          <td>Hoog</td>
+          <td>NPS &gt; 8</td>
+      </tr>
+      <tr>
+          <td>Optimaliseren systeemupdates</td>
+          <td>Systeembeschikbaarheid</td>
+          <td>Lage systeembeschikbaarheid</td>
+          <td>Verplaats updates naar buiten kantooruren.</td>
+          <td>IT-afdeling</td>
+          <td>30/04/2026</td>
+          <td>In uitvoering</td>
+          <td>⬆️ Beschikbaarheid naar 99,5%</td>
+          <td>€0</td>
+          <td>Middel</td>
+          <td>Systeembeschikbaarheid &gt; 99%</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="6-actieplan">6. Actieplan<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Gebruik dit actieplan om de verbeteracties te structureren en te volgen.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Actie</th>
+          <th>Verantwoordelijke</th>
+          <th>Startdatum</th>
+          <th>Deadline</th>
+          <th>Status</th>
+          <th>Afhankelijkheden</th>
+          <th>Risico&rsquo;s</th>
+          <th>Mitigerende maatregelen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Automatiseren validatiestap</td>
+          <td>IT-afdeling</td>
+          <td>01/05/2026</td>
+          <td>30/06/2026</td>
+          <td>In uitvoering</td>
+          <td>Budgetgoedkeuring</td>
+          <td>Vertraging door andere projecten</td>
+          <td>Prioriteit verhogen</td>
+      </tr>
+      <tr>
+          <td>Extra training Order Team</td>
+          <td>Kwaliteitsmanager</td>
+          <td>01/05/2026</td>
+          <td>15/05/2026</td>
+          <td>Gepland</td>
+          <td>Beschikbaarheid trainers</td>
+          <td>Lage opkomst</td>
+          <td>Verplichte training</td>
+      </tr>
+      <tr>
+          <td>Verbeter klantcommunicatie</td>
+          <td>Sales Manager</td>
+          <td>01/05/2026</td>
+          <td>30/05/2026</td>
+          <td>Gepland</td>
+          <td>IT-ondersteuning</td>
+          <td>Technische beperkingen</td>
+          <td>Pilot testen</td>
+      </tr>
+      <tr>
+          <td>Optimaliseren systeemupdates</td>
+          <td>IT-afdeling</td>
+          <td>17/04/2026</td>
+          <td>30/04/2026</td>
+          <td>In uitvoering</td>
+          <td>-</td>
+          <td>Systeemstoring</td>
+          <td>Back-up procedure</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="7-follow-up">7. Follow-up<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Beschrijf hier hoe de follow-up van de verbeteracties wordt gegarandeerd.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Follow-up frequentie</td>
+          <td>[Bijv. &ldquo;Wekelijks&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>Verantwoordelijke follow-up</td>
+          <td>[Bijv. &ldquo;Proceseigenaar&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>Rapportage</td>
+          <td>[Bijv. &ldquo;Wekelijkse statusupdate via e-mail&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>Escalatiepad</td>
+          <td>[Bijv. &ldquo;Proceseigenaar → Teamleider → Directie&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>Afsluiting</td>
+          <td>[Bijv. &ldquo;Review wordt afgerond wanneer alle acties zijn geïmplementeerd en KPI&rsquo;s de norm bereiken.&rdquo;]</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="8-stappen-voor-het-uitvoeren-van-een-procesreview">8. Stappen voor het Uitvoeren van een Procesreview<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Volg deze stappen om een effectieve procesreview uit te voeren:</p>
+<ol>
+<li>Voorbereiding:</li>
+</ol>
+<ul>
+<li>Verzamel benodigde documenten en data.</li>
+<li>Nodig betrokken partijen uit.</li>
+<li>Stel een agenda op.</li>
+</ul>
+<ol>
+<li>KPI-prestaties evalueren:</li>
+</ol>
+<ul>
+<li>Analyseer de huidige waarden, normen, en trends van KPI&rsquo;s.</li>
+<li>Identificeer afwijkingen en oorzaken.</li>
+</ul>
+<ol>
+<li>Bevindingen documenteren:</li>
+</ol>
+<ul>
+<li>Noteer positieve en negatieve bevindingen.</li>
+<li>Gebruik de 5 Why&rsquo;s-methode voor root cause analyse.</li>
+</ul>
+<ol>
+<li>Verbeteracties definieren:</li>
+</ol>
+<ul>
+<li>Stel PDCA-acties op voor het verbeteren van procesprestaties.</li>
+<li>Wijs verantwoordelijken en deadlines toe.</li>
+</ul>
+<ol>
+<li>Actieplan opstellen:</li>
+</ol>
+<ul>
+<li>Structureer de verbeteracties in een actieplan.</li>
+<li>Definieer afhankelijkheden, risico&rsquo;s, en mitigerende maatregelen.</li>
+</ul>
+<ol>
+<li>Follow-up regelen:</li>
+</ol>
+<ul>
+<li>Bepaal hoe en wanneer de follow-up plaatsvindt.</li>
+<li>Zorg voor escalatiepaden bij vertragingen.</li>
+</ul>
+<ol>
+<li>Rapportage:</li>
+</ol>
+<ul>
+<li>Documenteer de resultaten van de review.</li>
+<li>Deel de bevindingen en acties met stakeholders.</li>
+</ul>
+<ol>
+<li>Valideer met stakeholders:</li>
+</ol>
+<ul>
+<li>Laat de review goedkeuren door management en betrokken teams.</li>
+</ul>
+<h2 id="9-tips-voor-een-effectieve-procesreview">9. Tips voor een Effectieve Procesreview<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ul>
+<li>Wees objectief: Baseer bevindingen op feiten en data, niet op aannames.</li>
+<li>Gebruik de 5 Why&rsquo;s-methode: Identificeer root causes van problemen.</li>
+<li>Focus op verbetering: Stel actiegerichte verbeterpunten op.</li>
+<li>Betrek stakeholders: Zorg dat alle betrokkenen meedenken over verbeteracties.</li>
+<li>Gebruik visuele hulpmiddelen: Voeg grafieken, diagrammen, of dashboards toe voor extra klarheid.</li>
+<li>Houd het actueel: Update de review regelmatig (bijv. maandelijks, kwartaallijks).</li>
+<li>Gebruik je Lean Six Sigma-kennis: Pas DMAIC (Define, Measure, Analyze, Improve, Control) toe voor gestructureerde verbetering.</li>
+<li>Koppel aan strategie: Zorg dat verbeteracties alignen met organisatiedoelen.</li>
+</ul>
+<h2 id="10-visuele-weergave-optioneel">10. Visuele Weergave (Optioneel)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Voeg hier een visuele weergave toe van de procesreview, bijv. een overzicht van bevindingen en acties. Gebruik Mermaid voor een eenvoudige weergave in Markdown.</p>
+<p>Voorbeeld (Mermaid Procesreview Overzicht):</p>
+<pre class="mermaid actionbar-wrapper align-center ">%% Procesreview voorbeeld - Orderverwerking
+graph TD
+    A[Procesreview Orderverwerking] --&gt; B[KPI Prestaties]
+    A --&gt; C[Bevindingen]
+    A --&gt; D[Verbeteracties]
+
+    B --&gt; B1[Doorlooptijd: 🟡]
+    B --&gt; B2[Aantal fouten: 🔴]
+    B --&gt; B3[NPS: 🔴]
+
+    C --&gt; C1[Positief: Automatische bevestiging]
+    C --&gt; C2[Negatief: Vertraagde verwerking]
+
+    D --&gt; D1[Automatiseren validatie]
+    D --&gt; D2[Extra training]
+    D --&gt; D3[Verbeter communicatie]</pre>
+<h2 id="11-stakeholders-en-verantwoordelijkheden">11. Stakeholders en Verantwoordelijkheden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Geef hier een overzicht van wie betrokken is bij de procesreview.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Rol</th>
+          <th>Verantwoordelijkheid</th>
+          <th>Betrokkenheid</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Proceseigenaar</td>
+          <td>Verantwoordelijk voor de uitvoering en follow-up van de review.</td>
+          <td>Continu</td>
+      </tr>
+      <tr>
+          <td>Procesanalist</td>
+          <td>Voert de review uit en documenteert bevindingen.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>Kwaliteitsmanager</td>
+          <td>Evalueert KPI-prestaties en stelt verbeteracties voor.</td>
+          <td>Periodiek</td>
+      </tr>
+      <tr>
+          <td>IT-afdeling</td>
+          <td>Levert technische data en ondersteunt bij verbeteracties.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>Management</td>
+          <td>Valideert de review en goedgekeurt verbeteracties.</td>
+          <td>Periodiek</td>
+      </tr>
+      <tr>
+          <td>Uitvoerend team</td>
+          <td>Levert input voor de review en voert verbeteracties uit.</td>
+          <td>Ad hoc</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="12-gerelateerde-documenten">12. Gerelateerde Documenten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Lijst hier alle gerelateerde documenten, zoals:</p>
+<ul>
+<li>[Link naar Procesbeschrijving (PMD-03.07.01)]</li>
+<li>[Link naar KPI&rsquo;s (PMD-03.08.01)]</li>
+<li>[Link naar Procesdashboard (PMD-03.08.02)]</li>
+<li>[Link naar RACI Matrix (PMD-03.07.03)]</li>
+<li>[Link naar Werkinstructie (PMD-03.07.02)]</li>
+</ul>
+<h2 id="13-versiehistorie">13. Versiehistorie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Versie</th>
+          <th>Datum</th>
+          <th>Wijziging</th>
+          <th>Auteur</th>
+          <th>Goedgekeurd door</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1.0</td>
+          <td>17/04/2026</td>
+          <td>Initiële versie</td>
+          <td>[Naam]</td>
+          <td>[Naam]</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="14-instructies-voor-gebruik">14. Instructies voor Gebruik<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ol>
+<li>Voorbereiding:</li>
+</ol>
+<ul>
+<li>Verzamel benodigde documenten en data.</li>
+<li>Nodig betrokken partijen uit.</li>
+</ul>
+<ol>
+<li>KPI-prestaties evalueren:</li>
+</ol>
+<ul>
+<li>Analyseer de KPI&rsquo;s en identificeer afwijkingen.</li>
+</ul>
+<ol>
+<li>Bevindingen documenteren:</li>
+</ol>
+<ul>
+<li>Noteer positieve en negatieve bevindingen.</li>
+<li>Gebruik de 5 Why&rsquo;s-methode voor root cause analyse.</li>
+</ul>
+<ol>
+<li>Verbeteracties definieren:</li>
+</ol>
+<ul>
+<li>Stel PDCA-acties op voor verbetering.</li>
+</ul>
+<ol>
+<li>Actieplan opstellen:</li>
+</ol>
+<ul>
+<li>Structureer de verbeteracties in een actieplan.</li>
+</ul>
+<ol>
+<li>Follow-up regelen:</li>
+</ol>
+<ul>
+<li>Bepaal hoe en wanneer de follow-up plaatsvindt.</li>
+</ul>
+<ol>
+<li>Rapportage:</li>
+</ol>
+<ul>
+<li>Documenteer de resultaten en deel deze met stakeholders.</li>
+</ul>
+<ol>
+<li>Valideer met stakeholders:</li>
+</ol>
+<ul>
+<li>Laat de review goedkeuren door management en betrokken teams.</li>
+</ul>
+<h2 id="15-voorbeeld-ingevulde-procesreview-orderverwerking">15. Voorbeeld: Ingevulde Procesreview (Orderverwerking)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<h4 id="algemeen-overzicht">Algemeen Overzicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+          <th>Toelichting</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesnaam</td>
+          <td>Orderverwerking</td>
+          <td>Naam van het proces.</td>
+      </tr>
+      <tr>
+          <td>Proces-ID</td>
+          <td>PR-001</td>
+          <td>Unieke identifier.</td>
+      </tr>
+      <tr>
+          <td>Datum review</td>
+          <td>17/04/2026</td>
+          <td>Datum van de review.</td>
+      </tr>
+      <tr>
+          <td>Type review</td>
+          <td>Maandelijkse review</td>
+          <td>Type review.</td>
+      </tr>
+      <tr>
+          <td>Doel van de review</td>
+          <td>Evaluatie van procesprestaties en identificatie van verbeterpunten.</td>
+          <td>Wat de review moet bereiken.</td>
+      </tr>
+      <tr>
+          <td>Scope</td>
+          <td>Hele proces van ontvangst tot bevestiging van orders.</td>
+          <td>Wat valt binnen de scope.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="voorbereiding">Voorbereiding<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Benodigde documenten</td>
+          <td>Procesbeschrijving, KPI-rapport, Procesdashboard, RACI-matrix</td>
+      </tr>
+      <tr>
+          <td>Benodigde data</td>
+          <td>KPI-waarden, proceslogs, klantfeedback</td>
+      </tr>
+      <tr>
+          <td>Betrokken partijen</td>
+          <td>Proceseigenaar, Procesanalist, Kwaliteitsmanager, IT-afdeling</td>
+      </tr>
+      <tr>
+          <td>Agenda</td>
+          <td>KPI-prestaties, bevindingen, verbeteracties, actieplan</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="kpi-prestaties">KPI Prestaties<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>KPI</th>
+          <th>Huidige waarde</th>
+          <th>Norm</th>
+          <th>Trend</th>
+          <th>Status</th>
+          <th>Afwijking</th>
+          <th>Oorzaak</th>
+          <th>Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Doorlooptijd orderverwerking</td>
+          <td>90%</td>
+          <td>&lt; 24 uur</td>
+          <td>⬆️</td>
+          <td>🟡</td>
+          <td>+10%</td>
+          <td>Handmatige validatiestap</td>
+          <td>Vertraging in levering</td>
+      </tr>
+      <tr>
+          <td>Aantal fouten per order</td>
+          <td>0,8%</td>
+          <td>&lt; 1%</td>
+          <td>⬆️</td>
+          <td>🔴</td>
+          <td>+0,3%</td>
+          <td>Onvoldoende training</td>
+          <td>Onjuiste orderverwerking</td>
+      </tr>
+      <tr>
+          <td>Klanttevredenheid (NPS)</td>
+          <td>8,2</td>
+          <td>&gt; 8</td>
+          <td>⬇️</td>
+          <td>🔴</td>
+          <td>-0,3</td>
+          <td>Vertraagde levering</td>
+          <td>Lagere klanttevredenheid</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="bevindingen">Bevindingen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Positieve Bevindingen:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Bevinding</th>
+          <th>Beschrijving</th>
+          <th>Oorzaak</th>
+          <th>Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Automatische orderbevestiging</td>
+          <td>Orderbevestigingen worden automatisch verstuurd.</td>
+          <td>Geïmplementeerd in CRM-systeem</td>
+          <td>Vermindering van handmatig werk.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Negatieve Bevindingen:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Bevinding</th>
+          <th>Beschrijving</th>
+          <th>Oorzaak (5 Why&rsquo;s)</th>
+          <th>Impact</th>
+          <th>Prioriteit</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Vertraagde orderverwerking</td>
+          <td>Doorlooptijd is toegenomen met 10%.</td>
+          <td>1. Handmatige validatie duurt te lang. 2. Geen automatisering. 3. Beperkte IT-capaciteit. 4. Geen budget voor automatisering. 5. Geen business case opgesteld.</td>
+          <td>Vertraging in levering</td>
+          <td>Hoog</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="verbeteracties">Verbeteracties<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Verbeterpunt</th>
+          <th>KPI</th>
+          <th>Bevinding</th>
+          <th>Actie</th>
+          <th>Verantwoordelijke</th>
+          <th>Deadline</th>
+          <th>Status</th>
+          <th>Impact</th>
+          <th>Kosten</th>
+          <th>Prioriteit</th>
+          <th>Succescriteria</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Automatiseren validatiestap</td>
+          <td>Doorlooptijd orderverwerking</td>
+          <td>Vertraagde orderverwerking</td>
+          <td>Implementeer automatische validatie in CRM.</td>
+          <td>IT-afdeling</td>
+          <td>30/06/2026</td>
+          <td>In uitvoering</td>
+          <td>⬇️ Doorlooptijd met 50%</td>
+          <td>€5.000</td>
+          <td>Hoog</td>
+          <td>Doorlooptijd &lt; 24 uur</td>
+      </tr>
+      <tr>
+          <td>Extra training Order Team</td>
+          <td>Aantal fouten per order</td>
+          <td>Hoog foutpercentage</td>
+          <td>Organiseer training voor nieuwe medewerkers.</td>
+          <td>Kwaliteitsmanager</td>
+          <td>15/05/2026</td>
+          <td>Gepland</td>
+          <td>⬇️ Fouten met 30%</td>
+          <td>€2.000</td>
+          <td>Hoog</td>
+          <td>Foutpercentage &lt; 1%</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="actieplan">Actieplan<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Actie</th>
+          <th>Verantwoordelijke</th>
+          <th>Startdatum</th>
+          <th>Deadline</th>
+          <th>Status</th>
+          <th>Afhankelijkheden</th>
+          <th>Risico&rsquo;s</th>
+          <th>Mitigerende maatregelen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Automatiseren validatiestap</td>
+          <td>IT-afdeling</td>
+          <td>01/05/2026</td>
+          <td>30/06/2026</td>
+          <td>In uitvoering</td>
+          <td>Budgetgoedkeuring</td>
+          <td>Vertraging door andere projecten</td>
+          <td>Prioriteit verhogen</td>
+      </tr>
+      <tr>
+          <td>Extra training Order Team</td>
+          <td>Kwaliteitsmanager</td>
+          <td>01/05/2026</td>
+          <td>15/05/2026</td>
+          <td>Gepland</td>
+          <td>Beschikbaarheid trainers</td>
+          <td>Lage opkomst</td>
+          <td>Verplichte training</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="follow-up">Follow-up<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Follow-up frequentie</td>
+          <td>Wekelijks</td>
+      </tr>
+      <tr>
+          <td>Verantwoordelijke follow-up</td>
+          <td>Proceseigenaar</td>
+      </tr>
+      <tr>
+          <td>Rapportage</td>
+          <td>Wekelijkse statusupdate via e-mail</td>
+      </tr>
+      <tr>
+          <td>Escalatiepad</td>
+          <td>Proceseigenaar → Teamleider → Directie</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="16-voorbeeld-procesreview-voor-sim-activatie-telecom">16. Voorbeeld: Procesreview voor SIM-activatie (Telecom)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Gebaseerd op je ervaring in de telecomsector, hier een praktisch voorbeeld voor een SIM-activatieproces.</p>
+<h4 id="algemeen-overzicht-1">Algemeen Overzicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+          <th>Toelichting</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesnaam</td>
+          <td>SIM-activatie</td>
+          <td>Naam van het proces.</td>
+      </tr>
+      <tr>
+          <td>Proces-ID</td>
+          <td>PR-002</td>
+          <td>Unieke identifier.</td>
+      </tr>
+      <tr>
+          <td>Datum review</td>
+          <td>17/04/2026</td>
+          <td>Datum van de review.</td>
+      </tr>
+      <tr>
+          <td>Type review</td>
+          <td>Kwartaals review</td>
+          <td>Type review.</td>
+      </tr>
+      <tr>
+          <td>Doel van de review</td>
+          <td>Evaluatie van SIM-activatieprestaties en identificatie van verbeterpunten.</td>
+          <td>Wat de review moet bereiken.</td>
+      </tr>
+      <tr>
+          <td>Scope</td>
+          <td>Hele proces van aanvraag tot activatie van SIM-kaarten.</td>
+          <td>Wat valt binnen de scope.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="voorbereiding-1">Voorbereiding<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Benodigde documenten</td>
+          <td>Procesbeschrijving, KPI-rapport, Procesdashboard, Technische documentatie</td>
+      </tr>
+      <tr>
+          <td>Benodigde data</td>
+          <td>KPI-waarden, activatielogs, klantfeedback</td>
+      </tr>
+      <tr>
+          <td>Betrokken partijen</td>
+          <td>Proceseigenaar, Technisch Team, Klantenservice, IT-afdeling</td>
+      </tr>
+      <tr>
+          <td>Agenda</td>
+          <td>KPI-prestaties, bevindingen, verbeteracties, actieplan</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="kpi-prestaties-1">KPI Prestaties<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>KPI</th>
+          <th>Huidige waarde</th>
+          <th>Norm</th>
+          <th>Trend</th>
+          <th>Status</th>
+          <th>Afwijking</th>
+          <th>Oorzaak</th>
+          <th>Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Activatietijd</td>
+          <td>85%</td>
+          <td>&lt; 1 uur</td>
+          <td>⬆️</td>
+          <td>🟡</td>
+          <td>+15%</td>
+          <td>Handmatige stappen in activatieproces</td>
+          <td>Vertraagde activatie</td>
+      </tr>
+      <tr>
+          <td>Activatiefouten</td>
+          <td>0,7%</td>
+          <td>&lt; 0,5%</td>
+          <td>⬆️</td>
+          <td>🔴</td>
+          <td>+0,2%</td>
+          <td>Onjuiste invoer door medewerkers</td>
+          <td>Onjuiste activatie</td>
+      </tr>
+      <tr>
+          <td>Klanttevredenheid (CSAT)</td>
+          <td>88%</td>
+          <td>&gt; 90%</td>
+          <td>⬇️</td>
+          <td>🔴</td>
+          <td>-2%</td>
+          <td>Vertraagde activatie</td>
+          <td>Lagere klanttevredenheid</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="bevindingen-1">Bevindingen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Positieve Bevindingen:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Bevinding</th>
+          <th>Beschrijving</th>
+          <th>Oorzaak</th>
+          <th>Impact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Automatische notificaties</td>
+          <td>Klanten ontvangen automatische updates over activatiestatus.</td>
+          <td>Geïmplementeerd in provisioning-systeem</td>
+          <td>Betere klantcommunicatie.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Negatieve Bevindingen:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Bevinding</th>
+          <th>Beschrijving</th>
+          <th>Oorzaak (5 Why&rsquo;s)</th>
+          <th>Impact</th>
+          <th>Prioriteit</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Vertraagde activatie</td>
+          <td>Activatietijd is toegenomen met 15%.</td>
+          <td>1. Handmatige stappen in activatieproces. 2. Geen automatisering. 3. Beperkte IT-capaciteit. 4. Geen budget voor automatisering. 5. Geen business case opgesteld.</td>
+          <td>Vertraagde activatie</td>
+          <td>Hoog</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="verbeteracties-1">Verbeteracties<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Verbeterpunt</th>
+          <th>KPI</th>
+          <th>Bevinding</th>
+          <th>Actie</th>
+          <th>Verantwoordelijke</th>
+          <th>Deadline</th>
+          <th>Status</th>
+          <th>Impact</th>
+          <th>Kosten</th>
+          <th>Prioriteit</th>
+          <th>Succescriteria</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Automatiseren activatieproces</td>
+          <td>Activatietijd</td>
+          <td>Vertraagde activatie</td>
+          <td>Implementeer automatische activatie in provisioning-systeem.</td>
+          <td>IT-afdeling</td>
+          <td>30/06/2026</td>
+          <td>In uitvoering</td>
+          <td>⬇️ Activatietijd met 40%</td>
+          <td>€7.500</td>
+          <td>Hoog</td>
+          <td>Activatietijd &lt; 1 uur</td>
+      </tr>
+      <tr>
+          <td>Voeg validatie toe</td>
+          <td>Activatiefouten</td>
+          <td>Hoog foutpercentage</td>
+          <td>Implementeer automatische validatie van invoergegevens.</td>
+          <td>Technisch Team</td>
+          <td>15/05/2026</td>
+          <td>Gepland</td>
+          <td>⬇️ Fouten met 50%</td>
+          <td>€3.000</td>
+          <td>Hoog</td>
+          <td>Foutpercentage &lt; 0,5%</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="actieplan-1">Actieplan<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Actie</th>
+          <th>Verantwoordelijke</th>
+          <th>Startdatum</th>
+          <th>Deadline</th>
+          <th>Status</th>
+          <th>Afhankelijkheden</th>
+          <th>Risico&rsquo;s</th>
+          <th>Mitigerende maatregelen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Automatiseren activatieproces</td>
+          <td>IT-afdeling</td>
+          <td>01/05/2026</td>
+          <td>30/06/2026</td>
+          <td>In uitvoering</td>
+          <td>Budgetgoedkeuring</td>
+          <td>Vertraging door andere projecten</td>
+          <td>Prioriteit verhogen</td>
+      </tr>
+      <tr>
+          <td>Voeg validatie toe</td>
+          <td>Technisch Team</td>
+          <td>01/05/2026</td>
+          <td>15/05/2026</td>
+          <td>Gepland</td>
+          <td>Beschikbaarheid ontwikkelaars</td>
+          <td>Technische beperkingen</td>
+          <td>Pilot testen</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="follow-up-1">Follow-up<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Follow-up frequentie</td>
+          <td>Wekelijks</td>
+      </tr>
+      <tr>
+          <td>Verantwoordelijke follow-up</td>
+          <td>Proceseigenaar</td>
+      </tr>
+      <tr>
+          <td>Rapportage</td>
+          <td>Wekelijkse statusupdate via e-mail</td>
+      </tr>
+      <tr>
+          <td>Escalatiepad</td>
+          <td>Proceseigenaar → Technisch Teamleider → Directie</td>
+      </tr>
+  </tbody>
+</table>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/01-methode/index.html"><a class="padding default-animation" href="/01-methode/index.html">Methode</a><ul id="R-subsections-73c5657de716354a63503660a5152d83" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/02-procesdocumentatiemodel/index.html"><a class="padding" href="/02-procesdocumentatiemodel/index.html">Het Procesdocumentatiemodel</a></li>
+            <li class="parent " data-nav-id="/03-pdm-templates/index.html"><a class="padding default-animation" href="/03-pdm-templates/index.html">PDM Templates</a><ul id="R-subsections-e099e37a0f2bd26aa2d219cd310eda07" class="collapsible-menu">
+            <li class="parent hidden alwaysopen " data-nav-id="/03-pdm-templates/03.08-processturing/index.html"><a class="padding default-animation" href="/03-pdm-templates/03.08-processturing/index.html">Processturing</a><ul id="R-subsections-d9754a03bc9e3e3b3c20d116e67c8819" class="collapsible-menu">
+            <li class="" data-nav-id="/03-pdm-templates/03.08-processturing/03.08.01-kpis/index.html"><a class="padding" href="/03-pdm-templates/03.08-processturing/03.08.01-kpis/index.html">KPI&#39;s</a></li>
+            <li class="" data-nav-id="/03-pdm-templates/03.08-processturing/03.08.02-procesdashboard/index.html"><a class="padding" href="/03-pdm-templates/03.08-processturing/03.08.02-procesdashboard/index.html">Procesdashboard</a></li>
+            <li class="active " data-nav-id="/03-pdm-templates/03.08-processturing/03.08.03-procesreview/index.html"><a class="padding" href="/03-pdm-templates/03.08-processturing/03.08.03-procesreview/index.html">Procesreview</a></li>
+            <li class="" data-nav-id="/03-pdm-templates/03.08-processturing/03.08.00-processturing-master/index.html"><a class="padding" href="/03-pdm-templates/03.08-processturing/03.08.00-processturing-master/index.html">Processturing</a></li>
+            <li class="" data-nav-id="/03-pdm-templates/03.08-processturing/03.08.04-kpi-definitie/index.html"><a class="padding" href="/03-pdm-templates/03.08-processturing/03.08.04-kpi-definitie/index.html">KPI Definitie</a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/04-bronnen-van-procesinformatie/index.html"><a class="padding" href="/04-bronnen-van-procesinformatie/index.html">Bronnen van procesinformatie</a></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding default-animation" href="/05-procesdocument/index.html">Het procesdocument</a><ul id="R-subsections-5c49dcae193485065049068268687701" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over de Procesdocumentalist</a></li>
+            <li class="" data-nav-id="/10-artikelen/index.html"><a class="padding" href="/10-artikelen/index.html">Artikelen</a></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-color.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1776863172" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1776863172" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776863172" defer></script>
+    <script src="/js/theme.js?1776863172" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

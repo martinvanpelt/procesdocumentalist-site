@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sandbox :: Proces Documentalist</title>
+    <link>http://localhost:1313/12-sandbox/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/12-sandbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Templates Directory</title>
+      <link>http://localhost:1313/12-sandbox/templates-directory/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/12-sandbox/templates-directory/index.html</guid>
+      <description>03 PDM Templates 03.01 Procesdocumentatiebeheer 03.01.01 Wijzigingslog procesdocumentatie 03.01.02 Wijzigingsverzoek 03.02 Procesarchitectuur 03.02.00 Procesarchitectuur Master 03.02.01 Proceslandkaart 03.02.02 Proceshierarchie 03.02.03 Procesinventarisatie 03.02.04 Procesinteractie 03.03 Procesdoel 03.03.00 Procesdoel Master 03.04 Procescontext 03.04.00 Procescontext Master 03.04.01 Procesinput-output 03.05 Proceseigenschappen 03.05.00 Proceseigenschappen Master 03.05.01 Procesbegrippen 03.06 Procesmodellering 03.05.00 Procesmodellering Master 03.05.01 BPMN 03.05.02 Flowchart 03.05 03 Swimlane 03.07Procesuitwerking 03.07.00 Procesuitwerking Master 03.07.01 Procesbeschrijving 03.07.02 Werkinstructie 03.07.03 RACI-Matrix 03.07.04 Procesrollen 03.08 Processturing 03.08.00 Processturing Master 03.08.01 KPI’s 03.08.02 Procesdashboard 03.08.03 Procesreview 03.08.04 KPI Definitie 03.09 Procesverbetering 03.09.00 Procesverbetering Master 03.09.01 Root Cause Analysis 03.09.02 Procesverbeterplan</description>
+    </item>
+    <item>
+      <title>title in mermaid diagram</title>
+      <link>http://localhost:1313/12-sandbox/title-in-mermaid-diagram/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/12-sandbox/title-in-mermaid-diagram/index.html</guid>
+      <description>--- title: dit is een test --- graph LR A --&gt; B</description>
+    </item>
+  </channel>
+</rss>

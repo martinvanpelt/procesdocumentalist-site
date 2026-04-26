@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Gedetailleerde RACI-matrix voor het Orderverwerkingsproces bij TelecomPro B.V., inclusief verantwoordelijkheden per activiteit en rol.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="RACI Matrix - Orderverwerking :: Proces Documentalist">
+    <meta name="twitter:description" content="Gedetailleerde RACI-matrix voor het Orderverwerkingsproces bij TelecomPro B.V., inclusief verantwoordelijkheden per activiteit en rol.">
+    <meta property="og:url" content="http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.5-raci-matrix/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="RACI Matrix - Orderverwerking :: Proces Documentalist">
+    <meta property="og:description" content="Gedetailleerde RACI-matrix voor het Orderverwerkingsproces bij TelecomPro B.V., inclusief verantwoordelijkheden per activiteit en rol.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Voorbeeldproces">
+    <meta itemprop="name" content="RACI Matrix - Orderverwerking :: Proces Documentalist">
+    <meta itemprop="description" content="Gedetailleerde RACI-matrix voor het Orderverwerkingsproces bij TelecomPro B.V., inclusief verantwoordelijkheden per activiteit en rol.">
+    <meta itemprop="wordCount" content="725">
+    <title>RACI Matrix - Orderverwerking :: Proces Documentalist</title>
+    <link href="/images/favicon.svg?1777193160" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1777193160" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1777193160" defer></script>
+    <script src="/js/search-lunr.js?1777193160" defer></script>
+    <script src="/js/search.js?1777193160" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1777193160";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1777193160" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1777193160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1777193160" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1777193160" rel="stylesheet">
+    <link href="/css/theme.css?1777193160" rel="stylesheet">
+    <link href="/css/format-html.css?1777193160" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/07-voorbeeldproces\/07.07-procesuitwerking\/7.5-raci-matrix\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-light', 'relearn-dark', 'auto' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1777193160" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/07-voorbeeldproces/07.07-procesuitwerking/7.5-raci-matrix/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist in één oogopslag</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/07-voorbeeldproces/index.html"><span itemprop="name">Voorbeeldproces</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/07-voorbeeldproces/07.07-procesuitwerking/index.html"><span itemprop="name">Procesuitwerking</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">RACI Matrix - Orderverwerking</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/07-voorbeeldproces/07.07-procesuitwerking/7.4-werkinstructie/index.html" title="Werkinstructie - Orderverwerking (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/07-voorbeeldproces/07.07-procesuitwerking/7.6-procesrollen/index.html" title="Procesrollen - Orderverwerking (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 07-voorbeeldproces" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="raci-matrix---orderverwerking">RACI Matrix - Orderverwerking</h1>
+
+<p>Deze RACI-matrix definieert de rollen en verantwoordelijkheden voor het Orderverwerkingsproces (PR-001) bij TelecomPro B.V.. Het doel is om:</p>
+<ul>
+<li>Duidelijkheid te scheppen over wie wat doet in het proces.</li>
+<li>Verantwoordelijkheden eenduidig toe te wijzen en overlappingen te voorkomen.</li>
+<li>Communicatie en samenwerking tussen afdelingen te verbeteren.</li>
+</ul>
+<h4 id="eigenschappen">Eigenschappen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+          <th>Toelichting</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>03.07.03</td>
+          <td>Uniek identificatienummer voor RACI-matrix.</td>
+      </tr>
+      <tr>
+          <td>Versie</td>
+          <td>1.0</td>
+          <td>Huidige versie.</td>
+      </tr>
+      <tr>
+          <td>Status</td>
+          <td>Gepubliceerd</td>
+          <td>Status van het document.</td>
+      </tr>
+      <tr>
+          <td>Auteur</td>
+          <td>Martin van Pelt</td>
+          <td>Procesanalist.</td>
+      </tr>
+      <tr>
+          <td>Eigenaar</td>
+          <td>Jan de Vries</td>
+          <td>Proceseigenaar Operaties.</td>
+      </tr>
+      <tr>
+          <td>Datum</td>
+          <td>19/04/2026</td>
+          <td>Datum van laatste update.</td>
+      </tr>
+      <tr>
+          <td>Gekoppeld aan</td>
+          <td>Procesbeschrijving (PMD-03.07.01), Procesrollen (PMD-03.07.04), Werkinstructie (PMD-03.07.02)</td>
+          <td>Gerelateerde documenten.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="legenda">Legenda<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Code</th>
+          <th>Rol</th>
+          <th>Beschrijving</th>
+          <th>Voorbeeld</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>R</td>
+          <td>Responsible</td>
+          <td>Voert de taak uit.</td>
+          <td>Order Medewerker</td>
+      </tr>
+      <tr>
+          <td>A</td>
+          <td>Accountable</td>
+          <td>Eindverantwoordelijk voor het resultaat.</td>
+          <td>Proceseigenaar</td>
+      </tr>
+      <tr>
+          <td>C</td>
+          <td>Consulted</td>
+          <td>Wordt geraadpleegd voor input.</td>
+          <td>Sales Manager, Kwaliteitsmanager</td>
+      </tr>
+      <tr>
+          <td>I</td>
+          <td>Informed</td>
+          <td>Wordt geïnformeerd over de uitvoering.</td>
+          <td>Management, IT-afdeling</td>
+      </tr>
+  </tbody>
+</table>
+<p>3.2.4 RACI Matrix</p>
+<h5 id="overzichtstabel">Overzichtstabel<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Activiteit</th>
+          <th>Proceseigenaar</th>
+          <th>Order Medewerker</th>
+          <th>Sales Manager</th>
+          <th>IT-afdeling</th>
+          <th>Kwaliteitsmanager</th>
+          <th>Financiële Afdeling</th>
+          <th>Inkoop</th>
+          <th>Provisioning</th>
+          <th>Teamleider Orderverwerking</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Ontvangst klantorder</td>
+          <td>A</td>
+          <td>R</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>C</td>
+      </tr>
+      <tr>
+          <td>Registratie in CRM</td>
+          <td>A</td>
+          <td>R</td>
+          <td>I</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>C</td>
+      </tr>
+      <tr>
+          <td>Validatie klantgegevens</td>
+          <td>A</td>
+          <td>R</td>
+          <td>C</td>
+          <td>I</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>C</td>
+      </tr>
+      <tr>
+          <td>Controle kredietstatus</td>
+          <td>C</td>
+          <td>R</td>
+          <td>A</td>
+          <td>I</td>
+          <td>I</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+          <td>C</td>
+      </tr>
+      <tr>
+          <td>Controle voorraad</td>
+          <td>C</td>
+          <td>R</td>
+          <td>I</td>
+          <td>A</td>
+          <td>I</td>
+          <td>I</td>
+          <td>C</td>
+          <td>I</td>
+          <td>C</td>
+      </tr>
+      <tr>
+          <td>Genereren productieopdracht</td>
+          <td>A</td>
+          <td>R</td>
+          <td>I</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>C</td>
+      </tr>
+      <tr>
+          <td>Koppeling met Provisioning</td>
+          <td>C</td>
+          <td>R</td>
+          <td>I</td>
+          <td>A</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>C</td>
+          <td>C</td>
+      </tr>
+      <tr>
+          <td>Versturen orderbevestiging</td>
+          <td>A</td>
+          <td>R</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>C</td>
+      </tr>
+      <tr>
+          <td>Afwijzen order</td>
+          <td>C</td>
+          <td>R</td>
+          <td>A</td>
+          <td>I</td>
+          <td>I</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+          <td>C</td>
+      </tr>
+      <tr>
+          <td>Inkoop inschakelen</td>
+          <td>I</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>R</td>
+          <td>I</td>
+          <td>C</td>
+      </tr>
+      <tr>
+          <td>Handmatige validatie (bij systeemstoring)</td>
+          <td>I</td>
+          <td>R</td>
+          <td>I</td>
+          <td>C</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>A</td>
+      </tr>
+      <tr>
+          <td>Pilot testen (nieuwe functionaliteit)</td>
+          <td>C</td>
+          <td>R</td>
+          <td>I</td>
+          <td>A</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>I</td>
+          <td>C</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="toelichting-per-activiteit">Toelichting per Activiteit<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Activiteit</th>
+          <th>Beschrijving</th>
+          <th>R (Responsible)</th>
+          <th>A (Accountable)</th>
+          <th>C (Consulted)</th>
+          <th>I (Informed)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Ontvangst klantorder</td>
+          <td>Klant plaatst een order via webshop, telefoon, of sales.</td>
+          <td>Order Medewerker</td>
+          <td>Proceseigenaar</td>
+          <td>-</td>
+          <td>Sales Manager, IT-afdeling, Kwaliteitsmanager, Teamleider</td>
+      </tr>
+      <tr>
+          <td>Registratie in CRM</td>
+          <td>Order Medewerker registreert de order in Salesforce CRM.</td>
+          <td>Order Medewerker</td>
+          <td>Proceseigenaar</td>
+          <td>IT-afdeling</td>
+          <td>Teamleider</td>
+      </tr>
+      <tr>
+          <td>Validatie klantgegevens</td>
+          <td>Controle of klantgegevens compleet en correct zijn.</td>
+          <td>Order Medewerker</td>
+          <td>Proceseigenaar</td>
+          <td>Sales Manager, Kwaliteitsmanager</td>
+          <td>Teamleider</td>
+      </tr>
+      <tr>
+          <td>Controle kredietstatus</td>
+          <td>Controle of de klant kredietwaardig is.</td>
+          <td>Order Medewerker</td>
+          <td>Sales Manager</td>
+          <td>Proceseigenaar, Financiële Afdeling</td>
+          <td>Teamleider</td>
+      </tr>
+      <tr>
+          <td>Controle voorraad</td>
+          <td>Controle of de gevraagde producten/diensten op voorraad zijn.</td>
+          <td>Order Medewerker</td>
+          <td>IT-afdeling</td>
+          <td>Proceseigenaar, Inkoop</td>
+          <td>Teamleider</td>
+      </tr>
+      <tr>
+          <td>Genereren productieopdracht</td>
+          <td>Order Medewerker zet de klantorder om in een productieopdracht.</td>
+          <td>Order Medewerker</td>
+          <td>Proceseigenaar</td>
+          <td>IT-afdeling</td>
+          <td>Teamleider</td>
+      </tr>
+      <tr>
+          <td>Koppeling met Provisioning</td>
+          <td>Productieopdracht wordt doorgegeven aan Provisioning.</td>
+          <td>Order Medewerker</td>
+          <td>IT-afdeling</td>
+          <td>Proceseigenaar, Provisioning</td>
+          <td>Teamleider</td>
+      </tr>
+      <tr>
+          <td>Versturen orderbevestiging</td>
+          <td>Order Medewerker verstuurt een orderbevestiging naar de klant.</td>
+          <td>Order Medewerker</td>
+          <td>Proceseigenaar</td>
+          <td>-</td>
+          <td>Sales Manager, IT-afdeling, Teamleider</td>
+      </tr>
+      <tr>
+          <td>Afwijzen order</td>
+          <td>Order wordt afgewezen bij onvoldoende krediet.</td>
+          <td>Order Medewerker</td>
+          <td>Sales Manager</td>
+          <td>Proceseigenaar, Financiële Afdeling</td>
+          <td>Teamleider</td>
+      </tr>
+      <tr>
+          <td>Inkoop inschakelen</td>
+          <td>Inkoop wordt ingeschakeld bij onvoldoende voorraad.</td>
+          <td>Inkoop</td>
+          <td>-</td>
+          <td>Order Medewerker</td>
+          <td>Proceseigenaar, Teamleider</td>
+      </tr>
+      <tr>
+          <td>Handmatige validatie (bij systeemstoring)</td>
+          <td>Handmatige validatie van orders bij systeemstoring.</td>
+          <td>Order Medewerker</td>
+          <td>Teamleider</td>
+          <td>IT-afdeling</td>
+          <td>Proceseigenaar</td>
+      </tr>
+      <tr>
+          <td>Pilot testen (nieuwe functionaliteit)</td>
+          <td>Testen van nieuwe functionaliteit in het orderproces.</td>
+          <td>Order Medewerker</td>
+          <td>IT-afdeling</td>
+          <td>Proceseigenaar</td>
+          <td>Teamleider</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="rollen-en-verantwoordelijkheden">Rollen en Verantwoordelijkheden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Rol</th>
+          <th>Beschrijving</th>
+          <th>Verantwoordelijkheden in Orderverwerking</th>
+          <th>Betrokkenheid</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Proceseigenaar</td>
+          <td>Verantwoordelijk voor het beheer van het Orderverwerkingsproces.</td>
+          <td>Eigenaar van procesdocumentatie, optimalisatie, training, en verslaglegging.</td>
+          <td>Continu</td>
+      </tr>
+      <tr>
+          <td>Order Medewerker</td>
+          <td>Voert de dagelijkse orderverwerking uit.</td>
+          <td>Registratie, validatie, en bevestiging van orders.</td>
+          <td>Dagelijks</td>
+      </tr>
+      <tr>
+          <td>Sales Manager</td>
+          <td>Verantwoordelijk voor sales en klantacquisitie.</td>
+          <td>Goedkeuring van orders, beheer van klantrelaties.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>IT-afdeling</td>
+          <td>Verantwoordelijk voor technische ondersteuning.</td>
+          <td>Onderhoud en ondersteuning van systemen (SAP, CRM, Provisioning).</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>Kwaliteitsmanager</td>
+          <td>Verantwoordelijk voor kwaliteitsborging.</td>
+          <td>Monitoring, audits, en verbetervoorstellen.</td>
+          <td>Periodiek</td>
+      </tr>
+      <tr>
+          <td>Financiële Afdeling</td>
+          <td>Verantwoordelijk voor financiële afhandeling.</td>
+          <td>Controle kredietstatus, facturatie.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>Inkoop</td>
+          <td>Verantwoordelijk voor inkoop van producten.</td>
+          <td>Aankopen van producten/diensten bij onvoldoende voorraad.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>Provisioning</td>
+          <td>Verantwoordelijk voor activatie van diensten.</td>
+          <td>Activatie van SIM-kaarten, VoIP, internet.</td>
+          <td>Ad hoc</td>
+      </tr>
+      <tr>
+          <td>Teamleider Orderverwerking</td>
+          <td>Verantwoordelijk voor coördinatie van het Order Team.</td>
+          <td>Planning, training, en kwaliteitscontrole.</td>
+          <td>Continu</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="visuele-weergave-mermaid">Visuele Weergave (Mermaid)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<pre class="mermaid actionbar-wrapper align-center ">graph TD
+    subgraph R[&#34;Responsible (R)&#34;]
+        A[Order Medewerker]
+        B[Inkoop]
+    end
+    subgraph A[&#34;Accountable (A)&#34;]
+        C[Proceseigenaar]
+        D[Sales Manager]
+        E[IT-afdeling]
+        F[Teamleider Orderverwerking]
+    end
+    subgraph C[&#34;Consulted (C)&#34;]
+        G[Sales Manager]
+        H[IT-afdeling]
+        I[Kwaliteitsmanager]
+        J[Financiële Afdeling]
+        K[Provisioning]
+        L[Teamleider Orderverwerking]
+    end
+    subgraph I[&#34;Informed (I)&#34;]
+        M[Management]
+        N[Sales Manager]
+        O[IT-afdeling]
+        P[Kwaliteitsmanager]
+        Q[Teamleider Orderverwerking]
+    end
+
+    A --&gt;|Ontvangst klantorder| C
+    A --&gt;|Registratie in CRM| C
+    A --&gt;|Validatie klantgegevens| C
+    A --&gt;|Controle kredietstatus| D
+    A --&gt;|Controle voorraad| E
+    A --&gt;|Genereren productieopdracht| C
+    A --&gt;|Koppeling met Provisioning| E
+    A --&gt;|Versturen orderbevestiging| C
+    A --&gt;|Afwijzen order| D
+    B --&gt;|Inkoop inschakelen| A
+    A --&gt;|Handmatige validatie| F
+    A --&gt;|Pilot testen| E</pre>
+<h4 id="gerelateerde-documenten">Gerelateerde Documenten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ul>
+<li><a href="/07-voorbeeldproces/07.07-procesuitwerking/7.5-raci-matrix/index.html">Procesbeschrijving</a> (PMD-03.07.01)</li>
+<li><a href="/07-voorbeeldproces/07.07-procesuitwerking/7.5-raci-matrix/index.html">Procesrollen</a> (PMD-03.07.04)</li>
+<li><a href="/07-voorbeeldproces/07.07-procesuitwerking/7.5-raci-matrix/index.html">Werkinstructie</a> (PMD-03.07.02)</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark relearn-light">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/01-aanpak/index.html"><a class="padding" href="/01-aanpak/index.html">Aanpak</a></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding" href="/05-procesdocument/index.html">Procesdocument</a></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="parent " data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/07-voorbeeldproces/07.01-procesdocumentatiebeheer/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/07.01-procesdocumentatiebeheer/index.html">Procesdocumentatiebeheer</a><ul id="R-subsections-b36de0ad44db418368ae8605385a0d7f" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/07-voorbeeldproces/07.02-procesarchitectuur/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/07.02-procesarchitectuur/index.html">Procesarchitectuur</a><ul id="R-subsections-3ae761a87d02241d2f324ce7fbd63a52" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/07-voorbeeldproces/07.04-procescontext/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/07.04-procescontext/index.html">Procescontext</a><ul id="R-subsections-b6b99c049f9df92cba927f0154abcbb1" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/07-voorbeeldproces/07.03-procesdoel/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/07.03-procesdoel/index.html">Procesdoel</a><ul id="R-subsections-fab4d37264408b9a7f8625a072d71023" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/07-voorbeeldproces/07.05-proceseigenschappen/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/07.05-proceseigenschappen/index.html">Proceseigenschappen</a><ul id="R-subsections-1fe5c5f13533a22eb7c5babab6e8348a" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/07-voorbeeldproces/07.06-procesmodellering/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/07.06-procesmodellering/index.html">Procesmodellering</a><ul id="R-subsections-05626fee5e8149daa4f478969e0e7c2d" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/07-voorbeeldproces/07.08-processturing/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/07.08-processturing/index.html">Processturing</a><ul id="R-subsections-0408ba52c9bc06f8c0f364068e3b4366" class="collapsible-menu"></ul></li>
+            <li class="parent alwaysopen " data-nav-id="/07-voorbeeldproces/07.07-procesuitwerking/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/07.07-procesuitwerking/index.html">Procesuitwerking</a><ul id="R-subsections-caaddbab7ca30081be81e8cc5d76d4ee" class="collapsible-menu">
+            <li class="" data-nav-id="/07-voorbeeldproces/07.07-procesuitwerking/7.3-procesbeschrijving/index.html"><a class="padding" href="/07-voorbeeldproces/07.07-procesuitwerking/7.3-procesbeschrijving/index.html">Procesbeschrijving - Orderverwerking</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/07.07-procesuitwerking/7.2-procesuitwerking-master/index.html"><a class="padding" href="/07-voorbeeldproces/07.07-procesuitwerking/7.2-procesuitwerking-master/index.html">Procesuitwerking - Orderverwerking</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/07.07-procesuitwerking/7.1-procesuitwerking-master/index.html"><a class="padding" href="/07-voorbeeldproces/07.07-procesuitwerking/7.1-procesuitwerking-master/index.html">Procesuitwerking Master</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/07.07-procesuitwerking/7.4-werkinstructie/index.html"><a class="padding" href="/07-voorbeeldproces/07.07-procesuitwerking/7.4-werkinstructie/index.html">Werkinstructie - Orderverwerking</a></li>
+            <li class="active " data-nav-id="/07-voorbeeldproces/07.07-procesuitwerking/7.5-raci-matrix/index.html"><a class="padding" href="/07-voorbeeldproces/07.07-procesuitwerking/7.5-raci-matrix/index.html">RACI Matrix - Orderverwerking</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/07.07-procesuitwerking/7.6-procesrollen/index.html"><a class="padding" href="/07-voorbeeldproces/07.07-procesuitwerking/7.6-procesrollen/index.html">Procesrollen - Orderverwerking</a></li></ul></li>
+            <li class="alwaysopen " data-nav-id="/07-voorbeeldproces/07.09-procesverbetering/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/07.09-procesverbetering/index.html">Procesverbetering</a><ul id="R-subsections-b046ca4211a01c0d528298553a562a21" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/07.00-introducing-telecompro/index.html"><a class="padding" href="/07-voorbeeldproces/07.00-introducing-telecompro/index.html">TelecomPro B.V.</a></li></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over</a></li>
+            <li class="" data-nav-id="/10-artikelen/index.html"><a class="padding" href="/10-artikelen/index.html">Artikelen</a></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-light" value="relearn-light" selected>Relearn Light</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="R-select-variant-auto" value="auto">Auto</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-color.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1777193160" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1777193160" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1777193160" defer></script>
+    <script src="/js/theme.js?1777193160" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

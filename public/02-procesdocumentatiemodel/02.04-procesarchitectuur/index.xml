@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesarchitectuur :: Proces Documentalist</title>
+    <link>http://localhost:1313/02-procesdocumentatiemodel/02.04-procesarchitectuur/index.html</link>
+    <description>De procesarchitectuur beschrijft de structuur, samenhang en hiërarchie van processen binnen de organisatie.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/02-procesdocumentatiemodel/02.04-procesarchitectuur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proceslandkaart</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.04-procesarchitectuur/02.04.01-proceslandkaart/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.04-procesarchitectuur/02.04.01-proceslandkaart/index.html</guid>
+      <description>Proceslandkaart&#xD;De proceslandkaart is een visuele representatie van alle processen binnen een organisatie, gegroepeerd in samenhangende procesgebieden.&#xA;Doel&#xD;De proceslandkaart heeft als doel om:&#xA;het volledige proceslandschap inzichtelijk te maken samenhang tussen processen te visualiseren strategische en operationele processen te onderscheiden communicatie over processen te vereenvoudigen Procescategorieën&#xD;Binnen de meeste organisaties worden processen gegroepeerd in:</description>
+    </item>
+    <item>
+      <title>Proceshiërarchie</title>
+      <link>http://localhost:1313/02-procesdocumentatiemodel/02.04-procesarchitectuur/02.04.02-proceshi%C3%ABrarchie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/02-procesdocumentatiemodel/02.04-procesarchitectuur/02.04.02-proceshi%C3%ABrarchie/index.html</guid>
+      <description>Proceshiërarchie beschrijft de gelaagde opbouw van processen binnen een organisatie, van strategisch niveau tot operationeel detailniveau.&#xA;Doel&#xD;De proceshiërarchie heeft als doel om:&#xA;structuur aan te brengen in procescomplexiteit processen logisch te decomponeren consistentie in detailniveau te waarborgen navigatie door procesdocumentatie te ondersteunen Hiërarchische niveaus&#xD;graph TB 1[Niveau 1.&lt;br/&gt;Procesdomein] 2[Niveau 2.&lt;br/&gt;Hoofdproces] 3[Niveau 3.&lt;br/&gt;Subproces] 4[Niveau 4.&lt;br/&gt;Activiteit] 1--&gt;2--&gt;3--&gt;4&#xD;Niveau 1: Procesdomein&#xD;Grote procesgebieden binnen de organisatie.</description>
+    </item>
+  </channel>
+</rss>

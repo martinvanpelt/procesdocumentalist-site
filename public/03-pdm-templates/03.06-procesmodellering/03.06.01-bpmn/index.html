@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Template voor het opstellen van BPMN-procesdiagrammen, inclusief structuur, elementen, rollen, en systemen.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="BPMN :: Proces Documentalist">
+    <meta name="twitter:description" content="Template voor het opstellen van BPMN-procesdiagrammen, inclusief structuur, elementen, rollen, en systemen.">
+    <meta property="og:url" content="http://localhost:1313/03-pdm-templates/03.06-procesmodellering/03.06.01-bpmn/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="BPMN :: Proces Documentalist">
+    <meta property="og:description" content="Template voor het opstellen van BPMN-procesdiagrammen, inclusief structuur, elementen, rollen, en systemen.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="PDM Templates">
+    <meta property="article:tag" content="Procesmodellering">
+    <meta property="article:tag" content="Template">
+    <meta property="article:tag" content="BPMN">
+    <meta property="article:tag" content="Diagram">
+    <meta property="article:tag" content="Standaard">
+    <meta itemprop="name" content="BPMN :: Proces Documentalist">
+    <meta itemprop="description" content="Template voor het opstellen van BPMN-procesdiagrammen, inclusief structuur, elementen, rollen, en systemen.">
+    <meta itemprop="wordCount" content="1836">
+    <meta itemprop="keywords" content="Procesmodellering,Template,BPMN,Diagram,Standaard">
+    <title>BPMN :: Proces Documentalist</title>
+    <link href="/images/favicon.svg?1776863172" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1776863172" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776863172" defer></script>
+    <script src="/js/search-lunr.js?1776863172" defer></script>
+    <script src="/js/search.js?1776863172" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1776863172";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1776863172" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776863172" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776863172" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1776863172" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1776863172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776863172" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776863172" rel="stylesheet">
+    <link href="/css/theme.css?1776863172" rel="stylesheet">
+    <link href="/css/format-html.css?1776863172" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/03-pdm-templates\/03.06-procesmodellering\/03.06.01-bpmn\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto', 'relearn-dark' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1776863172" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/03-pdm-templates/03.06-procesmodellering/03.06.01-bpmn/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/03-pdm-templates/index.html"><span itemprop="name">PDM Templates</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/03-pdm-templates/03.06-procesmodellering/index.html"><span itemprop="name">Procesmodellering</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">BPMN</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/03-pdm-templates/03.06-procesmodellering/index.html" title="Procesmodellering (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/03-pdm-templates/03.06-procesmodellering/03.06.02-flowchart/index.html" title="Flowchart (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable template" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+<div class="R-taxonomy taxonomy-tags cstyle tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/tags/bpmn/index.html">BPMN</a></li>
+    <li><a class="term-link" href="/tags/diagram/index.html">Diagram</a></li>
+    <li><a class="term-link" href="/tags/procesmodellering/index.html">Procesmodellering</a></li>
+    <li><a class="term-link" href="/tags/standaard/index.html">Standaard</a></li>
+    <li><a class="term-link" href="/tags/template/index.html">Template</a></li>
+  </ul>
+</div>
+  </header>
+
+<h1 id="bpmn">BPMN</h1>
+
+<h4 id="inleiding">Inleiding<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Dit BPMN-template biedt een gestructureerde aanpak voor het modelleren van processen met behulp van Business Process Model and Notation (BPMN 2.0). Het doel is om:</p>
+<ul>
+<li>Standaardisatie te waarborgen in de modellering van processen binnen {{organisatienaam}}.</li>
+<li>Duidelijkheid te creëren over processtappen, beslissingen, rollen, en systemen.</li>
+<li>Communicatie tussen stakeholders (management, uitvoerende teams, IT) te verbeteren.</li>
+<li>Basis te leggen voor automatisering, analyse, en optimalisatie van processen.</li>
+</ul>
+<h4 id="eigenschappen">Eigenschappen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+          <th>Toelichting</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>03.06.01</td>
+          <td>Uniek identificatienummer voor dit BPMN-diagram in het Proces Management Document (PMD).</td>
+      </tr>
+      <tr>
+          <td>Versie</td>
+          <td>1</td>
+          <td>Huidige versie van dit document. Wordt geüpdaterd bij elke wijziging.</td>
+      </tr>
+      <tr>
+          <td>Status</td>
+          <td>concept</td>
+          <td>Mogelijke statussen: <em>concept</em>, <em>in review</em>, <em>goedgekeurd</em>, <em>gepubliceerd</em>, <em>verouderd</em>.</td>
+      </tr>
+      <tr>
+          <td>Auteur</td>
+          <td>[Naam]</td>
+          <td>De persoon of afdeling die dit diagram heeft opgesteld (meestal de procesanalist).</td>
+      </tr>
+      <tr>
+          <td>Eigenaar</td>
+          <td>[Naam proceseigenaar]</td>
+          <td>Verantwoordelijk voor de inhoud en actualiteit van het BPMN-diagram.</td>
+      </tr>
+      <tr>
+          <td>Datum</td>
+          <td>17/04/2026</td>
+          <td>Datum van de laatste update.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="1-algemeen-overzicht">1. Algemeen Overzicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Geef hier een kort overzicht van het proces dat gemodelleerd wordt.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesnaam</td>
+          <td>[Naam van het proces, bijv. &ldquo;Orderverwerking&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>Procescategorie</td>
+          <td>[Primair / Ondersteunend / Sturend]</td>
+      </tr>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>[PMD-nummer van het proces]</td>
+      </tr>
+      <tr>
+          <td>Doel van het proces</td>
+          <td>[Korte beschrijving, bijv. &ldquo;Tijdige en accurate verwerking van klantorders&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>Scope</td>
+          <td>[Beschrijving van de reikwijdte, bijv. &ldquo;Van ontvangst klantorder tot bevestiging&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>BPMN Versie</td>
+          <td>[Bijv. &ldquo;BPMN 2.0&rdquo;]</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="2-bpmn-basisstructuur">2. BPMN Basisstructuur<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>BPMN-diagrammen bestaan uit vier hoofdcategorieën van elementen:</p>
+<ol>
+<li>Flow Objects (Stroomobjecten): Events, Activities, Gateways.</li>
+<li>Connecting Objects (Verbindingen): Sequence Flows, Message Flows, Associations.</li>
+<li>Swimlanes (Zwembanen): Pools en Lanes voor organisatie en verantwoordelijkheid.</li>
+<li>Artifacts (Hulpmiddelen): Data Objects, Groups, Annotations.</li>
+</ol>
+<h4 id="3-procesinformatie">3. Procesinformatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Vul hier de basisinformatie in over het proces dat gemodelleerd wordt.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Proces-ID</td>
+          <td>[Unieke identifier, bijv. &ldquo;BPMN-001&rdquo;]</td>
+      </tr>
+      <tr>
+          <td>Procesnaam</td>
+          <td>[Naam van het proces]</td>
+      </tr>
+      <tr>
+          <td>Beschrijving</td>
+          <td>[Korte beschrijving van het proces]</td>
+      </tr>
+      <tr>
+          <td>Proceseigenaar</td>
+          <td>[Naam/afdeling]</td>
+      </tr>
+      <tr>
+          <td>Verantwoordelijke afdeling</td>
+          <td>[Naam afdeling]</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="4-trigger-start-event">4. Trigger (Start Event)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Beschrijf hier wat het proces start. In BPMN wordt dit weergegeven als een Start Event (cirkel met dunne rand).</p>
+<table>
+  <thead>
+      <tr>
+          <th>Trigger</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>BPMN-symbool</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Ontvangst klantorder&rdquo;]</td>
+          <td>Message</td>
+          <td>Een klant plaatst een order via de webshop.</td>
+          <td>Start Event</td>
+          <td>Sales Team</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Tijdsgebaseerd&rdquo;]</td>
+          <td>Timer</td>
+          <td>Het proces start op een vast tijdstip (bijv. dagelijkse batchverwerking).</td>
+          <td>Start Event Timer</td>
+          <td>IT-afdeling</td>
+      </tr>
+  </tbody>
+</table>
+<p>Toelichting types Start Events:</p>
+<ul>
+<li>Message: Het proces start door een bericht (bijv. e-mail, API-call).</li>
+<li>Timer: Het proces start op een bepaald tijdstip of interval.</li>
+<li>Signal: Het proces start door een signaal (bijv. systeemalert).</li>
+<li>Conditional: Het proces start als een voorwaarde waar is (bijv. lage voorraad).</li>
+</ul>
+<h4 id="5-hoofdactiviteiten-activities">5. Hoofdactiviteiten (Activities)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Beschrijf hier de hoofdactiviteiten van het proces. In BPMN worden activiteiten weergegeven als rechthoeken met afgeronde hoeken.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Stap</th>
+          <th>Activiteit</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>BPMN-symbool</th>
+          <th>Verantwoordelijke</th>
+          <th>Systeem/Tool</th>
+          <th>Duur</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>[Bijv. &ldquo;Ontvangst klantorder&rdquo;]</td>
+          <td>Task</td>
+          <td>Registratie van de klantorder in het ERP-systeem.</td>
+          <td>Task</td>
+          <td>Order Team</td>
+          <td>ERP-systeem</td>
+          <td>5 minuten</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>[Bijv. &ldquo;Validatie klantgegevens&rdquo;]</td>
+          <td>Task</td>
+          <td>Controle of klantgegevens compleet en correct zijn.</td>
+          <td>Task</td>
+          <td>Order Team</td>
+          <td>CRM-systeem</td>
+          <td>10 minuten</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>[Bijv. &ldquo;Genereren productieopdracht&rdquo;]</td>
+          <td>Task</td>
+          <td>Omzetten van klantorder naar productieopdracht.</td>
+          <td>Task</td>
+          <td>Order Team</td>
+          <td>ERP-systeem</td>
+          <td>15 minuten</td>
+      </tr>
+  </tbody>
+</table>
+<p>Toelichting types Activities:</p>
+<ul>
+<li>Task: Een enkele activiteit (bijv. &ldquo;Validatie klantgegevens&rdquo;).</li>
+<li>Subprocess: Een groep van activiteiten die samen een deelproces vormen.</li>
+<li>Loop Task: Een herhalende activiteit (bijv. &ldquo;Maandelijkse rapportage&rdquo;).</li>
+<li>Parallel Multi-Task: Meerdere taken die gelijktijdig worden uitgevoerd.</li>
+</ul>
+<h4 id="6-beslispunten-gateways">6. Beslispunten (Gateways)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Beschrijf hier de beslissingspunten in het proces. In BPMN worden gateways weergegeven als diamanten.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Beslissing</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>Opties</th>
+          <th>Gevolg per optie</th>
+          <th>BPMN-symbool</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Is de order compleet?&rdquo;]</td>
+          <td>Exclusive (XOR)</td>
+          <td>Controle of alle vereiste velden zijn ingevuld.</td>
+          <td>Ja / Nee</td>
+          <td>Ja: Doorgaan naar stap 4, Nee: Terug naar klant voor aanvulling</td>
+          <td>XOR Gateway</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Is de voorraad voldoende?&rdquo;]</td>
+          <td>Exclusive (XOR)</td>
+          <td>Controle of er genoeg producten op voorraad zijn.</td>
+          <td>Ja / Nee</td>
+          <td>Ja: Doorgaan naar productie, Nee: Inkoop inschakelen</td>
+          <td>XOR Gateway</td>
+      </tr>
+  </tbody>
+</table>
+<p>Toelichting types Gateways:</p>
+<ul>
+<li>Exclusive (XOR): Slechts één pad kan worden gevolgd (bijv. &ldquo;Ja&rdquo; of &ldquo;Nee&rdquo;).</li>
+<li>Inclusive (OR): Meerdere paden kunnen worden gevolgd (bijv. &ldquo;A en B&rdquo;, &ldquo;A en C&rdquo;).</li>
+<li>Parallel (AND): Alle paden moeten worden gevolgd (bijv. &ldquo;A en B en C&rdquo;).</li>
+<li>Event-based: De keuze is afhankelijk van een event (bijv. ontvangst van een bericht).</li>
+</ul>
+<h4 id="7-uitzonderingen-intermediate-events">7. Uitzonderingen (Intermediate Events)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Beschrijf hier wat er gebeurt als het proces niet volgens de hoofdflow verloopt. In BPMN worden uitzonderingen weergegeven als Intermediate Events (cirkels met dubbele rand).</p>
+<table>
+  <thead>
+      <tr>
+          <th>Uitzondering</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>Oorzaak</th>
+          <th>Afhandeling</th>
+          <th>BPMN-symbool</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Onvolledige klantgegevens&rdquo;]</td>
+          <td>Error</td>
+          <td>Foutmelding bij ontbrekende gegevens.</td>
+          <td>Klant heeft niet alle verplichte velden ingevuld.</td>
+          <td>Terugsturen naar klant voor aanvulling.</td>
+          <td>Error Event</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Systeemstoring&rdquo;]</td>
+          <td>Signal</td>
+          <td>Onderbreking door systeemfout.</td>
+          <td>ERP-systeem is niet beschikbaar.</td>
+          <td>Handmatige registratie in Excel, later overzetten naar ERP.</td>
+          <td>Signal Event</td>
+      </tr>
+  </tbody>
+</table>
+<p>Toelichting types Intermediate Events:</p>
+<ul>
+<li>Message: Een bericht ontvangen tijdens het proces.</li>
+<li>Timer: Een tijdsgebaseerde onderbreking (bijv. time-out).</li>
+<li>Error: Een fout treedt op in het proces.</li>
+<li>Signal: Een signaal ontvangen (bijv. systeemalert).</li>
+</ul>
+<h4 id="8-eind-event-end-event">8. Eind Event (End Event)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Beschrijf hier hoe het proces eindigt. In BPMN wordt dit weergegeven als een cirkel met dikke rand.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Eind Event</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>BPMN-symbool</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Order bevestigd&rdquo;]</td>
+          <td>Message</td>
+          <td>De orderbevestiging is verstuurd naar de klant.</td>
+          <td>End Event Message</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Proces geannuleerd&rdquo;]</td>
+          <td>Error</td>
+          <td>Het proces is geannuleerd door een fout.</td>
+          <td>End Event Error</td>
+      </tr>
+  </tbody>
+</table>
+<p>Toelichting types End Events:</p>
+<ul>
+<li>Message: Het proces eindigt met het versturen van een bericht.</li>
+<li>Error: Het proces eindigt met een foutmelding.</li>
+<li>Terminate: Het proces eindigt onmiddellijk (geen verdere actie).</li>
+</ul>
+<h4 id="9-systemen">9. Systemen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Beschrijf hier welke systemen worden gebruikt in het proces.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Systeem</th>
+          <th>Doel</th>
+          <th>Gebruikers</th>
+          <th>Toegang</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;ERP-systeem&rdquo;]</td>
+          <td>Beheer van orders, productie, en voorraad.</td>
+          <td>Order Team, Productie Team</td>
+          <td>Webinterface</td>
+          <td>IT-afdeling</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;CRM-systeem&rdquo;]</td>
+          <td>Beheer van klantgegevens en interacties.</td>
+          <td>Sales Team</td>
+          <td>Webinterface</td>
+          <td>IT-afdeling</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="10-betrokken-rollen">10. Betrokken Rollen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Beschrijf hier welke rollen betrokken zijn bij het proces. In BPMN kunnen rollen worden weergegeven in Swimlanes (Pools en Lanes).</p>
+<table>
+  <thead>
+      <tr>
+          <th>Rol</th>
+          <th>Beschrijving</th>
+          <th>Verantwoordelijkheid</th>
+          <th>Betrokkenheid</th>
+          <th>Swimlane</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>[Bijv. &ldquo;Order Team&rdquo;]</td>
+          <td>Verantwoordelijk voor de verwerking van orders.</td>
+          <td>Ontvangst, validatie, en bevestiging van orders.</td>
+          <td>Dagelijks</td>
+          <td>Orderverwerking</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;Productie Team&rdquo;]</td>
+          <td>Verantwoordelijk voor de productie van orders.</td>
+          <td>Uitvoering van productieopdrachten.</td>
+          <td>Dagelijks</td>
+          <td>Productie</td>
+      </tr>
+      <tr>
+          <td>[Bijv. &ldquo;IT-afdeling&rdquo;]</td>
+          <td>Ondersteuning bij systeemintegraties.</td>
+          <td>Technische ondersteuning en onderhoud.</td>
+          <td>Ad hoc</td>
+          <td>Ondersteuning</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="11-bpmn-diagram-visuele-weergave">11. BPMN Diagram (Visuele Weergave)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Voeg hier een visuele weergave van het proces toe in BPMN-notatie. Gebruik Mermaid voor een eenvoudige weergave in markdown, of verwijz naar een BPMN-tool (bijv. Camunda, Signavio, Lucidchart).</p>
+<p>Voorbeeld in Mermaid (BPMN-achtig):</p>
+<pre class="mermaid actionbar-wrapper align-center ">%% BPMN voorbeeld - vervang door eigen diagram
+bpmnDiagram
+    %% Swimlanes
+    pool &#34;Orderverwerking&#34; {
+        lane &#34;Order Team&#34; as order_team {
+            startEvent &#34;Ontvangst klantorder&#34; as start
+            userTask &#34;Validatie klantgegevens&#34; as validatie
+        }
+        lane &#34;Productie Team&#34; as productie_team {
+            userTask &#34;Genereren productieopdracht&#34; as productie
+        }
+    }
+
+    %% Flow
+    start --&gt; validatie
+    validatie --&gt; gateway1
+
+    %% Gateway
+    exclusiveGateway &#34;Is de order compleet?&#34; as gateway1
+    gateway1 --&gt;|Ja| productie
+    gateway1 --&gt;|Nee| userTask &#34;Aanvullen klantgegevens&#34; as aanvullen
+    aanvullen --&gt; validatie
+
+    %% End Event
+    productie --&gt; endEvent &#34;Order bevestigd&#34; as end</pre>
+<p>Tip:</p>
+<ul>
+<li>Gebruik een dedicated BPMN-tool (bijv. Camunda, Signavio) voor complexe diagrammen met alle BPMN-symbolen.</li>
+<li>Exporteer het diagram als afbeelding en voeg deze toe aan het document.</li>
+</ul>
+<h4 id="12-validatieregels">12. Validatieregels<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Beschrijf hier welke regels gelden voor het BPMN-diagram om consistentie en kwaliteit te waarborgen.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Regel</th>
+          <th>Beschrijving</th>
+          <th>Toepassing</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Gebruik standaard BPMN 2.0</td>
+          <td>Alle diagrammen moeten voldoen aan de BPMN 2.0-standaard.</td>
+          <td>Alle diagrammen</td>
+      </tr>
+      <tr>
+          <td>Label alle elementen</td>
+          <td>Elk element (task, gateway, event) moet een duidelijke label hebben.</td>
+          <td>Alle elementen</td>
+      </tr>
+      <tr>
+          <td>Gebruik Swimlanes</td>
+          <td>Gebruik Swimlanes om verantwoordelijkheden duidelijk te maken.</td>
+          <td>Processen met meerdere rollen</td>
+      </tr>
+      <tr>
+          <td>Documenteer uitzonderingen</td>
+          <td>Alle uitzonderingen moeten worden gemodelleerd.</td>
+          <td>Complexe processen</td>
+      </tr>
+      <tr>
+          <td>Houd het overzichtelijk</td>
+          <td>Beperk het aantal elementen per diagram (max. 20-30).</td>
+          <td>Alle diagrammen</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="13-tips-voor-effectieve-bpmn-modellering">13. Tips voor Effectieve BPMN-Modellering<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ul>
+<li>Gebruik de juiste symbolen: Zorg dat elk element (Start Event, Task, Gateway) het juiste BPMN-symbool heeft.</li>
+<li>Houd het eenvoudig: Begin met een hoofdstroom en voeg luego beslissingen en uitzonderingen toe.</li>
+<li>Gebruik Swimlanes: Maak duidelijk wie verantwoordelijk is voor elke stap.</li>
+<li>Documenteer alles: Zorg dat alle stappen, beslissingen, en uitzonderingen zijn gemodelleerd.</li>
+<li>Valideer met stakeholders: Laat het diagram reviewen door proceseigenaren en uitvoerende teams.</li>
+<li>Gebruik tools: Maak gebruik van BPMN-tools (bijv. Camunda, Signavio) voor complexe diagrammen.</li>
+<li>Houd het actueel: Update het diagram bij wijzigingen in het proces.</li>
+</ul>
+<h4 id="14-gerelateerde-documenten">14. Gerelateerde Documenten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Lijst hier alle gerelateerde documenten, zoals:</p>
+<ul>
+<li>[Link naar procesbeschrijving]</li>
+<li>[Link naar proceslandkaart]</li>
+<li>[Link naar werkinstructies]</li>
+<li>[Link naar systeemdocumentatie]</li>
+</ul>
+<h4 id="15-versiehistorie">15. Versiehistorie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Versie</th>
+          <th>Datum</th>
+          <th>Wijziging</th>
+          <th>Auteur</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1.0</td>
+          <td>17/04/2026</td>
+          <td>Initiële versie</td>
+          <td>[Naam]</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="16-instructies-voor-gebruik">16. Instructies voor Gebruik<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ol>
+<li>Kies het proces:</li>
+</ol>
+<ul>
+<li>Bepaal welk proces je wilt modelleren.</li>
+</ul>
+<ol>
+<li>Bepaal de scope:</li>
+</ol>
+<ul>
+<li>Definieer wat wel en niet in het diagram moet worden opgenomen.</li>
+</ul>
+<ol>
+<li>Kies de notatie:</li>
+</ol>
+<ul>
+<li>Gebruik BPMN 2.0 voor complexe processen.</li>
+</ul>
+<ol>
+<li>Modelleer de hoofdflow:</li>
+</ol>
+<ul>
+<li>Begin met de hoofdstappen van het proces.</li>
+</ul>
+<ol>
+<li>Voeg beslissingen toe:</li>
+</ol>
+<ul>
+<li>Beschrijf beslissingspunten en de gevolgen van elke keuze.</li>
+</ul>
+<ol>
+<li>Documenteer uitzonderingen:</li>
+</ol>
+<ul>
+<li>Geef aan wat er gebeurt als het proces niet volgens de hoofdflow verloopt.</li>
+</ul>
+<ol>
+<li>Voeg systemen en rollen toe:</li>
+</ol>
+<ul>
+<li>Beschrijf welke systemen en rollen betrokken zijn.</li>
+</ul>
+<ol>
+<li>Maak een visuele weergave:</li>
+</ol>
+<ul>
+<li>Gebruik Mermaid of een BPMN-tool om het proces visueel weer te geven.</li>
+</ul>
+<ol>
+<li>Valideer met stakeholders:</li>
+</ol>
+<ul>
+<li>Laat het diagram reviewen door proceseigenaren en uitvoerende teams.</li>
+</ul>
+<h4 id="17-voorbeeld-ingevuld-bpmn-diagram-orderverwerking">17. Voorbeeld: Ingevuld BPMN-Diagram (Orderverwerking)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h5 id="algemeen-overzicht">Algemeen Overzicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesnaam</td>
+          <td>Orderverwerking</td>
+      </tr>
+      <tr>
+          <td>Procescategorie</td>
+          <td>Primair</td>
+      </tr>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>PMD-01.01.00</td>
+      </tr>
+      <tr>
+          <td>Doel van het proces</td>
+          <td>Tijdige en accurate verwerking van klantorders.</td>
+      </tr>
+      <tr>
+          <td>Scope</td>
+          <td>Van ontvangst klantorder tot bevestiging aan klant.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="trigger-start-event">Trigger (Start Event)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Trigger</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>BPMN-symbool</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Ontvangst klantorder</td>
+          <td>Message</td>
+          <td>Een klant plaatst een order via de webshop.</td>
+          <td>Start Event (Message)</td>
+          <td>Sales Team</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="hoofdactiviteiten-activities">Hoofdactiviteiten (Activities)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Stap</th>
+          <th>Activiteit</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>BPMN-symbool</th>
+          <th>Verantwoordelijke</th>
+          <th>Systeem/Tool</th>
+          <th>Duur</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Ontvangst klantorder</td>
+          <td>Task</td>
+          <td>Registratie van de klantorder in het ERP-systeem.</td>
+          <td>Task</td>
+          <td>Order Team</td>
+          <td>ERP-systeem</td>
+          <td>5 minuten</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Validatie klantgegevens</td>
+          <td>Task</td>
+          <td>Controle of klantgegevens compleet en correct zijn.</td>
+          <td>Task</td>
+          <td>Order Team</td>
+          <td>CRM-systeem</td>
+          <td>10 minuten</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Genereren productieopdracht</td>
+          <td>Task</td>
+          <td>Omzetten van klantorder naar productieopdracht.</td>
+          <td>Task</td>
+          <td>Order Team</td>
+          <td>ERP-systeem</td>
+          <td>15 minuten</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="beslispunten-gateways">Beslispunten (Gateways)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Beslissing</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>Opties</th>
+          <th>Gevolg per optie</th>
+          <th>BPMN-symbool</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Is de order compleet?</td>
+          <td>Exclusive (XOR)</td>
+          <td>Controle of alle vereiste velden zijn ingevuld.</td>
+          <td>Ja / Nee</td>
+          <td>Ja: Doorgaan naar stap 4, Nee: Terug naar klant voor aanvulling</td>
+          <td>Exclusive Gateway</td>
+      </tr>
+      <tr>
+          <td>Is de voorraad voldoende?</td>
+          <td>Exclusive (XOR)</td>
+          <td>Controle of er genoeg producten op voorraad zijn.</td>
+          <td>Ja / Nee</td>
+          <td>Ja: Doorgaan naar productie, Nee: Inkoop inschakelen</td>
+          <td>Exclusive Gateway</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="uitzonderingen-intermediate-events">Uitzonderingen (Intermediate Events)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Uitzondering</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>Oorzaak</th>
+          <th>Afhandeling</th>
+          <th>BPMN-symbool</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Onvolledige klantgegevens</td>
+          <td>Error</td>
+          <td>Foutmelding bij ontbrekende gegevens.</td>
+          <td>Klant heeft niet alle verplichte velden ingevuld.</td>
+          <td>Terugsturen naar klant voor aanvulling.</td>
+          <td>Error Event</td>
+      </tr>
+      <tr>
+          <td>Systeemstoring</td>
+          <td>Signal</td>
+          <td>Onderbreking door systeemfout.</td>
+          <td>ERP-systeem is niet beschikbaar.</td>
+          <td>Handmatige registratie in Excel, later overzetten naar ERP.</td>
+          <td>Signal Event</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="eind-event-end-event">Eind Event (End Event)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Eind Event</th>
+          <th>Type</th>
+          <th>Beschrijving</th>
+          <th>BPMN-symbool</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Order bevestigd</td>
+          <td>Message</td>
+          <td>De orderbevestiging is verstuurd naar de klant.</td>
+          <td>End Event (Message)</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="systemen">Systemen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Systeem</th>
+          <th>Doel</th>
+          <th>Gebruikers</th>
+          <th>Toegang</th>
+          <th>Verantwoordelijke</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>ERP-systeem</td>
+          <td>Beheer van orders, productie, en voorraad.</td>
+          <td>Order Team, Productie Team</td>
+          <td>Webinterface</td>
+          <td>IT-afdeling</td>
+      </tr>
+      <tr>
+          <td>CRM-systeem</td>
+          <td>Beheer van klantgegevens en interacties.</td>
+          <td>Sales Team</td>
+          <td>Webinterface</td>
+          <td>IT-afdeling</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="betrokken-rollen">Betrokken Rollen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Rol</th>
+          <th>Beschrijving</th>
+          <th>Verantwoordelijkheid</th>
+          <th>Betrokkenheid</th>
+          <th>Swimlane</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Order Team</td>
+          <td>Verantwoordelijk voor de verwerking van orders.</td>
+          <td>Ontvangst, validatie, en bevestiging van orders.</td>
+          <td>Dagelijks</td>
+          <td>Orderverwerking</td>
+      </tr>
+      <tr>
+          <td>Productie Team</td>
+          <td>Verantwoordelijk voor de productie van orders.</td>
+          <td>Uitvoering van productieopdrachten.</td>
+          <td>Dagelijks</td>
+          <td>Productie</td>
+      </tr>
+      <tr>
+          <td>IT-afdeling</td>
+          <td>Ondersteuning bij systeemintegraties.</td>
+          <td>Technische ondersteuning en onderhoud.</td>
+          <td>Ad hoc</td>
+          <td>Ondersteuning</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="bpmn-diagram-visuele-weergave">BPMN Diagram (Visuele Weergave)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<pre class="mermaid actionbar-wrapper align-center ">%% BPMN voorbeeld - Orderverwerking
+bpmnDiagram
+    %% Swimlanes
+    pool &#34;Orderverwerking&#34; {
+        lane &#34;Order Team&#34; as order_team {
+            startEvent &#34;Ontvangst klantorder&#34; as start
+            userTask &#34;Validatie klantgegevens&#34; as validatie
+            exclusiveGateway &#34;Is de order compleet?&#34; as gateway1
+            userTask &#34;Aanvullen klantgegevens&#34; as aanvullen
+        }
+        lane &#34;Productie Team&#34; as productie_team {
+            userTask &#34;Genereren productieopdracht&#34; as productie
+            exclusiveGateway &#34;Is de voorraad voldoende?&#34; as gateway2
+            userTask &#34;Inkoop inschakelen&#34; as inkoop
+        }
+    }
+
+    %% Flow
+    start --&gt; validatie
+    validatie --&gt; gateway1
+    gateway1 --&gt;|Ja| gateway2
+    gateway1 --&gt;|Nee| aanvullen
+    aanvullen --&gt; validatie
+
+    gateway2 --&gt;|Ja| productie
+    gateway2 --&gt;|Nee| inkoop
+    inkoop --&gt; productie
+
+    %% End Event
+    productie --&gt; endEvent &#34;Order bevestigd&#34; as end</pre>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/01-methode/index.html"><a class="padding default-animation" href="/01-methode/index.html">Methode</a><ul id="R-subsections-73c5657de716354a63503660a5152d83" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/02-procesdocumentatiemodel/index.html"><a class="padding" href="/02-procesdocumentatiemodel/index.html">Het Procesdocumentatiemodel</a></li>
+            <li class="parent " data-nav-id="/03-pdm-templates/index.html"><a class="padding default-animation" href="/03-pdm-templates/index.html">PDM Templates</a><ul id="R-subsections-e099e37a0f2bd26aa2d219cd310eda07" class="collapsible-menu">
+            <li class="parent hidden alwaysopen " data-nav-id="/03-pdm-templates/03.06-procesmodellering/index.html"><a class="padding default-animation" href="/03-pdm-templates/03.06-procesmodellering/index.html">Procesmodellering</a><ul id="R-subsections-229a42caca3806a3f4b9b33816cf95b6" class="collapsible-menu">
+            <li class="active " data-nav-id="/03-pdm-templates/03.06-procesmodellering/03.06.01-bpmn/index.html"><a class="padding" href="/03-pdm-templates/03.06-procesmodellering/03.06.01-bpmn/index.html">BPMN</a></li>
+            <li class="" data-nav-id="/03-pdm-templates/03.06-procesmodellering/03.06.02-flowchart/index.html"><a class="padding" href="/03-pdm-templates/03.06-procesmodellering/03.06.02-flowchart/index.html">Flowchart</a></li>
+            <li class="" data-nav-id="/03-pdm-templates/03.06-procesmodellering/03.06.03-swimlane/index.html"><a class="padding" href="/03-pdm-templates/03.06-procesmodellering/03.06.03-swimlane/index.html">Swimlane Diagram Template</a></li>
+            <li class="" data-nav-id="/03-pdm-templates/03.06-procesmodellering/03.06.00-procesmodellering-master/index.html"><a class="padding" href="/03-pdm-templates/03.06-procesmodellering/03.06.00-procesmodellering-master/index.html">Procesmodellering</a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/04-bronnen-van-procesinformatie/index.html"><a class="padding" href="/04-bronnen-van-procesinformatie/index.html">Bronnen van procesinformatie</a></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding default-animation" href="/05-procesdocument/index.html">Het procesdocument</a><ul id="R-subsections-5c49dcae193485065049068268687701" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over de Procesdocumentalist</a></li>
+            <li class="" data-nav-id="/10-artikelen/index.html"><a class="padding" href="/10-artikelen/index.html">Artikelen</a></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-auto" value="auto" selected>Auto</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-color.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1776863172" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1776863172" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1776863172" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776863172" defer></script>
+    <script src="/js/theme.js?1776863172" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

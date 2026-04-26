@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Een vergelijking tussen BPMN en tekstuele procesbeschrijvingen, met praktische richtlijnen voor toepassing binnen het Procesdocumentatiemodel (PDM).">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="BPMN vs. tekstuele procesbeschrijvingen – Welke methode past bij jouw organisatie? :: Proces Documentalist">
+    <meta name="twitter:description" content="Een vergelijking tussen BPMN en tekstuele procesbeschrijvingen, met praktische richtlijnen voor toepassing binnen het Procesdocumentatiemodel (PDM).">
+    <meta property="og:url" content="http://localhost:1313/10-artikelen/08.11-bpmn-vs.-tekstuele-procesbeschrijvingen--welke-methode-past-bij-jouw-organisatie/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="BPMN vs. tekstuele procesbeschrijvingen – Welke methode past bij jouw organisatie? :: Proces Documentalist">
+    <meta property="og:description" content="Een vergelijking tussen BPMN en tekstuele procesbeschrijvingen, met praktische richtlijnen voor toepassing binnen het Procesdocumentatiemodel (PDM).">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Artikelen">
+    <meta itemprop="name" content="BPMN vs. tekstuele procesbeschrijvingen – Welke methode past bij jouw organisatie? :: Proces Documentalist">
+    <meta itemprop="description" content="Een vergelijking tussen BPMN en tekstuele procesbeschrijvingen, met praktische richtlijnen voor toepassing binnen het Procesdocumentatiemodel (PDM).">
+    <meta itemprop="wordCount" content="2328">
+    <title>BPMN vs. tekstuele procesbeschrijvingen – Welke methode past bij jouw organisatie? :: Proces Documentalist</title>
+    <link href="/images/favicon.svg?1777193160" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1777193160" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1777193160" defer></script>
+    <script src="/js/search-lunr.js?1777193160" defer></script>
+    <script src="/js/search.js?1777193160" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1777193160";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1777193160" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1777193160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1777193160" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1777193160" rel="stylesheet">
+    <link href="/css/theme.css?1777193160" rel="stylesheet">
+    <link href="/css/format-html.css?1777193160" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/10-artikelen\/08.11-bpmn-vs.-tekstuele-procesbeschrijvingen--welke-methode-past-bij-jouw-organisatie\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-light', 'relearn-dark', 'auto' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1777193160" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/10-artikelen/08.11-bpmn-vs.-tekstuele-procesbeschrijvingen--welke-methode-past-bij-jouw-organisatie/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist in één oogopslag</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/10-artikelen/index.html"><span itemprop="name">Artikelen</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">BPMN vs. tekstuele procesbeschrijvingen – Welke methode past bij jouw organisatie?</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/10-artikelen/index.html" title="Artikelen (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/11-gereedschapskist/index.html" title="Hulpmiddelen (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 10-artikelen" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="bpmn-vs-tekstuele-procesbeschrijvingen--welke-methode-past-bij-jouw-organisatie">BPMN vs. tekstuele procesbeschrijvingen – Welke methode past bij jouw organisatie?</h1>
+
+
+<details open class="box cstyle notices primary">
+  <summary class="box-label a11y-only" tabindex="-1">
+    <span class="a11y-only">Details</span>
+  </summary>
+  <div class="box-content">
+<p>Hoe kies je de juiste methode voor bruikbare, consistente en levende procesdocumentatie?</p>
+  </div>
+</details>
+<p>Procesdocumentatie is als een taal: het moet duidelijk, eenduidig en begrijpelijk zijn voor iedereen die het gebruikt. Toch worstelen veel organisaties met de vraag: Hoe leggen we onze processen het beste vast? Twee veelgebruikte methoden zijn BPMN (Business Process Model and Notation) en tekstuele procesbeschrijvingen. Beide hebben hun eigen sterktes, zwaktes en toepassingsgebieden.</p>
+<p>In dit artikel vergelijken we BPMN en tekstuele beschrijvingen op basis van begrijpelijkheid, toepasbaarheid, onderhoudbaarheid en integratie binnen het Procesdocumentatiemodel (PDM). We kijken naar:</p>
+<ul>
+<li>De voor- en nadelen van beide methoden.</li>
+<li>Wanneer je welke methode gebruikt.</li>
+<li>Hoe je ze kunt combineren voor optimale resultaten.</li>
+<li>Praktische tips voor implementatie in je eigen organisatie.</li>
+</ul>
+<p>Of je nu een beginner bent in procesdocumentatie of een ervaren procesprofessional, dit artikel helpt je om de juiste keuze te maken – en om BPMN en tekstuele beschrijvingen effectief in te zetten binnen het PDM.</p>
+<h4 id="deel-1-wat-zijn-bpmn-en-tekstuele-procesbeschrijvingen">Deel 1: Wat zijn BPMN en tekstuele procesbeschrijvingen?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h6 id="1-bpmn-business-process-model-and-notation">1. BPMN (Business Process Model and Notation)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Wat is het?<br>
+BPMN is een gestandaardiseerde grafische notatie voor het modelleren van bedrijfsprocessen. Het gebruikt symbolen, pijlen en diagrammen om processen visueel weer te geven. BPMN is ontwikkeld door de Object Management Group (OMG) en wordt wereldwijd gebruikt in procesmanagement.</p>
+<p>Kernkenmerken:</p>
+<ul>
+<li>Visueel: Gebruikt diagrammen met symbolen voor taken, gateways, events en flows.</li>
+<li>Gestandaardiseerd: Een uniforme taal die door veel tools (bijv. Camunda, Bizagi, Signavio) wordt ondersteund.</li>
+<li>Flexibel: Kan zowel eenvoudige als complexe processen modelleren.</li>
+<li>Uitvoerbaar: Sommige BPMN-modellen kunnen direct worden geïmplementeerd in BPM-suites (Business Process Management).</li>
+</ul>
+<p>Voorbeeld:<br>
+Een eenvoudig BPMN-diagram voor een orderverwerkingsproces zou er als volgt uit kunnen zien:</p>
+<ul>
+<li>Start Event: Klant plaatst order.</li>
+<li>Task: Order registreren in ERP-systeem.</li>
+<li>Gateway: Is de voorraad beschikbaar?
+<ul>
+<li>Ja: Verwerk betaling.</li>
+<li>Nee: Informeer klant over wachttijd.</li>
+</ul>
+</li>
+<li>End Event: Order bevestigen en verzenden.</li>
+</ul>
+<h6 id="2-tekstuele-procesbeschrijvingen">2. Tekstuele procesbeschrijvingen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Wat is het?<br>
+Tekstuele procesbeschrijvingen zijn geschreven uitleggen van processen, vaak in de vorm van:</p>
+<ul>
+<li>Stappenplannen (bijv. &ldquo;Stap 1: Ontvang order. Stap 2: Controleer voorraad.&rdquo;).</li>
+<li>Handleidingen (bijv. een Word-document of Confluence-pagina).</li>
+<li>Checklists (bijv. een lijst met acties die moeten worden uitgevoerd).</li>
+<li>Narratieve beschrijvingen (bijv. een verhaaltje dat uitlegt hoe een proces werkt).</li>
+</ul>
+<p>Kernkenmerken:</p>
+<ul>
+<li>Toegankelijk: Makkelijk te lezen en te begrijpen voor niet-technische medewerkers.</li>
+<li>Flexibel: Kan worden aangepast aan de specifieke behoeften van een organisatie.</li>
+<li>Detailleerbaar: Kan diepgaande uitleg bevatten (bijv. achtergronden, voorbeelden, uitzonderingen).</li>
+<li>Makkelijk te onderhouden: Tekst is vaak eenvoudiger bij te werken dan diagrammen.</li>
+</ul>
+<h4 id="voorbeeld">Voorbeeld:<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Een tekstuele beschrijving van hetzelfde orderverwerkingsproces zou er als volgt uit kunnen zien:</p>
+<blockquote>
+<p>Proces: Orderverwerking</p>
+<p>Doel: Zorgen voor tijdige en accurate verwerking van klantorders.</p>
+<p>Stappen:</p>
+<ol>
+<li>Ontvang order: De klant plaatst een order via de webshop, e-mail of telefoon.</li>
+<li>Registreer order: De medewerker registreert de order in het ERP-systeem (SAP).</li>
+<li>Controleer voorraad:</li>
+</ol>
+<ul>
+<li>Als de voorraad beschikbaar is, ga dan naar stap 4.</li>
+<li>Als de voorraad niet beschikbaar is, informeer de klant over de verwachte levertijd.</li>
+</ul>
+<ol>
+<li>Verwerk betaling: De klant betaalt via iDEAL, creditcard of factuur.</li>
+<li>Bevestig en verzend order: Stuur een bevestigingsmail naar de klant en verzend de order.</li>
+</ol>
+</blockquote>
+<h4 id="deel-2-bpmn-vs-tekstuele-beschrijvingen--een-vergelijking">Deel 2: BPMN vs. tekstuele beschrijvingen – Een vergelijking<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Hieronder vergelijken we BPMN en tekstuele beschrijvingen op vijf cruciale aspecten voor procesdocumentatie:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Aspect</th>
+          <th>BPMN</th>
+          <th>Tekstuele beschrijvingen</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Begrijpelijkheid</td>
+          <td>⭐⭐⭐ (Goed voor visuele denkers, maar kan complex zijn voor niet-technische medewerkers.)</td>
+          <td>⭐⭐⭐⭐⭐ (Makkelijk te lezen en te begrijpen voor iedereen.)</td>
+      </tr>
+      <tr>
+          <td>Toepasbaarheid</td>
+          <td>⭐⭐⭐⭐ (Ideaal voor complexe processen met veel vertakkingen en afhankelijkheden.)</td>
+          <td>⭐⭐⭐ (Goed voor eenvoudige, lineaire processen.)</td>
+      </tr>
+      <tr>
+          <td>Onderhoudbaarheid</td>
+          <td>⭐⭐ (Moeilijker bij te werken, vooral bij complexe diagrammen.)</td>
+          <td>⭐⭐⭐⭐ (Eenvoudig bij te werken, vooral in collaboratieve tools zoals Confluence.)</td>
+      </tr>
+      <tr>
+          <td>Integratie met PDM</td>
+          <td>⭐⭐⭐⭐ (Past goed binnen het PDM, vooral voor modellering en analyse.)</td>
+          <td>⭐⭐⭐ (Kan worden geïntegreerd, maar vereist structuur om consistent te blijven.)</td>
+      </tr>
+      <tr>
+          <td>Automatiseerbaarheid</td>
+          <td>⭐⭐⭐⭐⭐ (Kan direct worden geïmplementeerd in BPM-suites.)</td>
+          <td>⭐ (Moeilijk te automatiseren zonder aanvullende modellering.)</td>
+      </tr>
+      <tr>
+          <td>Flexibiliteit</td>
+          <td>⭐⭐⭐ (Gestandaardiseerd, maar minder flexibel voor unieke procesdetails.)</td>
+          <td>⭐⭐⭐⭐⭐ (Kan worden aangepast aan specifieke behoeften.)</td>
+      </tr>
+      <tr>
+          <td>Snelheid van creatie</td>
+          <td>⭐⭐ (Vereist tijd en kennis van BPMN-symbolen.)</td>
+          <td>⭐⭐⭐⭐⭐ (Snel te schrijven, vooral voor eenvoudige processen.)</td>
+      </tr>
+      <tr>
+          <td>Kosten</td>
+          <td>⭐ (Vereist vaak betaalde tools voor modellering.)</td>
+          <td>⭐⭐⭐⭐⭐ (Kan worden gemaakt met gratis tools zoals Word of Confluence.)</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="deel-3-wanneer-gebruik-je-bpmn-en-wanneer-tekstuele-beschrijvingen">Deel 3: Wanneer gebruik je BPMN en wanneer tekstuele beschrijvingen?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h6 id="gebruik-bpmn-als">Gebruik BPMN als:<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<ul>
+<li>Het proces complex is, met veel vertakkingen, lussen of parallelle paden.
+<em>Voorbeeld</em>: Een klachtbehandelingsproces met meerdere escalatieniveaus en afhankelijkheden van externe partijen.</li>
+<li>Je processen wilt analyseren of optimaliseren.</li>
+<li>BPMN maakt het makkelijk om bottlenecks, redundanties of inefficiënties te identificeren.</li>
+<li>Je processen wilt automatiseren.</li>
+<li>BPMN-modellen kunnen worden geëxporteerd naar BPM-suites (bijv. Camunda, Bizagi) voor automatisering.</li>
+<li>Je werkt in een omgeving waar visuele modellering de standaard is.
+<em>Voorbeeld</em>: IT-afdelingen, procesmanagementteams, of organisaties die al BPMN gebruiken.</li>
+<li>Je processen wilt communiceren aan technische stakeholders (bijv. IT, procesanalisten).</li>
+<li>BPMN is een gestandaardiseerde taal die door technische teams wordt begrepen.</li>
+</ul>
+<h6 id="gebruik-tekstuele-beschrijvingen-als">Gebruik tekstuele beschrijvingen als:<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<ul>
+<li>Het proces eenvoudig en lineair is.
+<em>Voorbeeld</em>: Een stappenplan voor het opstarten van een nieuwe medewerker.</li>
+<li>Je documentatie wilt maken voor niet-technische medewerkers.
+<em>Voorbeeld</em>: Een handleiding voor klantenservice die door alle medewerkers moet worden gelezen.</li>
+<li>Je snel en flexibel wilt documenteren.</li>
+<li>Tekstuele beschrijvingen zijn snel te schrijven en bij te werken, vooral in collaboratieve tools zoals Confluence of Notion.</li>
+<li>Je diepgaande uitleg wilt geven (bijv. achtergronden, voorbeelden, uitzonderingen).
+<em>Voorbeeld</em>: Een procesbeschrijving met uitleg over waarom bepaalde stappen nodig zijn.</li>
+<li>Je werkt in een omgeving waar visuele modellering niet haalbaar is (bijv. door gebrek aan tools of kennis).
+<em>Voorbeeld</em>: Kleine organisaties zonder toegang tot BPMN-tools.</li>
+</ul>
+<h6 id="combineer-bpmn-en-tekstuele-beschrijvingen-als">Combineer BPMN en tekstuele beschrijvingen als:<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<ul>
+<li>Je de voordelen van beide methoden wilt benutten.
+<em>Voorbeeld</em>: Gebruik BPMN voor de visuele weergave van een complex proces, en tekstuele beschrijvingen voor de details (bijv. uitleg per stap, voorbeelden, uitzonderingen).</li>
+<li>Je processen wilt documenteren voor verschillende doelgroepen. <em>Voorbeeld</em>:
+<ul>
+<li>BPMN-diagram voor procesanalisten en IT.</li>
+<li>Tekstuele handleiding voor uitvoerende medewerkers.</li>
+</ul>
+</li>
+<li>Je processen wilt integreren in het PDM.</li>
+</ul>
+<p>Binnen het PDM kun je BPMN gebruiken voor modellering en tekstuele beschrijvingen voor context, regels en randvoorwaarden.</p>
+<h4 id="deel-4-hoe-combineer-je-bpmn-en-tekstuele-beschrijvingen-in-het-pdm">Deel 4: Hoe combineer je BPMN en tekstuele beschrijvingen in het PDM?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Binnen het Procesdocumentatiemodel (PDM) kun je BPMN en tekstuele beschrijvingen naadloos integreren om een compleet en bruikbaar procesdocumentatiesysteem te creëren. Hieronder een praktische aanpak:</p>
+<h6 id="stap-1-gebruik-bpmn-voor-modellering-processtructuur">Stap 1: Gebruik BPMN voor modellering (Processtructuur)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>BPMN is bij uitstek geschikt voor het modelleren van de structuur van een proces. Gebruik BPMN om:</p>
+<ul>
+<li>De stappen in het proces visueel weer te geven.</li>
+<li>Vertakkingen, lussen en parallelle paden in kaart te brengen.</li>
+<li>Afhankelijkheden tussen stappen duidelijk te maken.</li>
+</ul>
+<p>Voorbeeld:<br>
+Een BPMN-diagram voor een orderverwerkingsproces toont:</p>
+<ul>
+<li>Hoe de order wordt ontvangen.</li>
+<li>Welke stappen worden genomen (bijv. voorraad controleren, betaling verwerken).</li>
+<li>Wat er gebeurt als de voorraad niet beschikbaar is (bijv. klant informeren).</li>
+</ul>
+<h6 id="stap-2-voeg-tekstuele-beschrijvingen-toe-voor-context-procescontext">Stap 2: Voeg tekstuele beschrijvingen toe voor context (Procescontext)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Tekstuele beschrijvingen zijn ideaal voor het toevoegen van context aan een proces. Gebruik tekst om:</p>
+<ul>
+<li>De scope en afbakening van het proces te beschrijven.</li>
+<li>Triggers en input te specificeren.</li>
+<li>Output en resultaten te definiëren.</li>
+<li>Regels en randvoorwaarden toe te lichten.</li>
+<li>Systemen en integraties te beschrijven.</li>
+</ul>
+<p>Voorbeeld:<br>
+Bij het orderverwerkingsproces voeg je een tekstuele sectie toe met:</p>
+<ul>
+<li>Scope: &ldquo;Dit proces geldt voor alle orders die via de webshop, e-mail of telefoon worden geplaatst.&rdquo;</li>
+<li>Triggers: &ldquo;Het proces start wanneer een klant een order plaatst.&rdquo;</li>
+<li>Input: &ldquo;Ordergegevens (klantinformatie, producten, betalingsmethode).&rdquo;</li>
+<li>Output: &ldquo;Bevestigingsmail, factuur, verzendinformatie.&rdquo;</li>
+<li>Regels: &ldquo;Orders moeten binnen 24 uur worden bevestigd.&rdquo;</li>
+<li>Systemen: &ldquo;Gebruikte systemen: Webshop (Shopify), ERP (SAP), E-mail (Outlook).&rdquo;</li>
+</ul>
+<h6 id="stap-3-koppel-bpmn-en-tekstuele-beschrijvingen-aan-elkaar">Stap 3: Koppel BPMN en tekstuele beschrijvingen aan elkaar<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Zorg dat je BPMN-diagrammen en tekstuele beschrijvingen met elkaar verbindt, zodat medewerkers beide kunnen raadplegen. Enkele manieren om dit te doen:</p>
+<ol>
+<li>Hyperlinks:</li>
+</ol>
+<ul>
+<li>Voeg in je BPMN-diagram hyperlinks toe naar de tekstuele beschrijvingen (bijv. in Confluence of SharePoint).</li>
+<li><em>Voorbeeld</em>: Klik op een taak in het BPMN-diagram om naar de gedetailleerde tekstuele uitleg te gaan.</li>
+</ul>
+<ol>
+<li>Embedded diagrammen:</li>
+</ol>
+<ul>
+<li>Voeg het BPMN-diagram in in je tekstuele documentatie (bijv. als afbeelding in Confluence).</li>
+<li><em>Voorbeeld</em>: Een Confluence-pagina met een BPMN-diagram bovenaan, gevolgd door tekstuele uitleg.</li>
+</ul>
+<ol>
+<li>Gekoppelde documenten:</li>
+</ol>
+<ul>
+<li>Bewaar BPMN-diagrammen en tekstuele beschrijvingen in dezelfde map of project (bijv. in SharePoint of Notion).</li>
+<li><em>Voorbeeld</em>: Een map &ldquo;Orderverwerking&rdquo; met:
+<ul>
+<li><code>Orderverwerking_BPMN.bpmn</code> (het diagram).</li>
+<li><code>Orderverwerking_Handleiding.docx</code> (de tekstuele beschrijving).</li>
+</ul>
+</li>
+</ul>
+<h6 id="stap-4-zorg-voor-consistentie">Stap 4: Zorg voor consistentie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Om ervoor te zorgen dat je BPMN-diagrammen en tekstuele beschrijvingen consistent blijven:</p>
+<ul>
+<li>Gebruik dezelfde terminologie: Zorg dat de namen van stappen, rollen en systemen in beide methoden hetzelfde zijn.</li>
+<li>Synchroniseer wijzigingen: Als je een BPMN-diagram bijwerkt, werk dan ook de tekstuele beschrijving bij (en vice versa).</li>
+<li>Gebruik templates: Maak standaard templates voor zowel BPMN als tekstuele beschrijvingen, zodat ze dezelfde structuur hebben.</li>
+</ul>
+<p>Tip: Gebruik het wijzigingsbeheer-onderdeel van het PDM om updates in beide methoden te coördineren.</p>
+<h6 id="stap-5-maak-het-toegankelijk-voor-alle-stakeholders">Stap 5: Maak het toegankelijk voor alle stakeholders<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Zorg dat je documentatie toegankelijk is voor alle betrokkenen, ongeacht hun kennisniveau:</p>
+<ul>
+<li>Voor technische stakeholders (bijv. procesanalisten, IT):
+<ul>
+<li>Focus op BPMN-diagrammen en gedetailleerde modellering.</li>
+</ul>
+</li>
+<li>Voor uitvoerende medewerkers:
+<ul>
+<li>Focus op tekstuele handleidingen met duidelijke stappenplannen en voorbeelden.</li>
+</ul>
+</li>
+<li>Voor management:
+<ul>
+<li>Geef een high-level overzicht (bijv. een samenvatting van het proces met de belangrijkste KPI’s).</li>
+</ul>
+</li>
+</ul>
+<p>Tip: Gebruik rollenspecifieke views in je documentatiesysteem (bijv. Confluence) om de juiste informatie aan de juiste doelgroep te tonen.</p>
+<h4 id="deel-5-praktische-tips-voor-implementatie">Deel 5: Praktische tips voor implementatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<h6 id="tip-1-begin-klein">Tip 1: Begin klein<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Start met één proces en experimenteer met zowel BPMN als tekstuele beschrijvingen. Evalueer wat het beste werkt voor je organisatie voordat je opschaalt.</p>
+<h6 id="tip-2-gebruik-de-juiste-tools">Tip 2: Gebruik de juiste tools<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Kies tools die zowel BPMN als tekstuele beschrijvingen ondersteunen:</p>
+<ul>
+<li>BPMN-tools: Camunda, Bizagi, Signavio, Lucidchart, draw.io.</li>
+<li>Tekstuele tools: Confluence, Notion, SharePoint, Word, Google Docs.</li>
+<li>Geïntegreerde oplossingen: Sommige tools (bijv. Signavio of ARIS) ondersteunen zowel BPMN als tekstuele documentatie in één omgeving.</li>
+</ul>
+<h6 id="tip-3-train-je-medewerkers">Tip 3: Train je medewerkers<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Zorg dat je medewerkers weten hoe ze BPMN en tekstuele beschrijvingen moeten lezen en gebruiken:</p>
+<ul>
+<li>BPMN-training: Leer medewerkers de basis van BPMN (bijv. symbolen voor taken, gateways, events).</li>
+<li>Schrijftraining: Geef richtlijnen voor duidelijke en consistente tekstuele beschrijvingen.</li>
+</ul>
+<p>Tip: Maak een korte gids met de meest gebruikte BPMN-symbolen en voorbeelden van tekstuele beschrijvingen.</p>
+<h6 id="tip-4-houd-het-levend">Tip 4: Houd het levend<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Procesdocumentatie is nooit af. Zorg voor:</p>
+<ul>
+<li>Regelmatige reviews: Controleer of je BPMN-diagrammen en tekstuele beschrijvingen nog actueel zijn.</li>
+<li>Feedbacklussen: Moedig medewerkers aan om fouten of verbeterpunten te melden.</li>
+<li>Versiebeheer: Gebruik versiebeheer (bijv. in Confluence of SharePoint) om wijzigingen bij te houden.</li>
+</ul>
+<h6 id="tip-5-meet-het-succes">Tip 5: Meet het succes<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Evalueer of je BPMN-diagrammen en tekstuele beschrijvingen daadwerkelijk worden gebruikt en waarde toevoegen:</p>
+<ul>
+<li>Gebruiksstatistieken: Kijk hoeveel medewerkers de documentatie raadplegen.</li>
+<li>Feedback: Vraag medewerkers of de documentatie duidelijk en bruikbaar is.</li>
+<li>Impact op procesprestaties: Meet of de documentatie leidt tot minder fouten, snellere uitvoering, of betere compliance.</li>
+</ul>
+<h4 id="deel-6-casus-bpmn-en-tekstuele-beschrijvingen-in-de-telecomsector">Deel 6: Casus: BPMN en tekstuele beschrijvingen in de telecomsector<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Als procesdocumentalist met 30+ jaar ervaring in de telecomsector heb ik gemerkt dat BPMN en tekstuele beschrijvingen elkaar perfect aanvullen in deze dynamische omgeving. Hieronder een praktijkvoorbeeld:</p>
+<h6 id="proces-storingbehandeling">Proces: Storingbehandeling<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<p>Uitdagingen in telecom:</p>
+<ul>
+<li>Complexe processen met veel afhankelijkheden (bijv. netwerk, klantenservice, technisch team).</li>
+<li>Snelle veranderingen (bijv. nieuwe technologieën, wijzigingen in netwerkconfiguraties).</li>
+<li>Verschillende doelgroepen (technici, klantenservice, management).</li>
+</ul>
+<h6 id="oplossing-combinatie-van-bpmn-en-tekstuele-beschrijvingen">Oplossing: Combinatie van BPMN en tekstuele beschrijvingen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<ol>
+<li>BPMN-diagram:</li>
+</ol>
+<ul>
+<li>Toont de stappen in het storingbehandelingsproces, inclusief:
+<ul>
+<li>Start Event: Storingmelding ontvangen (via klant of monitoringssysteem).</li>
+<li>Gateway: Is de storing kritiek?
+<ul>
+<li>Ja: Direct escaleren naar technisch team.</li>
+<li>Nee: Registreren in ticketingsysteem.</li>
+</ul>
+</li>
+<li>End Event: Storing opgelost, klant geïnformeerd.</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>Tekstuele beschrijving:</li>
+</ol>
+<ul>
+<li>Scope: &ldquo;Dit proces geldt voor alle storingen in het netwerk, inclusief hardware, software en connectiviteitsproblemen.&rdquo;</li>
+<li>Triggers: &ldquo;Het proces start wanneer een klant een storing meldt of wanneer het monitoringssysteem een storing detecteert.&rdquo;</li>
+<li>Input: &ldquo;Storingmelding (klantgegevens, type storing, urgentie).&rdquo;</li>
+<li>Output: &ldquo;Opgeloste storing, update in ticketingsysteem, communicatie naar klant.&rdquo;</li>
+<li>Regels:
+<ul>
+<li>&ldquo;Kritieke storingen moeten binnen 1 uur worden opgelost.&rdquo;</li>
+<li>&ldquo;Niet-kritieke storingen moeten binnen 24 uur worden opgelost.&rdquo;</li>
+</ul>
+</li>
+<li>Systemen: &ldquo;Gebruikte systemen: Monitoringssysteem (Nagios), Ticketingsysteem (Jira), CRM (Salesforce).&rdquo;</li>
+</ul>
+<ol>
+<li>Integratie:</li>
+</ol>
+<ul>
+<li>Het BPMN-diagram is gekoppeld aan de tekstuele beschrijving in Confluence.</li>
+<li>Medewerkers kunnen klikken op een stap in het diagram om naar de gedetailleerde uitleg te gaan.</li>
+</ul>
+<h6 id="resultaat">Resultaat:<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<ul>
+<li>Technici gebruiken het BPMN-diagram om snel inzicht te krijgen in het proces.</li>
+<li>Klantenservice gebruikt de tekstuele handleiding om klanten te informeren.</li>
+<li>Management heeft een high-level overzicht van het proces en de KPI’s (bijv. gemiddelde oplostijd).</li>
+</ul>
+<h4 id="deel-7-conclusie--kies-de-juiste-mix-voor-jouw-organisatie">Deel 7: Conclusie – Kies de juiste mix voor jouw organisatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>BPMN en tekstuele procesbeschrijvingen zijn geen concurrenten, maar complementaire methoden. Beide hebben hun eigen sterktes en toepassingsgebieden, en de beste aanpak is vaak een combinatie van beide.</p>
+<p>Samenvatting:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Aspect</th>
+          <th>BPMN</th>
+          <th>Tekstuele beschrijvingen</th>
+          <th>Combinatie</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Wanneer gebruiken?</td>
+          <td>Complexe processen, analyse, automatisering.</td>
+          <td>Eenvoudige processen, niet-technische medewerkers, diepgaande uitleg.</td>
+          <td>Voor optimale documentatie: gebruik BPMN voor modellering en tekst voor context.</td>
+      </tr>
+      <tr>
+          <td>Voordelen</td>
+          <td>Visueel, gestandaardiseerd, automatiseerbaar.</td>
+          <td>Toegankelijk, flexibel, detailleerbaar.</td>
+          <td>De voordelen van beide methoden in één systeem.</td>
+      </tr>
+      <tr>
+          <td>Nadelen</td>
+          <td>Complex voor niet-technische medewerkers, moeilijk bij te werken.</td>
+          <td>Minder geschikt voor complexe processen, moeilijk te automatiseren.</td>
+          <td>Vereist coördinatie tussen beide methoden.</td>
+      </tr>
+  </tbody>
+</table>
+<p>De sleutels tot succes:</p>
+<ol>
+<li>Kies de juiste methode voor het juiste doel:</li>
+</ol>
+<ul>
+<li>Gebruik BPMN voor modellering, analyse en automatisering.</li>
+<li>Gebruik tekstuele beschrijvingen voor toegankelijkheid, flexibiliteit en diepgang.</li>
+</ul>
+<ol>
+<li>Combineer beide methoden voor een compleet en bruikbaar procesdocumentatiesysteem.</li>
+<li>Integreer in het PDM om consistentie en beheerbaarheid te waarborgen.</li>
+<li>Train je medewerkers zodat ze beide methoden kunnen lezen en gebruiken.</li>
+<li>Houd de documentatie levend met regelmatige reviews en feedbacklussen.</li>
+</ol>
+<p>Afsluitende gedachte:</p>
+<blockquote>
+<p><em>&ldquo;BPMN en tekstuele beschrijvingen zijn als de twee kanten van een munt: apart zijn ze waardevol, maar samen vormen ze een compleet systeem dat je organisatie helpt om processen niet alleen te documenteren, maar ook te begrijpen, te sturen en te verbeteren.&rdquo;</em></p>
+</blockquote>
+<h6 id="volgende-stappen-hoe-pas-jij-bpmn-en-tekstuele-beschrijvingen-toe">Volgende stappen: Hoe pas jij BPMN en tekstuele beschrijvingen toe?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<ol>
+<li>Analyseer je huidige procesdocumentatie:</li>
+</ol>
+<ul>
+<li>Welke methoden gebruik je nu? Werkt dit voor alle doelgroepen?</li>
+</ul>
+<ol>
+<li>Kies een pilootproces:</li>
+</ol>
+<ul>
+<li>Experimenteer met BPMN, tekstuele beschrijvingen, of een combinatie voor één proces.</li>
+</ul>
+<ol>
+<li>Evalueer de resultaten:</li>
+</ol>
+<ul>
+<li>Wordt de documentatie vaker gebruikt? Is het duidelijker voor medewerkers?</li>
+</ul>
+<ol>
+<li>Schaal op:</li>
+</ol>
+<ul>
+<li>Breid de aanpak uit naar andere processen en afdelingen.</li>
+</ul>
+<p>Over de auteur<br>
+Martin van Pelt is een ervaren Procesdocumentalist met 30+ jaar ervaring in de telecomsector. Hij helpt organisaties om processen in kaart te brengen, te stroomlijnen en te documenteren als een beheerd, consistent en betrouwbaar informatiesysteem, gebaseerd op het <em>Procesdocumentatiemodel (PDM)</em>. Zijn aanpak combineert technische precisie met praktische bruikbaarheid, afgestemd op de dagelijkse realiteit van organisaties.</p>
+<p>Gerelateerde artikelen</p>
+<ul>
+<li><a href="./wat-is-een-procescontext-pdm/">Wat is procescontext? – De eerste laag van het Procesdocumentatiemodel (PDM)</a></li>
+<li><a href="./scope-en-afbakening/">Scope en afbakening: Hoe bakent u uw processen af?</a></li>
+<li><a href="./processtart-triggers-input/">Processtart, triggers en input: Wat zorgt ervoor dat een proces start?</a></li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark relearn-light">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/01-aanpak/index.html"><a class="padding" href="/01-aanpak/index.html">Aanpak</a></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding" href="/05-procesdocument/index.html">Procesdocument</a></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over</a></li>
+            <li class="parent " data-nav-id="/10-artikelen/index.html"><a class="padding default-animation" href="/10-artikelen/index.html">Artikelen</a><ul id="R-subsections-ad2eb70ad2c7c7324360baad241e1727" class="collapsible-menu">
+            <li class="active hidden " data-nav-id="/10-artikelen/08.11-bpmn-vs.-tekstuele-procesbeschrijvingen--welke-methode-past-bij-jouw-organisatie/index.html"><a class="padding" href="/10-artikelen/08.11-bpmn-vs.-tekstuele-procesbeschrijvingen--welke-methode-past-bij-jouw-organisatie/index.html">BPMN vs. tekstuele procesbeschrijvingen – Welke methode past bij jouw organisatie?</a></li></ul></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-light" value="relearn-light" selected>Relearn Light</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="R-select-variant-auto" value="auto">Auto</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-color.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1777193160" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1777193160" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1777193160" defer></script>
+    <script src="/js/theme.js?1777193160" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

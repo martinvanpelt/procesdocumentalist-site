@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Voorbeeldproces :: Proces Documentalist</title>
+    <link>http://localhost:1313/voorbeeld/index.html</link>
+    <description>Hoe ziet goede procesdocumentatie er in de praktijk uit? Op deze pagina vind je een volledig uitgewerkt voorbeeld van een orderverwerkingsproces. Het laat zien hoe processen gestructureerd, beschreven en gevisualiseerd kunnen worden binnen een organisatie.&#xA;Dit voorbeeld is bedoeld om te laten zien hoe procesdocumentatie wordt opgebouwd: van procesarchitectuur tot procesdiagrammen en kwaliteitsmetingen.&#xA;Dit voorbeeld is een fictieve en generieke procescase. Het bevat geen informatie van opdrachtgevers of werkgevers, maar is gebaseerd op gangbare bedrijfsprocessen.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/voorbeeld/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orderverwerking</title>
+      <link>http://localhost:1313/voorbeeld/orderverwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeeld/orderverwerking/index.html</guid>
+      <description>Dit voorbeeld laat zien hoe procesdocumentatie kan worden opgebouwd.&#xA;De documentatie bestaat uit:&#xA;procesarchitectuur procesbeschrijving procesdiagram rollen en systemen KPI’s en kwaliteitsborging procesverbetering Disclaimer&#xD;De voorbeelden op deze website zijn fictieve of geanonimiseerde illustraties van procesdocumentatie. Ze zijn bedoeld om de werkwijze en documentatiestructuur te demonstreren en bevatten geen informatie van opdrachtgevers of werkgevers.</description>
+    </item>
+  </channel>
+</rss>

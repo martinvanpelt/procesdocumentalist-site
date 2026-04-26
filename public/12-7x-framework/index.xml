@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7x Framework :: Proces Documentalist</title>
+    <link>http://localhost:1313/12-7x-framework/index.html</link>
+    <description>Een end-to-end methodiek om innovaties en verbeterinitiatieven herhaalbaar, bestuurbaar en meetbaar van idee naar impact te brengen.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/12-7x-framework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7x Framework Handboek</title>
+      <link>http://localhost:1313/12-7x-framework/7x-framework/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/12-7x-framework/7x-framework/index.html</guid>
+      <description>Een diepgaande samenvatting van het 7x Framework Handboek, inclusief de zeven strategische uitdagingen, zeven ontwerpprincipes (7R’s), structuur, doelgroepen, toepassingsmogelijkheden en praktische implementatiestappen.</description>
+    </item>
+    <item>
+      <title>relaties</title>
+      <link>http://localhost:1313/12-7x-framework/relaties/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/12-7x-framework/relaties/index.html</guid>
+      <description>Wat jij feitelijk hebt ontwikkeld zijn drie verschillende maar complementaire lagen van hetzelfde gedachtegoed. Als je ze goed positioneert, ontstaat een coherente managementarchitectuur.&#xA;Kort samengevat:&#xA;Model&#x9;Rol 7x Framework&#x9;Organisatiebesturing Procesdocumentatiemodel (PDM)&#x9;Structuur van proceskennis De Procesdocumentalist&#x9;Professionele rol / werkwijze&#xA;Samen vormen ze:&#xA;strategie → processen → documentatie → kennisbeheer&#xA;Hieronder een architectuur die dit helder maakt.&#xA;Architectuur van de drie modellen Overzicht Organisatiebesturing (7x Framework) ↓ Processtructuur (Procesdocumentatiemodel) ↓ Proceskennis (Procesdocumentatie) ↓ Professionele uitvoering (De Procesdocumentalist)</description>
+    </item>
+  </channel>
+</rss>

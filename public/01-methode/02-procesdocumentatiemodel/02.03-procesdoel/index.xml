@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesdoel :: Procesdocumentalist</title>
+    <link>http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.03-procesdoel/index.html</link>
+    <description>Het procesdoel beschrijft waarom een proces bestaat en welke waarde het levert binnen het Procesdocumentatiemodel (PDM).</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.03-procesdoel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesdoelbeschrijving</title>
+      <link>http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.03-procesdoel/02.03.01-procesdoelbeschrijving/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.03-procesdoel/02.03.01-procesdoelbeschrijving/index.html</guid>
+      <description>De procesdoelbeschrijving definieert het primaire doel van een proces: waarom het proces bestaat en welk resultaat het moet opleveren.&#xA;Doel&#xD;Het doel van de procesdoelbeschrijving is om:&#xA;expliciet te maken waarom het proces bestaat richting te geven aan procesontwerp consistentie te waarborgen in uitvoering en sturing het proces toetsbaar te maken op effectiviteit Kenmerken van een goed procesdoel&#xD;Een goed geformuleerd procesdoel is:</description>
+    </item>
+    <item>
+      <title>Waardepropositie</title>
+      <link>http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.03-procesdoel/02.03.02-waardepropositie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/02-procesdocumentatiemodel/02.03-procesdoel/02.03.02-waardepropositie/index.html</guid>
+      <description>De waardepropositie beschrijft welke concrete waarde het proces levert aan interne of externe stakeholders.&#xA;Doel&#xD;De waardepropositie maakt expliciet:&#xA;welke waarde wordt gecreëerd voor wie deze waarde wordt gecreëerd waarom het proces relevant is binnen de organisatie Soorten waarde&#xD;Externe waarde&#xD;Waarde voor klanten of externe partijen.</description>
+    </item>
+  </channel>
+</rss>

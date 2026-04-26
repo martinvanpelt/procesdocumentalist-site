@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesarchitectuur :: Procesdocumentalist</title>
+    <link>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/index.html</link>
+    <description>Templates voor het structureren van het proceslandschap van een organisatie.&#xA;Procesarchitectuur Proceslandkaart Proceshiërarchie Procesinventarisatie Deze templates helpen bij het beantwoorden van vragen zoals:&#xA;Welke processen heeft de organisatie? Hoe hangen processen met elkaar samen? Welke processen zijn primair, ondersteunend of sturend?</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proceslandkaart</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/03.02.01-proceslandkaart/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/03.02.01-proceslandkaart/index.html</guid>
+      <description>Template voor het opstellen van een proceslandkaart. De proceslandkaart biedt een hoog niveau overzicht van alle processen binnen een organisatie en hun onderlinge samenhang.</description>
+    </item>
+    <item>
+      <title>Proceshiërarchie</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/03.02.02-proceshi%C3%ABrarchie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/03.02.02-proceshi%C3%ABrarchie/index.html</guid>
+      <description>Template voor het structureren van processen in hiërarchische niveaus, om inzicht te bieden in de opbouw en detailniveaus van processen binnen een organisatie.</description>
+    </item>
+    <item>
+      <title>Procesinventarisatie</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/03.02.03-procesinventarisatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/03.02.03-procesinventarisatie/index.html</guid>
+      <description>Template voor het inventariseren van alle processen binnen een organisatie, inclusief doel, verantwoordelijkheden, input/output, en kritikaliteit.</description>
+    </item>
+    <item>
+      <title>Procesarchitectuur</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/03.02.00-procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/03.02.00-procesarchitectuur/index.html</guid>
+      <description>Dit template beschrijft de architectuur van {{procesnaam}} binnen het domein van {{organisatienaam}}. Het doel is om:&#xA;Inzicht te bieden in de opbouw, hiërarchie en relaties van processen. Consistentie te waarborgen in de documentatie van procesarchitecturen. Basis te leggen voor verdere analyse, optimalisatie en automatisering (bijv. met BPMN). Stakeholders (management, uitvoerende teams, IT) een gedegen overzicht te geven van hoe processen in elkaar grijpen. Eigenschappen&#xD;Veld Waarde Toelichting PMD-nummer 03.04.00 Uniek identificatienummer voor deze procesarchitectuur in het Proces Management Document (PMD). Versie 1 Huidige versie van dit document. Wordt geüpdaterd bij elke wijziging. Status concept Mogelijke statussen: concept, in review, goedgekeurd, gepubliceerd, verouderd. Auteur [Naam] De persoon of afdeling die dit document heeft opgesteld (meestal de procesanalist). Eigenaar [Naam proceseigenaar] Verantwoordelijk voor de inhoud en actualiteit van de procesarchitectuur. Datum 17/04/2026 Datum van de laatste update. 1. Domein&#xD;Beschrijf hier het domein waarbinnen het proces valt. Geef aan:</description>
+    </item>
+    <item>
+      <title>Procesinteractie</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/03.02.04-procesinteractie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.02-procesarchitectuur/03.02.04-procesinteractie/index.html</guid>
+      <description>Template voor het in kaart brengen van interacties, afhankelijkheden en risico&#39;s tussen processen binnen een organisatie.</description>
+    </item>
+  </channel>
+</rss>

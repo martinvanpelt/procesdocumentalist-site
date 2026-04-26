@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aanpak :: Proces Documentalist</title>
+    <link>http://localhost:1313/de-procesdocumentalist/02-aanpak/index.html</link>
+    <description>Mijn aanpak om organisaties te helpen hun processen helder, consistent en beheersbaar te documenteren op basis van het Procesdocumentatiemodel (PDM).</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/de-procesdocumentalist/02-aanpak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Werkwijze</title>
+      <link>http://localhost:1313/de-procesdocumentalist/02-aanpak/02.01-werkwijze/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de-procesdocumentalist/02-aanpak/02.01-werkwijze/index.html</guid>
+      <description>Werkwijze&#xD;De werkwijze beschrijft hoe het Procesdocumentatiemodel (PDM) stap voor stap wordt toegepast binnen een organisatie.&#xA;Doel&#xD;De werkwijze heeft als doel om:&#xA;een uniforme toepassing van het PDM te waarborgen procesdocumentatie gestructureerd op te bouwen consistentie in modellen en beschrijvingen te realiseren samenwerking tussen rollen te ondersteunen Stappen in de werkwijze&#xD;1. Processelectie&#xD;Bepaal welk proces wordt beschreven of geactualiseerd.</description>
+    </item>
+    <item>
+      <title>Modelleringregels</title>
+      <link>http://localhost:1313/de-procesdocumentalist/02-aanpak/02.02-modelleringsregels/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de-procesdocumentalist/02-aanpak/02.02-modelleringsregels/index.html</guid>
+      <description>Modelleringregels&#xD;Modelleringregels beschrijven de afspraken en standaarden voor het modelleren van processen binnen het Procesdocumentatiemodel (PDM).&#xA;Doel&#xD;De modelleringregels zorgen voor:&#xA;consistente procesmodellen eenduidige interpretatie van diagrammen schaalbaarheid van procesdocumentatie vermindering van modelleercomplexiteit Algemene regels&#xD;1. Eenduidige structuur&#xD;Elk proces heeft één duidelijke start en één eindpunt.</description>
+    </item>
+    <item>
+      <title>Governance</title>
+      <link>http://localhost:1313/de-procesdocumentalist/02-aanpak/02.03-governance/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de-procesdocumentalist/02-aanpak/02.03-governance/index.html</guid>
+      <description>Governance&#xD;Governance binnen de Aanpak van het Procesdocumentatiemodel (PDM) beschrijft hoe het gebruik, de kwaliteit en de ontwikkeling van het model zelf wordt beheerd.&#xA;Doel&#xD;Governance heeft als doel om:&#xA;de consistentie van het PDM te bewaken de kwaliteit van procesdocumentatie te borgen wijzigingen in het model te controleren rollen en verantwoordelijkheden te definiëren adoptie van het PDM te ondersteunen Governance-onderdelen&#xD;1. Rollen en verantwoordelijkheden&#xD;Definitie van wie verantwoordelijk is voor:</description>
+    </item>
+  </channel>
+</rss>

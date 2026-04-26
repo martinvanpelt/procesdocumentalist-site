@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://localhost:1313/04-bronnen-van-procesinformatie/04.03-bestaande-documentatie/index.html</link>
+    <description>title: Bestaande Documentatie&#xA;weight: 3&#xA;hidden: true&#xA;tags:&#xA;procesdocumentatie informatieverzameling 7x Framework validatie compliance&#xA;description: Template voor het analyseren en gebruiken van bestaande documentatie als basis voor procesanalyse, inclusief voorbeelden, voordelen, aandachtspunten en validatiemethoden. Inleiding&#xD;Bestaande documentatie vormt een waardevolle bron voor het in kaart brengen en analyseren van processen. Het biedt een snel inzicht in hoe processen formele afspraken, richtlijnen, en werkwijzen binnen de organisatie zijn vastgelegd. Voor jou als procesdocumentalist is deze documentatie een essentieel vertrekpunt voor:&#xA;✅ Snel inzicht in processtructuren, terminologie, en afspraken.&#xA;✅ Identificatie van bestaande standaarden, richtlijnen, en compliance-eisen.&#xA;✅ Basis voor interviews en workshops (je kunt gerichte vragen stellen).&#xA;✅ Validatie van nieuwe procesmodellen tegen bestaande documentatie.&#xA;✅ Tijdsbesparing door hergebruik van bestaande informatie.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/04-bronnen-van-procesinformatie/04.03-bestaande-documentatie/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

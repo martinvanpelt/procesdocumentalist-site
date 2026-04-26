@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesdocumentatie :: Tag :: Procesdocumentalist</title>
+    <link>http://localhost:1313/tags/procesdocumentatie/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/tags/procesdocumentatie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesbeschrijving</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.07-procesuitwerking/03.07.01-procesbeschrijving/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.07-procesuitwerking/03.07.01-procesbeschrijving/index.html</guid>
+      <description>Template voor het gedetailleerd beschrijven van processen, inclusief doel, scope, stappen, systemen, KPI&#39;s en risico&#39;s. Ontworpen voor integratie met BPMN, Swimlane, en andere modelleertechnieken.</description>
+    </item>
+    <item>
+      <title>Procesuitwerking</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.07-procesuitwerking/03.07.00-procesuitwerking/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.07-procesuitwerking/03.07.00-procesuitwerking/index.html</guid>
+      <description>Template voor de gedetailleerde uitwerking van een proces, inclusief beschrijving, rollen, werkinstructies, en output. Ontworpen voor praktische toepassing en integratie met BPMN, Swimlane, en andere modelleertechnieken.</description>
+    </item>
+    <item>
+      <title>Wijzigingslog procesdocumentatie</title>
+      <link>http://localhost:1313/01-methode/03-templates/03.01-procesdocumentatiebeheer/03.01.01-wijzigingslog-procesdocumentatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-methode/03-templates/03.01-procesdocumentatiebeheer/03.01.01-wijzigingslog-procesdocumentatie/index.html</guid>
+      <description>Inleiding&#xD;Dit wijzigingslog documenteert alle aanpassingen aan de procesdocumentatie van {{procesnaam}}. Het doel is om:&#xA;Transparantie te bieden over wie, wat, wanneer en waarom wijzigingen zijn doorgevoerd. Traceerbaarheid te waarborgen voor audits, compliance en continue verbetering. Communicatie te vergemakkelijken tussen proceseigenaren, analisten en betrokken teams. Eigenschappen&#xD;Veld Waarde Toelichting PMD-nummer 03.01.01 Uniek identificatienummer voor dit wijzigingslog in het Proces Management Document (PMD). Versie 1 Huidige versie van dit logboek. Wordt geüpdaterd bij elke nieuwe wijziging. Status concept Mogelijke statussen: concept, in review, goedgekeurd, gepubliceerd. Auteur [Naam] De persoon die het logboek beheert (meestal de procesanalist). Eigenaar [Naam proceseigenaar] Verantwoordelijk voor de inhoud en actualiteit van het proces. Datum 17/04/2026 Datum van de laatste update van dit logboek. 1. Wijzigingsdetails&#xD;Vul per wijziging de onderstaande velden in. Gebruik één rij per wijziging voor overzichtelijkheid.</description>
+    </item>
+  </channel>
+</rss>

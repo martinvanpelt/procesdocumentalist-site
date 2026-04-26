@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Processturing :: Proces Documentalist</title>
+    <link>http://localhost:1313/processturing/index.html</link>
+    <description>Processturing: meten, analyseren en verbeteren van processen op basis van KPI’s.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/processturing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KPI&#39;s en kwaliteitsborging</title>
+      <link>http://localhost:1313/processturing/kpis-en-kwaliteitsborging/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/processturing/kpis-en-kwaliteitsborging/index.html</guid>
+      <description>Procesdocumentatie beschrijft hoe een proces werkt. KPI’s helpen om te meten hoe goed een proces presteert.&#xA;Door processen te meten kunnen organisaties:&#xA;prestaties volgen knelpunten identificeren verbeteringen doorvoeren Voorbeelden van proces-KPI’s&#xD;KPI Betekenis Doorlooptijd Tijd tussen start en afronding van een proces Foutpercentage Aantal fouten in een proces First Time Right Percentage activiteiten dat direct correct wordt uitgevoerd Klanttevredenheid Hoe tevreden klanten zijn over het proces Procesverbetering&#xD;Door regelmatig KPI’s te analyseren kunnen organisaties processen verbeteren. Dit kan bijvoorbeeld leiden tot:</description>
+    </item>
+  </channel>
+</rss>

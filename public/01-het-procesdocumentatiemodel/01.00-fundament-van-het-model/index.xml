@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fundament :: Proces Documentalist</title>
+    <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/index.html</link>
+    <description>Het fundament van het Procesdocumentatiemodel: definities, begrippen, ontwerpprincipes en architectuur.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Definitie</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.01-definitie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.01-definitie/index.html</guid>
+      <description>Het Procesdocumentatiemodel (PDM) is een gestructureerd raamwerk voor het systematisch vastleggen, beheren en verbeteren van bedrijfsprocessen. Het model beschrijft welke informatie nodig is om een proces volledig te documenteren en hoe deze informatie logisch kan worden georganiseerd.&#xA;Het PDM ordent procesdocumentatie in een samenhangende structuur van lagen, die beginnen bij de context en het doel van een proces, en vervolgens de architectuur, modellering en gedetailleerde uitwerking van het proces beschrijven. Daarnaast omvat het model de sturing, analyse en continue verbetering van processen.</description>
+    </item>
+    <item>
+      <title>Begrippenlijst</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.02-begrippenlijst/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.02-begrippenlijst/index.html</guid>
+      <description>Proces&#xA;Een proces is een geordende reeks activiteiten die input omzet in output om een specifiek doel en waarde te realiseren voor een klant of stakeholder.&#xA;Procesdocumentatie&#xA;Procesdocumentatie is de gestructureerde vastlegging van informatie over een proces, inclusief context, structuur, uitvoering en sturing.&#xA;Procescontext&#xA;Procescontext is de omgeving waarin een proces functioneert, inclusief systemen, regels, data, stakeholders, randvoorwaarden en externe invloeden.&#xA;Procesdoel&#xA;Het procesdoel beschrijft de reden van bestaan van een proces en de waarde die het proces levert aan een interne of externe klant.</description>
+    </item>
+    <item>
+      <title>Ontwerpprincipes</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.03-ontwerpprincipes/index.html</guid>
+      <description>Het Procesdocumentatiemodel is niet alleen een structuur voor procesdocumentatie, maar ook een methode om processen systematisch te begrijpen, vast te leggen en te verbeteren.&#xA;De opbouw van het model is gebaseerd op vijf ontwerpprincipes:&#xA;00.03.01. Context vóór beschrijving 00.03.02. Doel vóór uitvoering 00.03.03. Architectuur vóór detail 00.03.04. Visualisatie vóór tekst 00.03.05. Sturing en verbetering als integraal onderdeel</description>
+    </item>
+    <item>
+      <title>Architectuur</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.04-architectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.04-architectuur/index.html</guid>
+      <description>De architectuur beschrijft de structurele opbouw, lagen en relaties van het Procesdocumentatiemodel (PDM) als geheel.</description>
+    </item>
+    <item>
+      <title>Oorsprong</title>
+      <link>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.05-oorsprong/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-het-procesdocumentatiemodel/01.00-fundament-van-het-model/00.05-oorsprong/index.html</guid>
+      <description>Het Procesdocumentatiemodel (PDM) is ontstaan vanuit meer dan 35 jaar praktijkervaring met het analyseren, modelleren en verbeteren van bedrijfsprocessen in uiteenlopende organisaties.&#xA;In de praktijk bleek dat bestaande methoden vaak één van de volgende beperkingen hadden:&#xA;Te technisch en weinig toegankelijk voor niet-specialisten Te abstract waardoor toepassing in de praktijk lastig werd Te fragmentarisch, zonder samenhangend totaalbeeld Het PDM is ontwikkeld als antwoord op deze knelpunten. Het combineert praktijkgericht procesdenken met een duidelijke gelaagde structuur, zodat processen zowel begrijpelijk als consistent gedocumenteerd kunnen worden.</description>
+    </item>
+  </channel>
+</rss>

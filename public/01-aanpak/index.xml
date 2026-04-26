@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aanpak :: Proces Documentalist</title>
+    <link>http://localhost:1313/01-aanpak/index.html</link>
+    <description>Details&#xD;De methode van de Procesdocumentalist zet informatie uit de praktijk om in heldere en bruikbare procesdocumentatie. Procesinformatie wordt verzameld uit verschillende bronnen, gestructureerd met templates en uitgewerkt volgens het Procesdocumentatiemodel (PDM). Het resultaat is een procesdocument dat wordt gepubliceerd op een procesdocumentatieplatform en beschikbaar is voor de organisatie.&#xA;De methode van de Procesdocumentalist beschrijft hoe processen systematisch worden geanalyseerd, gestructureerd en vastgelegd. Het doel van de methode is om procesinformatie om te zetten in heldere, consistente en bruikbare procesdocumentatie.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/01-aanpak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Het Procesdocumentatiemodel</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/index.html</guid>
+      <description>Het Procesdocumentatiemodel (PDM) is een gestructureerde methode voor het vastleggen, begrijpen, beheren en verbeteren van bedrijfsprocessen. Het model biedt een samenhangend raamwerk dat procesinformatie logisch opbouwt, van strategie tot uitvoering, en zorgt voor consistentie, begrijpelijkheid en toepasbaarheid in elke organisatie.</description>
+    </item>
+    <item>
+      <title>Templates</title>
+      <link>http://localhost:1313/01-aanpak/03-templates/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/03-templates/index.html</guid>
+      <description>Praktische templates voor het documenteren, analyseren, modelleren, sturen en verbeteren van bedrijfsprocessen, gebaseerd op het Procesdocumentatiemodel (PDM). Deze templates vormen een samenhangend systeem voor end-to-end procesbeheer.</description>
+    </item>
+    <item>
+      <title>Bronnen van procesinformatie</title>
+      <link>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/04-bronnen-van-procesinformatie/index.html</guid>
+      <description>Procesdocumentatie ontstaat niet alleen uit modellen en templates. De kwaliteit van procesdocumentatie wordt in hoge mate bepaald door de kwaliteit van de procesinformatie waarop zij gebaseerd is.&#xA;Binnen de aanpak van de Procesdocumentalist wordt procesinformatie verzameld uit verschillende bronnen binnen de organisatie. Deze bronnen vullen elkaar aan en helpen om een volledig, betrouwbaar en actueel beeld van het proces te verkrijgen.&#xA;Procesinformatie kan onder andere afkomstig zijn uit:&#xA;interviews met procesbetrokkenen workshops met stakeholders bestaande documentatie informatiesystemen wet- en regelgeving rapportages en KPI’s observatie van werkprocessen validatie met betrokkenen rapportages en KPI’s observatie van werkprocessen feedback van medewerkers Door meerdere informatiebronnen te combineren ontstaat een realistisch en holistisch beeld van het proces zoals het daadwerkelijk wordt uitgevoerd.</description>
+    </item>
+    <item>
+      <title>Hulpmiddelen</title>
+      <link>http://localhost:1313/01-aanpak/01.05-hulpmiddelen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/01.05-hulpmiddelen/index.html</guid>
+      <description>Procesdocumentatie is meer dan het beschrijven van stappen in een proces. Het is een gestructureerde discipline die organisaties helpt om processen begrijpelijk, reproduceerbaar en bestuurbaar te maken. De Procesdocumentalist gebruikt daarvoor een vaste set instrumenten die ondersteunen bij het analyseren, modelleren, vastleggen en beheren van processen.&#xA;Deze standaardinstrumenten vormen samen de praktische gereedschapskist van de Procesdocumentalist. Ze helpen om procesinformatie systematisch te verzamelen, processen helder te visualiseren en procesdocumentatie duurzaam te beheren. Door deze instrumenten consequent toe te passen ontstaat een consistente en betrouwbare procesbibliotheek.</description>
+    </item>
+  </channel>
+</rss>

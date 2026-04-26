@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesmodellering :: Proces Documentalist</title>
+    <link>http://localhost:1313/de-procesdocumentalist/01-het-procesdocumentatiemodel/01.06-procesmodellering/index.html</link>
+    <description>Procesmodellering beschrijft hoe processen visueel worden weergegeven met behulp van modellen, conventies en diagrammen binnen het Procesdocumentatiemodel (PDM).</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/de-procesdocumentalist/01-het-procesdocumentatiemodel/01.06-procesmodellering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modelleringconventies</title>
+      <link>http://localhost:1313/de-procesdocumentalist/01-het-procesdocumentatiemodel/01.06-procesmodellering/01.06.01-modelleringsconventies/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de-procesdocumentalist/01-het-procesdocumentatiemodel/01.06-procesmodellering/01.06.01-modelleringsconventies/index.html</guid>
+      <description>Modelleringconventies&#xD;Modelleringconventies zijn vaste afspraken die zorgen voor consistente en uniforme procesmodellen binnen het Procesdocumentatiemodel (PDM).&#xA;Doel&#xD;De conventies zorgen voor:&#xA;eenduidige interpretatie van modellen consistentie tussen processen betere leesbaarheid van diagrammen minder interpretatiefouten schaalbaarheid van procesdocumentatie Algemene principes&#xD;1. Eenvoud boven complexiteit&#xD;Modellen moeten zo eenvoudig mogelijk blijven zonder informatieverlies.</description>
+    </item>
+    <item>
+      <title>Procesdiagrammen</title>
+      <link>http://localhost:1313/de-procesdocumentalist/01-het-procesdocumentatiemodel/01.06-procesmodellering/01.06.02-procesdiagrammen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de-procesdocumentalist/01-het-procesdocumentatiemodel/01.06-procesmodellering/01.06.02-procesdiagrammen/index.html</guid>
+      <description>Procesdiagrammen&#xD;Procesdiagrammen zijn visuele representaties van processen waarin activiteiten, beslissingen, rollen en informatiestromen worden weergegeven.&#xA;Doel&#xD;Procesdiagrammen maken processen:&#xA;visueel begrijpelijk analyseerbaar communiceerbaar tussen stakeholders geschikt voor optimalisatie Typen procesdiagrammen&#xD;1. Overzichtsdiagram&#xD;Geeft het proces op hoog niveau weer.</description>
+    </item>
+  </channel>
+</rss>

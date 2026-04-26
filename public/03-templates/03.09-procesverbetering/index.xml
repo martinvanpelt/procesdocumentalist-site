@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesverbetering :: Proces Documentalist</title>
+    <link>http://localhost:1313/03-templates/03.09-procesverbetering/index.html</link>
+    <description>Templates voor het analyseren en verbeteren van processen.&#xA;03.09.00 Procesverbetering 03.09.01 RCA 03.09.02 Procesverbeterplan Deze templates helpen organisaties om structureel te leren van problemen en processen continu te verbeteren.</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/03-templates/03.09-procesverbetering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Root Cause Analyse</title>
+      <link>http://localhost:1313/03-templates/03.09-procesverbetering/03.09.01-rca/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-templates/03.09-procesverbetering/03.09.01-rca/index.html</guid>
+      <description>Template voor oorzaak analyse.</description>
+    </item>
+    <item>
+      <title>Procesverbeterplan</title>
+      <link>http://localhost:1313/03-templates/03.09-procesverbetering/03.09.02-procesverbeterplan/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-templates/03.09-procesverbetering/03.09.02-procesverbeterplan/index.html</guid>
+      <description>Template voor procesverbetering.</description>
+    </item>
+    <item>
+      <title>Procesverbetering</title>
+      <link>http://localhost:1313/03-templates/03.09-procesverbetering/03.09.00-procesverbetering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/03-templates/03.09-procesverbetering/03.09.00-procesverbetering/index.html</guid>
+      <description>Eigenschappen&#xD;Veld Waarde PMD-nummer 03.09.00 Versie 1 Status concept Auteur De Procesdocumentalist Eigenaar proceseigenaar Datum 17/04/2026 Procesanalyse&#xD;trends: knelpunten: Verbeterinitiatieven&#xD;… Verbeteracties&#xD;… Lessons learned&#xD;wat ging goed: wat ging fout: acties voor toekomst:</description>
+    </item>
+  </channel>
+</rss>

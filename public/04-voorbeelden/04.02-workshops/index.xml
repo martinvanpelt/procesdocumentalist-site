@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshops :: Proces Documentalist</title>
+    <link>http://localhost:1313/04-voorbeelden/04.02-workshops/index.html</link>
+    <description>Workshops zijn een effectieve manier om procesinformatie gezamenlijk met meerdere betrokkenen te verzamelen.&#xA;In tegenstelling tot interviews, waarin individueel inzicht centraal staat, richten workshops zich op het gezamenlijk reconstrueren van een proces.&#xA;Wanneer workshops worden gebruikt&#xD;Workshops zijn vooral geschikt wanneer:&#xA;processen meerdere afdelingen raken er verschillende interpretaties van het proces bestaan consensus nodig is over de procesbeschrijving Voordelen van workshops&#xD;Workshops bieden verschillende voordelen:</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/04-voorbeelden/04.02-workshops/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

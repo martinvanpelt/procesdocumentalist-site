@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ontwerpprincipes :: Proces Documentalist</title>
+    <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.03-ontwerpprincipes/index.html</link>
+    <description>Het Procesdocumentatiemodel is niet alleen een structuur voor procesdocumentatie, maar ook een methode om processen systematisch te begrijpen, vast te leggen en te verbeteren.&#xA;De opbouw van het model is gebaseerd op vijf ontwerpprincipes:&#xA;02.03.01. Context vóór beschrijving 02.03.02. Doel vóór uitvoering 02.03.03. Architectuur vóór detail 02.03.04. Visualisatie vóór tekst 02.03.05. Sturing en verbetering als integraal onderdeel</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.03-ontwerpprincipes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Context vóór beschrijving</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.03-ontwerpprincipes/02.03.01.-context-v%C3%B3%C3%B3r-beschrijving/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.03-ontwerpprincipes/02.03.01.-context-v%C3%B3%C3%B3r-beschrijving/index.html</guid>
+      <description>Processen zijn nooit geïsoleerd. Ze functioneren binnen een breder kader van organisatiestructuren, regels, systemen en externe invloeden. Een proces documenteren zonder deze context te begrijpen, is als een landkaart tekenen zonder coördinaten: onbruikbaar en misleidend.&#xA;Daarom start het Procesdocumentatie Model (PDM) altijd met het in kaart brengen van de procescontext. Dit zorgt voor:&#xA;Heldere afbakening van het proces&#xD;Organisatorische inbedding: In welke afdeling, team of functie vindt het proces plaats? Wie zijn de betrokkenen (eigenaren, uitvoerders, stakeholders) en wat zijn hun rollen en verantwoordelijkheden? Hiërarchie en relaties: Hoe past het proces in de algehele waardeketen? Welke andere processen zijn afhankelijk van of beïnvloeden dit proces? Inzicht in regels en systemen&#xD;Wettelijke en interne kaders: Welke wet- en regelgeving (bijv. AVG, ISO-normen) of bedrijfsbeleid (bijv. kwaliteitshandboeken) gelden voor dit proces? Technische systemen: Welke software, tools of databases worden gebruikt? Hoe integreren deze met andere systemen in de organisatie? Identificatie van triggers en input&#xD;Startcondities: Wat zorgt ervoor dat het proces wordt geactiveerd? Denk aan tijdstippen, gebeurtenissen (bijv. een klantaanvraag), of automatische triggers (bijv. een systeemalert). Benodigde input: Welke gegevens, documenten of resources zijn nodig om het proces te starten? Bijvoorbeeld: een goedgekeurd offerte, een klantorder, of een interne goedkeuring. Voordelen van contextuele procesdocumentatie&#xD;Door de context expliciet te beschrijven, ontstaat een dieper begrip van:</description>
+    </item>
+    <item>
+      <title>Doel vóór uitvoering</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.03-ontwerpprincipes/02.03.02.-doel-v%C3%B3%C3%B3r-uitvoering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.03-ontwerpprincipes/02.03.02.-doel-v%C3%B3%C3%B3r-uitvoering/index.html</guid>
+      <description>Elk proces binnen een organisatie heeft één fundamentele reden om te bestaan: waarde creëren. Of het nu gaat om het verwerken van een bestelling, het opstellen van een rapport, of het onderhouden van klantrelaties — zonder een duidelijk doel is een proces niets meer dan een verzameling losse activiteiten.&#xA;Daarom leg je in het Procesdocumentatie Model (PDM) het procesdoel expliciet vast, voordat je het proces modelleert of beschrijft. Dit zorgt voor antwoorden op de volgende vragen:</description>
+    </item>
+    <item>
+      <title>Architectuur vóór detail</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.03-ontwerpprincipes/02.03.03.-architectuur-v%C3%B3%C3%B3r-detail/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.03-ontwerpprincipes/02.03.03.-architectuur-v%C3%B3%C3%B3r-detail/index.html</guid>
+      <description>Processen zijn nooit geïsoleerde eenheden. Ze functioneren binnen een groter, onderling verbonden systeem: de procesarchitectuur van de organisatie. Net zoals een gebouw niet kan staan zonder een stevige fundering en een doordacht ontwerp, kunnen individuele processen niet effectief worden gedocumenteerd zonder inzicht in hun plaats en functie binnen het geheel.&#xA;Daarom start het Procesdocumentatie Model (PDM) altijd met het in kaart brengen van de procesarchitectuur. Pas als deze architectuur duidelijk is, kunnen individuele processen worden uitgewerkt.</description>
+    </item>
+    <item>
+      <title>Visualisatie vóór tekst</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.03-ontwerpprincipes/02.03.04.-visualisatie-v%C3%B3%C3%B3r-tekst/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.03-ontwerpprincipes/02.03.04.-visualisatie-v%C3%B3%C3%B3r-tekst/index.html</guid>
+      <description>Mensen zijn visuele wezens. Ons brein verwerkt beelden 60.000 keer sneller dan tekst, en onthoudt visuele informatie beter. Dit principe geldt ook voor procesdocumentatie: een goed procesdiagram maakt complexe logica in één oogopslag duidelijk, waar een tekstuele beschrijving vaak te abstract of moeilijk te volgen is.&#xA;Daarom staat in het Procesdocumentatie Model (PDM) procesmodellering centraal. Visuele modellen vormen de kern van de documentatie, terwijl tekstuele beschrijvingen een ondersteunende rol vervullen.</description>
+    </item>
+    <item>
+      <title>Sturing en verbetering als integraal onderdeel</title>
+      <link>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.03-ontwerpprincipes/02.03.05.-sturing-en-verbetering-als-integraal-onderdeel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/01-aanpak/02-procesdocumentatiemodel/02.00-fundament-van-het-model/02.03-ontwerpprincipes/02.03.05.-sturing-en-verbetering-als-integraal-onderdeel/index.html</guid>
+      <description>Procesdocumentatie is geen statisch document dat na oplevering in een la wordt opgeborgen. Integendeel: het is een dynamisch instrument dat meegroeit met de organisatie. Processen veranderen continu door externe en interne factoren, zoals:&#xA;Nieuwe wet- en regelgeving (bijv. AVG, ISO-normen, of sector-specifieke eisen). Organisatorische veranderingen (bijv. fusies, herstructureringen, of nieuwe strategieën). Technologische ontwikkelingen (bijv. automatisering, nieuwe software, of digitale transformatie). Verbeterinitiatieven (bijv. Lean, Six Sigma, of continue verbeterprogramma’s). Daarom bevat het Procesdocumentatie Model (PDM) een expliciete laag voor processturing en procesverbetering. Deze laag zorgt ervoor dat procesdocumentatie niet alleen een weergave is van de huidige situatie, maar ook een instrument voor actieve sturing en continue verbetering.</description>
+    </item>
+  </channel>
+</rss>

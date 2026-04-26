@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html id="R-html" lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.159.1">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Onderstaand voorbeeld toont een vereenvoudigde procesarchitectuur voor het proces orderverwerking.
+Het doel van deze architectuur is om te laten zien:
+Waar het proces begint Welke kernstappen het bevat Hoe het proces aansluit op andere bedrijfsprocessen DoelHet doel van deze architectuurlaag is om het volledige proces van bestelling tot facturatie in één overzicht te tonen.
+Dit maakt het mogelijk om:">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Orderverwerking :: Proces Documentalist">
+    <meta name="twitter:description" content="Onderstaand voorbeeld toont een vereenvoudigde procesarchitectuur voor het proces orderverwerking.
+Het doel van deze architectuur is om te laten zien:
+Waar het proces begint Welke kernstappen het bevat Hoe het proces aansluit op andere bedrijfsprocessen DoelHet doel van deze architectuurlaag is om het volledige proces van bestelling tot facturatie in één overzicht te tonen.
+Dit maakt het mogelijk om:">
+    <meta property="og:url" content="http://localhost:1313/voorbeelden/orderverwerking/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="Orderverwerking :: Proces Documentalist">
+    <meta property="og:description" content="Onderstaand voorbeeld toont een vereenvoudigde procesarchitectuur voor het proces orderverwerking.
+Het doel van deze architectuur is om te laten zien:
+Waar het proces begint Welke kernstappen het bevat Hoe het proces aansluit op andere bedrijfsprocessen DoelHet doel van deze architectuurlaag is om het volledige proces van bestelling tot facturatie in één overzicht te tonen.
+Dit maakt het mogelijk om:">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Orderverwerking :: Proces Documentalist">
+    <meta itemprop="description" content="Onderstaand voorbeeld toont een vereenvoudigde procesarchitectuur voor het proces orderverwerking.
+Het doel van deze architectuur is om te laten zien:
+Waar het proces begint Welke kernstappen het bevat Hoe het proces aansluit op andere bedrijfsprocessen DoelHet doel van deze architectuurlaag is om het volledige proces van bestelling tot facturatie in één overzicht te tonen.
+Dit maakt het mogelijk om:">
+    <meta itemprop="wordCount" content="680">
+    <title>Orderverwerking :: Proces Documentalist</title>
+    <link href="/voorbeelden/orderverwerking/index.xml" rel="alternate" type="application/rss+xml" title="Orderverwerking :: Proces Documentalist">
+    <link href="/css/auto-complete/auto-complete.min.css?1775829211" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1775829211" defer></script>
+    <script src="/js/search-lunr.js?1775829211" defer></script>
+    <script src="/js/search.js?1775829211" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1775829211";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1775829211" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1775829211" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1775829211" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1775829211" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1775829211" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1775829211" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1775829211" rel="stylesheet">
+    <link href="/css/theme.css?1775829211" rel="stylesheet">
+    <link href="/css/format-html.css?1775829211" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/voorbeelden\/orderverwerking\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1775829211" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/voorbeelden/orderverwerking/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#doel">Doel</a></li>
+    <li><a href="#scope">Scope</a></li>
+    <li><a href="#proceslandschap-van-de-organisatie">Proceslandschap van de organisatie</a></li>
+    <li><a href="#uitleg-van-het-proceslandschap">Uitleg van het proceslandschap</a>
+      <ul>
+        <li><a href="#managementprocessen">Managementprocessen</a></li>
+        <li><a href="#kernprocessen">Kernprocessen</a></li>
+        <li><a href="#ondersteunende-processen">Ondersteunende processen</a></li>
+      </ul>
+    </li>
+    <li><a href="#hoofdproces-en-subprocessen">Hoofdproces en subprocessen</a>
+      <ul>
+        <li><a href="#hoofdproces-orderbeheer">Hoofdproces: Orderbeheer</a></li>
+        <li><a href="#subprocessen">Subprocessen</a></li>
+      </ul>
+    </li>
+    <li><a href="#procesoverzicht">Procesoverzicht</a></li>
+    <li><a href="#betrokken-rollen">Betrokken rollen</a></li>
+    <li><a href="#praktisch-gebruik">Praktisch gebruik</a>
+      <ul>
+        <li><a href="#1-overzicht-creëren">1. Overzicht creëren</a></li>
+        <li><a href="#2-procesverbetering-ondersteunen">2. Procesverbetering ondersteunen</a></li>
+        <li><a href="#3-procesdocumentatie-structureren">3. Procesdocumentatie structureren</a></li>
+        <li><a href="#4-nieuwe-medewerkers-inwerken">4. Nieuwe medewerkers inwerken</a></li>
+      </ul>
+    </li>
+    <li><a href="#van-procesarchitectuur-naar-procesmodellering">Van procesarchitectuur naar procesmodellering</a></li>
+    <li><a href="#vervolg-in-het-procesdocumentatiemodel">Vervolg in het Procesdocumentatiemodel</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/voorbeelden/index.html"><span itemprop="name">Orderverwerking – Volledige Procesbundel</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Orderverwerking</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/voorbeelden/index.html" title="Orderverwerking – Volledige Procesbundel (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/voorbeelden/orderverwerking/procesarchitectuur/index.html" title="Procesarchitectuur (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable voorbeelden" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="orderverwerking">Orderverwerking</h1>
+
+<p>Onderstaand voorbeeld toont een vereenvoudigde procesarchitectuur voor het proces orderverwerking.</p>
+<p>Het doel van deze architectuur is om te laten zien:</p>
+<ul>
+<li>Waar het proces begint</li>
+<li>Welke kernstappen het bevat</li>
+<li>Hoe het proces aansluit op andere bedrijfsprocessen</li>
+</ul>
+<h2 id="doel">Doel<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Het doel van deze architectuurlaag is om het volledige proces van bestelling tot facturatie in één overzicht te tonen.</p>
+<p>Dit maakt het mogelijk om:</p>
+<ul>
+<li>het proces snel te begrijpen</li>
+<li>afhankelijkheden tussen processtappen te herkennen</li>
+<li>rollen en verantwoordelijkheden te plaatsen</li>
+<li>verbeterkansen te identificeren</li>
+</ul>
+<p>Het is nadrukkelijk geen gedetailleerde procesbeschrijving, maar een overzicht van de belangrijkste procesonderdelen.</p>
+<h2 id="scope">Scope<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>De scope van dit overzicht omvat alle kernactiviteiten van orderverwerking:</p>
+<ul>
+<li>Orderontvangst</li>
+<li>Ordercontrole</li>
+<li>Orderpick</li>
+<li>Verzending</li>
+<li>Facturatie</li>
+</ul>
+<p>Deze stappen vormen samen de operationele keten van bestelling tot betaling.</p>
+<p>De procesarchitectuur helpt om duidelijk te maken:</p>
+<ul>
+<li>Waar het proces begint</li>
+<li>Waar het proces eindigt</li>
+<li>Welke processen er direct aan verbonden zijn</li>
+</ul>
+<h2 id="proceslandschap-van-de-organisatie">Proceslandschap van de organisatie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Een procesarchitectuur wordt vaak weergegeven als een proceslandschap.
+Dit toont de belangrijkste procesgroepen binnen een organisatie en hoe zij samen waarde creëren voor klanten.</p>
+<pre class="mermaid actionbar-wrapper align-center zoomable">flowchart TB
+
+subgraph Managementprocessen
+M1[Strategie en beleid]
+M2[Procesmanagement]
+M3[Kwaliteitsmanagement]
+end
+
+subgraph Kernprocessen
+K1[Marketing &amp; verkoop]
+K2[Orderverwerking]
+K3[Levering]
+K4[Service]
+end
+
+subgraph Ondersteunende processen
+O1[HR]
+O2[IT]
+O3[Finance]
+O4[Inkoop]
+end
+
+M1 --&gt; K1
+M2 --&gt; K2
+M3 --&gt; K4
+
+K1 --&gt; K2
+K2 --&gt; K3
+K3 --&gt; K4
+
+O1 --&gt; K2
+O2 --&gt; K2
+O3 --&gt; K2
+O4 --&gt; K3</pre>
+<h2 id="uitleg-van-het-proceslandschap">Uitleg van het proceslandschap<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<h3 id="managementprocessen">Managementprocessen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Managementprocessen sturen de organisatie en bepalen richting en prioriteiten.</p>
+<p>Voorbeelden:</p>
+<ul>
+<li>Strategieontwikkeling</li>
+<li>Procesmanagement</li>
+<li>Kwaliteitsmanagement</li>
+</ul>
+<p>Deze processen zorgen ervoor dat de organisatie doelgericht en gecontroleerd werkt.</p>
+<h3 id="kernprocessen">Kernprocessen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Kernprocessen leveren direct waarde aan de klant.
+Hier ontstaat het product of de dienst waarvoor de klant betaalt.</p>
+<p>In dit voorbeeld:</p>
+<ul>
+<li>Marketing &amp; verkoop</li>
+<li>Orderverwerking</li>
+<li>Levering</li>
+<li>Service</li>
+</ul>
+<p>Orderverwerking vormt hierbij een centrale schakel tussen verkoop en levering.</p>
+<h3 id="ondersteunende-processen">Ondersteunende processen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Ondersteunende processen maken het mogelijk dat de kernprocessen efficiënt kunnen functioneren.</p>
+<p>Voorbeelden:</p>
+<ul>
+<li>HR (personeel)</li>
+<li>IT (systemen en data)</li>
+<li>Finance (administratie en facturatie)</li>
+<li>Inkoop (leveranciers en materialen)</li>
+</ul>
+<p>Hoewel deze processen geen directe klantwaarde leveren, zijn ze essentieel voor de werking van de organisatie.</p>
+<h2 id="hoofdproces-en-subprocessen">Hoofdproces en subprocessen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Binnen de procesarchitectuur wordt onderscheid gemaakt tussen hoofdprocessen en subprocessen.</p>
+<h3 id="hoofdproces-orderbeheer">Hoofdproces: Orderbeheer<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Dit proces omvat alle activiteiten die nodig zijn om een klantorder te verwerken van aanvraag tot betaling.</p>
+<h3 id="subprocessen">Subprocessen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Binnen dit hoofdproces onderscheiden we de volgende subprocessen:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Subproces</th>
+          <th>Doel</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Orderontvangst</td>
+          <td>Registreren van een nieuwe bestelling</td>
+      </tr>
+      <tr>
+          <td>Ordercontrole</td>
+          <td>Controleren van ordergegevens en beschikbaarheid</td>
+      </tr>
+      <tr>
+          <td>Orderpick</td>
+          <td>Selecteren en verzamelen van producten</td>
+      </tr>
+      <tr>
+          <td>Verzending</td>
+          <td>Transport van goederen naar de klant</td>
+      </tr>
+      <tr>
+          <td>Facturatie</td>
+          <td>Opstellen en versturen van de factuur</td>
+      </tr>
+  </tbody>
+</table>
+<p>Elk van deze subprocessen kan later verder worden uitgewerkt in procesmodellen en procesbeschrijvingen.</p>
+<h2 id="procesoverzicht">Procesoverzicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Onderstaand diagram toont de plaats van orderverwerking binnen de operationele procesketen.</p>
+<pre class="mermaid actionbar-wrapper align-center zoomable">flowchart LR
+
+A[Verkoop]
+A --&gt; B[Orderverwerking]
+
+B --&gt; C[Order ontvangen]
+B --&gt; D[Order controleren]
+B --&gt; E[Order picken]
+B --&gt; F[Verzenden]
+B --&gt; G[Factureren]
+
+G --&gt; H[Financiële administratie]</pre>
+<p>Dit overzicht laat zien:</p>
+<ul>
+<li>hoe verkoop leidt tot orderverwerking</li>
+<li>hoe orderverwerking leidt tot facturatie</li>
+<li>hoe het proces aansluit op financiële administratie</li>
+</ul>
+<p>De architectuur maakt zo de procesketen zichtbaar.</p>
+<h2 id="betrokken-rollen">Betrokken rollen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Binnen de procesarchitectuur worden ook de belangrijkste rollen zichtbaar gemaakt.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Rol</th>
+          <th>Verantwoordelijkheid</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Sales</td>
+          <td>Ontvangen en registreren van orders</td>
+      </tr>
+      <tr>
+          <td>Magazijn</td>
+          <td>Picken van producten en voorraadcontrole</td>
+      </tr>
+      <tr>
+          <td>Logistiek</td>
+          <td>Verzenden en transport</td>
+      </tr>
+      <tr>
+          <td>Finance</td>
+          <td>Facturatie en betalingsverwerking</td>
+      </tr>
+  </tbody>
+</table>
+<p>Door deze rollen te benoemen ontstaat duidelijkheid over procesverantwoordelijkheid en samenwerking tussen afdelingen.</p>
+<h2 id="praktisch-gebruik">Praktisch gebruik<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>De procesarchitectuur wordt in organisaties gebruikt voor verschillende doeleinden:</p>
+<h3 id="1-overzicht-creëren">1. Overzicht creëren<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Managers en medewerkers krijgen inzicht in hoe processen samenhangen.</p>
+<h3 id="2-procesverbetering-ondersteunen">2. Procesverbetering ondersteunen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Door het proceslandschap zichtbaar te maken worden knelpunten sneller herkenbaar.</p>
+<h3 id="3-procesdocumentatie-structureren">3. Procesdocumentatie structureren<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>De procesarchitectuur bepaalt welke processen worden uitgewerkt in documentatie.</p>
+<h3 id="4-nieuwe-medewerkers-inwerken">4. Nieuwe medewerkers inwerken<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Nieuwe medewerkers kunnen snel begrijpen hoe de organisatie werkt.</p>
+<h2 id="van-procesarchitectuur-naar-procesmodellering">Van procesarchitectuur naar procesmodellering<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>De procesarchitectuur vormt het startpunt voor verdere uitwerking van processen.</p>
+<pre class="mermaid actionbar-wrapper align-center zoomable">flowchart LR
+
+A[Procesarchitectuur]
+A --&gt; B[Procesmodellering]
+B --&gt; C[Procesuitwerking]
+C --&gt; D[Processturing]</pre>
+<p>Vanuit het overzicht kunnen subprocessen stap voor stap verder worden uitgewerkt in:</p>
+<ul>
+<li>procesdiagrammen</li>
+<li>procesbeschrijvingen</li>
+<li>rollen en verantwoordelijkheden</li>
+<li>KPI’s en kwaliteitsmetingen</li>
+</ul>
+<h2 id="vervolg-in-het-procesdocumentatiemodel">Vervolg in het Procesdocumentatiemodel<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>In de volgende stappen van het PDM wordt het proces verder uitgewerkt:</p>
+<ul>
+<li><a href="/voorbeelden/orderverwerking/procesmodellering/index.html">Procesmodellering</a></li>
+<li><a href="/voorbeelden/orderverwerking/procesuitwerking/index.html">Procesuitwerking</a></li>
+<li><a href="/voorbeelden/orderverwerking/processturing/index.html">Processturing</a></li>
+</ul>
+<p>Waar procesarchitectuur het overzicht geeft, leggen deze vervolgstappen de details en sturing van processen vast.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark relearn-light">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo-6.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="parent " data-nav-id="/voorbeelden/index.html"><a class="padding default-animation" href="/voorbeelden/index.html">Orderverwerking – Volledige Procesbundel</a><ul id="R-subsections-e3f4f13c4557bc33ad1b5e984631c87f" class="collapsible-menu">
+            <li class="active parent alwaysopen " data-nav-id="/voorbeelden/orderverwerking/index.html"><a class="padding default-animation" href="/voorbeelden/orderverwerking/index.html">Orderverwerking</a><ul id="R-subsections-bce5e8b6e289b9acb96aa832e2822a0a" class="collapsible-menu">
+            <li class="" data-nav-id="/voorbeelden/orderverwerking/procesarchitectuur/index.html"><a class="padding" href="/voorbeelden/orderverwerking/procesarchitectuur/index.html">Procesarchitectuur</a></li>
+            <li class="" data-nav-id="/voorbeelden/orderverwerking/procesmodellering/index.html"><a class="padding" href="/voorbeelden/orderverwerking/procesmodellering/index.html">Procesmodellering</a></li>
+            <li class="" data-nav-id="/voorbeelden/orderverwerking/procesuitwerking/index.html"><a class="padding" href="/voorbeelden/orderverwerking/procesuitwerking/index.html">Procesuitwerking</a></li>
+            <li class="" data-nav-id="/voorbeelden/orderverwerking/processturing/index.html"><a class="padding" href="/voorbeelden/orderverwerking/processturing/index.html">Processturing</a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/procesdocumentatiemodel/index.html"><a class="padding default-animation" href="/procesdocumentatiemodel/index.html">Procesdocumentatiemodel</a><ul id="R-subsections-6117a540a43192ae81c3c179f974e07f" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/aanpak/index.html"><a class="padding" href="/aanpak/index.html">Aanpak</a></li>
+            <li class="" data-nav-id="/over/index.html"><a class="padding" href="/over/index.html">Over</a></li>
+            <li class="" data-nav-id="/downloads/index.html"><a class="padding default-animation" href="/downloads/index.html">Downloads</a><ul id="R-subsections-b14a53687802f9b36f9771a2344f2097" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/contact/index.html"><a class="padding" href="/contact/index.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-color.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1775829211" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1775829211" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1775829211" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1775829211" defer></script>
+    <script src="/js/theme.js?1775829211" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

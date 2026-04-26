@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesuitwerking :: Proces Documentalist</title>
+    <link>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/index.html</link>
+    <description>Processen&#xA;7.1 Procesuitwerking Master 7.2 Procesuitwerking Master 7.3 Procesbeschrijving 7.4 Werkinstructie 7.5 RACI-Matrix 7.6 Procesrollen</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesbeschrijving - Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.3-procesbeschrijving/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.3-procesbeschrijving/index.html</guid>
+      <description>Compleet overzicht van het Orderverwerkingsproces bij TelecomPro B.V., inclusief stappen, verantwoordelijkheden, systemen, KPI&#39;s en risico&#39;s.</description>
+    </item>
+    <item>
+      <title>Procesuitwerking - Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.2-procesuitwerking-master/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.2-procesuitwerking-master/index.html</guid>
+      <description>Uitgebreide uitwerking van het Orderverwerkingsproces bij TelecomPro B.V., inclusief processtappen, verantwoordelijkheden en systemen.</description>
+    </item>
+    <item>
+      <title>Procesuitwerking Master</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.1-procesuitwerking-master/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.1-procesuitwerking-master/index.html</guid>
+      <description>Master template voor de uitwerking van processen binnen TelecomPro B.V., inclusief structuur en richtlijnen.</description>
+    </item>
+    <item>
+      <title>Werkinstructie - Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.4-werkinstructie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.4-werkinstructie/index.html</guid>
+      <description>Stapsgewijze handleiding voor het uitvoeren van het Orderverwerkingsproces bij TelecomPro B.V., inclusief tips, schermvoorbeelden en controlepunten.</description>
+    </item>
+    <item>
+      <title>RACI Matrix - Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.5-raci-matrix/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.5-raci-matrix/index.html</guid>
+      <description>Gedetailleerde RACI-matrix voor het Orderverwerkingsproces bij TelecomPro B.V., inclusief verantwoordelijkheden per activiteit en rol.</description>
+    </item>
+    <item>
+      <title>Procesrollen - Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.6-procesrollen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.07-procesuitwerking/7.6-procesrollen/index.html</guid>
+      <description>Compleet overzicht van rollen, verantwoordelijkheden, competenties, systemen en KPI&#39;s voor het Orderverwerkingsproces bij TelecomPro B.V.</description>
+    </item>
+  </channel>
+</rss>

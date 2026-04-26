@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procesmodellering :: Proces Documentalist</title>
+    <link>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/index.html</link>
+    <description>Processen&#xA;07.06.01 Procesmodellering Master 07.06.02 BPM Diagram 07.06.03 Swimlane Diagram 07.06.04 Flowchart Diagram</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BPMN - Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/07.06.02-bpm-diagram/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/07.06.02-bpm-diagram/index.html</guid>
+      <description>Compleet BPMN-diagram van het Orderverwerkingsproces bij TelecomPro B.V., inclusief hoofdstroom, uitzonderingen, beslissingen en verantwoordelijkheden.</description>
+    </item>
+    <item>
+      <title>Procesmodellering - Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/07.06.01-procesmodellering-master/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/07.06.01-procesmodellering-master/index.html</guid>
+      <description>Algemeen template voor de modellering van het Orderverwerkingsproces bij TelecomPro B.V., inclusief richtlijnen en standaarden.</description>
+    </item>
+    <item>
+      <title>Flowchart - Orderverwerking</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/07.06.04-flowchart-diagram/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/07.06.04-flowchart-diagram/index.html</guid>
+      <description>Flowchart van het Orderverwerkingsproces bij TelecomPro B.V., inclusief processtappen, beslissingen en uitzonderingen.</description>
+    </item>
+    <item>
+      <title>Swimlane Diagram</title>
+      <link>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/07.06.03-swimlane-diagram/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/07-voorbeeldproces/07.06-procesmodellering/07.06.03-swimlane-diagram/index.html</guid>
+      <description>Swimlane-diagram van het Orderverwerkingsproces bij TelecomPro B.V., inclusief verantwoordelijkheden per afdeling.</description>
+    </item>
+  </channel>
+</rss>

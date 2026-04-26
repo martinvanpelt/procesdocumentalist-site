@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html id="R-html" lang="nl-nl" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.154.5">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="Template voor het opstellen van swimlane-diagrammen om cross-functionele processen met meerdere verantwoordelijke partijen visueel weer te geven, inclusief BPMN-integratie en praktische toepassingen.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Swimlane Diagram Template :: Proces Documentalist">
+    <meta name="twitter:description" content="Template voor het opstellen van swimlane-diagrammen om cross-functionele processen met meerdere verantwoordelijke partijen visueel weer te geven, inclusief BPMN-integratie en praktische toepassingen.">
+    <meta property="og:url" content="http://localhost:1313/01-aanpak/03-templates/03.06-procesmodellering/03.06.03-swimlane/index.html">
+    <meta property="og:site_name" content="Proces Documentalist">
+    <meta property="og:title" content="Swimlane Diagram Template :: Proces Documentalist">
+    <meta property="og:description" content="Template voor het opstellen van swimlane-diagrammen om cross-functionele processen met meerdere verantwoordelijke partijen visueel weer te geven, inclusief BPMN-integratie en praktische toepassingen.">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Aanpak">
+    <meta itemprop="name" content="Swimlane Diagram Template :: Proces Documentalist">
+    <meta itemprop="description" content="Template voor het opstellen van swimlane-diagrammen om cross-functionele processen met meerdere verantwoordelijke partijen visueel weer te geven, inclusief BPMN-integratie en praktische toepassingen.">
+    <meta itemprop="wordCount" content="2401">
+    <title>Swimlane Diagram Template :: Proces Documentalist</title>
+    <link href="/images/favicon.svg?1777193160" rel="icon" type="image/svg+xml">
+    <link href="/css/auto-complete/auto-complete.min.css?1777193160" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1777193160" defer></script>
+    <script src="/js/search-lunr.js?1777193160" defer></script>
+    <script src="/js/search.js?1777193160" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1777193160";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1777193160" defer></script>
+    <script src="/js/lunr/lunr.nl.min.js?1777193160" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['nl'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1777193160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1777193160" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1777193160" rel="stylesheet">
+    <link href="/css/theme.css?1777193160" rel="stylesheet">
+    <link href="/css/format-html.css?1777193160" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/01-aanpak\/03-templates\/03.06-procesmodellering\/03.06.03-swimlane\/index.html';
+      window.relearn.relBasePath='..\/..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-light', 'relearn-dark', 'auto' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/css/custom.css?1777193160" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-origin="/01-aanpak/03-templates/03.06-procesmodellering/03.06.03-swimlane/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">De Procesdocumentalist in één oogopslag</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/01-aanpak/index.html"><span itemprop="name">Aanpak</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/01-aanpak/03-templates/index.html"><span itemprop="name">Templates</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/01-aanpak/03-templates/03.06-procesmodellering/index.html"><span itemprop="name">Procesmodellering</span></a><meta itemprop="position" content="4">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Swimlane Diagram Template</span><meta itemprop="position" content="5"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/01-aanpak/03-templates/03.06-procesmodellering/03.06.02-flowchart/index.html" title="Flowchart (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/01-aanpak/03-templates/03.06-procesmodellering/03.06.00-procesmodellering-master/index.html" title="Procesmodellering (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable template" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="swimlane-diagram-template">Swimlane Diagram Template</h1>
+
+<h4 id="inleiding">Inleiding<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Dit Geavanceerd Swimlane Diagram Template is speciaal ontworpen voor procesdocumentalisten zoals jij, Martin, om complexe, cross-functionele processen in kaart te brengen. Het template combineert de eenvoud van swimlanes met de kracht van BPMN-elementen, zodat je:</p>
+<ul>
+<li>Verantwoordelijkheden kristalhelder toe kunt wijzen aan rollen, afdelingen, of systemen.</li>
+<li>Samenwerking en afhankelijkheden tussen teams visueel inzichtelijk maakt.</li>
+<li>Bottlenecks en knelpunten in processen snel identificeert.</li>
+<li>BPMN-standaarden kunt integreren voor consistentie en professionele uitstraling.</li>
+<li>Praktische toepassingen kunt documenteren voor training, optimalisatie, en automatisering.</li>
+</ul>
+<h4 id="eigenschappen">Eigenschappen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+          <th>Toelichting</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>03.06.03</td>
+          <td>Uniek identificatienummer voor dit swimlane-diagram in het Proces Management Document (PMD).</td>
+      </tr>
+      <tr>
+          <td>Versie</td>
+          <td>1</td>
+          <td>Huidige versie van dit document. Wordt geüpdaterd bij elke wijziging.</td>
+      </tr>
+      <tr>
+          <td>Status</td>
+          <td>concept</td>
+          <td>Mogelijke statussen: <em>concept</em>, <em>in review</em>, <em>goedgekeurd</em>, <em>gepubliceerd</em>, <em>verouderd</em>.</td>
+      </tr>
+      <tr>
+          <td>Auteur</td>
+          <td>[Naam]</td>
+          <td>De persoon of afdeling die dit diagram heeft opgesteld (meestal de procesanalist).</td>
+      </tr>
+      <tr>
+          <td>Eigenaar</td>
+          <td>[Naam proceseigenaar]</td>
+          <td>Verantwoordelijk voor de inhoud en actualiteit van het swimlane-diagram.</td>
+      </tr>
+      <tr>
+          <td>Datum</td>
+          <td>17/04/2026</td>
+          <td>Datum van de laatste update.</td>
+      </tr>
+      <tr>
+          <td>Gekoppeld aan</td>
+          <td>[Bijv. &ldquo;PMD-01.00.00 (Order-to-Cash)&rdquo;]</td>
+          <td>Referentie naar gerelateerde processen.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="1-algemeen-overzicht">1. Algemeen Overzicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Geef hier een kort overzicht van het proces dat met het swimlane-diagram wordt gemodelleerd, inclusief doel, scope, en stakeholders.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+          <th>Toelichting</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesnaam</td>
+          <td>[Naam van het proces, bijv. &ldquo;Order-to-Cash&rdquo;]</td>
+          <td>Naam van het proces.</td>
+      </tr>
+      <tr>
+          <td>Procescategorie</td>
+          <td>[Primair / Ondersteunend / Sturend]</td>
+          <td>Categorisatie van het proces.</td>
+      </tr>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>[PMD-nummer van het proces]</td>
+          <td>Referentie naar het Proces Management Document.</td>
+      </tr>
+      <tr>
+          <td>Doel van het proces</td>
+          <td>[Korte beschrijving, bijv. &ldquo;End-to-end afhandeling van klantorders, van ontvangst tot betaling&rdquo;]</td>
+          <td>Wat het proces moet bereiken.</td>
+      </tr>
+      <tr>
+          <td>Scope</td>
+          <td>[Beschrijving van de reikwijdte]</td>
+          <td>Wat valt wel en niet binnen het proces.</td>
+      </tr>
+      <tr>
+          <td>Stakeholders</td>
+          <td>[Lijst van betrokken partijen]</td>
+          <td>Wie zijn betrokken bij het proces.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="2-wanneer-een-swimlane-diagram-gebruiken">2. Wanneer een Swimlane Diagram Gebruiken?<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Swimlane-diagrammen zijn ideaal voor:<br>
+✔ Cross-functionele processen: Processen waarbij meerdere afdelingen, rollen, of systemen betrokken zijn (bijv. Order-to-Cash, Klantenservice).<br>
+✔ Verantwoordelijkheidsverdeling: Als je duidelijk wilt maken wie wat doet en waar de overdracht van verantwoordelijkheid plaatsvindt.<br>
+✔ Complexe workflows: Processen met veel interacties tussen verschillende partijen (bijv. inkoop, productie, logistiek).<br>
+✔ Bottleneck-analyse: Om knelpunten tussen afdelingen te identificeren en op te lossen.<br>
+✔ Training en documentatie: Voor visuele uitleg van processen aan nieuwe medewerkers of stakeholders.</p>
+<p>Niet geschikt voor:<br>
+✖ Eenvoudige, lineaire processen (gebruik dan een Flowchart).<br>
+✖ Processen met veel parallelle paden en complexe logica (gebruik dan BPMN).</p>
+<h4 id="3-swimlane-structuur-en-bpmn-integratie">3. Swimlane Structuur en BPMN-Integratie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Een geavanceerd swimlane-diagram combineert:</p>
+<ul>
+<li>Swimlanes (Zwembanen): Horizontale of verticale banen die rollen, afdelingen, of systemen representeren.</li>
+<li>BPMN-elementen: Standaard symbolen voor activiteiten, beslissingen, events, en gateways.</li>
+<li>Flowchart-elementen: Pijlen voor de processtroom.</li>
+</ul>
+<p>Voordelen van deze combinatie:</p>
+<ul>
+<li>Duidelijke verantwoordelijkheden (Swimlanes).</li>
+<li>Professionele notatie (BPMN).</li>
+<li>Flexibiliteit voor zowel eenvoudige als complexe processen.</li>
+</ul>
+<h4 id="4-swimlane-template-met-bpmn-elementen">4. Swimlane Template met BPMN-Elementen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Gebruik de onderstaande structuur voor het opstellen van je geavanceerde swimlane-diagram. Je kunt dit tekstueel beschrijven of visueel weergeven met een tool zoals Lucidchart, Camunda, of Mermaid.</p>
+<h5 id="tekstuele-weergave-met-bpmn-elementen">Tekstuele Weergave met BPMN-Elementen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>Swimlane: Klant (Extern)
+|-------
+| [Start Event] Plaatst order
+| [Message Flow] → Sales
+
+Swimlane: Sales (Afdeling)
+|-------
+| [Task] Registreert order in CRM
+| [Task] Valideert klantgegevens
+| [Exclusive Gateway] Is krediet goedgekeurd?
+├── Ja → [Task] Verstuurd orderbevestiging → Klant
+└── Nee → [Message Flow] → Finance
+
+Swimlane: Finance (Afdeling)
+|-------
+| [Task] Controleert kredietstatus
+| [Message Flow] → Sales (Terug naar gateway)
+
+Swimlane: Magazijn (Afdeling)
+|-------
+| [Task] Verwerkt verzending
+| [Task] Bevestigt levering → Klant
+
+Swimlane: ERP-systeem (Systeem)
+|-------
+| [Task] Registreert order
+| [Task] Update voorraad</code></pre></div>
+<h5 id="visuele-weergave-mermaid-met-bpmn-achtige-notatie">Visuele Weergave (Mermaid met BPMN-achtige notatie)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<pre class="mermaid actionbar-wrapper align-center ">%% Swimlane voorbeeld - Order-to-Cash met BPMN-elementen
+graph TD
+    %% Swimlanes
+    subgraph Klant[Klant (Extern)]
+        A([Start: Plaatst order]) --&gt;|Message Flow| B
+    end
+    subgraph Sales[Sales]
+        B([Task: Registreert order in CRM]) --&gt; C([Task: Valideert klantgegevens])
+        C --&gt; D{Exclusive Gateway: Is krediet goedgekeurd?}
+        D --&gt;|Ja| E([Task: Verstuurd orderbevestiging])
+        D --&gt;|Nee| F
+    end
+    subgraph Finance[Finance]
+        F([Task: Controleert kredietstatus]) --&gt; D
+    end
+    subgraph Magazijn[Magazijn]
+        D --&gt;|Ja| G([Task: Verwerkt verzending])
+        G --&gt; H([Task: Bevestigt levering])
+    end
+    subgraph ERP[ERP-systeem]
+        B --&gt; I([Task: Registreert order])
+        I --&gt; J([Task: Update voorraad])
+    end
+    E --&gt;|Message Flow| A
+    H --&gt;|Message Flow| A</pre>
+<h4 id="5-stappen-voor-het-opstellen-van-een-geavanceerd-swimlane-diagram">5. Stappen voor het Opstellen van een Geavanceerd Swimlane Diagram<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Volg deze gestructureerde aanpak om een effectief swimlane-diagram te maken:</p>
+<ol>
+<li>Definieer het proces en de scope:</li>
+</ol>
+<ul>
+<li>Bepaal welk proces je wilt modelleren en wat de scope is.</li>
+<li>Gebruik de Proceslandkaart en Proceshiërarchie als uitgangspunt.</li>
+</ul>
+<ol>
+<li>Identificeer de swimlanes:</li>
+</ol>
+<ul>
+<li>Bepaal welke rollen, afdelingen, of systemen betrokken zijn.</li>
+<li>Gebruik één swimlane per rol/afdeling/systeem.</li>
+<li>Tip: Groepeer gerelateerde rollen (bijv. &ldquo;Sales&rdquo; en &ldquo;Account Management&rdquo;) als dat de leesbaarheid verbetert.</li>
+</ul>
+<ol>
+<li>Bepaal de hoofdactiviteiten en BPMN-elementen:</li>
+</ol>
+<ul>
+<li>Lijst alle belangrijkste stappen op in logische volgorde.</li>
+<li>Wijs elke activiteit toe aan de juiste swimlane.</li>
+<li>Gebruik BPMN-symbolen voor activiteiten, beslissingen (gateways), en events.</li>
+</ul>
+<ol>
+<li>Voeg beslissingen (Gateways) toe:</li>
+</ol>
+<ul>
+<li>Identificeer keuzepunten in het proces.</li>
+<li>Gebruik Exclusive (XOR), Inclusive (OR), of Parallel (AND) Gateways afhankelijk van de logica.</li>
+<li>Plaats gateways in de swimlane van de verantwoordelijke rol.</li>
+</ul>
+<ol>
+<li>Teken de stroom (Sequence Flows en Message Flows):</li>
+</ol>
+<ul>
+<li>Verbind activiteiten binnen een swimlane met Sequence Flows (pijlen).</li>
+<li>Verbind activiteiten tussen swimlanes met Message Flows (gestreept of met een bericht-icoon).</li>
+<li>Gebruik pijlen om de richting van de stroom aan te geven.</li>
+</ul>
+<ol>
+<li>Voeg Start- en End Events toe:</li>
+</ol>
+<ul>
+<li>Geef aan waar het proces begint (Start Event) en waar het eindigt (End Event).</li>
+<li>Gebruik Message, Timer, of Signal Events waar van toepassing.</li>
+</ul>
+<ol>
+<li>Documenteer uitzonderingen:</li>
+</ol>
+<ul>
+<li>Voeg Intermediate Events (bijv. Error, Signal) toe voor uitzonderingen.</li>
+<li>Geef aan hoe uitzonderingen worden afhandeld.</li>
+</ul>
+<ol>
+<li>Review en valideer:</li>
+</ol>
+<ul>
+<li>Laat het diagram reviewen door proceseigenaren, uitvoerende teams, en IT.</li>
+<li>Zorg voor consistentie met andere procesdocumentatie (bijv. Procesbeschrijving, BPMN-diagrammen).</li>
+</ul>
+<h4 id="6-voorbeeld-swimlane-diagram-voor-order-to-cash-telecom-context">6. Voorbeeld: Swimlane Diagram voor Order-to-Cash (Telecom Context)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Gebaseerd op jouw 30+ jaar ervaring in de telecomsector, hier een praktisch voorbeeld voor een Order-to-Cash-proces in een telecomomgeving.</p>
+<h5 id="algemeen-overzicht">Algemeen Overzicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+          <th>Toelichting</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesnaam</td>
+          <td>Order-to-Cash (Telecom)</td>
+          <td>End-to-end proces voor klantorders.</td>
+      </tr>
+      <tr>
+          <td>Procescategorie</td>
+          <td>Primair</td>
+          <td>Kernproces voor de organisatie.</td>
+      </tr>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>PMD-01.00.00</td>
+          <td>Referentie naar het PMD.</td>
+      </tr>
+      <tr>
+          <td>Doel van het proces</td>
+          <td>Tijdige en accurate afhandeling van klantorders, van activatie tot facturatie.</td>
+          <td>Waardecreatie voor klanten.</td>
+      </tr>
+      <tr>
+          <td>Scope</td>
+          <td>Van orderontvangst (SIM-activatie, dienstaanvraag) tot facturatie en betalingsverwerking.</td>
+          <td>Inclusief kredietcontrole en voorraadbeheer.</td>
+      </tr>
+      <tr>
+          <td>Stakeholders</td>
+          <td>Klant, Sales, Finance, Technisch Team, Provisioning, Billing</td>
+          <td>Alle betrokken partijen.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="tekstuele-weergave">Tekstuele Weergave<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>Swimlane: Klant (Extern)
+|-------
+| [Start Event: Message] Plaatst order (SIM-activatie/dienstaanvraag)
+| [Message Flow] → Sales
+
+Swimlane: Sales (Afdeling)
+|-------
+| [Task] Registreert order in CRM
+| [Task] Valideert klantgegevens
+| [Exclusive Gateway] Is krediet goedgekeurd?
+├── Ja → [Task] Verstuurd orderbevestiging → Klant
+└── Nee → [Message Flow] → Finance
+
+Swimlane: Finance (Afdeling)
+|-------
+| [Task] Controleert kredietstatus
+| [Exclusive Gateway] Is krediet goedgekeurd?
+├── Ja → [Message Flow] → Sales (Terug naar gateway)
+└── Nee → [Task] Afwijzen order → Klant
+
+Swimlane: Provisioning (Afdeling)
+|-------
+| [Task] Activeert SIM-kaart/dienst
+| [Task] Configureert netwerkinstellingen
+
+Swimlane: Technisch Team (Afdeling)
+|-------
+| [Task] Test verbinding
+| [Task] Bevestigt activatie → Klant
+
+Swimlane: Billing (Afdeling)
+|-------
+| [Task] Genereert factuur
+| [Task] Verstuurd factuur → Klant
+
+Swimlane: ERP-systeem (Systeem)
+|-------
+| [Task] Registreert order
+| [Task] Update voorraad (SIM-kaarten)</code></pre></div>
+<h5 id="visuele-weergave-mermaid">Visuele Weergave (Mermaid)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<pre class="mermaid actionbar-wrapper align-center ">%% Swimlane voorbeeld - Order-to-Cash (Telecom)
+graph TD
+    %% Swimlanes
+    subgraph Klant[Klant (Extern)]
+        A([Start: Plaatst order]) --&gt;|Message Flow| B
+        I([End: Ontvangt bevestiging]) --&gt; J([End: Ontvangt factuur])
+    end
+    subgraph Sales[Sales]
+        B([Task: Registreert order in CRM]) --&gt; C([Task: Valideert klantgegevens])
+        C --&gt; D{Exclusive Gateway: Is krediet goedgekeurd?}
+        D --&gt;|Ja| E([Task: Verstuurd orderbevestiging])
+        D --&gt;|Nee| F
+    end
+    subgraph Finance[Finance]
+        F([Task: Controleert kredietstatus]) --&gt; G{Exclusive Gateway: Is krediet goedgekeurd?}
+        G --&gt;|Ja| D
+        G --&gt;|Nee| H([Task: Afwijzen order])
+    end
+    subgraph Provisioning[Provisioning]
+        D --&gt;|Ja| K([Task: Activeert SIM-kaart/dienst])
+        K --&gt; L([Task: Configureert netwerkinstellingen])
+    end
+    subgraph Technisch[Technisch Team]
+        L --&gt; M([Task: Test verbinding])
+        M --&gt; N([Task: Bevestigt activatie])
+    end
+    subgraph Billing[Billing]
+        N --&gt; O([Task: Genereert factuur])
+        O --&gt; P([Task: Verstuurd factuur])
+    end
+    subgraph ERP[ERP-systeem]
+        B --&gt; Q([Task: Registreert order])
+        Q --&gt; R([Task: Update voorraad])
+    end
+    E --&gt;|Message Flow| A
+    H --&gt;|Message Flow| A
+    N --&gt;|Message Flow| I
+    P --&gt;|Message Flow| J</pre>
+<h4 id="7-tips-voor-effectieve-swimlane-diagrammen-met-bpmn">7. Tips voor Effectieve Swimlane Diagrammen (Met BPMN)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ul>
+<li>
+<p>Gebruik duidelijke swimlanes:</p>
+</li>
+<li>
+<p>Geef elke swimlane een duidelijke naam (bijv. &ldquo;Sales&rdquo;, &ldquo;Finance&rdquo;, &ldquo;ERP-systeem&rdquo;).</p>
+</li>
+<li>
+<p>Gebruik kleuren om swimlanes te onderscheiden (optioneel).</p>
+</li>
+<li>
+<p>Houd het overzichtelijk:</p>
+</li>
+<li>
+<p>Beperk het aantal swimlanes (max. 5-6) om complexiteit te vermijden.</p>
+</li>
+<li>
+<p>Splits complexe processen op in meerdere diagrammen als dat nodig is.</p>
+</li>
+<li>
+<p>Gebruik BPMN-standaarden:</p>
+</li>
+<li>
+<p>Gebruik BPMN-symbolen voor activiteiten, gateways, en events.</p>
+</li>
+<li>
+<p>Zorg voor consistentie in het gebruik van symbolen.</p>
+</li>
+<li>
+<p>Minimaliseer kruisende pijlen:</p>
+</li>
+<li>
+<p>Probeer pijlen tussen swimlanes te minimaliseren voor betere leesbaarheid.</p>
+</li>
+<li>
+<p>Gebruik Message Flows (gestreept) voor communicatie tussen swimlanes.</p>
+</li>
+<li>
+<p>Documenteer afhankelijkheden:</p>
+</li>
+<li>
+<p>Maak duidelijk waar processen afhankelijk zijn van andere swimlanes.</p>
+</li>
+<li>
+<p>Voeg tijdsduur toe aan activiteiten als dat relevant is.</p>
+</li>
+<li>
+<p>Voeg context toe:</p>
+</li>
+<li>
+<p>Gebruik annotations (tekstblokken) om toelichting toe te voegen waar nodig.</p>
+</li>
+<li>
+<p>Voeg KPI’s toe als dat relevant is (bijv. &ldquo;Doorlooptijd: &lt;24 uur&rdquo;).</p>
+</li>
+<li>
+<p>Gebruik tools:</p>
+</li>
+<li>
+<p>Maak gebruik van BPMN-tools (bijv. Camunda, Signavio) voor complexe diagrammen.</p>
+</li>
+<li>
+<p>Gebruik Mermaid voor eenvoudige, tekstgebaseerde diagrammen in Markdown.</p>
+</li>
+<li>
+<p>Valideer met stakeholders:</p>
+</li>
+<li>
+<p>Laat het diagram reviewen door alle betrokken partijen.</p>
+</li>
+<li>
+<p>Zorg voor alignement met andere procesdocumentatie (bijv. Procesbeschrijving, Proceslandkaart).</p>
+</li>
+</ul>
+<h4 id="8-veelgemaakte-fouten-en-hoe-ze-te-vermijden">8. Veelgemaakte Fouten en Hoe ze te Vermijden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Fout</th>
+          <th>Oorzaak</th>
+          <th>Oplossing</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Te veel swimlanes</td>
+          <td>Te veel rollen/afdelingen in één diagram.</td>
+          <td>Splits het diagram op in meerdere diagrammen of groepeer rollen.</td>
+      </tr>
+      <tr>
+          <td>Onduidelijke verantwoordelijkheden</td>
+          <td>Activiteiten zijn niet duidelijk toegewijzen aan een swimlane.</td>
+          <td>Zorg dat elke activiteit in de juiste swimlane staat.</td>
+      </tr>
+      <tr>
+          <td>Kruisende pijlen</td>
+          <td>Te veel pijlen tussen swimlanes.</td>
+          <td>Herstructureer het diagram om pijlen parallel te laten lopen.</td>
+      </tr>
+      <tr>
+          <td>Ontbrekende beslissingen</td>
+          <td>Beslissingspunten zijn niet gemodelleerd.</td>
+          <td>Voeg alle keuzemomenten toe als Gateways.</td>
+      </tr>
+      <tr>
+          <td>Inconsistente symbolen</td>
+          <td>Verschillende symbolen voor hetzelfde type stap.</td>
+          <td>Gebruik BPMN-standaarden voor alle diagrammen.</td>
+      </tr>
+      <tr>
+          <td>Ontbrekende uitzonderingen</td>
+          <td>Uitzonderingen zijn niet gemodelleerd.</td>
+          <td>Voeg Intermediate Events toe voor uitzonderingen.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="9-tools-voor-het-maken-van-swimlane-diagrammen">9. Tools voor het Maken van Swimlane Diagrammen<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Hier zijn tools die je kunt gebruiken, afgestemd op jouw behoeften als procesdocumentalist:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Tool</th>
+          <th>Type</th>
+          <th>Voordelen</th>
+          <th>Nadelen</th>
+          <th>Link</th>
+          <th>Geschikt voor</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Camunda</td>
+          <td>Online/Desktop</td>
+          <td>Professionele BPMN-modellering, automatisering, samenwerking.</td>
+          <td>Complexe leercurve.</td>
+          <td><a href="https://camunda.com" rel="external">camunda.com</a></td>
+          <td>Complexe processen, BPMN.</td>
+      </tr>
+      <tr>
+          <td>Signavio</td>
+          <td>Online</td>
+          <td>Gebruiksvriendelijk, BPMN-standaarden, integratie met andere tools.</td>
+          <td>Betaalde versie nodig voor gevorderde functies.</td>
+          <td><a href="https://www.signavio.com" rel="external">signavio.com</a></td>
+          <td>BPMN, Swimlanes.</td>
+      </tr>
+      <tr>
+          <td>Lucidchart</td>
+          <td>Online</td>
+          <td>Gebruiksvriendelijk, swimlane-templates, samenwerking.</td>
+          <td>Beperkte BPMN-functies in gratis versie.</td>
+          <td><a href="https://www.lucidchart.com" rel="external">lucidchart.com</a></td>
+          <td>Swimlanes, Flowcharts.</td>
+      </tr>
+      <tr>
+          <td>Draw.io (Diagrams.net)</td>
+          <td>Online/Desktop</td>
+          <td>Gratis, eenvoudig, BPMN-ondersteuning.</td>
+          <td>Minder geavanceerde functies.</td>
+          <td><a href="https://app.diagrams.net/" rel="external">diagrams.net</a></td>
+          <td>Swimlanes, BPMN.</td>
+      </tr>
+      <tr>
+          <td>Mermaid</td>
+          <td>Code-based</td>
+          <td>Integreert met Markdown, geschikt voor ontwikkelaars.</td>
+          <td>Beperkte visuele aanpassingsmogelijkheden.</td>
+          <td><a href="https://mermaid.live/" rel="external">Mermaid Live Editor</a></td>
+          <td>Tekstgebaseerde diagrammen.</td>
+      </tr>
+      <tr>
+          <td>Microsoft Visio</td>
+          <td>Desktop</td>
+          <td>Professionele diagrammen, veel templates.</td>
+          <td>Duur, alleen voor Windows.</td>
+          <td><a href="https://www.microsoft.com/visio" rel="external">Microsoft Visio</a></td>
+          <td>Swimlanes, Flowcharts.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="10-stakeholders-en-verantwoordelijkheden">10. Stakeholders en Verantwoordelijkheden<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Geef hier een overzicht van wie betrokken is bij het opstellen en gebruik van het swimlane-diagram.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Rol</th>
+          <th>Verantwoordelijkheid</th>
+          <th>Betrokkenheid</th>
+          <th>Verwachte input</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Proceseigenaar</td>
+          <td>Verantwoordelijk voor de inhoud en actualiteit van het diagram.</td>
+          <td>Continu</td>
+          <td>Valideren van verantwoordelijkheden.</td>
+      </tr>
+      <tr>
+          <td>Procesanalist</td>
+          <td>Stelt het diagram op en zorgt voor consistentie met BPMN-standaarden.</td>
+          <td>Ad hoc</td>
+          <td>Technische correctheid, notatie.</td>
+      </tr>
+      <tr>
+          <td>Afdelingshoofden</td>
+          <td>Valideren de verantwoordelijkheden in hun swimlane.</td>
+          <td>Periodiek</td>
+          <td>Akkoord op activiteiten en beslissingen.</td>
+      </tr>
+      <tr>
+          <td>Uitvoerend team</td>
+          <td>Gebruikt het diagram voor uitvoering van het proces.</td>
+          <td>Dagelijks</td>
+          <td>Feedback op praktische uitvoerbaarheid.</td>
+      </tr>
+      <tr>
+          <td>IT-afdeling</td>
+          <td>Ondersteunt bij systeemintegraties en automatisering.</td>
+          <td>Ad hoc</td>
+          <td>Technische haalbaarheid.</td>
+      </tr>
+      <tr>
+          <td>Management</td>
+          <td>Valideert het diagram op strategische alignement.</td>
+          <td>Periodiek</td>
+          <td>Akkoord op procesdoelen.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="11-integratie-met-andere-templates">11. Integratie met Andere Templates<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Dit Swimlane Diagram Template kan worden geïntegreerd met andere templates uit je 7x Framework en 7x Process Language:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Template</th>
+          <th>Relatie</th>
+          <th>Toepassing</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Proceslandkaart</td>
+          <td>Overkoepelend</td>
+          <td>Gebruik de Proceslandkaart om hoofdprocessen te identificeren die in swimlane-diagrammen worden gedetailleerd.</td>
+      </tr>
+      <tr>
+          <td>Proceshiërarchie</td>
+          <td>Hiërarchisch</td>
+          <td>Gebruik de hiërarchie om subprocessen te identificeren die in swimlanes worden gemodelleerd.</td>
+      </tr>
+      <tr>
+          <td>Procesbeschrijving</td>
+          <td>Detail</td>
+          <td>Voeg tekstuele uitleg toe aan de activiteiten in het swimlane-diagram.</td>
+      </tr>
+      <tr>
+          <td>BPMN</td>
+          <td>Notatie</td>
+          <td>Gebruik BPMN-symbolen in het swimlane-diagram voor consistentie.</td>
+      </tr>
+      <tr>
+          <td>Procesinput-output</td>
+          <td>Data</td>
+          <td>Documenteer input en output per activiteit in het diagram.</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="12-gerelateerde-documenten">12. Gerelateerde Documenten<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Lijst hier alle gerelateerde documenten, zoals:</p>
+<ul>
+<li>[Link naar Proceslandkaart]</li>
+<li>[Link naar Proceshiërarchie]</li>
+<li>[Link naar Procesbeschrijving]</li>
+<li>[Link naar BPMN-diagram (indien van toepassing)]</li>
+<li>[Link naar Procesinput-output]</li>
+</ul>
+<h4 id="13-versiehistorie">13. Versiehistorie<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Versie</th>
+          <th>Datum</th>
+          <th>Wijziging</th>
+          <th>Auteur</th>
+          <th>Goedgekeurd door</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1.0</td>
+          <td>17/04/2026</td>
+          <td>Initiële versie</td>
+          <td>[Naam]</td>
+          <td>[Naam]</td>
+      </tr>
+      <tr>
+          <td>1.1</td>
+          <td>[Datum]</td>
+          <td>[Beschrijving, bijv. &ldquo;Toegevoegde BPMN-elementen&rdquo;]</td>
+          <td>[Naam]</td>
+          <td>[Naam]</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="14-instructies-voor-gebruik">14. Instructies voor Gebruik<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<ol>
+<li>Kies het proces:</li>
+</ol>
+<ul>
+<li>Bepaal welk cross-functioneel proces je wilt modelleren.</li>
+<li>Gebruik de Proceslandkaart als uitgangspunt.</li>
+</ul>
+<ol>
+<li>Definieer de scope:</li>
+</ol>
+<ul>
+<li>Bepaal wat wel en niet in het diagram moet worden opgenomen.</li>
+<li>Gebruik de Proceshiërarchie om subprocessen te identificeren.</li>
+</ul>
+<ol>
+<li>Identificeer de swimlanes:</li>
+</ol>
+<ul>
+<li>Bepaal welke rollen, afdelingen, of systemen betrokken zijn.</li>
+<li>Gebruik één swimlane per rol/afdeling/systeem.</li>
+</ul>
+<ol>
+<li>Bepaal de hoofdactiviteiten:</li>
+</ol>
+<ul>
+<li>Lijst alle belangrijkste stappen op in logische volgorde.</li>
+<li>Wijs elke activiteit toe aan de juiste swimlane.</li>
+<li>Gebruik BPMN-symbolen voor activiteiten, gateways, en events.</li>
+</ul>
+<ol>
+<li>Voeg beslissingen (Gateways) toe:</li>
+</ol>
+<ul>
+<li>Identificeer keuzepunten in het proces.</li>
+<li>Gebruik Exclusive (XOR), Inclusive (OR), of Parallel (AND) Gateways.</li>
+</ul>
+<ol>
+<li>Teken de stroom:</li>
+</ol>
+<ul>
+<li>Verbind activiteiten binnen een swimlane met Sequence Flows.</li>
+<li>Verbind activiteiten tussen swimlanes met Message Flows.</li>
+</ul>
+<ol>
+<li>Voeg Start- en End Events toe:</li>
+</ol>
+<ul>
+<li>Geef aan waar het proces begint en waar het eindigt.</li>
+</ul>
+<ol>
+<li>Documenteer uitzonderingen:</li>
+</ol>
+<ul>
+<li>Voeg Intermediate Events toe voor uitzonderingen.</li>
+</ul>
+<ol>
+<li>Maak een visuele weergave:</li>
+</ol>
+<ul>
+<li>Gebruik een tool (bijv. Camunda, Lucidchart, Mermaid) om het diagram visueel weer te geven.</li>
+</ul>
+<ol>
+<li>Valideer met stakeholders:</li>
+</ol>
+<ul>
+<li>Laat het diagram reviewen door alle betrokken partijen.
+<ul>
+<li>Zorg voor consistentie met andere procesdocumentatie.</li>
+</ul>
+</li>
+</ul>
+<h4 id="15-voorbeeld-swimlane-diagram-voor-storingafhandeling-telecom">15. Voorbeeld: Swimlane Diagram voor Storingafhandeling (Telecom)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>Gebaseerd op jouw ervaring in de telecomsector, hier een praktisch voorbeeld voor een Storingafhandelingsproces.</p>
+<h5 id="algemeen-overzicht-1">Algemeen Overzicht<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<table>
+  <thead>
+      <tr>
+          <th>Veld</th>
+          <th>Waarde</th>
+          <th>Toelichting</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Procesnaam</td>
+          <td>Storingafhandeling</td>
+          <td>Proces voor het afhandelen van netwerkstoringen.</td>
+      </tr>
+      <tr>
+          <td>Procescategorie</td>
+          <td>Ondersteunend</td>
+          <td>Ondersteunt de kernprocessen.</td>
+      </tr>
+      <tr>
+          <td>PMD-nummer</td>
+          <td>PMD-02.02.00</td>
+          <td>Referentie naar het PMD.</td>
+      </tr>
+      <tr>
+          <td>Doel van het proces</td>
+          <td>Snelle en effectieve afhandeling van netwerkstoringen.</td>
+          <td>Minimaliseren van downtime.</td>
+      </tr>
+      <tr>
+          <td>Scope</td>
+          <td>Van melding storing tot oplossing en communicatie naar klanten.</td>
+          <td>Inclusief escalatie en rapportage.</td>
+      </tr>
+      <tr>
+          <td>Stakeholders</td>
+          <td>Klant, Klantenservice, Technisch Team, Netwerkbeheer, Monitoring</td>
+          <td>Alle betrokken partijen.</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="tekstuele-weergave-1">Tekstuele Weergave<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>Swimlane: Klant (Extern)
+|-------
+| [Start Event: Message] Meldt storing
+| [Message Flow] → Klantenservice
+
+Swimlane: Klantenservice
+|-------
+| [Task] Registreert storing in ticketingsysteem
+| [Task] Beoordeelt urgentie
+| [Exclusive Gateway] Is storing kritiek?
+├── Ja → [Task] Escaleren naar Netwerkbeheer
+└── Nee → [Task] Doorverwijzen naar Technisch Team
+
+Swimlane: Technisch Team
+|-------
+| [Task] Analyseert storing
+| [Task] Voert eerste diagnose uit
+| [Exclusive Gateway] Is oplossing bekend?
+├── Ja → [Task] Los storing op
+└── Nee → [Message Flow] → Netwerkbeheer
+
+Swimlane: Netwerkbeheer
+|-------
+| [Task] Voert diepgaande analyse uit
+| [Task] Implementeert oplossing
+| [Task] Test netwerk
+
+Swimlane: Monitoring (Systeem)
+|-------
+| [Task] Detecteert storing
+| [Task] Logt storing in systeem</code></pre></div>
+<h5 id="visuele-weergave-mermaid-1">Visuele Weergave (Mermaid)<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h5>
+<pre class="mermaid actionbar-wrapper align-center ">%% Swimlane voorbeeld - Storingafhandeling (Telecom)
+graph TD
+    %% Swimlanes
+    subgraph Klant[Klant (Extern)]
+        A([Start: Meldt storing]) --&gt;|Message Flow| B
+        G([End: Ontvangt update]) --&gt; H([End: Bevestigt oplossing])
+    end
+    subgraph Klantenservice[Klantenservice]
+        B([Task: Registreert storing]) --&gt; C([Task: Beoordeelt urgentie])
+        C --&gt; D{Exclusive Gateway: Is storing kritiek?}
+        D --&gt;|Ja| E([Task: Escaleren naar Netwerkbeheer])
+        D --&gt;|Nee| F([Task: Doorverwijzen naar Technisch Team])
+    end
+    subgraph Technisch[Technisch Team]
+        F --&gt; I([Task: Analyseert storing])
+        I --&gt; J([Task: Voert eerste diagnose uit])
+        J --&gt; K{Exclusive Gateway: Is oplossing bekend?}
+        K --&gt;|Ja| L([Task: Los storing op])
+        K --&gt;|Nee| M
+    end
+    subgraph Netwerkbeheer[Netwerkbeheer]
+        E --&gt; M([Task: Voert diepgaande analyse uit])
+        M --&gt; N([Task: Implementeert oplossing])
+        N --&gt; O([Task: Test netwerk])
+    end
+    subgraph Monitoring[Monitoring (Systeem)]
+        P([Task: Detecteert storing]) --&gt; B
+        P --&gt; Q([Task: Logt storing in systeem])
+    end
+    L --&gt;|Message Flow| G
+    O --&gt;|Message Flow| G
+    G --&gt;|Message Flow| H</pre>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="/index.html">
+          <span class="logo-image default-animation" data-r-logo-variant="relearn-dark relearn-light">
+<img class="lazy figure-image" loading="lazy" src="/images/procesdocumentalist-logo.png" style="height: auto;width: auto;">
+          </span>
+          <span class="logo-title default-animation">Proces Documentalist</span>
+        </a>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-fw fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="parent " data-nav-id="/01-aanpak/index.html"><a class="padding default-animation" href="/01-aanpak/index.html">Aanpak</a><ul id="R-subsections-eef63c732ca8e67c3fdd6cbe13906dc2" class="collapsible-menu">
+            <li class="parent hidden alwaysopen " data-nav-id="/01-aanpak/03-templates/index.html"><a class="padding default-animation" href="/01-aanpak/03-templates/index.html">Templates</a><ul id="R-subsections-469c385ec4e4844e2b48a0421d45d2ae" class="collapsible-menu">
+            <li class="parent hidden alwaysopen " data-nav-id="/01-aanpak/03-templates/03.06-procesmodellering/index.html"><a class="padding default-animation" href="/01-aanpak/03-templates/03.06-procesmodellering/index.html">Procesmodellering</a><ul id="R-subsections-1108b35f819c3872d5f8454adc47a8a0" class="collapsible-menu">
+            <li class="" data-nav-id="/01-aanpak/03-templates/03.06-procesmodellering/03.06.01-bpmn/index.html"><a class="padding" href="/01-aanpak/03-templates/03.06-procesmodellering/03.06.01-bpmn/index.html">BPMN</a></li>
+            <li class="" data-nav-id="/01-aanpak/03-templates/03.06-procesmodellering/03.06.02-flowchart/index.html"><a class="padding" href="/01-aanpak/03-templates/03.06-procesmodellering/03.06.02-flowchart/index.html">Flowchart</a></li>
+            <li class="active " data-nav-id="/01-aanpak/03-templates/03.06-procesmodellering/03.06.03-swimlane/index.html"><a class="padding" href="/01-aanpak/03-templates/03.06-procesmodellering/03.06.03-swimlane/index.html">Swimlane Diagram Template</a></li>
+            <li class="" data-nav-id="/01-aanpak/03-templates/03.06-procesmodellering/03.06.00-procesmodellering-master/index.html"><a class="padding" href="/01-aanpak/03-templates/03.06-procesmodellering/03.06.00-procesmodellering-master/index.html">Procesmodellering</a></li></ul></li></ul></li></ul></li>
+            <li class="" data-nav-id="/05-procesdocument/index.html"><a class="padding" href="/05-procesdocument/index.html">Procesdocument</a></li>
+            <li class="" data-nav-id="/06-procesdocumentatieplatform/index.html"><a class="padding" href="/06-procesdocumentatieplatform/index.html">Procesdocumentatieplatform</a></li>
+            <li class="" data-nav-id="/07-voorbeeldproces/index.html"><a class="padding default-animation" href="/07-voorbeeldproces/index.html">Voorbeeldproces</a><ul id="R-subsections-f9b68654187a15ca0cade2db953bf789" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/09-contact/index.html"><a class="padding" href="/09-contact/index.html">Contact</a></li>
+            <li class="" data-nav-id="/08-over/index.html"><a class="padding" href="/08-over/index.html">Over</a></li>
+            <li class="" data-nav-id="/10-artikelen/index.html"><a class="padding" href="/10-artikelen/index.html">Artikelen</a></li>
+            <li class="" data-nav-id="/11-gereedschapskist/index.html"><a class="padding default-animation" href="/11-gereedschapskist/index.html">Hulpmiddelen</a><ul id="R-subsections-fdd79d31ff44edf9389c46d32bd98b48" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/sandbox/index.html"><a class="padding default-animation" href="/sandbox/index.html">Sandbox</a><ul id="R-subsections-eda0c76f7a81d550a1de7fd85a8448c3" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-light" value="relearn-light" selected>Relearn Light</option>
+                    <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="R-select-variant-auto" value="auto">Auto</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation">Made with <a href="https://obsidian.md/">Obsidian</a> - <a href="https://mcshelby.github.io/hugo-theme-relearn/index.html">Hugo Relearn</a></div>
+      </div>
+    </aside>
+    <script src="/js/js-yaml/js-yaml.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-color.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1777193160" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1777193160" defer></script>
+    <script src="/js/mermaid/mermaid.min.js?1777193160" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1777193160" defer></script>
+    <script src="/js/theme.js?1777193160" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

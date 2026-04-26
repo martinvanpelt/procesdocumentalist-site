@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orderverwerking :: Proces Documentalist</title>
+    <link>http://localhost:1313/voorbeeld/orderverwerking/index.html</link>
+    <description>Dit voorbeeld laat zien hoe procesdocumentatie kan worden opgebouwd.&#xA;De documentatie bestaat uit:&#xA;procesarchitectuur procesbeschrijving procesdiagram rollen en systemen KPI’s en kwaliteitsborging procesverbetering Disclaimer&#xD;De voorbeelden op deze website zijn fictieve of geanonimiseerde illustraties van procesdocumentatie. Ze zijn bedoeld om de werkwijze en documentatiestructuur te demonstreren en bevatten geen informatie van opdrachtgevers of werkgevers.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/voorbeeld/orderverwerking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procesarchitectuur</title>
+      <link>http://localhost:1313/voorbeeld/orderverwerking/procesarchitectuur/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeeld/orderverwerking/procesarchitectuur/index.html</guid>
+      <description>Procesarchitectuur helpt organisaties om overzicht en samenhang te creëren in hun processen. In plaats van losse procesbeschrijvingen laat een procesarchitectuur zien hoe processen zich tot elkaar verhouden en samen waarde creëren.&#xA;Binnen organisaties bestaan vaak tientallen of zelfs honderden processen. Zonder structuur wordt het moeilijk om te begrijpen hoe werkzaamheden samenhangen of waar verantwoordelijkheden liggen.&#xA;Een procesarchitectuur brengt daarom processen onder in een duidelijk proceslandschap.&#xA;Het proceslandschap&#xD;Processen worden meestal onderverdeeld in drie hoofdcategorieën.</description>
+    </item>
+    <item>
+      <title>Procesbeschrijving</title>
+      <link>http://localhost:1313/voorbeeld/orderverwerking/procesbeschrijving/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeeld/orderverwerking/procesbeschrijving/index.html</guid>
+      <description>Een procesbeschrijving geeft een gestructureerd overzicht van hoe een proces binnen een organisatie verloopt. Het beschrijft de belangrijkste stappen, de betrokken rollen en de informatie die nodig is om het proces correct uit te voeren.&#xA;In tegenstelling tot werkinstructies of procedures richt een procesbeschrijving zich op het overzicht en de samenhang van activiteiten. Het doel is om inzicht te geven in:&#xA;de volgorde van processtappen de betrokken rollen en afdelingen de gebruikte systemen de input en output van het proces meetpunten voor kwaliteitsborging Binnen dit voorbeeld wordt het orderverwerkingsproces gebruikt om te laten zien hoe een procesbeschrijving kan worden opgebouwd.</description>
+    </item>
+    <item>
+      <title>Procesdiagram</title>
+      <link>http://localhost:1313/voorbeeld/orderverwerking/procesdiagram/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeeld/orderverwerking/procesdiagram/index.html</guid>
+      <description>Een procesdiagram is een visuele weergave van een proces. Waar een procesbeschrijving vooral tekst en tabellen gebruikt, laat een procesdiagram in één oogopslag zien hoe activiteiten elkaar opvolgen en hoe verantwoordelijkheden zijn verdeeld.&#xA;Procesdiagrammen worden veel gebruikt binnen organisaties om:&#xA;processen inzichtelijk te maken overdrachten tussen afdelingen te tonen knelpunten in processen te identificeren verbeteringen te bespreken Binnen procesdocumentatie vormt een procesdiagram vaak de visuele aanvulling op de procesbeschrijving.&#xA;Overzicht van het orderverwerkingsproces&#xD;Onderstaand diagram laat zien hoe een klantorder door verschillende stappen en afdelingen binnen een organisatie wordt verwerkt.</description>
+    </item>
+    <item>
+      <title>KPI’s en Kwaliteitsborging</title>
+      <link>http://localhost:1313/voorbeeld/orderverwerking/kwaliteitsborging/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeeld/orderverwerking/kwaliteitsborging/index.html</guid>
+      <description>Procesdocumentatie beschrijft hoe een proces werkt, maar ook hoe de kwaliteit van het proces wordt gemeten en bewaakt.&#xA;Door KPI’s en meetpunten vast te leggen ontstaat inzicht in:&#xA;prestaties van het proces knelpunten en inefficiënties verbeterkansen naleving van kwaliteitsnormen KPI’s maken processen meetbaar en bestuurbaar. Kwaliteitsborging zorgt ervoor dat processen consistent en betrouwbaar blijven.&#xA;In dit voorbeeld wordt dit toegepast op een orderverwerkingsproces.&#xA;KPI’s voor orderverwerking&#xD;Een aantal veelgebruikte KPI’s voor orderverwerking zijn:</description>
+    </item>
+    <item>
+      <title>Procesverbetering</title>
+      <link>http://localhost:1313/voorbeeld/orderverwerking/procesverbetering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeeld/orderverwerking/procesverbetering/index.html</guid>
+      <description>Procesdocumentatie maakt zichtbaar hoe een proces werkt. Procesverbetering richt zich vervolgens op hoe het proces beter kan werken.&#xA;Door processen helder te beschrijven ontstaat inzicht in:&#xA;knelpunten inefficiënties foutbronnen wachttijden onnodige handmatige stappen Dit vormt de basis voor gerichte procesoptimalisatie.&#xA;In het voorbeeld van orderverwerking laten we zien hoe procesdocumentatie kan leiden tot concrete verbeteringen.&#xA;Knelpunten identificeren&#xD;Wanneer een proces volledig is beschreven en gemeten, worden verbeterpunten vaak snel zichtbaar.</description>
+    </item>
+    <item>
+      <title>Van Procesdocumentatie naar Procesverbetering</title>
+      <link>http://localhost:1313/voorbeeld/orderverwerking/road/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeeld/orderverwerking/road/index.html</guid>
+      <description>Veel organisaties zien procesdocumentatie als een administratieve verplichting. In werkelijkheid vormt goede procesdocumentatie de basis voor procesanalyse, optimalisatie en innovatie.&#xA;Door processen helder vast te leggen ontstaat een gedeeld inzicht in:&#xA;hoe werk wordt uitgevoerd welke systemen worden gebruikt welke rollen betrokken zijn waar knelpunten ontstaan Dit maakt het mogelijk om processen gericht te verbeteren.&#xA;Waarom procesdocumentatie essentieel is&#xD;Zonder duidelijke procesdocumentatie ontstaan vaak problemen zoals:</description>
+    </item>
+    <item>
+      <title>Rollen en systemen</title>
+      <link>http://localhost:1313/voorbeeld/orderverwerking/rollen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/voorbeeld/orderverwerking/rollen/index.html</guid>
+      <description>Een goed proces bestaat niet alleen uit stappen. Het beschrijft ook wie verantwoordelijk is en welke systemen het proces ondersteunen.&#xA;Door rollen en systemen expliciet vast te leggen ontstaat:&#xA;duidelijkheid over verantwoordelijkheden betere samenwerking tussen afdelingen inzicht in afhankelijkheden tussen processen en IT betere basis voor automatisering en optimalisatie Binnen procesdocumentatie worden rollen en systemen vaak vastgelegd via:&#xA;Rollenoverzicht RACI-matrix Systeemlandschap Datastromen Onderstaand voorbeeld toont hoe dit eruit kan zien voor een orderverwerkingsproces.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  tippy('.hover-card', {
+    allowHTML: true,
+    interactive: true,
+    delay: [200, 0],
+    theme: 'light-border',
+
+    content(reference) {
+      const url = reference.getAttribute('data-page');
+
+      return fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(html, 'text/html');
+
+          const preview = doc.querySelector("p");
+
+          return preview ? preview.innerText : "Preview not available";
+        });
+    }
+  });
+
+});
+</script>
